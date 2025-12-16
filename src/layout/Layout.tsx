@@ -38,7 +38,7 @@ const Layout: React.FC = () => {
           }}
         >
           <h2 style={{ margin: 0, fontSize: 18 }}>
-            Provincial Differentiation & Complexity Model
+            Provincial Differentiation & Complexity
           </h2>
 
           {/* RIGHT SIDE OF HEADER: logos & optional controls */}
@@ -66,7 +66,7 @@ const Layout: React.FC = () => {
               <img
                 src="/images/salga-logo.png"
                 alt="SALGA"
-                style={{ height: 60, objectFit: "contain", display: "block" }}
+                style={{ height: 50, objectFit: "contain", display: "block" }}
               />
               <img
                 src="/images/digital-logo.png"
