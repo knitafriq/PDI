@@ -418,17 +418,20 @@ const ComplexityChoroplethMap: React.FC<Props> = ({
 
   return (
     <div
-      style={{
-        position: "relative",
-        width: "100%",
-        maxWidth: 760,
-        height: 420,
-        borderRadius: 6,
-        overflow: "hidden",
-        border: "1px solid #e5e7eb",
-        backgroundColor: "#e5f0ff",
-      }}
-    >
+  style={{
+    position: "relative",
+    width: "100%",
+    maxWidth: 760,
+    height: "48vh",
+    maxHeight: 360,
+    minHeight: 360,
+    borderRadius: 6,
+    overflow: "hidden",
+    border: "1px solid #e5e7eb",
+    backgroundColor: "#e5f0ff",
+  }}
+>
+
       {/* View controls */}
       <div
         style={{
@@ -446,7 +449,7 @@ const ComplexityChoroplethMap: React.FC<Props> = ({
           style={{
             background: "rgba(255,255,255,0.95)",
             borderRadius: 999,
-            padding: 4,
+            padding: 3,
             boxShadow: "0 1px 2px rgba(15,23,42,0.08)",
           }}
         >
@@ -474,8 +477,9 @@ const ComplexityChoroplethMap: React.FC<Props> = ({
                   }
                 }}
                 style={{
-                  padding: "6px 8px",
-                  fontSize: 10,
+                  padding: "4px 8px",
+                  fontSize: 11,
+                  lineHeight: 1.2,
                   borderRadius: 999,
                   border: "none",
                   background:

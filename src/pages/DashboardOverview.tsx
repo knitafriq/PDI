@@ -646,6 +646,7 @@ const DashboardOverview: React.FC = () => {
           width: "100%",
           borderCollapse: "collapse",
           fontSize: 12,
+          minWidth: 420,
         }}
       >
         <thead>
