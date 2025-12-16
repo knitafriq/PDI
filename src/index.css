@@ -1,14 +1,20 @@
-html, body, #root {
+/* =========================
+   GLOBAL BASE STYLES
+   ========================= */
+
+html,
+body,
+#root {
   height: 100%;
   margin: 0;
   font-family: Inter, Arial, sans-serif;
   background: #f6f8fa;
   color: #0f1724;
-  max-width: 100%;
-  overflow-x: hidden;
 }
 
-/* === DASHBOARD MAIN LAYOUT === */
+/* =========================
+   DASHBOARD MAIN LAYOUT
+   ========================= */
 
 /* Mobile-first: stack everything */
 .dashboard-main {
@@ -16,6 +22,9 @@ html, body, #root {
   grid-template-columns: 1fr;
   gap: 1rem;
   margin-bottom: 1.25rem;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 /* Tablet & desktop: map + side panel */
@@ -26,30 +35,19 @@ html, body, #root {
   }
 }
 
-/* === MAP COLUMN === */
+/* =========================
+   MAP COLUMN
+   ========================= */
+
 .dashboard-map {
   display: flex;
   flex-direction: column;
-  min-height: 360px;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden; /* prevent sideways bleed */
 }
 
-/* Make map height responsive */
-.dashboard-map > div:last-child {
-  flex: 1;
-  min-height: 300px;
-}
-
-/* === SIDE PANEL === */
-.dashboard-side {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-/* On mobile, reduce visual weight */
-@media (max-width: 767px) {
-  .dashboard-side {
-    gap: 8px;
-  }
-}
-
+/* Wrapper around the actual map */
+.map-wrapper {
+  width: 100%;
+  max-width: 100%;

@@ -449,7 +449,7 @@ const DashboardOverview: React.FC = () => {
     Hover for stats, click to lock a selection and update the panels.
   </p>
 
-  <div style={{flex: 1, minHeight: 420 }}>
+  <div className="map-wrapper">
     {/* Map itself */}
     <ComplexityChoroplethMap
       selectedMuniCode={selectedMuniCode}
@@ -640,7 +640,7 @@ const DashboardOverview: React.FC = () => {
       Average PDI and count of high-complexity municipalities
       (PDI ≥ 0.6) by province.
     </p>
-    <div>
+    <div className="table-scroll">
       <table
         style={{
           width: "100%",

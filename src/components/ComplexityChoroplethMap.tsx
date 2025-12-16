@@ -475,7 +475,7 @@ const ComplexityChoroplethMap: React.FC<Props> = ({
                 }}
                 style={{
                   padding: "6px 8px",
-                  fontSize: 11,
+                  fontSize: 10,
                   borderRadius: 999,
                   border: "none",
                   background:
@@ -740,7 +740,7 @@ const ComplexityChoroplethMap: React.FC<Props> = ({
         style={{
           position: "absolute",
           right: 8,
-          top: 8,
+          bottom: 8,
           background: "rgba(255,255,255,0.92)",
           borderRadius: 4,
           padding: "6px 8px",
