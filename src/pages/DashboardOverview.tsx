@@ -431,23 +431,10 @@ const DashboardOverview: React.FC = () => {
       </p>
 
       {/* MAP (LEFT) + RIGHT COLUMN (DISTRIBUTION + PROVINCIAL TABLE) */}
-      <div
-        style={{
-          display: "flex",
-          gap: 16,
-          alignItems: "stretch",
-          marginBottom: 20,
-          flexWrap: "wrap",
-        }}
-      >
+      <div className="dashboard-main">
         {/* LEFT: MAP */}
 
-<div style={{
-      flex: 1,
-      minWidth: 360,
-      display: "flex",
-      flexDirection: "column",
-    }}>
+<div className="dashboard-map">
   <h3 style={{ marginBottom: 6 }}>
     Spatial view of municipal complexity
   </h3>
@@ -477,17 +464,7 @@ const DashboardOverview: React.FC = () => {
 
 
 {/* RIGHT: MATCH MAP HEIGHT */}
-<div
-  style={{
-    width: 360,
-    minWidth: 300,
-    minHeight: 420,
-    display: "flex",
-    flexDirection: "column",
-    gap: 12,
-    position: "relative",
-  }}
->
+<div className="dashboard-side">
   {/* Hover theme drivers twin – appears next to the map, not over it */}
   {hoverThemeStats && (
     <section

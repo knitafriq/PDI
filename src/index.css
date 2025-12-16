@@ -4,4 +4,52 @@ html, body, #root {
   font-family: Inter, Arial, sans-serif;
   background: #f6f8fa;
   color: #0f1724;
+  max-width: 100%;
+  overflow-x: hidden;
 }
+
+/* === DASHBOARD MAIN LAYOUT === */
+
+/* Mobile-first: stack everything */
+.dashboard-main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+/* Tablet & desktop: map + side panel */
+@media (min-width: 768px) {
+  .dashboard-main {
+    grid-template-columns: minmax(0, 1fr) 360px;
+    align-items: stretch;
+  }
+}
+
+/* === MAP COLUMN === */
+.dashboard-map {
+  display: flex;
+  flex-direction: column;
+  min-height: 360px;
+}
+
+/* Make map height responsive */
+.dashboard-map > div:last-child {
+  flex: 1;
+  min-height: 300px;
+}
+
+/* === SIDE PANEL === */
+.dashboard-side {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* On mobile, reduce visual weight */
+@media (max-width: 767px) {
+  .dashboard-side {
+    gap: 8px;
+  }
+}
+
