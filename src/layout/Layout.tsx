@@ -1,29 +1,52 @@
 // src/layout/Layout.tsx
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Outlet } from "react-router-dom";
 import Sidebar from "./Sidebar";
 
 const Layout: React.FC = () => {
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+
+  // Auto-manage sidebar visibility by screen size
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth >= 1024) {
+        setSidebarOpen(true); // desktop
+      } else {
+        setSidebarOpen(false); // mobile
+      }
+    };
+
+    handleResize(); // run once on mount
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <div
       style={{
         display: "flex",
-        height: "100vh", // full viewport; sidebar stays fixed visually
+        height: "100vh",
         fontFamily: "Inter, Arial, sans-serif",
       }}
     >
-      {/* LEFT PANE: Sidebar stays fixed height */}
-      <Sidebar />
+      {/* SIDEBAR */}
+      <div
+        className={`sidebar ${sidebarOpen ? "open" : "closed"}`}
+      >
+        <Sidebar />
+      </div>
 
-      {/* RIGHT PANE: header fixed, content scrolls */}
+      {/* MAIN CONTENT */}
       <div
         style={{
           flex: 1,
           background: "#f6f8fa",
           display: "flex",
           flexDirection: "column",
+          minWidth: 0, // IMPORTANT: prevents overflow issues
         }}
       >
+        {/* HEADER */}
         <header
           style={{
             height: 72,
@@ -37,11 +60,31 @@ const Layout: React.FC = () => {
             zIndex: 1000,
           }}
         >
+          {/* MOBILE SIDEBAR TOGGLE */}
+          <button
+            onClick={() => setSidebarOpen((v) => !v)}
+            style={{
+              marginRight: 12,
+              display: window.innerWidth < 1024 ? "inline-flex" : "none",
+              alignItems: "center",
+              justifyContent: "center",
+              background: "#111827",
+              color: "#fff",
+              border: "none",
+              borderRadius: 6,
+              padding: "6px 10px",
+              cursor: "pointer",
+              fontSize: 14,
+            }}
+          >
+            ☰
+          </button>
+
           <h2 style={{ margin: 0, fontSize: 18 }}>
             Provincial Differentiation & Complexity
           </h2>
 
-          {/* RIGHT SIDE OF HEADER: logos & optional controls */}
+          {/* RIGHT SIDE */}
           <div
             style={{
               marginLeft: "auto",
@@ -50,12 +93,8 @@ const Layout: React.FC = () => {
               gap: 12,
             }}
           >
-            {/* optional user / filter space */}
-            <div style={{ color: "#666", fontSize: 13 }}>
-              {/* add user/profile or date filters here if needed */}
-            </div>
+            <div style={{ color: "#666", fontSize: 13 }} />
 
-            {/* SALGA logos (update src to your real paths) */}
             <div
               style={{
                 display: "flex",
@@ -66,23 +105,24 @@ const Layout: React.FC = () => {
               <img
                 src="/images/salga-logo.png"
                 alt="SALGA"
-                style={{ height: 50, objectFit: "contain", display: "block" }}
+                style={{ height: 50, objectFit: "contain" }}
               />
               <img
                 src="/images/digital-logo.png"
                 alt="SALGA Partner"
-                style={{ height: 70, objectFit: "contain", display: "block" }}
+                style={{ height: 70, objectFit: "contain" }}
               />
             </div>
           </div>
         </header>
 
-        {/* Scrollable main content */}
+        {/* PAGE CONTENT */}
         <main
           style={{
             padding: 24,
             overflowY: "auto",
             flex: 1,
+            minWidth: 0, // prevents horizontal clipping on mobile
           }}
         >
           <Outlet />

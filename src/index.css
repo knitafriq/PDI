@@ -10,6 +10,7 @@ body,
   font-family: Inter, Arial, sans-serif;
   background: #f6f8fa;
   color: #0f1724;
+  overflow-x: hidden; /* ✅ PREVENT GLOBAL SIDE SCROLL */
 }
 
 /* =========================
@@ -45,9 +46,94 @@ body,
   width: 100%;
   max-width: 100%;
   overflow: hidden; /* prevent sideways bleed */
+  box-sizing: border-box;
 }
 
 /* Wrapper around the actual map */
 .map-wrapper {
   width: 100%;
   max-width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/* =========================
+   SIDE PANEL (RIGHT COLUMN)
+   ========================= */
+
+.dashboard-side {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Limit visual width only on desktop */
+@media (min-width: 768px) {
+  .dashboard-side {
+    max-width: 360px;
+  }
+}
+
+/* =========================
+   TABLE MOBILE OVERFLOW FIX
+   ========================= */
+
+.table-scroll {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Tables should never force page scroll */
+table {
+  max-width: 100%;
+  border-collapse: collapse;
+}
+
+/* =========================
+   🔴 NEW: RESPONSIVE SIDEBAR
+   ========================= */
+
+.sidebar {
+  width: 260px;
+  background: #ffffff;
+  transition: transform 0.25s ease;
+  box-sizing: border-box;
+}
+
+/* Hidden state (mobile default) */
+.sidebar.closed {
+  transform: translateX(-100%);
+}
+
+/* Visible state */
+.sidebar.open {
+  transform: translateX(0);
+}
+
+/* Mobile behavior */
+@media (max-width: 1024px) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 1300;
+    box-shadow: 4px 0 18px rgba(0, 0, 0, 0.18);
+  }
+}
+
+/* =========================
+   🔴 NEW: SAFETY NET
+   Prevent child overflow in flex/grid
+   ========================= */
+
+.dashboard-main *,
+.dashboard-map *,
+.dashboard-side * {
+  min-width: 0;
+}
