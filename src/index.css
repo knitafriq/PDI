@@ -10,7 +10,7 @@ body,
   font-family: Inter, Arial, sans-serif;
   background: #f6f8fa;
   color: #0f1724;
-  overflow-x: hidden; /* ✅ PREVENT GLOBAL SIDE SCROLL */
+  overflow-x: hidden; /* prevent global horizontal scroll */
 }
 
 /* =========================
@@ -45,7 +45,7 @@ body,
   flex-direction: column;
   width: 100%;
   max-width: 100%;
-  overflow: hidden; /* prevent sideways bleed */
+  overflow: hidden;
   box-sizing: border-box;
 }
 
@@ -95,14 +95,18 @@ table {
 }
 
 /* =========================
-   🔴 NEW: RESPONSIVE SIDEBAR
+   RESPONSIVE SIDEBAR
    ========================= */
 
 .sidebar {
   width: 260px;
   background: #ffffff;
-  transition: transform 0.25s ease;
   box-sizing: border-box;
+
+  /* Animation */
+  transform: translateX(0);
+  transition: transform 0.28s ease, box-shadow 0.28s ease;
+  will-change: transform;
 }
 
 /* Hidden state (mobile default) */
@@ -122,13 +126,32 @@ table {
     top: 0;
     left: 0;
     height: 100vh;
-    z-index: 1300;
-    box-shadow: 4px 0 18px rgba(0, 0, 0, 0.18);
+    z-index: 1200;
+    box-shadow: 6px 0 24px rgba(0, 0, 0, 0.25);
   }
 }
 
 /* =========================
-   🔴 NEW: SAFETY NET
+   SIDEBAR BACKDROP (MOBILE)
+   ========================= */
+
+.sidebar-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.45);
+  z-index: 1100;
+  opacity: 1;
+  transition: opacity 0.25s ease;
+}
+
+/* Hidden backdrop */
+.sidebar-backdrop.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* =========================
+   SAFETY NET
    Prevent child overflow in flex/grid
    ========================= */
 

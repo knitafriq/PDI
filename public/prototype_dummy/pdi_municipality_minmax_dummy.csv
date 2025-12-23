@@ -1,258 +1,215 @@
 MunicipalityCode,Municipality,Province,PDI_MinMax
-BUF,Buffalo City,EC,0.611750220613008
-CPT,City of Cape Town,WC,0.3487967098638859
-DC1,West Coast,WC,0.37248862767274266
-DC10,Sarah Baartman,EC,0.23220689780065357
-DC12,Amathole,EC,0.38378950900293407
-DC13,Chris Hani,EC,0.3015181322186131
-DC14,Joe Gqabi,EC,0.31834029667546926
-DC15,O.R.Tambo,EC,0.25306835024781965
-DC16,Xhariep,FS,0.32267114580763046
-DC18,Lejweleputswa,FS,0.4783372202258379
-DC19,Thabo Mofutsanyane,FS,0.3378361913501592
-DC2,Cape Winelands,WC,0.4476225887727652
-DC20,Fezile Dabi,FS,0.3398481237863538
-DC21,Ugu,KZN,0.4557710997573446
-DC22,Umgungundlovu,KZN,0.33271860308876394
-DC23,Uthukela,KZN,0.3013120589842723
-DC24,Umzinyathi,KZN,0.32472043799201317
-DC25,Amajuba,KZN,0.4146248743954412
-DC26,Zululand,KZN,0.37694316518074295
-DC27,Umkhanyakude,KZN,0.33581947423123737
-DC28,King Cetshwayo,KZN,0.271758430996405
-DC29,iLembe,KZN,0.3533136147872053
-DC3,Overberg,WC,0.40468602357368716
-DC30,Gert Sibande,MP,0.3160476517545387
-DC31,Nkangala,MP,0.3241645985260879
-DC32,Ehlanzeni,MP,0.6648605348079658
-DC33,Mopani,LIM,0.21355591835667317
-DC34,Vhembe,LIM,0.39843933822453514
-DC35,Capricorn,LIM,0.3615413221002949
-DC36,Waterberg,LIM,0.41481144559645305
-DC37,Bojanala,NW,0.5103140031286267
-DC38,Ngaka Modiri Molema,NW,0.3194386968664786
-DC39,Dr Ruth Segomotsi Mompati,NW,0.1918850191905593
-DC4,Garden Route,WC,0.3328560434592137
-DC40,Dr Kenneth Kaunda,NW,0.5049535422095951
-DC42,Sedibeng,GT,0.39845657134834755
-DC43,Harry Gwala,KZN,0.4641807722582475
-DC44,Alfred Nzo,EC,0.6308695555788957
-DC45,John Taolo Gaetsewe,NC,0.3669675952145015
-DC47,Sekhukhune,LIM,0.32373211673995056
-DC48,West Rand,GT,0.2182672725857797
-DC5,Central Karoo,WC,0.6627123850126128
-DC6,Namakwa,NC,0.43805785981817136
-DC7,Pixley ka Seme,NC,0.27078147292912275
-DC8,Z F Mgcawu,NC,0.5041884417908774
-DC9,Frances Baard,NC,0.21901540725236626
-EC101,Dr Beyers Naude,EC,0.40042360837055363
-EC102,Blue Crane Route,EC,0.4586340708516654
-EC104,Makana,EC,0.578847870814115
-EC105,Ndlambe,EC,0.3050451473744866
-EC106,Sundays River Valley,EC,0.3222316232761965
-EC108,Kouga,EC,0.3008188974847875
-EC109,Kou-Kamma,EC,0.22746454551640727
-EC121,Mbhashe,EC,0.23228984869064728
-EC122,Mnquma,EC,0.26933843696415366
-EC123,Great Kei,EC,0.4151280152215858
-EC124,Amahlathi,EC,0.6587464401145802
-EC126,Ngqushwa,EC,0.32403388028785446
-EC129,Raymond Mhlaba,EC,0.34658758645964893
-EC131,Inxuba Yethemba,EC,0.4453836044074662
-EC135,Intsika Yethu,EC,0.4098747769892401
-EC136,Emalahleni,EC,0.45113149079321696
-EC137,Engcobo,EC,0.22529779621528537
-EC138,Sakhisizwe,EC,0.32609536274356793
-EC139,Enoch Mgijima,EC,0.3705068474095023
-EC141,Elundini,EC,0.46895121876311935
-EC142,Senqu,EC,0.3278724733925537
-EC145,Walter Sisulu,EC,0.34833034581415123
-EC153,Ngquza Hill,EC,0.3952423918363327
-EC154,Port St Johns,EC,0.36137448753881296
-EC155,Nyandeni,EC,0.4036132866431456
-EC156,Mhlontlo,EC,0.5987522561158675
-EC157,King Sabata Dalindyebo,EC,0.2643872919603437
-EC441,Matatiele,EC,0.24022589177883116
-EC442,Umzimvubu,EC,0.5851565310019543
-EC443,Mbizana,EC,0.27299010097421367
-EC444,Ntabankulu,EC,0.3048408279547089
-EKU,Ekurhuleni,GT,0.3842552120698137
-ETH,eThekwini,KZN,0.32538842496025594
-FS161,Letsemeng,FS,0.4127930081196151
-FS162,Kopanong,FS,0.556606254844063
-FS163,Mohokare,FS,0.32729943008064016
-FS181,Masilonyana,FS,0.3500331449070573
-FS182,Tokologo,FS,0.30289077492200683
-FS183,Tswelopele,FS,0.28029104390897275
-FS184,Matjhabeng,FS,0.3040941768092685
-FS185,Nala,FS,0.23634446541963441
-FS191,Setsoto,FS,0.4013218452120088
-FS192,Dihlabeng,FS,0.45319390833162243
-FS193,Nketoana,FS,0.3185244106753474
-FS194,Maluti a Phofung,FS,0.2835509574997573
-FS195,Phumelela,FS,0.46557882809380974
-FS196,Mantsopa,FS,0.413569056114612
-FS201,Moqhaka,FS,0.4879899671097726
-FS203,Ngwathe,FS,0.28709170561180214
-FS204,Metsimaholo,FS,0.3286776815683172
-FS205,Mafube,FS,0.23867662552396154
-GT421,Emfuleni,GT,0.423697681382877
-GT422,Midvaal,GT,0.2367406730119316
-GT423,Lesedi,GT,0.37602173972830427
-GT481,Mogale City,GT,0.5058030497631072
-GT484,Merafong City,GT,0.4285137473621878
-GT485,Rand West City,GT,0.2271827506355041
-JHB,City of Johannesburg,GT,0.5012428790030955
-KZN212,Umdoni,KZN,0.27152724896306796
-KZN213,Umzumbe,KZN,0.327319134867256
-KZN214,uMuziwabantu,KZN,0.6050079803248012
-KZN216,Ray Nkonyeni,KZN,0.4724891876826947
-KZN221,uMshwathi,KZN,0.29991195540835325
-KZN222,uMngeni,KZN,0.3018656581510387
-KZN223,Mpofana,KZN,0.33326867279079153
-KZN224,Impendle,KZN,0.28427517295042354
-KZN225,Msunduzi,KZN,0.2749720399120966
-KZN226,Mkhambathini,KZN,0.3885232882815774
-KZN227,Richmond,KZN,0.2228441179920408
-KZN235,Okhahlamba,KZN,0.40773993902470923
-KZN237,Inkosi Langalibalele,KZN,0.5185474380746683
-KZN238,Alfred Duma,KZN,0.3704857128304687
-KZN241,Endumeni,KZN,0.4382859631882105
-KZN242,Nqutu,KZN,0.6184846684334665
-KZN244,Msinga,KZN,0.28049105031447585
-KZN245,Umvoti,KZN,0.5364031243830405
-KZN252,Newcastle,KZN,0.2623486996060625
-KZN253,Emadlangeni,KZN,0.46574039706159404
-KZN254,Dannhauser,KZN,0.2799926747263127
-KZN261,eDumbe,KZN,0.28264187185476836
-KZN262,uPhongolo,KZN,0.28697551068273164
-KZN263,Abaqulusi,KZN,0.26096548569520156
-KZN265,Nongoma,KZN,0.42124488821836387
-KZN266,Ulundi,KZN,0.4261596352773442
-KZN271,Umhlabuyalingana,KZN,0.519798205589437
-KZN272,Jozini,KZN,0.3217960327310779
-KZN275,Mtubatuba,KZN,0.3686899004135023
-KZN276,Big Five Hlabisa,KZN,0.4544204803239756
-KZN281,Mfolozi,KZN,0.4351547047775078
-KZN282,uMhlathuze,KZN,0.34761649440663783
-KZN284,uMlalazi,KZN,0.585081052744538
-KZN285,Mthonjaneni,KZN,0.5993943875226142
-KZN286,Nkandla,KZN,0.41067236205108654
-KZN291,Mandeni,KZN,0.5978513795036379
-KZN292,KwaDukuza,KZN,0.3400828272976672
-KZN293,Ndwedwe,KZN,0.334176955991158
-KZN294,Maphumulo,KZN,0.278843624382163
-KZN433,Greater Kokstad,KZN,0.4086012819038622
-KZN434,Ubuhlebezwe,KZN,0.2722565886262317
-KZN435,Umzimkhulu,KZN,0.4475268582613984
-KZN436,Dr Nkosazana Dlamini Zuma,KZN,0.5902806965798424
-LIM331,Greater Giyani,LIM,0.5154327854507518
-LIM332,Greater Letaba,LIM,0.44631789844899034
-LIM333,Greater Tzaneen,LIM,0.27417198996598163
-LIM334,Ba-Phalaborwa,LIM,0.47913140971604395
-LIM335,Maruleng,LIM,0.3179615913575033
-LIM341,Musina,LIM,0.5906719630208561
-LIM343,Thulamela,LIM,0.5344623774366588
-LIM344,Makhado,LIM,0.35757463626679836
-LIM345,Collins Chabane,LIM,0.2544492559499213
-LIM351,Blouberg,LIM,0.478769396211741
-LIM353,Molemole,LIM,0.516735222105265
-LIM354,Polokwane,LIM,0.35890328989198395
-LIM355,Lepele-Nkumpi,LIM,0.30718674920037753
-LIM361,Thabazimbi,LIM,0.2957038271211
-LIM362,Lephalale,LIM,0.6163915018566993
-LIM366,Bela-Bela,LIM,0.5378726781202581
-LIM367,Mogalakwena,LIM,0.263195635573071
-LIM368,Modimolle-Mookgophong,LIM,0.4891178301185522
-LIM471,Ephraim Mogale,LIM,0.2930730862019244
-LIM472,Elias Motsoaledi,LIM,0.5101378842653311
-LIM473,Makhuduthamaga,LIM,0.2417651381014609
-LIM476,Fetakgomo Tubatse,LIM,0.42399054591126006
-MAN,Mangaung,FS,0.1940044427313561
-MP301,Chief Albert Luthuli,MP,0.4214683346636754
-MP302,Msukaligwa,MP,0.35082137092056975
-MP303,Mkhondo,MP,0.23140681273309877
-MP304,Dr Pixley Ka Isaka Seme,MP,0.17825950870601762
-MP305,Lekwa,MP,0.2522327491103688
-MP306,Dipaleseng,MP,0.35286149973066594
-MP307,Govan Mbeki,MP,0.5156149662117075
-MP311,Victor Khanye,MP,0.46596373763480897
-MP312,Emalahleni,MP,0.2637475483096615
-MP313,Steve Tshwete,MP,0.4304636551847489
-MP314,Emakhazeni,MP,0.5283324355404405
-MP315,Thembisile,MP,0.4570185470687777
-MP316,Dr JS Moroka,MP,0.5409319732320188
-MP321,Thaba Chweu,MP,0.6107681891576785
-MP324,Nkomazi,MP,0.5557661648915208
-MP325,Bushbuckridge,MP,0.33153800756042945
-MP326,City of Mbombela,MP,0.33259899498247
-NC061,Richtersveld,NC,0.33935897976609447
-NC062,Nama Khoi,NC,0.22113200386796938
-NC064,Kamiesberg,NC,0.5704293817184964
-NC065,Hantam,NC,0.35798663480234405
-NC066,Karoo Hoogland,NC,0.3609806719554357
-NC067,Khâi-Ma,NC,0.34137926880874686
-NC071,Ubuntu,NC,0.3435562406031599
-NC072,Umsobomvu,NC,0.46550954850503923
-NC073,Emthanjeni,NC,0.4609311516321348
-NC074,Kareeberg,NC,0.46177843897315024
-NC075,Renosterberg,NC,0.4087533211923839
-NC076,Thembelihle,NC,0.2803339794429282
-NC077,Siyathemba,NC,0.2385111735200736
-NC078,Siyancuma,NC,0.29499716734305215
-NC082,Kai !Garib,NC,0.4513304711445704
-NC084,!Kheis,NC,0.27219155734036937
-NC085,Tsantsabane,NC,0.5053171085271649
-NC086,Kgatelopele,NC,0.40449676549255786
-NC087,Dawid Kruiper,NC,0.5916151333834868
-NC091,Sol Plaatje,NC,0.46046958989532377
-NC092,Dikgatlong,NC,0.22564711014847028
-NC093,Magareng,NC,0.43181548244956547
-NC094,Phokwane,NC,0.22356641845424385
-NC451,Joe Morolong,NC,0.3738157883215468
-NC452,Ga-Segonyana,NC,0.36142348068229085
-NC453,Gamagara,NC,0.37383763215831395
-NMA,Nelson Mandela Bay,EC,0.4181712616215284
-NW371,Moretele,NW,0.3265882192521731
-NW372,Local Municipality of Madibeng,NW,0.6018815133483261
-NW373,Rustenburg,NW,0.30189728619057515
-NW374,Kgetlengrivier,NW,0.3209812871277114
-NW375,Moses Kotane,NW,0.37340879181768105
-NW381,Ratlou,NW,0.2725796854669932
-NW382,Tswaing,NW,0.4789996020341037
-NW383,Mafikeng,NW,0.5449855268998622
-NW384,Ditsobotla,NW,0.5517150964009879
-NW385,Ramotshere Moiloa,NW,0.3489598155511796
-NW392,Naledi,NW,0.24939723855615778
-NW393,Mamusa,NW,0.5498067846089758
-NW394,Greater Taung,NW,0.363793048842653
-NW396,Lekwa-Teemane,NW,0.28533528366786565
-NW397,Kagisano/Molopo,NW,0.46453335639061344
-NW403,City of Matlosana,NW,0.30563296675352186
-NW404,Maquassi Hills,NW,0.47587384388921244
-NW405,JB Marks,NW,0.2359091249090928
-TSH,City of Tshwane,GT,0.38685529053449896
-WC011,Matzikama,WC,0.32948122968688737
-WC012,Cederberg,WC,0.30195713254363604
-WC013,Bergrivier,WC,0.261938876393166
-WC014,Saldanha Bay,WC,0.3628167038129814
-WC015,Swartland,WC,0.3420210762202167
-WC022,Witzenberg,WC,0.4228204900573358
-WC023,Drakenstein,WC,0.34797050405153945
-WC024,Stellenbosch,WC,0.5468655345794905
-WC025,Breede Valley,WC,0.3156735656258403
-WC026,Langeberg,WC,0.5875448132987159
-WC031,Theewaterskloof,WC,0.30820016965031133
-WC032,Overstrand,WC,0.3226242262597015
-WC033,Cape Agulhas,WC,0.5590931550747359
-WC034,Swellendam,WC,0.19302370545442396
-WC041,Kannaland,WC,0.39197088997068935
-WC042,Hessequa,WC,0.22724665748764106
-WC043,Mossel Bay,WC,0.5966909523443
-WC044,George,WC,0.4627864450553612
-WC045,Oudtshoorn,WC,0.34347611972431696
-WC047,Bitou,WC,0.5055170723081766
-WC048,Knysna,WC,0.46137745532970886
-WC051,Laingsburg,WC,0.26791340973531114
-WC052,Prince Albert,WC,0.47121285430368404
-WC053,Beaufort West,WC,0.28661591664985525
+BUF,Buffalo City Metropolitan Municipality,Eastern Cape,0.3957661240537192
+CPT,City of Cape Town Metropolitan Municipality,Western Cape,0.5361922545416442
+DC48,,,0.0023199126193643
+EC101,Dr Beyers Naude Local Municipality,Eastern Cape,0.3855345179878044
+EC102,Blue Crane Route Local Municipality,Eastern Cape,0.3772251669256679
+EC104,Makana Local Municipality,Eastern Cape,0.3820191334548543
+EC105,Ndlambe Local Municipality,Eastern Cape,0.4164618001801398
+EC106,Sundays River Valley Local Municipality,Eastern Cape,0.3194306030477484
+EC108,Kouga Local Municipality,Eastern Cape,0.4447736207075602
+EC109,Kou-Kamma Local Municipality,Eastern Cape,0.3184180832753981
+EC121,Mbhashe Local Municipality,Eastern Cape,0.3661478963205855
+EC122,Mnquma Local Municipality,Eastern Cape,0.402173307777381
+EC123,Great Kei Local Municipality,Eastern Cape,0.3778535085087975
+EC124,Amahlathi Local Municipality,Eastern Cape,0.3459836964332554
+EC126,Ngqushwa Local Municipality,Eastern Cape,0.3537367254815732
+EC129,Raymond Mhlaba Local Municipality,Eastern Cape,0.3205277785700403
+EC131,Inxuba Yethemba Local Municipality,Eastern Cape,0.4000196593329049
+EC135,Intsika Yethu Local Municipality,Eastern Cape,0.3548434784763408
+EC136,Emalahleni Local Municipality,Eastern Cape,0.1854274937258389
+EC137,Dr AB Xuma Local Municipality,Eastern Cape,0.1518056666744662
+EC138,Sakhisizwe Local Municipality,Eastern Cape,0.3524152012128405
+EC139,Enoch Mgijima Local Municipality,Eastern Cape,0.3575247392893201
+EC141,Elundini Local Municipality,Eastern Cape,0.3593483922366975
+EC142,Senqu Local Municipality,Eastern Cape,0.3876271018652198
+EC145,Walter Sisulu Local Municipality,Eastern Cape,0.3666779197853102
+EC153,Ngquza Hill Local Municipality,Eastern Cape,0.1934567994827369
+EC154,Port St Johns Local Municipality,Eastern Cape,0.3025792097973703
+EC155,Nyandeni Local Municipality,Eastern Cape,0.3102793636754584
+EC156,Mhlontlo Local Municipality,Eastern Cape,0.3260359186735572
+EC157,King Sabata Dalindyebo Local Municipality,Eastern Cape,0.3823970569820156
+EC441,Matatiele Local Municipality,Eastern Cape,0.3590011100882982
+EC442,Umzimvubu Local Municipality,Eastern Cape,0.3765516168563296
+EC443,Mbizana Local Municipality,Eastern Cape,0.1908559177431425
+EC444,Ntabankulu Local Municipality,Eastern Cape,0.3361118906882244
+EKU,Ekurhuleni Metropolitan Municipality,Gauteng,0.4346948258941668
+ETH,Ethekwini Metropolitan Municipality,KwaZulu-Natal,0.4906913404439927
+FS161,Letsemeng Local Municipality,Free State,0.3543678672460276
+FS162,Kopanong Local Municipality,Free State,0.3703203878264025
+FS163,Mohokare Local Municipality,Free State,0.3659598907981429
+FS181,Masilonyana Local Municipality,Free State,0.3285167934935241
+FS182,Tokologo Local Municipality,Free State,0.3841218904986489
+FS183,Tswelopele Local Municipality,Free State,0.3841357773366258
+FS184,Matjhabeng Local Municipality,Free State,0.372933229894316
+FS185,Nala Local Municipality,Free State,0.3387874537538194
+FS191,Setsoto Local Municipality,Free State,0.3940727087127916
+FS192,Dihlabeng Local Municipality,Free State,0.3551420463667712
+FS193,Nketoana Local Municipality,Free State,0.3503089372227972
+FS194,Maluti a Phofung Local Municipality,Free State,0.31697564781795
+FS195,Phumelela Local Municipality,Free State,0.3736277722241289
+FS196,Mantsopa Local Municipality,Free State,0.3661408740039987
+FS201,Moqhaka Local Municipality,Free State,0.340306708294095
+FS203,Ngwathe Local Municipality,Free State,0.3548031010005226
+FS204,Metsimaholo Local Municipality,Free State,0.3896516966291315
+FS205,Mafube Local Municipality,Free State,0.3063882945843157
+GT421,Emfuleni Local Municipality,Gauteng,0.3570684171388399
+GT422,Midvaal Local Municipality,Gauteng,0.4675923554291151
+GT423,Lesedi Local Municipality,Gauteng,0.386643644207959
+GT481,Mogale City Local Municipality,Gauteng,0.366436955826134
+GT484,Merafong City Local Municipality,Gauteng,0.3332584200839186
+GT485,Rand West City Local Municipality,Gauteng,0.3966104896424614
+JHB,City of Johannesburg Metropolitan Municipality,Gauteng,0.4501180656239426
+KZN212,Umdoni Local Municipality,KwaZulu-Natal,0.3630443888288942
+KZN213,Umzumbe Local Municipality,KwaZulu-Natal,0.312846238367404
+KZN214,UMuziwabantu Local Municipality,KwaZulu-Natal,0.3396331768266534
+KZN216,Ray Nkonyeni Local Municipality,KwaZulu-Natal,0.3719433782737376
+KZN221,uMshwathi Local Municipality,KwaZulu-Natal,0.3507171453891943
+KZN222,uMngeni Local Municipality,KwaZulu-Natal,0.4432476009135401
+KZN223,Mpofana Local Municipality,KwaZulu-Natal,0.3583175011516863
+KZN224,Impendle Local Municipality,KwaZulu-Natal,0.3329535550755717
+KZN225,The Msunduzi Local Municipality,KwaZulu-Natal,0.1847063720390498
+KZN226,Mkhambathini Local Municipality,KwaZulu-Natal,0.3817002072969994
+KZN227,Richmond Local Municipality,KwaZulu-Natal,0.3749131745325976
+KZN235,Okhahlamba Local Municipality,KwaZulu-Natal,0.3728214011719825
+KZN237,Inkosi Langalibalele Local Municipality,KwaZulu-Natal,0.3279445099522804
+KZN238,Alfred Duma Local Municipality,KwaZulu-Natal,0.3227161761751613
+KZN241,Endumeni Local Municipality,KwaZulu-Natal,0.3584429736650397
+KZN242,Nqutu Local Municipality,KwaZulu-Natal,0.2054299455854603
+KZN244,Msinga Local Municipality,KwaZulu-Natal,0.3138093515424903
+KZN245,Umvoti Local Municipality,KwaZulu-Natal,0.3466245485123674
+KZN252,Newcastle Local Municipality,KwaZulu-Natal,0.3935789073656172
+KZN253,Emadlangeni Local Municipality,KwaZulu-Natal,0.371490715274556
+KZN254,Dannhauser Local Municipality,KwaZulu-Natal,0.3412685682467992
+KZN261,eDumbe Local Municipality,KwaZulu-Natal,0.3371414241523888
+KZN262,UPhongolo Local Municipality,KwaZulu-Natal,0.3499957140086673
+KZN263,Abaqulusi Local Municipality,KwaZulu-Natal,0.3560341566777796
+KZN265,Nongoma Local Municipality,KwaZulu-Natal,0.3427021400361526
+KZN266,Ulundi Local Municipality,KwaZulu-Natal,0.3655839786913992
+KZN271,Umhlabuyalingana Local Municipality,KwaZulu-Natal,0.336593553701916
+KZN272,Jozini Local Municipality,KwaZulu-Natal,0.3281540660512637
+KZN275,Mtubatuba Local Municipality,KwaZulu-Natal,0.3555279589455473
+KZN276,Big Five Hlabisa Local Municipality,KwaZulu-Natal,0.3251474900157027
+KZN281,Mfolozi Local Municipality,KwaZulu-Natal,0.2165152970892684
+KZN282,uMhlathuze Local Municipality,KwaZulu-Natal,0.2623100299631273
+KZN284,uMlalazi Local Municipality,KwaZulu-Natal,0.3927408399753744
+KZN285,Mthonjaneni Local Municipality,KwaZulu-Natal,0.3323552097315497
+KZN286,Nkandla Local Municipality,KwaZulu-Natal,0.3366346093828446
+KZN291,Mandeni Local Municipality,KwaZulu-Natal,0.3384071456269478
+KZN292,KwaDukuza Local Municipality,KwaZulu-Natal,0.3906865502277593
+KZN293,Ndwedwe Local Municipality,KwaZulu-Natal,0.3226467863172171
+KZN294,Maphumulo Local Municipality,KwaZulu-Natal,0.3322635857500035
+KZN433,Greater Kokstad Local Municipality,KwaZulu-Natal,0.3915970330626669
+KZN434,Ubuhlebezwe Local Municipality,KwaZulu-Natal,0.3375475298041528
+KZN435,Umzimkhulu Local Municipality,KwaZulu-Natal,0.3397838065630822
+KZN436,Dr Nkosazana Dlamini Zuma Local Municipality,KwaZulu-Natal,0.252035601890039
+LIM331,Greater Giyani Local Municipality,Limpopo,0.3434970369915454
+LIM332,Greater Letaba Local Municipality,Limpopo,0.3451213592587123
+LIM333,Greater Tzaneen Local Municipality,Limpopo,0.3738329812834582
+LIM334,Ba-Phalaborwa Local Municipality,Limpopo,0.3673797183129897
+LIM335,Maruleng Local Municipality,Limpopo,0.3901740677346174
+LIM341,Musina Local Municipality,Limpopo,0.3862629194019799
+LIM343,Thulamela Local Municipality,Limpopo,0.36827955815927
+LIM344,Makhado Local Municipality,Limpopo,0.3729875466143537
+LIM345,Collins Chabane Local Municipality,Limpopo,0.3637057726346069
+LIM351,Blouberg Local Municipality,Limpopo,0.3264790973072776
+LIM353,Molemole Local Municipality,Limpopo,0.3792915968727374
+LIM354,Polokwane Local Municipality,Limpopo,0.4525269805921434
+LIM355,Lepele-Nkumpi Local Municipality,Limpopo,0.383993410465859
+LIM361,Thabazimbi Local Municipality,Limpopo,0.430963338263229
+LIM362,Lephalale Local Municipality,Limpopo,0.4149999640525996
+LIM366,Bela-Bela Local Municipality,Limpopo,0.3817448007778671
+LIM367,Mogalakwena Local Municipality,Limpopo,0.3326034308917351
+LIM368,Modimolle-Mookgophong Local Municipality,Limpopo,0.3728936259082445
+LIM471,Ephraim Mogale Local Municipality,Limpopo,0.3682447373214708
+LIM472,Elias Motsoaledi Local Municipality,Limpopo,0.2959085718035034
+LIM473,Makhuduthamaga Local Municipality,Limpopo,0.3432427130607098
+LIM476,Fetakgomo Tubatse Local Municipality,Limpopo,0.3708297630854179
+MAN,Mangaung Metropolitan Municipality,Free State,0.3846641531387499
+MP301,Chief Albert Luthuli Local Municipality,Mpumalanga,0.3257363939866587
+MP302,Msukaligwa Local Municipality,Mpumalanga,0.3258105783278566
+MP303,Mkhondo Local Municipality,Mpumalanga,0.3352491655786388
+MP304,Dr Pixley Ka Isaka Seme Local Municipality,Mpumalanga,0.3543489684910185
+MP305,Lekwa Local Municipality,Mpumalanga,0.3597253501783538
+MP306,Dipaleseng Local Municipality,Mpumalanga,0.350700576532359
+MP307,Govan Mbeki Local Municipality,Mpumalanga,0.3780286475860201
+MP311,Victor Khanye Local Municipality,Mpumalanga,0.3369981451228439
+MP312,Emalahleni Local Municipality,Mpumalanga,0.3546903632247491
+MP313,Steve Tshwete Local Municipality,Mpumalanga,0.3988926976121584
+MP314,Emakhazeni Local Municipality,Mpumalanga,0.3534240830396478
+MP315,Thembisile Local Municipality,Mpumalanga,0.176429086791908
+MP316,Dr JS Moroka Local Municipality,Mpumalanga,0.3198287562770595
+MP321,Thaba Chweu Local Municipality,Mpumalanga,0.3726295010639903
+MP324,Nkomazi Local Municipality,Mpumalanga,0.3617151128022989
+MP325,Bushbuckridge Local Municipality,Mpumalanga,0.3237580320060453
+MP326,City of Mbombela Local Municipality,Mpumalanga,0.3489923850834359
+NC061,Richtersveld Local Municipality,Northern Cape,0.316979472592119
+NC062,Nama Khoi Local Municipality,Northern Cape,0.3289190551234155
+NC064,Kamiesberg Local Municipality,Northern Cape,0.3148066678613875
+NC065,Hantam Local Municipality,Northern Cape,0.359290868867066
+NC066,Karoo Hoogland Local Municipality,Northern Cape,0.414790928702281
+NC067,Khâi-Ma Local Municipality,Northern Cape,0.1309963832270217
+NC071,Ubuntu Local Municipality,Northern Cape,0.3504125599879709
+NC072,Umsobomvu Local Municipality,Northern Cape,0.3236135582466549
+NC073,Emthanjeni Local Municipality,Northern Cape,0.3220184169476331
+NC074,Kareeberg Local Municipality,Northern Cape,0.3107353509444955
+NC075,Renosterberg Local Municipality,Northern Cape,0.3645127776971684
+NC076,Thembelihle Local Municipality,Northern Cape,0.3249408908009898
+NC077,Siyathemba Local Municipality,Northern Cape,0.3233993873224026
+NC078,Siyancuma Local Municipality,Northern Cape,0.3144736994257567
+NC082,Kai !Garib Local Municipality,Northern Cape,0.2995064525474227
+NC084,!Kheis Local Municipality,Northern Cape,0.3228608163110606
+NC085,Tsantsabane Local Municipality,Northern Cape,0.3447486148622823
+NC086,Kgatelopele Local Municipality,Northern Cape,0.3574444199475027
+NC087,Dawid Kruiper Local Municipality,Northern Cape,0.3692728915543352
+NC091,Sol Plaatje Local Municipality,Northern Cape,0.3226890480408771
+NC092,Dikgatlong Local Municipality,Northern Cape,0.2909288784817646
+NC093,Magareng Local Municipality,Northern Cape,0.325256062706997
+NC094,Phokwane Local Municipality,Northern Cape,0.3018035282554885
+NC451,Joe Morolong Local Municipality,Northern Cape,0.3364058916010524
+NC452,Ga-Segonyana Local Municipality,Northern Cape,0.3153535826268851
+NC453,Gamagara Local Municipality,Northern Cape,0.4448535765386738
+NMA,Nelson Mandela Bay Metropolitan Municipality,Eastern Cape,0.4452038263149048
+NW371,Moretele Local Municipality,North West,0.366266726767017
+NW372,Local Municipality of Madibeng,North West,0.1186417421177597
+NW373,Rustenburg Local Municipality,North West,0.3901927167014344
+NW374,Kgetlengrivier Local Municipality,North West,0.3420578942009739
+NW375,Moses Kotane Local Municipality,North West,0.3654531843096876
+NW381,Ratlou Local Municipality,North West,0.3015999599580813
+NW382,Tswaing Local Municipality,North West,0.3655874275935145
+NW383,Mafikeng Local Municipality,North West,0.227753411257825
+NW384,Ditsobotla Local Municipality,North West,0.32808401324291
+NW385,Ramotshere Moiloa Local Municipality,North West,0.3368725188956
+NW392,Naledi Local Municipality,North West,0.3762244643496712
+NW393,Mamusa Local Municipality,North West,0.3074105758908895
+NW394,Greater Taung Local Municipality,North West,0.3244794055483239
+NW396,Lekwa-Teemane Local Municipality,North West,0.3440585806303259
+NW397,Kagisano/Molopo Local Municipality,North West,0.3105708922971783
+NW403,City of Matlosana Local Municipality,North West,0.3469636471210605
+NW404,Maquassi Hills Local Municipality,North West,0.3371359719908993
+NW405,JB Marks Local Municipality,North West,0.209024172714299
+TSH,City of Tshwane Metropolitan Municipality,Gauteng,0.4767047201736243
+WC011,Matzikama Local Municipality,Western Cape,0.3586772863176697
+WC012,Cederberg Local Municipality,Western Cape,0.3514978670409464
+WC013,Bergrivier Local Municipality,Western Cape,0.3755887092513182
+WC014,Saldanha Bay Local Municipality,Western Cape,0.3847000975162897
+WC015,Swartland Local Municipality,Western Cape,0.3807624057939191
+WC022,Witzenberg Local Municipality,Western Cape,0.4082029471157805
+WC023,Drakenstein Local Municipality,Western Cape,0.4329342755274735
+WC024,Stellenbosch Local Municipality,Western Cape,0.4619627402303931
+WC025,Breede Valley Local Municipality,Western Cape,0.3978945352748473
+WC026,Langeberg Local Municipality,Western Cape,0.4077821685908446
+WC031,Theewaterskloof Local Municipality,Western Cape,0.3523656319373595
+WC032,Overstrand Local Municipality,Western Cape,0.4166425731655323
+WC033,Cape Agulhas Local Municipality,Western Cape,0.4102021192755367
+WC034,Swellendam Local Municipality,Western Cape,0.3611773256825071
+WC041,Kannaland Local Municipality,Western Cape,0.2716939737164963
+WC042,Hessequa Local Municipality,Western Cape,0.4029801891651773
+WC043,Mossel Bay Local Municipality,Western Cape,0.4159758882569174
+WC044,George Local Municipality,Western Cape,0.3946407293864509
+WC045,Oudtshoorn Local Municipality,Western Cape,0.3797025006222316
+WC047,Bitou Local Municipality,Western Cape,0.421589021518768
+WC048,Knysna Local Municipality,Western Cape,0.3405623421814651
+WC051,Laingsburg Local Municipality,Western Cape,0.2825083333652153
+WC052,Prince Albert Local Municipality,Western Cape,0.315405384744131
+WC053,Beaufort West Local Municipality,Western Cape,0.2884878979134481

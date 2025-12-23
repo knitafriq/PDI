@@ -1,0 +1,127 @@
+"IndicatorID";"IndicatorName";"Theme";"Description";"Ratings";"Source";"Normalization";"Polarity";"Notes"
+"TOTAL_NUMBER_OF_HOUSEHOLDS_PER_MUNICIPALITY";"Total number of households per municipality";"Household And Living Conditions";"Provinces with high number of municipalities with high number (%) of households";"In order of the results 1-9";"General Household Survey (2024)
+Quantec";"minmax";"1";""
+"AVERAGE_HOUSEHOLD_SIZE_PER_MUNICIPALITY";"Average household size per municipality";"Dwelling Type";"Provinces with high number of municipalities with high average household size";"Low: number of municipalities below provincial average household size
+Moderate: number of municipalities equivalent to provincial average household size
+High: number of municipalities exceeding provincial average household size";"General Household Survey (2024)
+Quantec";"minmax";"1";""
+"PERCENTAGE_OF_HOUSEHOLDS_WITH_FORMAL_DWELLINGS_PER_MUNICIPALITY";"Percentage of households with formal dwellings per municipality";"Indicators For Need Municipal Profiling And Provincial Differentiation";"Provinces with high number of municipalities with low percentages of households with formal dwellings";"Low: number of municipalities below provincial average household size
+Moderate: number of municipalities equivalent to provincial average household size
+High: number of municipalities exceeding provincial average household size";"General Household Survey (2024)
+Quantec";"minmax";"1";""
+"PERCENTAGE_OF_HOUSEHOLD_WITH_ACCESS_TO_WATER_SANITATION_ELECTRICITY_AND_WASTE_COLLECTION_PER_MUNICIPALITY";"Percentage of household with access to water, sanitation, electricity, and waste collection per municipality";"Access To Service Access And Quality";"Provinces with high number of municipalities households with low percentages of access to water, sanitation, and electricity";"Low: below 30% coverage
+Moderate: 30-60%
+High: Above 60%";"Non-financial census of municipalities for the year ended 30 June 2023
+Quantec";"minmax";"1";""
+"WATER_AND_SANITATION_QUALITY_WATER_PER_MUNICIPALITY_BLUE_DROP_GREEN_DROP_STATUS";"Water and sanitation quality water per municipality (blue drop, green drop status)";"Quality Of Basic Services";"Provinces with high number (%) of municipalities in each province that provide services; water, sanitation, electricity, waste of municipalities with low water and sanitation  quality";"Blue Drop report evaluates the quality of drinking water and the efficiency of water treatment and distribution systems.
+
+Green Drop report assesses the performance of wastewater treatment plants
+
+Both reports use indicators like infrastructure condition, maintenance, operational efficiency, staff qualifications, and treatment process compliance to evaluate performance";"Blue drop report 2024";"minmax";"1";""
+"NUMBER_OF_CONSUMER_UNITS_USING_THE_BUCKET_TOILET_SYSTEM_PROVIDED_BY_MUNICIPALITIES_IN_EACH_PROVINCE";"Number of consumer units using the bucket toilet system provided by municipalities in each province";"Indicators For Need Municipal Profiling And Provincial Differentiation";"Provinces with high number of municipalities with high percentages of consumer units using the bucket toilet system provided by municipalities";"";"Non-financial census of municipalities for the year ended 30 June 2023
+Quantec";"minmax";"1";""
+"NUMBER_OF_MUNICIPALITIES_THAT_PROVIDE_SERVICES";"Number (%) of municipalities that provide services";"Indicators For Need Municipal Profiling And Provincial Differentiation";"Number (%) of municipalities in each province that provide services; water, sanitation, electricity, waste";"In order of the results 1-9";"Non-financial census of municipalities for the year ended 30 June 2023
+Quantec";"minmax";"1";""
+"WATER_SANITATION_ELECTRICITY_WASTE";"water, sanitation, electricity, waste";"Indicators For Need Municipal Profiling And Provincial Differentiation";"Number (%) of municipalities in each province that provide services; water, sanitation, electricity, waste";"In order of the results 1-9";"Non-financial census of municipalities for the year ended 30 June 2023
+Quantec";"minmax";"1";""
+"NUMBER_OF_CONSUMER_UNITS_RECEIVING_WATER_SERVICES_AND_FREE_BASIC_WATER_SERVICES_FROM_MUNICIPALITIES";"Number of consumer units receiving water services and free basic water services from municipalities";"Free Basic Services";"Provinces with high number (%) of municipalities with low number of consumer units receiving water services and free basic services from municipalities";"In order of the results 1-9";"Non-financial census of municipalities for the year ended 30 June 2023
+Quantec";"minmax";"1";""
+"NUMBER_OF_MUNICIPALITIES_IN_EACH_PROVINCE_WITH_A_POLICY_IN_PLACE_RELATING_TO_THE_PROVISION_OF_FREE_BASIC_SERVICES";"Number of municipalities in each province with a policy in place relating to the provision of free basic services";"Indicators For Need Municipal Profiling And Provincial Differentiation";"Provinces with high number (%) of municipalities without a policy in place relating to the provision of free basic services";"In order of the results 1-9";"Non-financial census of municipalities for the year ended 30 June 2023
+Quantec";"minmax";"1";""
+"NUMBER_OF_MUNICIPALITIES_IN_EACH_PROVINCE_WHICH_HAVE_IMPLEMENTED_THE_POLICY_RELATING_TO_THE_PROVISION_OF_FREE_BASIC_SERV";"Number of municipalities in each province which have implemented the policy relating to the provision of free basic services";"Indicators For Need Municipal Profiling And Provincial Differentiation";"Provinces with number (%) of municipalities that have not implemented the policy relating to the provision of free basic services";"In order of the results 1-9";"Non-financial census of municipalities for the year ended 30 June 2023
+Quantec";"minmax";"1";""
+"NUMBER_OF_INDIGENT_HOUSEHOLDS_IN_EACH_PROVINCE_BENEFITING_FROM_AN_INDIGENT_SUPPORT_SYSTEM";"Number of indigent households in each province benefiting from an indigent support system";"Indigent Support";"Provinces with municipalities with high percentages of households in each province benefiting from an indigent support system";"In order of the results 1-9";"Non-financial census of municipalities for the year ended 30 June 2023
+Quantec";"minmax";"-1";""
+"NUMBER_OF_VACANT_MANAGERIAL_POSITIONS_BY_PROVINCE_ACCORDING_TO_SECTION_54A_AND_56_OF_LOCAL_GOVERNMENT_MUNICIPAL_SYSTEM_A";"Number of vacant managerial positions by province according to Section 54A and 56 of Local Government Municipal System Act, 2000 (Act No.32 of 2000)";"Municipal Vacancies";"Provinces with high number (%) of municipalities with high vacant managerial positions according to Section 54A and 56 of Local Government Municipal System Act, 2000 (Act No.32 of 2000)";"In order of the results 1-9";"Non-financial census of municipalities for the year ended 30 June 2023
+Quantec";"minmax";"1";""
+"NUMBER_OF_MANAGERIAL_POSITIONS_BY_PROVINCE_ACCORDING_TO_ORGANOGRAM_EXCLUDING_SECTION_56_MANAGERS";"Number of managerial positions by province according to organogram (excluding Section 56 managers)";"Indicators For Need Municipal Profiling And Provincial Differentiation";"Provinces with high number (%) of municipalities with high vacant managerial positions according to organogram (excluding Section 56 managers)";"In order of the results 1-9";"Non-financial census of municipalities for the year ended 30 June 2023
+Quantec";"minmax";"1";""
+"NUMBER_OF_COUNCILLORS_PER_MUNICIPALITY";"Number of councillors per municipality";"Indicators For Need Municipal Profiling And Provincial Differentiation";"Provinces with high number (%)  of municipalities with high number (%) of councillors";"In order of the results 1-9";"IEC
+Non-financial census of municipalities for the year ended 30 June 2023";"minmax";"1";""
+"EMPLOYMENT_POSITIONS_INCLUDING_MANAGERIAL_POSITIONS_BY_PROVINCE";"Employment positions including managerial positions by province";"Indicators For Need Municipal Profiling And Provincial Differentiation";"Provinces with high number of municipalities with high (%) employment positions including managerial positions";"In order of the results 1-9";"Municipalities 
+Non-financial census of municipalities for the year ended 30 June 2023
+Quantec";"minmax";"1";""
+"AN_ALTERNATIVE_DIFFERENTIATION_APPROACH";"An alternative differentiation approach";"An Alternative Differentiation Approach
+Analysis Of Disparities In Service Delivery Between Different Municipalities, Such As Urban Versus Rural Areas. (Apply The Miif Model And Identify Characteristics Predominant In Each Municipal Type)";"An alternative differentiation approach
+Analysis of disparities in service delivery between different municipalities, such as urban versus rural areas. (Apply the MIIF model and identify characteristics predominant in each municipal type)";"An alternative differentiation approach
+Analysis of disparities in service delivery between different municipalities, such as urban versus rural areas. (Apply the MIIF model and identify characteristics predominant in each municipal type)";"An alternative differentiation approach
+Analysis of disparities in service delivery between different municipalities, such as urban versus rural areas. (Apply the MIIF model and identify characteristics predominant in each municipal type)";"minmax";"1";""
+"ANALYSIS_OF_DISPARITIES_IN_SERVICE_DELIVERY_BETWEEN_DIFFERENT_MUNICIPALITIES_SUCH_AS_URBAN_VERSUS_RURAL_AREAS_APPLY_T";"Analysis of disparities in service delivery between different municipalities, such as urban versus rural areas. (Apply the MIIF model and identify characteristics predominant in each municipal type)";"An Alternative Differentiation Approach
+Analysis Of Disparities In Service Delivery Between Different Municipalities, Such As Urban Versus Rural Areas. (Apply The Miif Model And Identify Characteristics Predominant In Each Municipal Type)";"An alternative differentiation approach
+Analysis of disparities in service delivery between different municipalities, such as urban versus rural areas. (Apply the MIIF model and identify characteristics predominant in each municipal type)";"An alternative differentiation approach
+Analysis of disparities in service delivery between different municipalities, such as urban versus rural areas. (Apply the MIIF model and identify characteristics predominant in each municipal type)";"An alternative differentiation approach
+Analysis of disparities in service delivery between different municipalities, such as urban versus rural areas. (Apply the MIIF model and identify characteristics predominant in each municipal type)";"minmax";"1";""
+"PERCENTAGE_OF_THE_POPULATION_LIVING_BELOW_A_CERTAIN_INCOME_LEVEL_POVERTY_LINE";"Percentage of the population living below a certain income level (poverty line)";"Poverty";"Provinces with high number (%) of municipalities with high number (%) of people living under upper bound poverty line (R1,634 per person per month: 2024)";"Low: municipalities with households living above poverty line
+Moderate: municipalities with households living within the poverty line
+High: municipalities with households living below poverty line";"Stats SA
+Quantec";"minmax";"-1";""
+"UNEMPLOYMENT_RATE_PER_MUNICIPALITY";"Unemployment rate per municipality";"Unemployment";"Provinces with high number (%) of municipalities with high unemployment rate";"Low: provinces with municipalities with unemployment rate below provincial rate
+Moderate: provinces with municipalities with unemployment rate equivalent to provincial rate
+High: provinces with municipalities with unemployment rate above provincial rate";"Stats SA
+Quantec";"minmax";"-1";""
+"GINI_COEFFICIENT_PER_MUNICIPALITY";"Gini-coefficient per municipality";"Inequality";"Provinces with high number (%) of municipalities with high Gini-coefficient";"Low: provinces with municipalities with youth Gini-coefficient below provincial rate
+Moderate: provinces with municipalities with youth Gini-coefficient equivalent to provincial rate
+High: provinces with municipalities with youth Gini-coefficient above provincial rate";"Stats SA
+Quantec";"minmax";"1";""
+"HOUSEHOLD_INCOME_PER_MUNICIPALITY";"Household income per municipality";"Household Income";"Provinces with high number (%) of municipalities with low household income";"Low: provinces with municipalities with household income below provincial average
+Moderate: provinces with municipalities with household income equivalent to provincial average
+High: provinces with municipalities with household income above provincial average";"Stats SA
+Quantec";"minmax";"1";""
+"GDP_PER_MUNICIPALITY";"GDP per municipality";"Trade Balance";"";"Low: provinces with municipalities with GDP below provincial average 
+Moderate: province with municipalities GDP below provincial average
+High: provinces with municipalities with GDP above provincial average";"Stats SA
+Quantec";"minmax";"1";""
+"INFANT_MORTALITY_RATE";"Infant mortality rate";"Social And Health";"Provinces with high number (%) of municipalities with high infant mortality rate";"Low: provinces with municipalities with infant mortality rate below provincial average
+Moderate: provinces with municipalities with infant mortality rate within provincial average
+High: provinces with municipalities with infant mortality rate above provincial average";"Stats SA
+Quantec";"minmax";"-1";""
+"LIFE_EXPECTANCY_RATE";"Life expectancy rate";"Indicators For Need Municipal Profiling And Provincial Differentiation";"Provinces with high number (%) of municipalities with low life expectancy";"Low: provinces with municipalities with life expectancy rate below provincial average
+Moderate: provinces with municipalities with life expectancy rate within provincial average
+High: provinces with municipalities with life expectancy rate above provincial average";"Stats SA
+Quantec";"minmax";"1";""
+"CHILD_MORTALITY_RATE";"Child mortality rate";"Indicators For Need Municipal Profiling And Provincial Differentiation";"Provinces with high number (%) of municipalities with high mortality rate";"Low: provinces with municipalities with child mortality rate below provincial average
+Moderate: provinces with municipalities with child mortality rate within provincial average
+High: provinces with municipalities with child mortality rate above provincial average";"Stats SA
+Quantec";"minmax";"-1";""
+"LITERACY_RATE_PER_MUNICIPALITY";"Literacy rate per municipality";"Education";"Provinces with high number (%) of municipalities with low literacy rate";"Low: provinces with municipalities with literacy rate below provincial average
+Moderate: provinces with municipalities with literacy rate within provincial average
+High: provinces with municipalities with literacy rate above provincial average";"Stats SA
+Quantec";"minmax";"1";""
+"CRIME_RATES";"Crime rates";"Safety And Security";"Provinces with high number (%) of municipalities with high crime rates";"Low: provinces with municipalities with crime rates below provincial average
+Moderate: provinces with municipalities with crime rates within provincial average
+High: provinces with municipalities with crime rates above provincial average";"Stats SA
+Quantec";"minmax";"-1";""
+"LIFE_EXPECTANCY_PER_MUNICIPALITY";"Life expectancy per municipality";"Life Expectancy";"Provinces with high number (%) of municipalities with low life expectancy rate";"Low: provinces with municipalities with life expectancy rates below provincial average
+Moderate: provinces with municipalities with life expectancy rates within provincial average
+High: provinces with municipalities with life expectancy rates above provincial average";"Stats SA
+Quantec";"minmax";"1";""
+"TOTAL_POPULATION_PER_MUNICIPALITY";"Total population per municipality";"Population Dynamics";"Provinces with high number (%) of municipalities with high population";"Low: provinces with municipalities with total population below provincial percentages
+Moderate: provinces with municipalities with total population equivalent to provincial percentages
+High: provinces with municipalities with total population above provincial percentages";"Census 2022
+Mid-year population estimates 2025";"minmax";"1";""
+"POPULATION_GROWTH_RATE_PER_MUNICIPALITY";"Population growth rate per municipality";"Indicators For Need Municipal Profiling And Provincial Differentiation";"Provinces with high number (%) of municipalities with high population growth rate";"Low: provinces with municipalities with population growth rate below provincial percentages
+Moderate: provinces with municipalities with population growth rate equivalent to provincial percentages
+High: provinces with municipalities with population growth rate above provincial percentages";"Census 2022
+Mid-year population estimates 2025";"minmax";"1";""
+"POPULATION_DISTRIBUTION_PER_MUNICIPALITY_BLACK_AFRICAN_COLOUREDS_WHITE_INDIAN_OR_ASIAN";"Population distribution per municipality (Black African, Coloureds, White, Indian or Asian)";"Population Distribution";"Population distribution per province (Black African, Coloureds, White, Indian or Asian)
+
+Which provinces have high number of municipalities with high number (%) of black, coloured, white, Indian population?";"In order of the results 1-9";"Census 2022
+Mid-year population estimates 2025";"minmax";"-1";""
+"GENDER_DISTRIBUTION_PER_MUNICIPALITY_MALE_FEMALE";"Gender distribution per municipality (male / female)";"Gender Distribution";"Gender distribution per municipality (male / female)
+
+Which provinces have high number of municipalities with high number (%) of male / female population?";"In order of the results 1-9";"Census 2022
+Mid-year population estimates 2025";"minmax";"1";""
+"CHILDREN_POPULATION_PER_MUNICIPALITY";"Children population per municipality";"Age Structure";"Provinces with high number (%) of municipalities with high percentage of children population";"In order of the results 1-9";"Census 2022
+Mid-year population estimates 2025";"minmax";"1";""
+"YOUTH_POPULATION_PER_MUNICIPALITY_15_34";"Youth population per municipality (15-34)";"Indicators For Need Municipal Profiling And Provincial Differentiation";"Provinces with high number (%) of municipalities with high percentage of the population that are youth";"In order of the results 1-9";"Census 2022
+Mid-year population estimates 2025";"minmax";"1";""
+"ADULT_POPULATION_AGED_35_59_PER_MUNICIPALITY";"Adult population aged 35 – 59 per municipality";"Indicators For Need Municipal Profiling And Provincial Differentiation";"Provinces with high number of municipalities with high percentage of adult population (35-59)";"In order of the results 1-9";"Census 2022
+Mid-year population estimates 2025";"minmax";"1";""
+"POPULATION_AGED_ABOVE_60_PER_MUNICIPALITY";"Population aged above 60 per municipality";"Indicators For Need Municipal Profiling And Provincial Differentiation";"Provinces with high number (%) of municipalities with high percentage of aged population (above 60)";"In order of the results 1-9";"Census 2022
+Mid-year population estimates 2025";"minmax";"1";""
+"WORKING_AGE_POPULATION_15_64_PER_MUNICIPALITY";"Working age population ( 15 – 64) per municipality";"Indicators For Need Municipal Profiling And Provincial Differentiation";"Provinces with high number (%) of municipalities with high percentage of the working age population (15 – 64)";"In order of the results 1-9";"Census 2022
+Mid-year population estimates 2025";"minmax";"1";""
+"IN_MIGRATION_PER_MUNICIPALITY";"In-migration per municipality";"Migration";"Provinces with high number (%) of municipalities with high number (%) of municipalities experiencing high in-migration";"In order of the results 1-9";"Census 2022
+Mid-year population estimates 2025";"minmax";"1";""
+"OUT_MIGRATION_PER_MUNICIPALITY";"Out-migration per municipality";"Indicators For Need Municipal Profiling And Provincial Differentiation";"Provinces with high number (%) of municipalities with high number (%) of municipalities experiencing high out-migration";"In order of the results 1-9";"Census 2022
+Mid-year population estimates 2025";"minmax";"1";""

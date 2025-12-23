@@ -1,127 +1,428 @@
-"IndicatorID";"IndicatorName";"Theme";"Description";"Ratings";"Source";"Normalization";"Polarity";"Notes"
-"TOTAL_NUMBER_OF_HOUSEHOLDS_PER_MUNICIPALITY";"Total number of households per municipality";"Household And Living Conditions";"Provinces with high number of municipalities with high number (%) of households";"In order of the results 1-9";"General Household Survey (2024)
-Quantec";"minmax";"1";""
-"AVERAGE_HOUSEHOLD_SIZE_PER_MUNICIPALITY";"Average household size per municipality";"Dwelling Type";"Provinces with high number of municipalities with high average household size";"Low: number of municipalities below provincial average household size
-Moderate: number of municipalities equivalent to provincial average household size
-High: number of municipalities exceeding provincial average household size";"General Household Survey (2024)
-Quantec";"minmax";"1";""
-"PERCENTAGE_OF_HOUSEHOLDS_WITH_FORMAL_DWELLINGS_PER_MUNICIPALITY";"Percentage of households with formal dwellings per municipality";"Indicators For Need Municipal Profiling And Provincial Differentiation";"Provinces with high number of municipalities with low percentages of households with formal dwellings";"Low: number of municipalities below provincial average household size
-Moderate: number of municipalities equivalent to provincial average household size
-High: number of municipalities exceeding provincial average household size";"General Household Survey (2024)
-Quantec";"minmax";"1";""
-"PERCENTAGE_OF_HOUSEHOLD_WITH_ACCESS_TO_WATER_SANITATION_ELECTRICITY_AND_WASTE_COLLECTION_PER_MUNICIPALITY";"Percentage of household with access to water, sanitation, electricity, and waste collection per municipality";"Access To Service Access And Quality";"Provinces with high number of municipalities households with low percentages of access to water, sanitation, and electricity";"Low: below 30% coverage
-Moderate: 30-60%
-High: Above 60%";"Non-financial census of municipalities for the year ended 30 June 2023
-Quantec";"minmax";"1";""
-"WATER_AND_SANITATION_QUALITY_WATER_PER_MUNICIPALITY_BLUE_DROP_GREEN_DROP_STATUS";"Water and sanitation quality water per municipality (blue drop, green drop status)";"Quality Of Basic Services";"Provinces with high number (%) of municipalities in each province that provide services; water, sanitation, electricity, waste of municipalities with low water and sanitation  quality";"Blue Drop report evaluates the quality of drinking water and the efficiency of water treatment and distribution systems.
-
-Green Drop report assesses the performance of wastewater treatment plants
-
-Both reports use indicators like infrastructure condition, maintenance, operational efficiency, staff qualifications, and treatment process compliance to evaluate performance";"Blue drop report 2024";"minmax";"1";""
-"NUMBER_OF_CONSUMER_UNITS_USING_THE_BUCKET_TOILET_SYSTEM_PROVIDED_BY_MUNICIPALITIES_IN_EACH_PROVINCE";"Number of consumer units using the bucket toilet system provided by municipalities in each province";"Indicators For Need Municipal Profiling And Provincial Differentiation";"Provinces with high number of municipalities with high percentages of consumer units using the bucket toilet system provided by municipalities";"";"Non-financial census of municipalities for the year ended 30 June 2023
-Quantec";"minmax";"1";""
-"NUMBER_OF_MUNICIPALITIES_THAT_PROVIDE_SERVICES";"Number (%) of municipalities that provide services";"Indicators For Need Municipal Profiling And Provincial Differentiation";"Number (%) of municipalities in each province that provide services; water, sanitation, electricity, waste";"In order of the results 1-9";"Non-financial census of municipalities for the year ended 30 June 2023
-Quantec";"minmax";"1";""
-"WATER_SANITATION_ELECTRICITY_WASTE";"water, sanitation, electricity, waste";"Indicators For Need Municipal Profiling And Provincial Differentiation";"Number (%) of municipalities in each province that provide services; water, sanitation, electricity, waste";"In order of the results 1-9";"Non-financial census of municipalities for the year ended 30 June 2023
-Quantec";"minmax";"1";""
-"NUMBER_OF_CONSUMER_UNITS_RECEIVING_WATER_SERVICES_AND_FREE_BASIC_WATER_SERVICES_FROM_MUNICIPALITIES";"Number of consumer units receiving water services and free basic water services from municipalities";"Free Basic Services";"Provinces with high number (%) of municipalities with low number of consumer units receiving water services and free basic services from municipalities";"In order of the results 1-9";"Non-financial census of municipalities for the year ended 30 June 2023
-Quantec";"minmax";"1";""
-"NUMBER_OF_MUNICIPALITIES_IN_EACH_PROVINCE_WITH_A_POLICY_IN_PLACE_RELATING_TO_THE_PROVISION_OF_FREE_BASIC_SERVICES";"Number of municipalities in each province with a policy in place relating to the provision of free basic services";"Indicators For Need Municipal Profiling And Provincial Differentiation";"Provinces with high number (%) of municipalities without a policy in place relating to the provision of free basic services";"In order of the results 1-9";"Non-financial census of municipalities for the year ended 30 June 2023
-Quantec";"minmax";"1";""
-"NUMBER_OF_MUNICIPALITIES_IN_EACH_PROVINCE_WHICH_HAVE_IMPLEMENTED_THE_POLICY_RELATING_TO_THE_PROVISION_OF_FREE_BASIC_SERV";"Number of municipalities in each province which have implemented the policy relating to the provision of free basic services";"Indicators For Need Municipal Profiling And Provincial Differentiation";"Provinces with number (%) of municipalities that have not implemented the policy relating to the provision of free basic services";"In order of the results 1-9";"Non-financial census of municipalities for the year ended 30 June 2023
-Quantec";"minmax";"1";""
-"NUMBER_OF_INDIGENT_HOUSEHOLDS_IN_EACH_PROVINCE_BENEFITING_FROM_AN_INDIGENT_SUPPORT_SYSTEM";"Number of indigent households in each province benefiting from an indigent support system";"Indigent Support";"Provinces with municipalities with high percentages of households in each province benefiting from an indigent support system";"In order of the results 1-9";"Non-financial census of municipalities for the year ended 30 June 2023
-Quantec";"minmax";"-1";""
-"NUMBER_OF_VACANT_MANAGERIAL_POSITIONS_BY_PROVINCE_ACCORDING_TO_SECTION_54A_AND_56_OF_LOCAL_GOVERNMENT_MUNICIPAL_SYSTEM_A";"Number of vacant managerial positions by province according to Section 54A and 56 of Local Government Municipal System Act, 2000 (Act No.32 of 2000)";"Municipal Vacancies";"Provinces with high number (%) of municipalities with high vacant managerial positions according to Section 54A and 56 of Local Government Municipal System Act, 2000 (Act No.32 of 2000)";"In order of the results 1-9";"Non-financial census of municipalities for the year ended 30 June 2023
-Quantec";"minmax";"1";""
-"NUMBER_OF_MANAGERIAL_POSITIONS_BY_PROVINCE_ACCORDING_TO_ORGANOGRAM_EXCLUDING_SECTION_56_MANAGERS";"Number of managerial positions by province according to organogram (excluding Section 56 managers)";"Indicators For Need Municipal Profiling And Provincial Differentiation";"Provinces with high number (%) of municipalities with high vacant managerial positions according to organogram (excluding Section 56 managers)";"In order of the results 1-9";"Non-financial census of municipalities for the year ended 30 June 2023
-Quantec";"minmax";"1";""
-"NUMBER_OF_COUNCILLORS_PER_MUNICIPALITY";"Number of councillors per municipality";"Indicators For Need Municipal Profiling And Provincial Differentiation";"Provinces with high number (%)  of municipalities with high number (%) of councillors";"In order of the results 1-9";"IEC
-Non-financial census of municipalities for the year ended 30 June 2023";"minmax";"1";""
-"EMPLOYMENT_POSITIONS_INCLUDING_MANAGERIAL_POSITIONS_BY_PROVINCE";"Employment positions including managerial positions by province";"Indicators For Need Municipal Profiling And Provincial Differentiation";"Provinces with high number of municipalities with high (%) employment positions including managerial positions";"In order of the results 1-9";"Municipalities 
-Non-financial census of municipalities for the year ended 30 June 2023
-Quantec";"minmax";"1";""
-"AN_ALTERNATIVE_DIFFERENTIATION_APPROACH";"An alternative differentiation approach";"An Alternative Differentiation Approach
-Analysis Of Disparities In Service Delivery Between Different Municipalities, Such As Urban Versus Rural Areas. (Apply The Miif Model And Identify Characteristics Predominant In Each Municipal Type)";"An alternative differentiation approach
-Analysis of disparities in service delivery between different municipalities, such as urban versus rural areas. (Apply the MIIF model and identify characteristics predominant in each municipal type)";"An alternative differentiation approach
-Analysis of disparities in service delivery between different municipalities, such as urban versus rural areas. (Apply the MIIF model and identify characteristics predominant in each municipal type)";"An alternative differentiation approach
-Analysis of disparities in service delivery between different municipalities, such as urban versus rural areas. (Apply the MIIF model and identify characteristics predominant in each municipal type)";"minmax";"1";""
-"ANALYSIS_OF_DISPARITIES_IN_SERVICE_DELIVERY_BETWEEN_DIFFERENT_MUNICIPALITIES_SUCH_AS_URBAN_VERSUS_RURAL_AREAS_APPLY_T";"Analysis of disparities in service delivery between different municipalities, such as urban versus rural areas. (Apply the MIIF model and identify characteristics predominant in each municipal type)";"An Alternative Differentiation Approach
-Analysis Of Disparities In Service Delivery Between Different Municipalities, Such As Urban Versus Rural Areas. (Apply The Miif Model And Identify Characteristics Predominant In Each Municipal Type)";"An alternative differentiation approach
-Analysis of disparities in service delivery between different municipalities, such as urban versus rural areas. (Apply the MIIF model and identify characteristics predominant in each municipal type)";"An alternative differentiation approach
-Analysis of disparities in service delivery between different municipalities, such as urban versus rural areas. (Apply the MIIF model and identify characteristics predominant in each municipal type)";"An alternative differentiation approach
-Analysis of disparities in service delivery between different municipalities, such as urban versus rural areas. (Apply the MIIF model and identify characteristics predominant in each municipal type)";"minmax";"1";""
-"PERCENTAGE_OF_THE_POPULATION_LIVING_BELOW_A_CERTAIN_INCOME_LEVEL_POVERTY_LINE";"Percentage of the population living below a certain income level (poverty line)";"Poverty";"Provinces with high number (%) of municipalities with high number (%) of people living under upper bound poverty line (R1,634 per person per month: 2024)";"Low: municipalities with households living above poverty line
-Moderate: municipalities with households living within the poverty line
-High: municipalities with households living below poverty line";"Stats SA
-Quantec";"minmax";"-1";""
-"UNEMPLOYMENT_RATE_PER_MUNICIPALITY";"Unemployment rate per municipality";"Unemployment";"Provinces with high number (%) of municipalities with high unemployment rate";"Low: provinces with municipalities with unemployment rate below provincial rate
-Moderate: provinces with municipalities with unemployment rate equivalent to provincial rate
-High: provinces with municipalities with unemployment rate above provincial rate";"Stats SA
-Quantec";"minmax";"-1";""
-"GINI_COEFFICIENT_PER_MUNICIPALITY";"Gini-coefficient per municipality";"Inequality";"Provinces with high number (%) of municipalities with high Gini-coefficient";"Low: provinces with municipalities with youth Gini-coefficient below provincial rate
-Moderate: provinces with municipalities with youth Gini-coefficient equivalent to provincial rate
-High: provinces with municipalities with youth Gini-coefficient above provincial rate";"Stats SA
-Quantec";"minmax";"1";""
-"HOUSEHOLD_INCOME_PER_MUNICIPALITY";"Household income per municipality";"Household Income";"Provinces with high number (%) of municipalities with low household income";"Low: provinces with municipalities with household income below provincial average
-Moderate: provinces with municipalities with household income equivalent to provincial average
-High: provinces with municipalities with household income above provincial average";"Stats SA
-Quantec";"minmax";"1";""
-"GDP_PER_MUNICIPALITY";"GDP per municipality";"Trade Balance";"";"Low: provinces with municipalities with GDP below provincial average 
-Moderate: province with municipalities GDP below provincial average
-High: provinces with municipalities with GDP above provincial average";"Stats SA
-Quantec";"minmax";"1";""
-"INFANT_MORTALITY_RATE";"Infant mortality rate";"Social And Health";"Provinces with high number (%) of municipalities with high infant mortality rate";"Low: provinces with municipalities with infant mortality rate below provincial average
-Moderate: provinces with municipalities with infant mortality rate within provincial average
-High: provinces with municipalities with infant mortality rate above provincial average";"Stats SA
-Quantec";"minmax";"-1";""
-"LIFE_EXPECTANCY_RATE";"Life expectancy rate";"Indicators For Need Municipal Profiling And Provincial Differentiation";"Provinces with high number (%) of municipalities with low life expectancy";"Low: provinces with municipalities with life expectancy rate below provincial average
-Moderate: provinces with municipalities with life expectancy rate within provincial average
-High: provinces with municipalities with life expectancy rate above provincial average";"Stats SA
-Quantec";"minmax";"1";""
-"CHILD_MORTALITY_RATE";"Child mortality rate";"Indicators For Need Municipal Profiling And Provincial Differentiation";"Provinces with high number (%) of municipalities with high mortality rate";"Low: provinces with municipalities with child mortality rate below provincial average
-Moderate: provinces with municipalities with child mortality rate within provincial average
-High: provinces with municipalities with child mortality rate above provincial average";"Stats SA
-Quantec";"minmax";"-1";""
-"LITERACY_RATE_PER_MUNICIPALITY";"Literacy rate per municipality";"Education";"Provinces with high number (%) of municipalities with low literacy rate";"Low: provinces with municipalities with literacy rate below provincial average
-Moderate: provinces with municipalities with literacy rate within provincial average
-High: provinces with municipalities with literacy rate above provincial average";"Stats SA
-Quantec";"minmax";"1";""
-"CRIME_RATES";"Crime rates";"Safety And Security";"Provinces with high number (%) of municipalities with high crime rates";"Low: provinces with municipalities with crime rates below provincial average
-Moderate: provinces with municipalities with crime rates within provincial average
-High: provinces with municipalities with crime rates above provincial average";"Stats SA
-Quantec";"minmax";"-1";""
-"LIFE_EXPECTANCY_PER_MUNICIPALITY";"Life expectancy per municipality";"Life Expectancy";"Provinces with high number (%) of municipalities with low life expectancy rate";"Low: provinces with municipalities with life expectancy rates below provincial average
-Moderate: provinces with municipalities with life expectancy rates within provincial average
-High: provinces with municipalities with life expectancy rates above provincial average";"Stats SA
-Quantec";"minmax";"1";""
-"TOTAL_POPULATION_PER_MUNICIPALITY";"Total population per municipality";"Population Dynamics";"Provinces with high number (%) of municipalities with high population";"Low: provinces with municipalities with total population below provincial percentages
-Moderate: provinces with municipalities with total population equivalent to provincial percentages
-High: provinces with municipalities with total population above provincial percentages";"Census 2022
-Mid-year population estimates 2025";"minmax";"1";""
-"POPULATION_GROWTH_RATE_PER_MUNICIPALITY";"Population growth rate per municipality";"Indicators For Need Municipal Profiling And Provincial Differentiation";"Provinces with high number (%) of municipalities with high population growth rate";"Low: provinces with municipalities with population growth rate below provincial percentages
-Moderate: provinces with municipalities with population growth rate equivalent to provincial percentages
-High: provinces with municipalities with population growth rate above provincial percentages";"Census 2022
-Mid-year population estimates 2025";"minmax";"1";""
-"POPULATION_DISTRIBUTION_PER_MUNICIPALITY_BLACK_AFRICAN_COLOUREDS_WHITE_INDIAN_OR_ASIAN";"Population distribution per municipality (Black African, Coloureds, White, Indian or Asian)";"Population Distribution";"Population distribution per province (Black African, Coloureds, White, Indian or Asian)
-
-Which provinces have high number of municipalities with high number (%) of black, coloured, white, Indian population?";"In order of the results 1-9";"Census 2022
-Mid-year population estimates 2025";"minmax";"-1";""
-"GENDER_DISTRIBUTION_PER_MUNICIPALITY_MALE_FEMALE";"Gender distribution per municipality (male / female)";"Gender Distribution";"Gender distribution per municipality (male / female)
-
-Which provinces have high number of municipalities with high number (%) of male / female population?";"In order of the results 1-9";"Census 2022
-Mid-year population estimates 2025";"minmax";"1";""
-"CHILDREN_POPULATION_PER_MUNICIPALITY";"Children population per municipality";"Age Structure";"Provinces with high number (%) of municipalities with high percentage of children population";"In order of the results 1-9";"Census 2022
-Mid-year population estimates 2025";"minmax";"1";""
-"YOUTH_POPULATION_PER_MUNICIPALITY_15_34";"Youth population per municipality (15-34)";"Indicators For Need Municipal Profiling And Provincial Differentiation";"Provinces with high number (%) of municipalities with high percentage of the population that are youth";"In order of the results 1-9";"Census 2022
-Mid-year population estimates 2025";"minmax";"1";""
-"ADULT_POPULATION_AGED_35_59_PER_MUNICIPALITY";"Adult population aged 35 – 59 per municipality";"Indicators For Need Municipal Profiling And Provincial Differentiation";"Provinces with high number of municipalities with high percentage of adult population (35-59)";"In order of the results 1-9";"Census 2022
-Mid-year population estimates 2025";"minmax";"1";""
-"POPULATION_AGED_ABOVE_60_PER_MUNICIPALITY";"Population aged above 60 per municipality";"Indicators For Need Municipal Profiling And Provincial Differentiation";"Provinces with high number (%) of municipalities with high percentage of aged population (above 60)";"In order of the results 1-9";"Census 2022
-Mid-year population estimates 2025";"minmax";"1";""
-"WORKING_AGE_POPULATION_15_64_PER_MUNICIPALITY";"Working age population ( 15 – 64) per municipality";"Indicators For Need Municipal Profiling And Provincial Differentiation";"Provinces with high number (%) of municipalities with high percentage of the working age population (15 – 64)";"In order of the results 1-9";"Census 2022
-Mid-year population estimates 2025";"minmax";"1";""
-"IN_MIGRATION_PER_MUNICIPALITY";"In-migration per municipality";"Migration";"Provinces with high number (%) of municipalities with high number (%) of municipalities experiencing high in-migration";"In order of the results 1-9";"Census 2022
-Mid-year population estimates 2025";"minmax";"1";""
-"OUT_MIGRATION_PER_MUNICIPALITY";"Out-migration per municipality";"Indicators For Need Municipal Profiling And Provincial Differentiation";"Provinces with high number (%) of municipalities with high number (%) of municipalities experiencing high out-migration";"In order of the results 1-9";"Census 2022
-Mid-year population estimates 2025";"minmax";"1";""
+IndicatorID;IndicatorName;Theme;Description;Ratings;Source;Normalization;Polarity;Notes
+INFRA_WATER_PIPED_DWELLING_PCT;Infra Water Piped Dwelling Pct;Unclassified;;;;Min-Max;Higher is better;
+INFRA_WATER_PIPED_YARD_PCT;Infra Water Piped Yard Pct;Unclassified;;;;Min-Max;Higher is better;
+INFRA_WATER_COMMUNITY_STAND_PCT;Infra Water Community Stand Pct;Unclassified;;;;Min-Max;Higher is better;
+INFRA_WATER_NO_ACCESS_PCT;Infra Water No Access Pct;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_85PLUS_MALE_COUNT;Dem Pop Age 85Plus Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_85PLUS_FEMALE_COUNT;Dem Pop Age 85Plus Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_80_84_MALE_COUNT;Dem Pop Age 80 84 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_80_84_FEMALE_COUNT;Dem Pop Age 80 84 Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_75_79_MALE_COUNT;Dem Pop Age 75 79 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_75_79_FEMALE_COUNT;Dem Pop Age 75 79 Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_70_74_MALE_COUNT;Dem Pop Age 70 74 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_70_74_FEMALE_COUNT;Dem Pop Age 70 74 Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_65_69_MALE_COUNT;Dem Pop Age 65 69 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_65_69_FEMALE_COUNT;Dem Pop Age 65 69 Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_60_64_MALE_COUNT;Dem Pop Age 60 64 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_60_64_FEMALE_COUNT;Dem Pop Age 60 64 Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_55_59_MALE_COUNT;Dem Pop Age 55 59 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_55_59_FEMALE_COUNT;Dem Pop Age 55 59 Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_50_54_MALE_COUNT;Dem Pop Age 50 54 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_50_54_FEMALE_COUNT;Dem Pop Age 50 54 Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_45_49_MALE_COUNT;Dem Pop Age 45 49 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_45_49_FEMALE_COUNT;Dem Pop Age 45 49 Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_40_44_MALE_COUNT;Dem Pop Age 40 44 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_40_44_FEMALE_COUNT;Dem Pop Age 40 44 Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_35_39_MALE_COUNT;Dem Pop Age 35 39 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_35_39_FEMALE_COUNT;Dem Pop Age 35 39 Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_30_34_MALE_COUNT;Dem Pop Age 30 34 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_30_34_FEMALE_COUNT;Dem Pop Age 30 34 Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_25_29_MALE_COUNT;Dem Pop Age 25 29 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_25_29_FEMALE_COUNT;Dem Pop Age 25 29 Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_20_24_MALE_COUNT;Dem Pop Age 20 24 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_20_24_FEMALE_COUNT;Dem Pop Age 20 24 Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_15_19_MALE_COUNT;Dem Pop Age 15 19 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_15_19_FEMALE_COUNT;Dem Pop Age 15 19 Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_10_14_MALE_COUNT;Dem Pop Age 10 14 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_10_14_FEMALE_COUNT;Dem Pop Age 10 14 Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_5_9_MALE_COUNT;Dem Pop Age 5 9 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_5_9_FEMALE_COUNT;Dem Pop Age 5 9 Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_0_4_MALE_COUNT;Dem Pop Age 0 4 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_AGE_0_4_FEMALE_COUNT;Dem Pop Age 0 4 Female Count;Unclassified;;;;Min-Max;Higher is better;
+SAFE_CRIME_MURDER_COUNT;Safe Crime Murder Count;Unclassified;;;;Min-Max;Lower is better;
+SAFE_CRIME_ASSAULT_COUNT;Safe Crime Assault Count;Unclassified;;;;Min-Max;Lower is better;
+SAFE_CRIME_SEXUAL_OFFENCES_COUNT;Safe Crime Sexual Offences Count;Unclassified;;;;Min-Max;Lower is better;
+SAFE_CRIME_ROBBERY_COUNT;Safe Crime Robbery Count;Unclassified;;;;Min-Max;Lower is better;
+SAFE_CRIME_BURGLARY_COUNT;Safe Crime Burglary Count;Unclassified;;;;Min-Max;Lower is better;
+SAFE_CRIME_THEFT_COUNT;Safe Crime Theft Count;Unclassified;;;;Min-Max;Lower is better;
+SAFE_CRIME_DRUG_RELATED_COUNT;Safe Crime Drug Related Count;Unclassified;;;;Min-Max;Lower is better;
+SAFE_CRIME_OTHER_COUNT;Safe Crime Other Count;Unclassified;;;;Min-Max;Lower is better;
+DEM_DEP_RATIO_TOTAL;Dem Dep Ratio Total;Unclassified;;;;Min-Max;Higher is better;
+DEM_DEP_RATIO_CHILD;Dem Dep Ratio Child;Unclassified;;;;Min-Max;Higher is better;
+DEM_DEP_RATIO_AGED;Dem Dep Ratio Aged;Unclassified;;;;Min-Max;Higher is better;
+INFRA_ENERGY_COOKING_ELECTRICITY_FROM_MAINS_COUNT;Infra Energy Cooking Electricity From Mains Count;Unclassified;;;;Min-Max;Higher is better;
+INFRA_ENERGY_COOKING_ELECTRICITY_FROM_MAINS_PCT;Infra Energy Cooking Electricity From Mains Pct;Unclassified;;;;Min-Max;Higher is better;
+INFRA_ENERGY_COOKING_GAS_COUNT;Infra Energy Cooking Gas Count;Unclassified;;;;Min-Max;Higher is better;
+INFRA_ENERGY_COOKING_GAS_PCT;Infra Energy Cooking Gas Pct;Unclassified;;;;Min-Max;Higher is better;
+INFRA_ENERGY_COOKING_PARAFFIN_COUNT;Infra Energy Cooking Paraffin Count;Unclassified;;;;Min-Max;Higher is better;
+INFRA_ENERGY_COOKING_PARAFFIN_PCT;Infra Energy Cooking Paraffin Pct;Unclassified;;;;Min-Max;Higher is better;
+INFRA_ENERGY_COOKING_WOOD_COUNT;Infra Energy Cooking Wood Count;Unclassified;;;;Min-Max;Higher is better;
+INFRA_ENERGY_COOKING_WOOD_PCT;Infra Energy Cooking Wood Pct;Unclassified;;;;Min-Max;Higher is better;
+INFRA_ENERGY_COOKING_COAL_COUNT;Infra Energy Cooking Coal Count;Unclassified;;;;Min-Max;Higher is better;
+INFRA_ENERGY_COOKING_COAL_PCT;Infra Energy Cooking Coal Pct;Unclassified;;;;Min-Max;Higher is better;
+INFRA_ENERGY_COOKING_ANIMAL_DUNG_COUNT;Infra Energy Cooking Animal Dung Count;Unclassified;;;;Min-Max;Higher is better;
+INFRA_ENERGY_COOKING_ANIMAL_DUNG_PCT;Infra Energy Cooking Animal Dung Pct;Unclassified;;;;Min-Max;Higher is better;
+INFRA_ENERGY_COOKING_SOLAR_COUNT;Infra Energy Cooking Solar Count;Unclassified;;;;Min-Max;Higher is better;
+INFRA_ENERGY_COOKING_SOLAR_PCT;Infra Energy Cooking Solar Pct;Unclassified;;;;Min-Max;Higher is better;
+INFRA_ENERGY_COOKING_OTHER_COUNT;Infra Energy Cooking Other Count;Unclassified;;;;Min-Max;Higher is better;
+INFRA_ENERGY_COOKING_OTHER_PCT;Infra Energy Cooking Other Pct;Unclassified;;;;Min-Max;Higher is better;
+INFRA_ENERGY_LIGHTING_ELECTRICITY_FROM_MAINS_COUNT;Infra Energy Lighting Electricity From Mains Count;Unclassified;;;;Min-Max;Higher is better;
+INFRA_ENERGY_LIGHTING_ELECTRICITY_FROM_MAINS_PCT;Infra Energy Lighting Electricity From Mains Pct;Unclassified;;;;Min-Max;Higher is better;
+INFRA_ENERGY_LIGHTING_GAS_COUNT;Infra Energy Lighting Gas Count;Unclassified;;;;Min-Max;Higher is better;
+INFRA_ENERGY_LIGHTING_GAS_PCT;Infra Energy Lighting Gas Pct;Unclassified;;;;Min-Max;Higher is better;
+INFRA_ENERGY_LIGHTING_PARAFFIN_COUNT;Infra Energy Lighting Paraffin Count;Unclassified;;;;Min-Max;Higher is better;
+INFRA_ENERGY_LIGHTING_PARAFFIN_PCT;Infra Energy Lighting Paraffin Pct;Unclassified;;;;Min-Max;Higher is better;
+INFRA_ENERGY_LIGHTING_CANDLES_COUNT;Infra Energy Lighting Candles Count;Unclassified;;;;Min-Max;Higher is better;
+INFRA_ENERGY_LIGHTING_CANDLES_PCT;Infra Energy Lighting Candles Pct;Unclassified;;;;Min-Max;Higher is better;
+INFRA_ENERGY_LIGHTING_SOLAR_COUNT;Infra Energy Lighting Solar Count;Unclassified;;;;Min-Max;Higher is better;
+INFRA_ENERGY_LIGHTING_SOLAR_PCT;Infra Energy Lighting Solar Pct;Unclassified;;;;Min-Max;Higher is better;
+INFRA_ENERGY_LIGHTING_OTHER_COUNT;Infra Energy Lighting Other Count;Unclassified;;;;Min-Max;Higher is better;
+INFRA_ENERGY_LIGHTING_OTHER_PCT;Infra Energy Lighting Other Pct;Unclassified;;;;Min-Max;Higher is better;
+GOV_AUDIT_CLEAN_OPINION_FLAG;Gov Audit Clean Opinion Flag;Unclassified;;;;Min-Max;Higher is better;
+GOV_AUDIT_UNQUALIFIED_OPINION_FLAG;Gov Audit Unqualified Opinion Flag;Unclassified;;;;Min-Max;Higher is better;
+GOV_AUDIT_QUALIFIED_OPINION_FLAG;Gov Audit Qualified Opinion Flag;Unclassified;;;;Min-Max;Higher is better;
+GOV_AUDIT_ADVERSE_OPINION_FLAG;Gov Audit Adverse Opinion Flag;Unclassified;;;;Min-Max;Higher is better;
+GOV_AUDIT_DISCLAIMER_OPINION_FLAG;Gov Audit Disclaimer Opinion Flag;Unclassified;;;;Min-Max;Higher is better;
+FIN_CENSUS_COMBINED_EMPLOYEE_RELATED_COSTS;Fin Census Combined Employee Related Costs;Unclassified;;;;Min-Max;Higher is better;
+FIN_CENSUS_COMBINED_FINANCE_COSTS;Fin Census Combined Finance Costs;Unclassified;;;;Min-Max;Higher is better;
+FIN_CENSUS_COMBINED_DEBT_IMPAIRMENT;Fin Census Combined Debt Impairment;Unclassified;;;;Min-Max;Higher is better;
+FIN_CENSUS_COMBINED_CONTRACTED_SERVICES;Fin Census Combined Contracted Services;Unclassified;;;;Min-Max;Higher is better;
+FIN_CENSUS_COMBINED_OPERATING_LEASES;Fin Census Combined Operating Leases;Unclassified;;;;Min-Max;Higher is better;
+FIN_CENSUS_COMBINED_DEPRECIATION,_AMORTISATION_AND_IMPAIRMENT;Fin Census Combined Depreciation, Amortisation And Impairment;Unclassified;;;;Min-Max;Higher is better;
+FIN_CENSUS_COMBINED_PURCHASES_OF_WATER;Fin Census Combined Purchases Of Water;Unclassified;;;;Min-Max;Higher is better;
+FIN_CENSUS_COMBINED_PURCHASES_OF_ELECTRICITY;Fin Census Combined Purchases Of Electricity;Unclassified;;;;Min-Max;Higher is better;
+FIN_CENSUS_COMBINED_TRANSFERS_AND_SUBSIDIES_PAID;Fin Census Combined Transfers And Subsidies Paid;Unclassified;;;;Min-Max;Higher is better;
+FIN_CENSUS_COMBINED_OPERATIONAL_COSTS;Fin Census Combined Operational Costs;Unclassified;;;;Min-Max;Higher is better;
+FIN_CENSUS_COMBINED_OTHER_EXPENDITURE;Fin Census Combined Other Expenditure;Unclassified;;;;Min-Max;Higher is better;
+FIN_CENSUS_COMBINED_TOTAL_OPERATIONAL_EXPENDITURE;Fin Census Combined Total Operational Expenditure;Unclassified;;;;Min-Max;Higher is better;
+FIN_CENSUS_COMBINED_PROPERTY_RATES;Fin Census Combined Property Rates;Unclassified;;;;Min-Max;Higher is better;
+FIN_CENSUS_COMBINED_INTEREST_RECEIVED;Fin Census Combined Interest Received;Unclassified;;;;Min-Max;Higher is better;
+FIN_CENSUS_COMBINED_SALES_OF_WATER;Fin Census Combined Sales Of Water;Unclassified;;;;Min-Max;Higher is better;
+FIN_CENSUS_COMBINED_SALES_OF_ELECTRICITY;Fin Census Combined Sales Of Electricity;Unclassified;;;;Min-Max;Higher is better;
+FIN_CENSUS_COMBINED_REFUSE_REMOVAL_CHARGES;Fin Census Combined Refuse Removal Charges;Unclassified;;;;Min-Max;Higher is better;
+FIN_CENSUS_COMBINED_SEWERAGE_AND_SANITATION_CHARGES;Fin Census Combined Sewerage And Sanitation Charges;Unclassified;;;;Min-Max;Higher is better;
+FIN_CENSUS_COMBINED_GOVERNMENT_TRANSFERS_AND_SUBSIDIES;Fin Census Combined Government Transfers And Subsidies;Unclassified;;;;Min-Max;Higher is better;
+FIN_CENSUS_COMBINED_OTHER_TRANSFERS_AND_SUBSIDIES;Fin Census Combined Other Transfers And Subsidies;Unclassified;;;;Min-Max;Higher is better;
+FIN_CENSUS_COMBINED_OTHER_REVENUE;Fin Census Combined Other Revenue;Unclassified;;;;Min-Max;Higher is better;
+FIN_CENSUS_COMBINED_TOTAL_OPERATIONAL_REVENUE;Fin Census Combined Total Operational Revenue;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_HIGHEST_NO_SCHOOLING_COUNT;Dem Edu Highest No Schooling Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_HIGHEST_NO_SCHOOLING_PCT;Dem Edu Highest No Schooling Pct;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_HIGHEST_SOME_PRIMARY_COUNT;Dem Edu Highest Some Primary Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_HIGHEST_SOME_PRIMARY_PCT;Dem Edu Highest Some Primary Pct;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_HIGHEST_COMPLETED_PRIMARY_COUNT;Dem Edu Highest Completed Primary Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_HIGHEST_COMPLETED_PRIMARY_PCT;Dem Edu Highest Completed Primary Pct;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_HIGHEST_SOME_SECONDARY_COUNT;Dem Edu Highest Some Secondary Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_HIGHEST_SOME_SECONDARY_PCT;Dem Edu Highest Some Secondary Pct;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_HIGHEST_GRADE_12_STD10_COUNT;Dem Edu Highest Grade 12 Std10 Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_HIGHEST_GRADE_12_STD10_PCT;Dem Edu Highest Grade 12 Std10 Pct;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_HIGHEST_HIGHER_EDUCATION_COUNT;Dem Edu Highest Higher Education Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_HIGHEST_HIGHER_EDUCATION_PCT;Dem Edu Highest Higher Education Pct;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_HIGHEST_OTHER_COUNT;Dem Edu Highest Other Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_HIGHEST_OTHER_PCT;Dem Edu Highest Other Pct;Unclassified;;;;Min-Max;Higher is better;
+GOV_HUMAN_CAPITAL_EMPLOYMENT_COSTS_R000;Gov Human Capital Employment Costs R000;Unclassified;;;;Min-Max;Higher is better;
+GOV_HUMAN_CAPITAL_REMUNERATION_OF_COUNCILLORS_R000;Gov Human Capital Remuneration Of Councillors R000;Unclassified;;;;Min-Max;Higher is better;
+GOV_HUMAN_CAPITAL_TOTAL_EMPLOYEE_POSITIONS;Gov Human Capital Total Employee Positions;Unclassified;;;;Min-Max;Higher is better;
+GOV_HUMAN_CAPITAL_TOTAL_VACANT_EMPLOYEE_POSITIONS;Gov Human Capital Total Vacant Employee Positions;Unclassified;;;;Min-Max;Higher is better;
+GOV_HUMAN_CAPITAL_TOTAL_VACANCY_PERCENTAGE;Gov Human Capital Total Vacancy Percentage;Unclassified;;;;Min-Max;Higher is better;
+GOV_HUMAN_CAPITAL_MANAGERIAL_POSITIONS_–_S54A_AND_S56;Gov Human Capital Managerial Positions – S54A And S56;Unclassified;;;;Min-Max;Higher is better;
+GOV_HUMAN_CAPITAL_VACANT_MANAGERIAL_POSITIONS_–_S54A_AND_S56;Gov Human Capital Vacant Managerial Positions – S54A And S56;Unclassified;;;;Min-Max;Higher is better;
+GOV_HUMAN_CAPITAL_MANAGERIAL_POSITIONS___BY_ORGANOGRAM;Gov Human Capital Managerial Positions   By Organogram;Unclassified;;;;Min-Max;Higher is better;
+GOV_HUMAN_CAPITAL_VACANT_MANAGERIAL_POSITIONS___BY_ORGANOGRAM;Gov Human Capital Vacant Managerial Positions   By Organogram;Unclassified;;;;Min-Max;Higher is better;
+GOV_HUMAN_CAPITAL_MPLOYMENT_COSTS_R000;Gov Human Capital Mployment Costs R000;Unclassified;;;;Min-Max;Higher is better;
+ECON_INT_TRADE_IMPORT_VALUE;Econ Int Trade Import Value;Unclassified;;;;Min-Max;Higher is better;
+ECON_INT_TRADE_EXPORT_VALUE;Econ Int Trade Export Value;Unclassified;;;;Min-Max;Higher is better;
+GOV_LABOUR_POPULATION___WORKING_AGE;Gov Labour Population   Working Age;Unclassified;;;;Min-Max;Higher is better;
+GOV_LABOUR_LABOUR_FORCE___ECONOMICALLY_ACTIVE;Gov Labour Labour Force   Economically Active;Unclassified;;;;Min-Max;Higher is better;
+GOV_LABOUR_LABOUR_FORCE_PARTICIPATION_RATE;Gov Labour Labour Force Participation Rate;Unclassified;;;;Min-Max;Higher is better;
+GOV_LABOUR_EMPLOYED___FORMAL_AND_INFORMAL___TOTAL;Gov Labour Employed   Formal And Informal   Total;Unclassified;;;;Min-Max;Higher is better;
+GOV_LABOUR_EMPLOYED___FORMAL___TOTAL;Gov Labour Employed   Formal   Total;Unclassified;;;;Min-Max;Higher is better;
+GOV_LABOUR_SKILLED;Gov Labour Skilled;Unclassified;;;;Min-Max;Higher is better;
+GOV_LABOUR_SEMI__SKILLED;Gov Labour Semi  Skilled;Unclassified;;;;Min-Max;Higher is better;
+GOV_LABOUR_LOW_SKILLED;Gov Labour Low Skilled;Unclassified;;;;Min-Max;Higher is better;
+GOV_LABOUR_INFORMAL;Gov Labour Informal;Unclassified;;;;Min-Max;Higher is better;
+GOV_LABOUR_UNEMPLOYED;Gov Labour Unemployed;Unclassified;;;;Min-Max;Higher is better;
+GOV_LABOUR_UNEMPLOYMENT_RATE;Gov Labour Unemployment Rate;Unclassified;;;;Min-Max;Higher is better;
+GOV_LABOUR_LABOUR_ABSORPTION_RATE___EMPLOYMENT_TO_POPULATION_RATIO;Gov Labour Labour Absorption Rate   Employment To Population Ratio;Unclassified;;;;Min-Max;Higher is better;
+GOV_LABOUR_NOT_ECONOMICALLY_ACTIVE;Gov Labour Not Economically Active;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_LEVEL_FUNCTIONALLY_ILLITERATE;Dem Edu Level Functionally Illiterate;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_LEVEL_FUNCTIONAL_ILLITERACY_RATE;Dem Edu Level Functional Illiteracy Rate;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_LEVEL_FUNCTIONALLY_LITERATE;Dem Edu Level Functionally Literate;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_LEVEL_FUNCTIONAL_LITERACY_RATE;Dem Edu Level Functional Literacy Rate;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_LEVEL_07:_GRADE_7_STANDARD_5;Dem Edu Level 07: Grade 7 Standard 5;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_LEVEL_08:_GRADE_8_STANDARD_6_FORM_1;Dem Edu Level 08: Grade 8 Standard 6 Form 1;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_LEVEL_09:_GRADE_9_STANDARD_7_FORM_2;Dem Edu Level 09: Grade 9 Standard 7 Form 2;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_LEVEL_10:_GRADE_10_STANDARD_8_FORM_3_NTC1;Dem Edu Level 10: Grade 10 Standard 8 Form 3 Ntc1;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_LEVEL_11:_GRADE_11_STANDARD_9_FORM_4_NTC11;Dem Edu Level 11: Grade 11 Standard 9 Form 4 Ntc11;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_LEVEL_12:_GRADE_12_STANDARD_10_FORM_5_MATRIC_NTC111;Dem Edu Level 12: Grade 12 Standard 10 Form 5 Matric Ntc111;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_LEVEL_13:_LESS_THAN_GRADE_12_WITH_CERTIFICATE_DIPLOMA;Dem Edu Level 13: Less Than Grade 12 With Certificate Diploma;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_LEVEL_15:_GRADE_12_WITH_CERTIFICATE_NQF_LEVEL_5;Dem Edu Level 15: Grade 12 With Certificate Nqf Level 5;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_LEVEL_16:_GRADE_12_WITH_DIPLOMA_OR_HIGHER_DIPLOMA_NQF_LEVEL_6_7;Dem Edu Level 16: Grade 12 With Diploma Or Higher Diploma Nqf Level 6 7;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_LEVEL_17:_BACHELOR'S_DEGREE;Dem Edu Level 17: Bachelor'S Degree;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_LEVEL_18:_BACHELOR'S_DEGREE_AND_DIPLOMA;Dem Edu Level 18: Bachelor'S Degree And Diploma;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_LEVEL_19:_HONOURS_DEGREE;Dem Edu Level 19: Honours Degree;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_LEVEL_20:_HIGHER_DEGREE;Dem Edu Level 20: Higher Degree;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_LEVEL_21:_UNSPECIFIED;Dem Edu Level 21: Unspecified;Unclassified;;;;Min-Max;Higher is better;
+INFRA_TOILET_FLUSH_TOILET_PCT;Infra Toilet Flush Toilet Pct;Unclassified;;;;Min-Max;Higher is better;
+INFRA_TOILET_CHEMICAL_TOILET_PCT;Infra Toilet Chemical Toilet Pct;Unclassified;;;;Min-Max;Higher is better;
+INFRA_TOILET_PIT_TOILET_PCT;Infra Toilet Pit Toilet Pct;Unclassified;;;;Min-Max;Higher is better;
+INFRA_TOILET_BUCKET_TOILET_PCT;Infra Toilet Bucket Toilet Pct;Unclassified;;;;Min-Max;Higher is better;
+INFRA_TOILET_OTHER_PCT;Infra Toilet Other Pct;Unclassified;;;;Min-Max;Higher is better;
+GOV_MUN_EMP_TOTAL_COUNT;Gov Mun Emp Total Count;Unclassified;;;;Min-Max;Higher is better;
+GOV_MUN_EMP_FULL_TIME_COUNT;Gov Mun Emp Full Time Count;Unclassified;;;;Min-Max;Higher is better;
+GOV_MUN_EMP_PART_TIME_COUNT;Gov Mun Emp Part Time Count;Unclassified;;;;Min-Max;Higher is better;
+GOV_MUN_EMP_VACANT_POSTS_COUNT;Gov Mun Emp Vacant Posts Count;Unclassified;;;;Min-Max;Higher is better;
+ECON_GVA_PRIMARY_SECTOR_VALUE;Econ Gva Primary Sector Value;Unclassified;;;;Min-Max;Higher is better;
+ECON_GVA_SECONDARY_SECTOR_VALUE;Econ Gva Secondary Sector Value;Unclassified;;;;Min-Max;Higher is better;
+ECON_GVA_TERTIARY_SECTOR_VALUE;Econ Gva Tertiary Sector Value;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_MASTER_ECD_CENTRES_COUNT;Dem Edu Master Ecd Centres Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_MASTER_ECD_LEARNERS_COUNT;Dem Edu Master Ecd Learners Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_MASTER_ECD_STAFF_COUNT;Dem Edu Master Ecd Staff Count;Unclassified;;;;Min-Max;Higher is better;
+FREE_BASIC_WATER_SELF_TARGETING_MECHANISM_FLAG;Free Basic Water Self Targeting Mechanism Flag;Unclassified;;;;Min-Max;Higher is better;
+FREE_BASIC_WATER_OTHER_MECHANISM_FLAG;Free Basic Water Other Mechanism Flag;Unclassified;;;;Min-Max;Higher is better;
+FREE_BASIC_ELECTRICITY_SELF_TARGETING_MECHANISM_FLAG;Free Basic Electricity Self Targeting Mechanism Flag;Unclassified;;;;Min-Max;Higher is better;
+FREE_BASIC_ELECTRICITY_OTHER_MECHANISM_FLAG;Free Basic Electricity Other Mechanism Flag;Unclassified;;;;Min-Max;Higher is better;
+FREE_BASIC_SANITATION_SELF_TARGETING_MECHANISM_FLAG;Free Basic Sanitation Self Targeting Mechanism Flag;Unclassified;;;;Min-Max;Higher is better;
+FREE_BASIC_SANITATION_OTHER_MECHANISM_FLAG;Free Basic Sanitation Other Mechanism Flag;Unclassified;;;;Min-Max;Higher is better;
+FREE_BASIC_SOLID_WASTE_SELF_TARGETING_MECHANISM_FLAG;Free Basic Solid Waste Self Targeting Mechanism Flag;Unclassified;;;;Min-Max;Higher is better;
+FREE_BASIC_SOLID_WASTE_OTHER_MECHANISM_FLAG;Free Basic Solid Waste Other Mechanism Flag;Unclassified;;;;Min-Max;Higher is better;
+INDIGENT_CUTOFF_R2080_AND_BELOW_FLAG;Indigent Cutoff R2080 And Below Flag;Unclassified;;;;Min-Max;Higher is better;
+INDIGENT_CUTOFF_R2081_TO_R4160_FLAG;Indigent Cutoff R2081 To R4160 Flag;Unclassified;;;;Min-Max;Higher is better;
+INDIGENT_CUTOFF_ABOVE_R4160_FLAG;Indigent Cutoff Above R4160 Flag;Unclassified;;;;Min-Max;Higher is better;
+INDIGENT_HOUSEHOLDS_IDENTIFIED_COUNT;Indigent Households Identified Count;Unclassified;;;;Min-Max;Higher is better;
+INDIGENT_BENEFICIARIES_WATER_COUNT;Indigent Beneficiaries Water Count;Unclassified;;;;Min-Max;Higher is better;
+INDIGENT_BENEFICIARIES_ELECTRICITY_COUNT;Indigent Beneficiaries Electricity Count;Unclassified;;;;Min-Max;Higher is better;
+INDIGENT_BENEFICIARIES_SEWERAGE_COUNT;Indigent Beneficiaries Sewerage Count;Unclassified;;;;Min-Max;Higher is better;
+INDIGENT_BENEFICIARIES_SOLID_WASTE_COUNT;Indigent Beneficiaries Solid Waste Count;Unclassified;;;;Min-Max;Higher is better;
+FBE_SOLAR_HOME_SYSTEM_AVAILABLE;Fbe Solar Home System Available;Unclassified;;;;Min-Max;Higher is better;
+FBE_FIREGEL_AVAILABLE;Fbe Firegel Available;Unclassified;;;;Min-Max;Higher is better;
+FBE_PARAFFIN_AVAILABLE;Fbe Paraffin Available;Unclassified;;;;Min-Max;Higher is better;
+FBE_ALT_ENERGY_OTHER_AVAILABLE;Fbe Alt Energy Other Available;Unclassified;;;;Min-Max;Higher is better;
+NONFIN_CENSUS_MGMT_FULLTIME_MALE_COUNT;Nonfin Census Mgmt Fulltime Male Count;Unclassified;;;;Min-Max;Higher is better;
+NONFIN_CENSUS_MGMT_FULLTIME_FEMALE_COUNT;Nonfin Census Mgmt Fulltime Female Count;Unclassified;;;;Min-Max;Higher is better;
+NONFIN_CENSUS_MGMT_PARTTIME_MALE_COUNT;Nonfin Census Mgmt Parttime Male Count;Unclassified;;;;Min-Max;Higher is better;
+NONFIN_CENSUS_MGMT_PARTTIME_FEMALE_COUNT;Nonfin Census Mgmt Parttime Female Count;Unclassified;;;;Min-Max;Higher is better;
+NONFIN_CENSUS_MGMT_VACANT_POSTS_COUNT;Nonfin Census Mgmt Vacant Posts Count;Unclassified;;;;Min-Max;Higher is better;
+NONFIN_CENSUS_MGMT_TOTAL_POSTS_COUNT;Nonfin Census Mgmt Total Posts Count;Unclassified;;;;Min-Max;Higher is better;
+NONFIN_CENSUS_TABLE_1_2_FULLTIME_MALE_COUNT;Nonfin Census Table 1 2 Fulltime Male Count;Unclassified;;;;Min-Max;Higher is better;
+NONFIN_CENSUS_TABLE_1_2_FULLTIME_FEMALE_COUNT;Nonfin Census Table 1 2 Fulltime Female Count;Unclassified;;;;Min-Max;Higher is better;
+NONFIN_CENSUS_TABLE_1_2_PARTTIME_MALE_COUNT;Nonfin Census Table 1 2 Parttime Male Count;Unclassified;;;;Min-Max;Higher is better;
+NONFIN_CENSUS_TABLE_1_2_PARTTIME_FEMALE_COUNT;Nonfin Census Table 1 2 Parttime Female Count;Unclassified;;;;Min-Max;Higher is better;
+NONFIN_CENSUS_TABLE_1_2_VACANT_POSTS_COUNT;Nonfin Census Table 1 2 Vacant Posts Count;Unclassified;;;;Min-Max;Higher is better;
+NONFIN_CENSUS_TABLE_1_2_TOTAL_POSTS_COUNT;Nonfin Census Table 1 2 Total Posts Count;Unclassified;;;;Min-Max;Higher is better;
+NONFIN_CENSUS_TABLE_1_3_FULLTIME_MALE_COUNT;Nonfin Census Table 1 3 Fulltime Male Count;Unclassified;;;;Min-Max;Higher is better;
+NONFIN_CENSUS_TABLE_1_3_FULLTIME_FEMALE_COUNT;Nonfin Census Table 1 3 Fulltime Female Count;Unclassified;;;;Min-Max;Higher is better;
+NONFIN_CENSUS_TABLE_1_3_PARTTIME_MALE_COUNT;Nonfin Census Table 1 3 Parttime Male Count;Unclassified;;;;Min-Max;Higher is better;
+NONFIN_CENSUS_TABLE_1_3_PARTTIME_FEMALE_COUNT;Nonfin Census Table 1 3 Parttime Female Count;Unclassified;;;;Min-Max;Higher is better;
+NONFIN_CENSUS_TABLE_1_3_VACANT_POSTS_COUNT;Nonfin Census Table 1 3 Vacant Posts Count;Unclassified;;;;Min-Max;Higher is better;
+NONFIN_CENSUS_TABLE_1_3_TOTAL_POSTS_COUNT;Nonfin Census Table 1 3 Total Posts Count;Unclassified;;;;Min-Max;Higher is better;
+NONFIN_CENSUS_TABLE_1_4_FULLTIME_MALE_COUNT;Nonfin Census Table 1 4 Fulltime Male Count;Unclassified;;;;Min-Max;Higher is better;
+NONFIN_CENSUS_TABLE_1_4_FULLTIME_FEMALE_COUNT;Nonfin Census Table 1 4 Fulltime Female Count;Unclassified;;;;Min-Max;Higher is better;
+NONFIN_CENSUS_TABLE_1_4_PARTTIME_MALE_COUNT;Nonfin Census Table 1 4 Parttime Male Count;Unclassified;;;;Min-Max;Higher is better;
+NONFIN_CENSUS_TABLE_1_4_PARTTIME_FEMALE_COUNT;Nonfin Census Table 1 4 Parttime Female Count;Unclassified;;;;Min-Max;Higher is better;
+NONFIN_CENSUS_TABLE_1_4_VACANT_POSTS_COUNT;Nonfin Census Table 1 4 Vacant Posts Count;Unclassified;;;;Min-Max;Higher is better;
+NONFIN_CENSUS_TABLE_1_4_TOTAL_POSTS_COUNT;Nonfin Census Table 1 4 Total Posts Count;Unclassified;;;;Min-Max;Higher is better;
+NONFIN_CENSUS_TABLE_1_5_FULLTIME_COUNT;Nonfin Census Table 1 5 Fulltime Count;Unclassified;;;;Min-Max;Higher is better;
+NONFIN_CENSUS_TABLE_1_5_PARTTIME_COUNT;Nonfin Census Table 1 5 Parttime Count;Unclassified;;;;Min-Max;Higher is better;
+NONFIN_CENSUS_TABLE_1_5_VACANT_POSTS_COUNT;Nonfin Census Table 1 5 Vacant Posts Count;Unclassified;;;;Min-Max;Higher is better;
+NONFIN_CENSUS_TABLE_1_5_TOTAL_POSTS_COUNT;Nonfin Census Table 1 5 Total Posts Count;Unclassified;;;;Min-Max;Higher is better;
+BASIC_SERVICES_WATER_AVAILABLE_FLAG;Basic Services Water Available Flag;Unclassified;;;;Min-Max;Higher is better;
+BASIC_SERVICES_ELECTRICITY_AVAILABLE_FLAG;Basic Services Electricity Available Flag;Unclassified;;;;Min-Max;Higher is better;
+BASIC_SERVICES_SEWERAGE_SANITATION_AVAILABLE_FLAG;Basic Services Sewerage Sanitation Available Flag;Unclassified;;;;Min-Max;Higher is better;
+CONSUMER_UNITS_WATER_COUNT;Consumer Units Water Count;Unclassified;;;;Min-Max;Higher is better;
+CONSUMER_UNITS_ELECTRICITY_COUNT;Consumer Units Electricity Count;Unclassified;;;;Min-Max;Higher is better;
+CONSUMER_UNITS_SEWERAGE_SANITATION_COUNT;Consumer Units Sewerage Sanitation Count;Unclassified;;;;Min-Max;Higher is better;
+WATER_CONSUMER_UNITS_INSIDE_YARD_COUNT;Water Consumer Units Inside Yard Count;Unclassified;;;;Min-Max;Higher is better;
+WATER_CONSUMER_UNITS_LT_200M_COUNT;Water Consumer Units Lt 200M Count;Unclassified;;;;Min-Max;Higher is better;
+WATER_CONSUMER_UNITS_GT_200M_COUNT;Water Consumer Units Gt 200M Count;Unclassified;;;;Min-Max;Higher is better;
+WATER_CONSUMER_UNITS_TOTAL_COUNT;Water Consumer Units Total Count;Unclassified;;;;Min-Max;Higher is better;
+TOILET_FACILITY_FLUSH_COUNT;Toilet Facility Flush Count;Unclassified;;;;Min-Max;Higher is better;
+TOILET_FACILITY_SEPTIC_COUNT;Toilet Facility Septic Count;Unclassified;;;;Min-Max;Higher is better;
+TOILET_FACILITY_BUCKET_COUNT;Toilet Facility Bucket Count;Unclassified;;;;Min-Max;Higher is better;
+TOILET_FACILITY_PIT_LATRINE_COUNT;Toilet Facility Pit Latrine Count;Unclassified;;;;Min-Max;Higher is better;
+TOILET_FACILITY_OTHER_COUNT;Toilet Facility Other Count;Unclassified;;;;Min-Max;Higher is better;
+TOILET_FACILITY_TOTAL_COUNT;Toilet Facility Total Count;Unclassified;;;;Min-Max;Higher is better;
+FREE_BASIC_SERVICES_POLICY_IN_PLACE_FLAG;Free Basic Services Policy In Place Flag;Unclassified;;;;Min-Max;Higher is better;
+FREE_BASIC_WATER_POLICY_IMPLEMENTED_FLAG;Free Basic Water Policy Implemented Flag;Unclassified;;;;Min-Max;Higher is better;
+FREE_BASIC_ELECTRICITY_POLICY_IMPLEMENTED_FLAG;Free Basic Electricity Policy Implemented Flag;Unclassified;;;;Min-Max;Higher is better;
+FREE_BASIC_SANITATION_POLICY_IMPLEMENTED_FLAG;Free Basic Sanitation Policy Implemented Flag;Unclassified;;;;Min-Max;Higher is better;
+FREE_BASIC_SOLID_WASTE_POLICY_IMPLEMENTED_FLAG;Free Basic Solid Waste Policy Implemented Flag;Unclassified;;;;Min-Max;Higher is better;
+FREE_BASIC_WATER_6KL_PROVIDED_FLAG;Free Basic Water 6Kl Provided Flag;Unclassified;;;;Min-Max;Higher is better;
+FREE_BASIC_WATER_OTHER_LEVEL_PROVIDED_FLAG;Free Basic Water Other Level Provided Flag;Unclassified;;;;Min-Max;Higher is better;
+FREE_BASIC_ELECTRICITY_50KWH_PROVIDED_FLAG;Free Basic Electricity 50Kwh Provided Flag;Unclassified;;;;Min-Max;Higher is better;
+FREE_BASIC_ELECTRICITY_OTHER_LEVEL_PROVIDED_FLAG;Free Basic Electricity Other Level Provided Flag;Unclassified;;;;Min-Max;Higher is better;
+FREE_BASIC_SANITATION_R50_AND_ABOVE_FLAG;Free Basic Sanitation R50 And Above Flag;Unclassified;;;;Min-Max;Higher is better;
+FREE_BASIC_SANITATION_BELOW_R50_FLAG;Free Basic Sanitation Below R50 Flag;Unclassified;;;;Min-Max;Higher is better;
+FREE_BASIC_SOLID_WASTE_ABOVE_R50_FLAG;Free Basic Solid Waste Above R50 Flag;Unclassified;;;;Min-Max;Higher is better;
+FREE_BASIC_SOLID_WASTE_BELOW_R50_FLAG;Free Basic Solid Waste Below R50 Flag;Unclassified;;;;Min-Max;Higher is better;
+FREE_BASIC_WATER_RECIPIENT_HOUSEHOLDS_COUNT;Free Basic Water Recipient Households Count;Unclassified;;;;Min-Max;Higher is better;
+FREE_BASIC_ELECTRICITY_RECIPIENT_HOUSEHOLDS_COUNT;Free Basic Electricity Recipient Households Count;Unclassified;;;;Min-Max;Higher is better;
+FREE_BASIC_SANITATION_RECIPIENT_HOUSEHOLDS_COUNT;Free Basic Sanitation Recipient Households Count;Unclassified;;;;Min-Max;Higher is better;
+FREE_BASIC_SOLID_WASTE_RECIPIENT_HOUSEHOLDS_COUNT;Free Basic Solid Waste Recipient Households Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_TOTAL_MALE_COUNT;Dem Pop Total Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_TOTAL_FEMALE_COUNT;Dem Pop Total Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_TOTAL_TOTAL_COUNT;Dem Pop Total Total Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_0_19_MALE_COUNT;Dem Pop 0 19 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_0_19_FEMALE_COUNT;Dem Pop 0 19 Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_0_19_TOTAL_COUNT;Dem Pop 0 19 Total Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_0___4_MALE_COUNT;Dem Pop 0   4 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_0___4_FEMALE_COUNT;Dem Pop 0   4 Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_0___4_TOTAL_COUNT;Dem Pop 0   4 Total Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_5_9_MALE_COUNT;Dem Pop 5 9 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_5_9_FEMALE_COUNT;Dem Pop 5 9 Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_5_9_TOTAL_COUNT;Dem Pop 5 9 Total Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_10_14_MALE_COUNT;Dem Pop 10 14 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_10_14_FEMALE_COUNT;Dem Pop 10 14 Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_10_14_TOTAL_COUNT;Dem Pop 10 14 Total Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_15___19_MALE_COUNT;Dem Pop 15   19 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_15___19_FEMALE_COUNT;Dem Pop 15   19 Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_15___19_TOTAL_COUNT;Dem Pop 15   19 Total Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_20+_MALE_COUNT;Dem Pop 20+ Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_20+_FEMALE_COUNT;Dem Pop 20+ Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_20+_TOTAL_COUNT;Dem Pop 20+ Total Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_20___24_MALE_COUNT;Dem Pop 20   24 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_20___24_FEMALE_COUNT;Dem Pop 20   24 Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_20___24_TOTAL_COUNT;Dem Pop 20   24 Total Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_25___29_MALE_COUNT;Dem Pop 25   29 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_25___29_FEMALE_COUNT;Dem Pop 25   29 Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_25___29_TOTAL_COUNT;Dem Pop 25   29 Total Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_30___34_MALE_COUNT;Dem Pop 30   34 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_30___34_FEMALE_COUNT;Dem Pop 30   34 Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_30___34_TOTAL_COUNT;Dem Pop 30   34 Total Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_35___39_MALE_COUNT;Dem Pop 35   39 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_35___39_FEMALE_COUNT;Dem Pop 35   39 Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_35___39_TOTAL_COUNT;Dem Pop 35   39 Total Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_40___44_MALE_COUNT;Dem Pop 40   44 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_40___44_FEMALE_COUNT;Dem Pop 40   44 Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_40___44_TOTAL_COUNT;Dem Pop 40   44 Total Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_45___49_MALE_COUNT;Dem Pop 45   49 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_45___49_FEMALE_COUNT;Dem Pop 45   49 Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_45___49_TOTAL_COUNT;Dem Pop 45   49 Total Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_50___54_MALE_COUNT;Dem Pop 50   54 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_50___54_FEMALE_COUNT;Dem Pop 50   54 Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_50___54_TOTAL_COUNT;Dem Pop 50   54 Total Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_55___59_MALE_COUNT;Dem Pop 55   59 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_55___59_FEMALE_COUNT;Dem Pop 55   59 Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_55___59_TOTAL_COUNT;Dem Pop 55   59 Total Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_60___64_MALE_COUNT;Dem Pop 60   64 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_60___64_FEMALE_COUNT;Dem Pop 60   64 Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_60___64_TOTAL_COUNT;Dem Pop 60   64 Total Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_65___69_MALE_COUNT;Dem Pop 65   69 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_65___69_FEMALE_COUNT;Dem Pop 65   69 Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_65___69_TOTAL_COUNT;Dem Pop 65   69 Total Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_70___74_MALE_COUNT;Dem Pop 70   74 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_70___74_FEMALE_COUNT;Dem Pop 70   74 Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_70___74_TOTAL_COUNT;Dem Pop 70   74 Total Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_75___79_MALE_COUNT;Dem Pop 75   79 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_75___79_FEMALE_COUNT;Dem Pop 75   79 Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_75___79_TOTAL_COUNT;Dem Pop 75   79 Total Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_80___84_MALE_COUNT;Dem Pop 80   84 Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_80___84_FEMALE_COUNT;Dem Pop 80   84 Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_80___84_TOTAL_COUNT;Dem Pop 80   84 Total Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_85+_MALE_COUNT;Dem Pop 85+ Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_85+_FEMALE_COUNT;Dem Pop 85+ Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_85+_TOTAL_COUNT;Dem Pop 85+ Total Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_GROUP_BLACK_AFRICAN_COUNT;Dem Pop Group Black African Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_GROUP_BLACK_AFRICAN_PCT;Dem Pop Group Black African Pct;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_GROUP_COLOURED_COUNT;Dem Pop Group Coloured Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_GROUP_COLOURED_PCT;Dem Pop Group Coloured Pct;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_GROUP_INDIAN_ASIAN_COUNT;Dem Pop Group Indian Asian Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_GROUP_INDIAN_ASIAN_PCT;Dem Pop Group Indian Asian Pct;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_GROUP_WHITE_COUNT;Dem Pop Group White Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_GROUP_WHITE_PCT;Dem Pop Group White Pct;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_GROUP_OTHER_COUNT;Dem Pop Group Other Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_POP_GROUP_OTHER_PCT;Dem Pop Group Other Pct;Unclassified;;;;Min-Max;Higher is better;
+INFRA_REFUSE_REMOVED_BY_LOCAL_AUTHORITY_AT_LEAST_ONCE_A_WEEK_COUNT;Infra Refuse Removed By Local Authority At Least Once A Week Count;Unclassified;;;;Min-Max;Higher is better;
+INFRA_REFUSE_REMOVED_BY_LOCAL_AUTHORITY_AT_LEAST_ONCE_A_WEEK_PCT;Infra Refuse Removed By Local Authority At Least Once A Week Pct;Unclassified;;;;Min-Max;Higher is better;
+INFRA_REFUSE_REMOVED_BY_LOCAL_AUTHORITY_LESS_OFTEN_COUNT;Infra Refuse Removed By Local Authority Less Often Count;Unclassified;;;;Min-Max;Higher is better;
+INFRA_REFUSE_REMOVED_BY_LOCAL_AUTHORITY_LESS_OFTEN_PCT;Infra Refuse Removed By Local Authority Less Often Pct;Unclassified;;;;Min-Max;Higher is better;
+INFRA_REFUSE_COMMUNAL_REFUSE_DUMP_COUNT;Infra Refuse Communal Refuse Dump Count;Unclassified;;;;Min-Max;Higher is better;
+INFRA_REFUSE_COMMUNAL_REFUSE_DUMP_PCT;Infra Refuse Communal Refuse Dump Pct;Unclassified;;;;Min-Max;Higher is better;
+INFRA_REFUSE_COMMUNAL_CONTAINER_CENTRAL_COLLECTION_POINT_COUNT;Infra Refuse Communal Container Central Collection Point Count;Unclassified;;;;Min-Max;Higher is better;
+INFRA_REFUSE_COMMUNAL_CONTAINER_CENTRAL_COLLECTION_POINT_PCT;Infra Refuse Communal Container Central Collection Point Pct;Unclassified;;;;Min-Max;Higher is better;
+INFRA_REFUSE_OWN_REFUSE_DUMP_COUNT;Infra Refuse Own Refuse Dump Count;Unclassified;;;;Min-Max;Higher is better;
+INFRA_REFUSE_OWN_REFUSE_DUMP_PCT;Infra Refuse Own Refuse Dump Pct;Unclassified;;;;Min-Max;Higher is better;
+INFRA_REFUSE_NO_RUBBISH_DISPOSAL_COUNT;Infra Refuse No Rubbish Disposal Count;Unclassified;;;;Min-Max;Higher is better;
+INFRA_REFUSE_NO_RUBBISH_DISPOSAL_PCT;Infra Refuse No Rubbish Disposal Pct;Unclassified;;;;Min-Max;Higher is better;
+INFRA_REFUSE_OTHER_COUNT;Infra Refuse Other Count;Unclassified;;;;Min-Max;Higher is better;
+INFRA_REFUSE_OTHER_PCT;Infra Refuse Other Pct;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_SCHOOL_ATTEND_YES_COUNT;Dem Edu School Attend Yes Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_SCHOOL_ATTEND_YES_PCT;Dem Edu School Attend Yes Pct;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_SCHOOL_ATTEND_NO_COUNT;Dem Edu School Attend No Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_EDU_SCHOOL_ATTEND_NO_PCT;Dem Edu School Attend No Pct;Unclassified;;;;Min-Max;Higher is better;
+DEM_SEX_MALE_COUNT;Dem Sex Male Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_SEX_MALE_PCT;Dem Sex Male Pct;Unclassified;;;;Min-Max;Higher is better;
+DEM_SEX_FEMALE_COUNT;Dem Sex Female Count;Unclassified;;;;Min-Max;Higher is better;
+DEM_SEX_FEMALE_PCT;Dem Sex Female Pct;Unclassified;;;;Min-Max;Higher is better;
+INFRA_DWELLING_FORMAL_DWELLING_COUNT;Infra Dwelling Formal Dwelling Count;Unclassified;;;;Min-Max;Higher is better;
+INFRA_DWELLING_FORMAL_DWELLING_PCT;Infra Dwelling Formal Dwelling Pct;Unclassified;;;;Min-Max;Higher is better;
+INFRA_DWELLING_TRADITIONAL_DWELLING_COUNT;Infra Dwelling Traditional Dwelling Count;Unclassified;;;;Min-Max;Higher is better;
+INFRA_DWELLING_TRADITIONAL_DWELLING_PCT;Infra Dwelling Traditional Dwelling Pct;Unclassified;;;;Min-Max;Higher is better;
+INFRA_DWELLING_INFORMAL_DWELLING_COUNT;Infra Dwelling Informal Dwelling Count;Unclassified;;;;Min-Max;Higher is better;
+INFRA_DWELLING_INFORMAL_DWELLING_PCT;Infra Dwelling Informal Dwelling Pct;Unclassified;;;;Min-Max;Higher is better;
+INFRA_DWELLING_OTHER_COUNT;Infra Dwelling Other Count;Unclassified;;;;Min-Max;Higher is better;
+INFRA_DWELLING_OTHER_PCT;Infra Dwelling Other Pct;Unclassified;;;;Min-Max;Higher is better;
+ECO_GINI_COEFFICIENT;Eco Gini Coefficient;Unclassified;;;;Min-Max;Higher is better;
+HDI_LEB_LIFE_EXPECTANCY_AT_BIRTH;Hdi Leb Life Expectancy At Birth;Unclassified;;;;Min-Max;Higher is better;
+HDI_GNI_GNI_PER_CAPITA_PPP;Hdi Gni Gni Per Capita Ppp;Unclassified;;;;Min-Max;Higher is better;
+HDI_HDI_HUMAN_DEVELOPMENT_INDEX;Hdi Hdi Human Development Index;Unclassified;;;;Min-Max;Higher is better;
+HDI_EYS_EXPECTED_YEARS_OF_SCHOOLING;Hdi Eys Expected Years Of Schooling;Unclassified;;;;Min-Max;Higher is better;
+HDI_MYS_MEAN_YEARS_OF_SCHOOLING;Hdi Mys Mean Years Of Schooling;Unclassified;;;;Min-Max;Higher is better;
+HLT_HEALTH_FACILITY_CLINIC_COUNT;Hlt Health Facility Clinic Count;Unclassified;;;;Min-Max;Higher is better;
+HLT_HEALTH_FACILITY_COMMUNITY_HEALTH_CENTRE_COUNT;Hlt Health Facility Community Health Centre Count;Unclassified;;;;Min-Max;Higher is better;
+HLT_HEALTH_FACILITY_DISTRICT_HOSPITAL_COUNT;Hlt Health Facility District Hospital Count;Unclassified;;;;Min-Max;Higher is better;
+HLT_HEALTH_FACILITY_PROVINCIAL_TERTIARY_HOSPITAL_COUNT;Hlt Health Facility Provincial Tertiary Hospital Count;Unclassified;;;;Min-Max;Higher is better;
+HLT_HEALTH_FACILITY_REGIONAL_HOSPITAL_COUNT;Hlt Health Facility Regional Hospital Count;Unclassified;;;;Min-Max;Higher is better;
+HLT_HEALTH_FACILITY_SATELLITE_CLINIC_COUNT;Hlt Health Facility Satellite Clinic Count;Unclassified;;;;Min-Max;Higher is better;
+HLT_HEALTH_FACILITY_COMMUNITY_HEALTH_CENTRE_AFTER_HOURS_COUNT;Hlt Health Facility Community Health Centre After Hours Count;Unclassified;;;;Min-Max;Higher is better;
+HLT_HEALTH_FACILITY_COMMUNITY_HEALTH_CENTRECLINIC_COUNT;Hlt Health Facility Community Health Centreclinic Count;Unclassified;;;;Min-Max;Higher is better;
+HLT_HEALTH_FACILITY_HEALTH_POST_COUNT;Hlt Health Facility Health Post Count;Unclassified;;;;Min-Max;Higher is better;
+HLT_HEALTH_FACILITY_MILITARY_HOSPITAL_COUNT;Hlt Health Facility Military Hospital Count;Unclassified;;;;Min-Max;Higher is better;
+HLT_HEALTH_FACILITY_NATIONAL_CENTRAL_HOSPITAL_COUNT;Hlt Health Facility National Central Hospital Count;Unclassified;;;;Min-Max;Higher is better;
+HLT_HEALTH_FACILITY_PRIVATE_HOSPITAL_COUNT;Hlt Health Facility Private Hospital Count;Unclassified;;;;Min-Max;Higher is better;
+HLT_HEALTH_FACILITY_SPECIALISED_ORTHOPAEDIC_HOSPITAL_COUNT;Hlt Health Facility Specialised Orthopaedic Hospital Count;Unclassified;;;;Min-Max;Higher is better;
+HLT_HEALTH_FACILITY_SPECIALISED_PSYCHIATRIC_HOSPITAL_COUNT;Hlt Health Facility Specialised Psychiatric Hospital Count;Unclassified;;;;Min-Max;Higher is better;
+HLT_HEALTH_FACILITY_SPECIALISED_TB_HOSPITAL_COUNT;Hlt Health Facility Specialised Tb Hospital Count;Unclassified;;;;Min-Max;Higher is better;
+HLT_HEALTH_FACILITY_STEP_DOWN_FACILITY_COUNT;Hlt Health Facility Step Down Facility Count;Unclassified;;;;Min-Max;Higher is better;
+HLT_HEALTH_FACILITY_WARD_COUNT;Hlt Health Facility Ward Count;Unclassified;;;;Min-Max;Higher is better;
+HLT_HEALTH_FACILITY_SPECIALISED_HOSPITAL_COUNT;Hlt Health Facility Specialised Hospital Count;Unclassified;;;;Min-Max;Higher is better;
+HLT_HEALTH_FACILITY_SPECIALISED_CHRONIC_HOSPITAL_COUNT;Hlt Health Facility Specialised Chronic Hospital Count;Unclassified;;;;Min-Max;Higher is better;
+HLT_HEALTH_FACILITY_MEDICAL_CENTRE_COUNT;Hlt Health Facility Medical Centre Count;Unclassified;;;;Min-Max;Higher is better;
+HLT_HIV_POSITIVE_TOTAL_ALL_GENDERS_COUNT;Hlt Hiv Positive Total All Genders Count;Unclassified;;;;Min-Max;Lower is better;
+HLT_HIV_POSITIVE_MALE_COUNT;Hlt Hiv Positive Male Count;Unclassified;;;;Min-Max;Lower is better;
+HLT_HIV_POSITIVE_FEMALE_COUNT;Hlt Hiv Positive Female Count;Unclassified;;;;Min-Max;Lower is better;
+HLT_AIDS_DEATHS_TOTAL_ALL_GENDERS_COUNT;Hlt Aids Deaths Total All Genders Count;Unclassified;;;;Min-Max;Lower is better;
+HLT_AIDS_DEATHS_MALE_COUNT;Hlt Aids Deaths Male Count;Unclassified;;;;Min-Max;Lower is better;
+HLT_AIDS_DEATHS_FEMALE_COUNT;Hlt Aids Deaths Female Count;Unclassified;;;;Min-Max;Lower is better;
+HLT_OTHER_DEATHS_TOTAL_ALL_GENDERS_COUNT;Hlt Other Deaths Total All Genders Count;Unclassified;;;;Min-Max;Lower is better;
+HLT_OTHER_DEATHS_MALE_COUNT;Hlt Other Deaths Male Count;Unclassified;;;;Min-Max;Lower is better;
+HLT_OTHER_DEATHS_FEMALE_COUNT;Hlt Other Deaths Female Count;Unclassified;;;;Min-Max;Lower is better;
+ECO_HH_CURRENT_INCOME;Eco Hh Current Income;Unclassified;;;;Min-Max;Higher is better;
+ECO_HH_FINAL_CONSUMPTION_EXPENDITURE_BY_HOUSEHOLDS;Eco Hh Final Consumption Expenditure By Households;Unclassified;;;;Min-Max;Higher is better;
+HLT_HSI_CHILD_INPATIENT_DEATH_5YR_IN_ALL_FACILITY;Hlt Hsi Child Inpatient Death 5Yr In All Facility;Unclassified;;;;Min-Max;Lower is better;
+HLT_HSI_CHILD_LIVE_BIRTH_IN_ALL_FACILITY_OR;Hlt Hsi Child Live Birth In All Facility Or;Unclassified;;;;Min-Max;Higher is better;
+HLT_HSI_CHILD_NEONATAL_DEATH_0_28D_RATE_IN_ALL_FACILITY;Hlt Hsi Child Neonatal Death 0 28D Rate In All Facility;Unclassified;;;;Min-Max;Lower is better;
+HLT_HSI_CHILD_INFANT_OF_HIV_WOMAN_10WK_PCR_TESTED_POSITIVE_RATE;Hlt Hsi Child Infant Of Hiv Woman 10Wk Pcr Tested Positive Rate;Unclassified;;;;Min-Max;Lower is better;
+HLT_HSI_CHILD_SEVERE_ACUTE_MALNUTRITION_5YR_CASE_FATALITY_RATE;Hlt Hsi Child Severe Acute Malnutrition 5Yr Case Fatality Rate;Unclassified;;;;Min-Max;Higher is better;
+HLT_HSI_CHILD_FULL_IMMUNISATION_UNDER_1YR_COVERAGE;Hlt Hsi Child Full Immunisation Under 1Yr Coverage;Unclassified;;;;Min-Max;Higher is better;
+HLT_HSI_CHILD_PLHIV_VIRAL_LOAD_SUPPRESSED_RATE;Hlt Hsi Child Plhiv Viral Load Suppressed Rate;Unclassified;;;;Min-Max;Lower is better;
+HLT_HSI_CHILD_PLHIV_ON_EFFECTIVE_ART_COVERAGE;Hlt Hsi Child Plhiv On Effective Art Coverage;Unclassified;;;;Min-Max;Lower is better;
+HLT_HSI_CHILD_PEOPLE_LIVING_WITH_HIV_THEMBISA;Hlt Hsi Child People Living With Hiv Thembisa;Unclassified;;;;Min-Max;Lower is better;
+HLT_HSI_MORTALITY_DELIVERY_IN_ALL_FACILITY_10_19YR_RATE;Hlt Hsi Mortality Delivery In All Facility 10 19Yr Rate;Unclassified;;;;Min-Max;Lower is better;
+HLT_HSI_MORTALITY_MATERNAL_MORTALITY_RATIO_DURING_LIVE_BIRTH_IN_ALL_FACILITY;Hlt Hsi Mortality Maternal Mortality Ratio During Live Birth In All Facility;Unclassified;;;;Min-Max;Lower is better;
+SOC_INDIGENT_HH_INDIGENT_HOUSEHOLDS_IDENTIFIED_BY_THE_MUNICIPALITIES_NUMBER;Soc Indigent Hh Indigent Households Identified By The Municipalities Number;Unclassified;;;;Min-Max;Higher is better;
+ECO_INVESTMENT_INVESTMENTS;Eco Investment Investments;Unclassified;;;;Min-Max;Higher is better;
+INFRA_SPEND_TOTAL_CAPITAL_EXPENDITURE_ON_OTHER_FIXED_ASSETS;Infra Spend Total Capital Expenditure On Other Fixed Assets;Unclassified;;;;Min-Max;Higher is better;
+INFRA_SPEND_TOTAL_CAPITAL_EXPENDITURE_ON_LEASED_ASSETS_AND_INVESTMENT_PROPERTY;Infra Spend Total Capital Expenditure On Leased Assets And Investment Property;Unclassified;;;;Min-Max;Higher is better;
+INFRA_SPEND_TOTAL_CAPITAL_EXPENDITURE_ON_LAND_AND_EXISTING_BUILDINGS;Infra Spend Total Capital Expenditure On Land And Existing Buildings;Unclassified;;;;Min-Max;Higher is better;
+INFRA_SPEND_TOTAL_CAPITAL_EXPENDITURE_BY_THE_PUBLIC_SECTOR;Infra Spend Total Capital Expenditure By The Public Sector;Unclassified;;;;Min-Max;Higher is better;
+INFRA_SPEND_TOTAL_CAPITAL_EXPENDITURE_ON_PLANT_MACHINERY_AND_EQUIPMENT;Infra Spend Total Capital Expenditure On Plant Machinery And Equipment;Unclassified;;;;Min-Max;Higher is better;
+INFRA_SPEND_TOTAL_CAPITAL_EXPENDITURE_ON_NEW_CONSTRUCTION_WORKS;Infra Spend Total Capital Expenditure On New Construction Works;Unclassified;;;;Min-Max;Higher is better;
+INFRA_SPEND_TOTAL_CAPITAL_EXPENDITURE_ON_TRANSPORT_EQUIPMENT;Infra Spend Total Capital Expenditure On Transport Equipment;Unclassified;;;;Min-Max;Higher is better;
+SOC_POVERTY_POVERTY_HEADCOUNT_INDEX_SOUTH_AFRICAN_UPPER_BOUND_POVERTY_LINE;Soc Poverty Poverty Headcount Index South African Upper Bound Poverty Line;Unclassified;;;;Min-Max;Lower is better;
+SOC_POVERTY_POVERTY_HEADCOUNT_UNDER_POVERTY_LINE_SOUTH_AFRICAN_UPPER_BOUND_POVERTY_LINE;Soc Poverty Poverty Headcount Under Poverty Line South African Upper Bound Poverty Line;Unclassified;;;;Min-Max;Lower is better;
+SOC_POVERTY_POVERTY_HEADCOUNT_UNDER_POVERTY_LINE_UBPL_SOUTH_AFRICAN_UPPER_BOUND_POVERTY_LINE;Soc Poverty Poverty Headcount Under Poverty Line Ubpl South African Upper Bound Poverty Line;Unclassified;;;;Min-Max;Lower is better;
+SOC_POVERTY_POVERTY_HEADCOUNT_INDEX_UBPL_SOUTH_AFRICAN_UPPER_BOUND_POVERTY_LINE;Soc Poverty Poverty Headcount Index Ubpl South African Upper Bound Poverty Line;Unclassified;;;;Min-Max;Lower is better;
+FBE_SOLAR_HOME_SYSTEM_HH;Fbe Solar Home System Hh;Unclassified;;;;Min-Max;Higher is better;
+FBE_FIREGEL_HH;Fbe Firegel Hh;Unclassified;;;;Min-Max;Higher is better;
+FBE_PARAFFIN_HH;Fbe Paraffin Hh;Unclassified;;;;Min-Max;Higher is better;
+FBE_ALT_ENERGY_OTHER_HH;Fbe Alt Energy Other Hh;Unclassified;;;;Min-Max;Higher is better;

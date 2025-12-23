@@ -3,22 +3,33 @@ import React, { useEffect, useState } from "react";
 import { Outlet } from "react-router-dom";
 import Sidebar from "./Sidebar";
 
+const DESKTOP_BREAKPOINT = 1024;
+const MOBILE_LOGO_BREAKPOINT = 768;
+
 const Layout: React.FC = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [isDesktop, setIsDesktop] = useState(false);
+  const [isMobileLogo, setIsMobileLogo] = useState(false);
 
-  // Auto-manage sidebar visibility by screen size
+  // Handle responsive behaviour
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth >= 1024) {
-        setSidebarOpen(true); // desktop
-      } else {
-        setSidebarOpen(false); // mobile
-      }
+      const desktop = window.innerWidth >= DESKTOP_BREAKPOINT;
+      setIsDesktop(desktop);
+      setSidebarOpen(desktop);
+      setIsMobileLogo(window.innerWidth < MOBILE_LOGO_BREAKPOINT);
     };
 
-    handleResize(); // run once on mount
+    handleResize();
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  // 🔴 IMPORTANT: listen for sidebar close events from Sidebar.tsx
+  useEffect(() => {
+    const closeSidebar = () => setSidebarOpen(false);
+    window.addEventListener("closeSidebar", closeSidebar);
+    return () => window.removeEventListener("closeSidebar", closeSidebar);
   }, []);
 
   return (
@@ -26,12 +37,25 @@ const Layout: React.FC = () => {
       style={{
         display: "flex",
         height: "100vh",
+        overflow: "hidden",
         fontFamily: "Inter, Arial, sans-serif",
       }}
     >
+      {/* MOBILE BACKDROP */}
+      {!isDesktop && sidebarOpen && (
+        <div
+          className="sidebar-backdrop"
+          onClick={() => setSidebarOpen(false)}
+        />
+      )}
+
       {/* SIDEBAR */}
       <div
         className={`sidebar ${sidebarOpen ? "open" : "closed"}`}
+        style={{
+          height: "100vh",
+          flexShrink: 0,
+        }}
       >
         <Sidebar />
       </div>
@@ -40,89 +64,96 @@ const Layout: React.FC = () => {
       <div
         style={{
           flex: 1,
-          background: "#f6f8fa",
           display: "flex",
           flexDirection: "column",
-          minWidth: 0, // IMPORTANT: prevents overflow issues
+          background: "#f6f8fa",
+          minWidth: 0,
         }}
       >
         {/* HEADER */}
         <header
           style={{
-            height: 72,
+            minHeight: 72,
             display: "flex",
             alignItems: "center",
-            padding: "0 24px",
+            padding: "8px 16px",
             background: "#fff",
             borderBottom: "1.5px solid #F07D00",
             position: "sticky",
             top: 0,
             zIndex: 1000,
+            flexWrap: "wrap",
+            gap: 8,
           }}
         >
-          {/* MOBILE SIDEBAR TOGGLE */}
-          <button
-            onClick={() => setSidebarOpen((v) => !v)}
+          {/* MOBILE MENU BUTTON */}
+          {!isDesktop && (
+            <button
+              onClick={() => setSidebarOpen((v) => !v)}
+              style={{
+                background: "#111827",
+                color: "#fff",
+                border: "none",
+                borderRadius: 6,
+                padding: "6px 10px",
+                cursor: "pointer",
+                fontSize: 14,
+                flexShrink: 0,
+              }}
+            >
+              ☰
+            </button>
+          )}
+
+          {/* TITLE */}
+          <h2
             style={{
-              marginRight: 12,
-              display: window.innerWidth < 1024 ? "inline-flex" : "none",
-              alignItems: "center",
-              justifyContent: "center",
-              background: "#111827",
-              color: "#fff",
-              border: "none",
-              borderRadius: 6,
-              padding: "6px 10px",
-              cursor: "pointer",
-              fontSize: 14,
+              margin: 0,
+              fontSize: 18,
+              whiteSpace: "nowrap",
+              flex: "1 1 auto",
             }}
           >
-            ☰
-          </button>
-
-          <h2 style={{ margin: 0, fontSize: 18 }}>
             Provincial Differentiation & Complexity
           </h2>
 
-          {/* RIGHT SIDE */}
+          {/* LOGOS */}
           <div
             style={{
-              marginLeft: "auto",
               display: "flex",
               alignItems: "center",
-              gap: 12,
+              gap: 8,
+              flexShrink: 0,
             }}
           >
-            <div style={{ color: "#666", fontSize: 13 }} />
-
-            <div
+            <img
+              src="/images/salga-logo.png"
+              alt="SALGA"
               style={{
-                display: "flex",
-                alignItems: "center",
-                gap: 8,
+                height: isMobileLogo ? 36 : 50,
+                objectFit: "contain",
+                display: "block",
               }}
-            >
-              <img
-                src="/images/salga-logo.png"
-                alt="SALGA"
-                style={{ height: 50, objectFit: "contain" }}
-              />
-              <img
-                src="/images/digital-logo.png"
-                alt="SALGA Partner"
-                style={{ height: 70, objectFit: "contain" }}
-              />
-            </div>
+            />
+            <img
+              src="/images/digital-logo.png"
+              alt="SALGA Partner"
+              style={{
+                height: isMobileLogo ? 44 : 70,
+                objectFit: "contain",
+                display: "block",
+              }}
+            />
           </div>
         </header>
 
         {/* PAGE CONTENT */}
         <main
           style={{
+            flex: 1,
             padding: 24,
             overflowY: "auto",
-            flex: 1,
-            minWidth: 0, // prevents horizontal clipping on mobile
+            minWidth: 0,
           }}
         >
           <Outlet />
