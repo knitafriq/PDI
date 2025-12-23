@@ -105,45 +105,59 @@ const Layout: React.FC = () => {
             </button>
           )}
 
-          {/* TITLE */}
-          <h2
-            style={{
-              margin: 0,
-              fontSize: 18,
-              whiteSpace: "nowrap",
-              flex: "1 1 auto",
-            }}
-          >
-            Provincial Differentiation & Complexity
-          </h2>
-
-          {/* LOGOS */}
+          {/* 🔑 HEADER CONTENT (TITLE + LOGOS) */}
           <div
             style={{
               display: "flex",
+              flexWrap: "wrap",
               alignItems: "center",
+              width: "100%",
               gap: 8,
-              flexShrink: 0,
             }}
           >
-            <img
-              src="/images/salga-logo.png"
-              alt="SALGA"
+            {/* TITLE */}
+            <h2
               style={{
-                height: isMobileLogo ? 36 : 50,
-                objectFit: "contain",
-                display: "block",
+                margin: 0,
+                fontSize: 18,
+                whiteSpace: "nowrap",
+                flex: isDesktop ? "1 1 auto" : "1 1 100%",
+                order: isDesktop ? 1 : 2, // ⬅ title moves below on mobile
               }}
-            />
-            <img
-              src="/images/digital-logo.png"
-              alt="SALGA Partner"
+            >
+              Provincial Differentiation & Complexity
+            </h2>
+
+            {/* LOGOS */}
+            <div
               style={{
-                height: isMobileLogo ? 44 : 70,
-                objectFit: "contain",
-                display: "block",
+                display: "flex",
+                alignItems: "center",
+                gap: 8,
+                marginLeft: "auto",
+                flexShrink: 0,
+                order: isDesktop ? 2 : 1, // ⬅ logos on top-right on mobile
               }}
-            />
+            >
+              <img
+                src="/images/salga-logo.png"
+                alt="SALGA"
+                style={{
+                  height: isMobileLogo ? 36 : 50,
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+              <img
+                src="/images/digital-logo.png"
+                alt="SALGA Partner"
+                style={{
+                  height: isMobileLogo ? 44 : 70,
+                  objectFit: "contain",
+                  display: "block",
+                }}
+              />
+            </div>
           </div>
         </header>
 
