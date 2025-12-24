@@ -478,7 +478,7 @@ return (
                   }
                 }}
                 style={{
-                  padding: "4px 8px",
+                  padding: "2px 6px",
                   fontSize: 11,
                   lineHeight: 1.2,
                   borderRadius: 999,
