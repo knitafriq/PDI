@@ -361,25 +361,6 @@ const ComplexityChoroplethMap: React.FC<Props> = ({
 
   const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
-  // 🔑 FIX: re-measure map AFTER mobile layout settles
-useEffect(() => {
-  if (!map) return;
-
-  const timeout = setTimeout(() => {
-    map.invalidateSize(true);
-
-    // re-fit SA gently so it never clips horizontally
-    map.fitBounds(bounds, {
-      padding: isMobile ? [40, 40] : [24, 48],
-      maxZoom: isMobile ? 5.8 : 7,
-      animate: false,
-    });
-  }, 300);
-
-  return () => clearTimeout(timeout);
-}, [map, isMobile]);
-
-
   // South Africa bounding box
   const bounds: [[number, number], [number, number]] = [
     [-35, 15],
@@ -526,10 +507,10 @@ return (
 
       <MapContainer
         center={[-30, 24]}
-        zoom={5}
+        zoom={isMobile ? 4.4 : 5}
         maxBounds={isMobile ? undefined : bounds}
         maxBoundsViscosity={isMobile ? 0 : 1.0}
-        minZoom={5}
+        minZoom={isMobile ? 4 : 5}
         maxZoom={11}
         style={{
           width: "100%",
@@ -546,16 +527,15 @@ whenCreated={(m) => {
     setTimeout(() => {
       m.invalidateSize();
 
-      m.fitBounds(bounds, {
-        // 🔑 MOBILE: add horizontal padding
-        paddingTopLeft: isMobile ? [48, 48] : [24, 64],
-        paddingBottomRight: isMobile ? [48, 48] : [24, 48],
+if (!isMobile) {
+  m.fitBounds(bounds, {
+    paddingTopLeft: [24, 64],
+    paddingBottomRight: [24, 48],
+    maxZoom: 7,
+    animate: false,
+  });
+}
 
-        // 🔑 MOBILE: prevent over-zoom which causes side cut
-        maxZoom: isMobile ? 5.8 : 7,
-
-        animate: false,
-      });
     }, 150);
   });
 }}
