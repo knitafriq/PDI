@@ -507,10 +507,10 @@ return (
 
       <MapContainer
         center={[-30, 24]}
-        zoom={isMobile ? 4.4 : 5}
+        zoom={isMobile ? 4.8 : 5}
         maxBounds={isMobile ? undefined : bounds}
         maxBoundsViscosity={isMobile ? 0 : 1.0}
-        minZoom={isMobile ? 4 : 5}
+        minZoom={isMobile ? 4.6 : 5}
         maxZoom={11}
         style={{
           width: "100%",
