@@ -67,7 +67,7 @@ body,
   .map-wrapper {
     height: 52vh;       /* instead of 60vh */
     min-height: 300px;
-    width: calc(80vw - 20px);   /* prevent overflow */
+    width: calc(100vw - 18px);   /* prevent overflow */
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
