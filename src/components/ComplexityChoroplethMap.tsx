@@ -359,6 +359,8 @@ const ComplexityChoroplethMap: React.FC<Props> = ({
     };
   };
 
+  const isMobile = window.matchMedia("(max-width: 768px)").matches;
+
   // South Africa bounding box
   const bounds: [[number, number], [number, number]] = [
     [-35, 15],
@@ -521,15 +523,24 @@ return (
 whenCreated={(m) => {
   setMap(m);
 
-  // allow mobile layout to settle, then recalc size
-  setTimeout(() => {
-    m.invalidateSize();
-    m.fitBounds(bounds, {
-      paddingTopLeft: [24, 64],
-      paddingBottomRight: [24, 48],
-    });
-  }, 300);
+  requestAnimationFrame(() => {
+    setTimeout(() => {
+      m.invalidateSize();
+
+      m.fitBounds(bounds, {
+        // 🔑 MOBILE: add horizontal padding
+        paddingTopLeft: isMobile ? [48, 48] : [24, 64],
+        paddingBottomRight: isMobile ? [48, 48] : [24, 48],
+
+        // 🔑 MOBILE: prevent over-zoom which causes side cut
+        maxZoom: isMobile ? 6 : 7,
+
+        animate: false,
+      });
+    }, 150);
+  });
 }}
+
 
       >
         <LevelDblClickHandler
