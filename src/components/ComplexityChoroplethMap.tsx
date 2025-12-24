@@ -416,21 +416,20 @@ const ComplexityChoroplethMap: React.FC<Props> = ({
     );
   }
 
-  return (
-    <div
+return (
+<div
+  className="map-wrapper"
   style={{
     position: "relative",
     width: "100%",
-    maxWidth: 760,
-    height: "48vh",
-    maxHeight: 360,
-    minHeight: 360,
     borderRadius: 6,
     overflow: "hidden",
     border: "1px solid #e5e7eb",
     backgroundColor: "#e5f0ff",
   }}
 >
+
+
 
       {/* View controls */}
       <div
