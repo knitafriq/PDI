@@ -533,7 +533,7 @@ whenCreated={(m) => {
         paddingBottomRight: isMobile ? [48, 48] : [24, 48],
 
         // 🔑 MOBILE: prevent over-zoom which causes side cut
-        maxZoom: isMobile ? 6 : 7,
+        maxZoom: isMobile ? 5.8 : 7,
 
         animate: false,
       });
