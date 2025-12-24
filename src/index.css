@@ -10,14 +10,13 @@ body,
   font-family: Inter, Arial, sans-serif;
   background: #f6f8fa;
   color: #0f1724;
-  overflow-x: hidden; /* prevent global horizontal scroll */
+  overflow-x: hidden;
 }
 
 /* =========================
    DASHBOARD MAIN LAYOUT
    ========================= */
 
-/* Mobile-first: stack everything */
 .dashboard-main {
   display: grid;
   grid-template-columns: 1fr;
@@ -28,7 +27,6 @@ body,
   box-sizing: border-box;
 }
 
-/* Tablet & desktop: map + side panel */
 @media (min-width: 768px) {
   .dashboard-main {
     grid-template-columns: minmax(0, 1fr) 360px;
@@ -49,12 +47,75 @@ body,
   box-sizing: border-box;
 }
 
-/* Wrapper around the actual map */
-.map-wrapper {
-  width: 100%;
+/* =========================
+   🔴 LEAFLET MAP SAFETY
+   ========================= */
+
+.leaflet-container {
+  width: 100% !important;
+  height: 100% !important;
   max-width: 100%;
-  overflow: hidden;
-  box-sizing: border-box;
+  max-height: 100%;
+}
+
+/* =========================
+   🔴 MOBILE MAP FIXES
+   ========================= */
+
+@media (max-width: 768px) {
+  /* Prevent map from overflowing viewport */
+  .dashboard-map,
+  .map-wrapper,
+  .leaflet-container {
+    height: 320px !important;
+    max-height: 60vh;
+    min-height: 300px;
+  }
+
+  /* Keep controls visible */
+  .leaflet-top,
+  .leaflet-bottom {
+    z-index: 500;
+  }
+
+  /* Zoom buttons smaller */
+  .leaflet-control-zoom a {
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 18px;
+  }
+}
+
+/* =========================
+   🔴 MOBILE LEVEL BUTTON FIX
+   ========================= */
+
+@media (max-width: 768px) {
+  /* Target your absolute button container */
+  .leaflet-container > div[style*="translateX(-50%)"] {
+    max-width: calc(100% - 24px);
+  }
+
+  .leaflet-container button {
+    font-size: 11px !important;
+    padding: 4px 8px !important;
+    white-space: nowrap;
+  }
+}
+
+/* =========================
+   🔴 LEGEND FIX (MOBILE)
+   ========================= */
+
+@media (max-width: 768px) {
+  .leaflet-container div[style*="PDI (relative)"] {
+    right: 10px !important;
+    bottom: 10px !important;
+    font-size: 10px !important;
+    padding: 6px 8px !important;
+    max-width: calc(100% - 20px);
+  }
 }
 
 /* =========================
@@ -70,7 +131,6 @@ body,
   box-sizing: border-box;
 }
 
-/* Limit visual width only on desktop */
 @media (min-width: 768px) {
   .dashboard-side {
     max-width: 360px;
@@ -88,7 +148,6 @@ body,
   -webkit-overflow-scrolling: touch;
 }
 
-/* Tables should never force page scroll */
 table {
   max-width: 100%;
   border-collapse: collapse;
@@ -102,24 +161,18 @@ table {
   width: 260px;
   background: #ffffff;
   box-sizing: border-box;
-
-  /* Animation */
   transform: translateX(0);
   transition: transform 0.28s ease, box-shadow 0.28s ease;
-  will-change: transform;
 }
 
-/* Hidden state (mobile default) */
 .sidebar.closed {
   transform: translateX(-100%);
 }
 
-/* Visible state */
 .sidebar.open {
   transform: translateX(0);
 }
 
-/* Mobile behavior */
 @media (max-width: 1024px) {
   .sidebar {
     position: fixed;
@@ -132,7 +185,7 @@ table {
 }
 
 /* =========================
-   SIDEBAR BACKDROP (MOBILE)
+   SIDEBAR BACKDROP
    ========================= */
 
 .sidebar-backdrop {
@@ -140,23 +193,15 @@ table {
   inset: 0;
   background: rgba(15, 23, 42, 0.45);
   z-index: 1100;
-  opacity: 1;
-  transition: opacity 0.25s ease;
-}
-
-/* Hidden backdrop */
-.sidebar-backdrop.hidden {
-  opacity: 0;
-  pointer-events: none;
 }
 
 /* =========================
    SAFETY NET
-   Prevent child overflow in flex/grid
    ========================= */
 
 .dashboard-main *,
 .dashboard-map *,
-.dashboard-side * {
+.dashboard-side *,
+.leaflet-container * {
   min-width: 0;
 }
