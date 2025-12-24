@@ -520,7 +520,10 @@ return (
         doubleClickZoom={false}
         whenCreated={(m) => {
           setMap(m);
-          m.fitBounds(bounds);
+          m.fitBounds(bounds, {
+                               paddingTopLeft: [16, 16],
+                               paddingBottomRight: [16, 16],
+                              });
         }}
       >
         <LevelDblClickHandler
