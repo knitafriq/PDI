@@ -512,8 +512,8 @@ return (
         maxBoundsViscosity={isMobile ? 0 : 1.0}
         minZoom={isMobile ? 4.4 : 5}
         maxZoom={11}
-        zoomSnap={0.01}     // ✅ CRITICAL
-        zoomDelta={0.01}    // ✅ CRITICAL
+        zoomSnap={0.001}     // ✅ CRITICAL
+        zoomDelta={0.001}    // ✅ CRITICAL
         style={{
           width: "100%",
           height: "100%",
