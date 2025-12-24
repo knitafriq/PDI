@@ -510,7 +510,7 @@ return (
         zoom={isMobile ? 4.4 : 5}
         maxBounds={isMobile ? undefined : bounds}
         maxBoundsViscosity={isMobile ? 0 : 1.0}
-        minZoom={isMobile ? 4.2 : 5}
+        minZoom={isMobile ? 4.4 : 5}
         maxZoom={11}
         style={{
           width: "100%",
