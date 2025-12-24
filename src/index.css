@@ -205,3 +205,51 @@ table {
 .leaflet-container * {
   min-width: 0;
 }
+
+/* =========================
+   🔴 MOBILE OVERRIDE FOR MAP COMPONENT
+   ========================= */
+
+@media (max-width: 768px) {
+  /* Override inline-sized map wrapper */
+  div:has(> .leaflet-container) {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 56vh !important;
+    min-height: 320px !important;
+    max-height: none !important;
+  }
+
+  /* Ensure Leaflet fills container */
+  .leaflet-container {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  /* =========================
+     FIX LEVEL SELECTOR (TOP)
+     ========================= */
+
+  .leaflet-container > div[style*="translateX(-50%)"] {
+    top: 8px !important;
+    max-width: calc(100% - 24px);
+  }
+
+  .leaflet-container button {
+    font-size: 11px !important;
+    padding: 4px 8px !important;
+    white-space: nowrap;
+  }
+
+  /* =========================
+     FIX LEGEND OVERLAP
+     ========================= */
+
+  .leaflet-container div[style*="PDI (relative)"] {
+    right: 8px !important;
+    bottom: 8px !important;
+    max-width: calc(100% - 16px);
+    font-size: 10px !important;
+  }
+}
+
