@@ -523,8 +523,8 @@ whenCreated={(m) => {
   setTimeout(() => {
     m.invalidateSize();
     m.fitBounds(bounds, {
-      paddingTopLeft: [16, 16],
-      paddingBottomRight: [16, 16],
+      paddingTopLeft: [24, 24],
+      paddingBottomRight: [24, 48],
     });
   }, 300);
 }}
