@@ -47,17 +47,6 @@ body,
   box-sizing: border-box;
 }
 
-/* =========================
-   ✅ MOBILE WIDTH FIX (CRITICAL)
-   ========================= */
-
-@media (max-width: 768px) {
-  .dashboard-map {
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-}
-
 
 /* =========================
    MAP WRAPPER — FINAL
@@ -230,11 +219,7 @@ table {
    SAFETY NET
    ========================= */
 
-.dashboard-main > * {
-  width: 100%;
-  max-width: 100%;
-  min-width: 0;
-},
+.dashboard-main > *,
 .dashboard-map *,
 .dashboard-side * {
   min-width: 0;
