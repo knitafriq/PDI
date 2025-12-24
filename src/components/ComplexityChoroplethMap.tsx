@@ -506,6 +506,8 @@ return (
       <MapContainer
         center={[-30, 24]}
         zoom={5}
+        maxBounds={bounds}
+        maxBoundsViscosity={0.9}
         minZoom={5}
         maxZoom={11}
         style={{
@@ -523,7 +525,7 @@ whenCreated={(m) => {
   setTimeout(() => {
     m.invalidateSize();
     m.fitBounds(bounds, {
-      paddingTopLeft: [24, 24],
+      paddingTopLeft: [24, 64],
       paddingBottomRight: [24, 48],
     });
   }, 300);
