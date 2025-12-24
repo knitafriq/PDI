@@ -25,7 +25,7 @@ const Layout: React.FC = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  // 🔴 IMPORTANT: listen for sidebar close events from Sidebar.tsx
+  // Listen for sidebar close events
   useEffect(() => {
     const closeSidebar = () => setSidebarOpen(false);
     window.addEventListener("closeSidebar", closeSidebar);
@@ -52,10 +52,7 @@ const Layout: React.FC = () => {
       {/* SIDEBAR */}
       <div
         className={`sidebar ${sidebarOpen ? "open" : "closed"}`}
-        style={{
-          height: "100vh",
-          flexShrink: 0,
-        }}
+        style={{ height: "100vh", flexShrink: 0 }}
       >
         <Sidebar />
       </div>
@@ -73,92 +70,127 @@ const Layout: React.FC = () => {
         {/* HEADER */}
         <header
           style={{
-            minHeight: 72,
-            display: "flex",
-            alignItems: "center",
-            padding: "8px 16px",
             background: "#fff",
             borderBottom: "1.5px solid #F07D00",
             position: "sticky",
             top: 0,
             zIndex: 1000,
-            flexWrap: "wrap",
-            gap: 8,
           }}
         >
-          {/* MOBILE MENU BUTTON */}
-          {!isDesktop && (
-            <button
-              onClick={() => setSidebarOpen((v) => !v)}
-              style={{
-                background: "#111827",
-                color: "#fff",
-                border: "none",
-                borderRadius: 6,
-                padding: "6px 10px",
-                cursor: "pointer",
-                fontSize: 14,
-                flexShrink: 0,
-              }}
-            >
-              ☰
-            </button>
-          )}
-
-          {/* 🔑 HEADER CONTENT (TITLE + LOGOS) */}
-          <div
-            style={{
-              display: "flex",
-              flexWrap: "wrap",
-              alignItems: "center",
-              width: "100%",
-              gap: 8,
-            }}
-          >
-            {/* TITLE */}
-            <h2
-              style={{
-                margin: 0,
-                fontSize: 18,
-                whiteSpace: "nowrap",
-                flex: isDesktop ? "1 1 auto" : "1 1 100%",
-                order: isDesktop ? 1 : 2, // ⬅ title moves below on mobile
-              }}
-            >
-              Provincial Differentiation & Complexity
-            </h2>
-
-            {/* LOGOS */}
+          {/* ================= DESKTOP HEADER ================= */}
+          {isDesktop && (
             <div
               style={{
+                height: 72,
                 display: "flex",
                 alignItems: "center",
+                padding: "8px 16px",
                 gap: 8,
-                marginLeft: "auto",
-                flexShrink: 0,
-                order: isDesktop ? 2 : 1, // ⬅ logos on top-right on mobile
               }}
             >
-              <img
-                src="/images/salga-logo.png"
-                alt="SALGA"
+              <h2
                 style={{
-                  height: isMobileLogo ? 36 : 50,
-                  objectFit: "contain",
-                  display: "block",
+                  margin: 0,
+                  fontSize: 18,
+                  whiteSpace: "nowrap",
+                  flex: "1 1 auto",
                 }}
-              />
-              <img
-                src="/images/digital-logo.png"
-                alt="SALGA Partner"
+              >
+                Provincial Differentiation & Complexity
+              </h2>
+
+              <div
                 style={{
-                  height: isMobileLogo ? 44 : 70,
-                  objectFit: "contain",
-                  display: "block",
+                  display: "flex",
+                  alignItems: "center",
+                  gap: 8,
                 }}
-              />
+              >
+                <img
+                  src="/images/salga-logo.png"
+                  alt="SALGA"
+                  style={{ height: 50, objectFit: "contain" }}
+                />
+                <img
+                  src="/images/digital-logo.png"
+                  alt="SALGA Partner"
+                  style={{ height: 70, objectFit: "contain" }}
+                />
+              </div>
             </div>
-          </div>
+          )}
+
+          {/* ================= MOBILE HEADER ================= */}
+          {!isDesktop && (
+            <div
+              style={{
+                padding: "6px 12px",
+                display: "flex",
+                flexDirection: "column",
+                gap: 4,
+              }}
+            >
+              {/* TOP ROW */}
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                }}
+              >
+                <button
+                  onClick={() => setSidebarOpen((v) => !v)}
+                  style={{
+                    background: "#111827",
+                    color: "#fff",
+                    border: "none",
+                    borderRadius: 6,
+                    padding: "6px 10px",
+                    cursor: "pointer",
+                    fontSize: 14,
+                  }}
+                >
+                  ☰
+                </button>
+
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: 8,
+                    marginLeft: "auto",
+                  }}
+                >
+                  <img
+                    src="/images/salga-logo.png"
+                    alt="SALGA"
+                    style={{
+                      height: isMobileLogo ? 32 : 50,
+                      objectFit: "contain",
+                    }}
+                  />
+                  <img
+                    src="/images/digital-logo.png"
+                    alt="SALGA Partner"
+                    style={{
+                      height: isMobileLogo ? 40 : 70,
+                      objectFit: "contain",
+                    }}
+                  />
+                </div>
+              </div>
+
+              {/* TITLE ROW */}
+              <h2
+                style={{
+                  margin: 0,
+                  fontSize: 18,
+                  lineHeight: 1.2,
+                }}
+              >
+                Provincial Differentiation & Complexity
+              </h2>
+            </div>
+          )}
         </header>
 
         {/* PAGE CONTENT */}
