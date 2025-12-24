@@ -424,8 +424,6 @@ return (
   style={{
     position: "relative",
     width: "100%",
-    height: "60vh",      // 🔑 THIS CONTROLS MAP SIZE
-    minHeight: 320,
     borderRadius: 6,
     overflow: "hidden",
     border: "1px solid #e5e7eb",
