@@ -426,6 +426,8 @@ return (
     overflow: "hidden",
     border: "1px solid #e5e7eb",
     backgroundColor: "#e5f0ff",
+    paddingTop: 56,
+    paddingBottom: 72,
   }}
 >
 
