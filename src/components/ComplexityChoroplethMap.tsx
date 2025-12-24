@@ -506,8 +506,6 @@ return (
       <MapContainer
         center={[-30, 24]}
         zoom={5}
-        maxBounds={bounds}
-        maxBoundsViscosity={1.0}
         minZoom={5}
         maxZoom={11}
         style={{
