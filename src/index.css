@@ -48,53 +48,60 @@ body,
 }
 
 /* =========================
-   🔴 LEAFLET MAP SAFETY
+   LEAFLET BASE (DO NOT SIZE HERE)
    ========================= */
 
 .leaflet-container {
-  width: 100% !important;
-  height: 100% !important;
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 /* =========================
-   🔴 MOBILE MAP FIXES
+   MOBILE MAP FIX (SAFE)
    ========================= */
 
 @media (max-width: 768px) {
-  /* Prevent map from overflowing viewport */
-  .dashboard-map,
-  .map-wrapper,
-  .leaflet-container {
-    height: 320px !important;
-    max-height: 60vh;
+  /* The map container controls size */
+  .dashboard-map {
+    height: 340px;
     min-height: 300px;
+    max-height: 65vh;
   }
 
-  /* Keep controls visible */
-  .leaflet-top,
-  .leaflet-bottom {
-    z-index: 500;
+  /* Any immediate wrapper should fill */
+  .dashboard-map > div {
+    height: 100%;
   }
 
-  /* Zoom buttons smaller */
+  /* Leaflet fills parent only */
+  .leaflet-container {
+    height: 100% !important;
+  }
+
+  /* Smaller zoom buttons */
   .leaflet-control-zoom a {
     width: 28px;
     height: 28px;
     line-height: 28px;
     font-size: 18px;
   }
-}
 
-/* =========================
-   🔴 MOBILE LEVEL BUTTON FIX
-   ========================= */
+  /* =========================
+     LEVEL SELECTOR (TOP)
+     ========================= */
 
-@media (max-width: 768px) {
-  /* Target your absolute button container */
-  .leaflet-container > div[style*="translateX(-50%)"] {
+  /* Absolute selector container */
+  .leaflet-container > div[style*="translateX"] {
     max-width: calc(100% - 24px);
+    padding: 4px;
+  }
+
+  /* Inner pill wraps nicely */
+  .leaflet-container > div[style*="translateX"] > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
   }
 
   .leaflet-container button {
@@ -102,19 +109,16 @@ body,
     padding: 4px 8px !important;
     white-space: nowrap;
   }
-}
 
-/* =========================
-   🔴 LEGEND FIX (MOBILE)
-   ========================= */
+  /* =========================
+     LEGEND FIX
+     ========================= */
 
-@media (max-width: 768px) {
   .leaflet-container div[style*="PDI (relative)"] {
-    right: 10px !important;
-    bottom: 10px !important;
+    right: 8px !important;
+    bottom: 8px !important;
     font-size: 10px !important;
-    padding: 6px 8px !important;
-    max-width: calc(100% - 20px);
+    max-width: calc(100% - 16px);
   }
 }
 
@@ -201,55 +205,6 @@ table {
 
 .dashboard-main *,
 .dashboard-map *,
-.dashboard-side *,
-.leaflet-container * {
+.dashboard-side * {
   min-width: 0;
 }
-
-/* =========================
-   🔴 MOBILE OVERRIDE FOR MAP COMPONENT
-   ========================= */
-
-@media (max-width: 768px) {
-  /* Override inline-sized map wrapper */
-  div:has(> .leaflet-container) {
-    width: 100% !important;
-    max-width: 100% !important;
-    height: 56vh !important;
-    min-height: 320px !important;
-    max-height: none !important;
-  }
-
-  /* Ensure Leaflet fills container */
-  .leaflet-container {
-    width: 100% !important;
-    height: 100% !important;
-  }
-
-  /* =========================
-     FIX LEVEL SELECTOR (TOP)
-     ========================= */
-
-  .leaflet-container > div[style*="translateX(-50%)"] {
-    top: 8px !important;
-    max-width: calc(100% - 24px);
-  }
-
-  .leaflet-container button {
-    font-size: 11px !important;
-    padding: 4px 8px !important;
-    white-space: nowrap;
-  }
-
-  /* =========================
-     FIX LEGEND OVERLAP
-     ========================= */
-
-  .leaflet-container div[style*="PDI (relative)"] {
-    right: 8px !important;
-    bottom: 8px !important;
-    max-width: calc(100% - 16px);
-    font-size: 10px !important;
-  }
-}
-
