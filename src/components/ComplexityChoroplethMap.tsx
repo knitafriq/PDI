@@ -361,6 +361,25 @@ const ComplexityChoroplethMap: React.FC<Props> = ({
 
   const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
+  // 🔑 FIX: re-measure map AFTER mobile layout settles
+useEffect(() => {
+  if (!map) return;
+
+  const timeout = setTimeout(() => {
+    map.invalidateSize(true);
+
+    // re-fit SA gently so it never clips horizontally
+    map.fitBounds(bounds, {
+      padding: isMobile ? [40, 40] : [24, 48],
+      maxZoom: isMobile ? 5.8 : 7,
+      animate: false,
+    });
+  }, 300);
+
+  return () => clearTimeout(timeout);
+}, [map, isMobile]);
+
+
   // South Africa bounding box
   const bounds: [[number, number], [number, number]] = [
     [-35, 15],
