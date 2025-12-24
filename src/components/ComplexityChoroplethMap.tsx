@@ -518,13 +518,19 @@ return (
         attributionControl={false}
         zoomControl={true}
         doubleClickZoom={false}
-        whenCreated={(m) => {
-          setMap(m);
-          m.fitBounds(bounds, {
-                               paddingTopLeft: [16, 16],
-                               paddingBottomRight: [16, 16],
-                              });
-        }}
+whenCreated={(m) => {
+  setMap(m);
+
+  // allow mobile layout to settle, then recalc size
+  setTimeout(() => {
+    m.invalidateSize();
+    m.fitBounds(bounds, {
+      paddingTopLeft: [16, 16],
+      paddingBottomRight: [16, 16],
+    });
+  }, 300);
+}}
+
       >
         <LevelDblClickHandler
           viewLevel={viewLevel}
