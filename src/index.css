@@ -230,7 +230,11 @@ table {
    SAFETY NET
    ========================= */
 
-.dashboard-main *,
+.dashboard-main > * {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+},
 .dashboard-map *,
 .dashboard-side * {
   min-width: 0;
