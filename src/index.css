@@ -65,17 +65,16 @@ body,
 /* Mobile */
 @media (max-width: 768px) {
   .map-wrapper {
-    height: 320px;
+    height: 52vh;       /* instead of 60vh */
+    min-height: 300px;
+    width: calc(100vw - 24px);   /* prevent overflow */
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
-@media (max-width: 768px) {
-  .map-wrapper {
-    /* Space for level selector (top) and legend (bottom) */
-    padding-top: 56px;
-    padding-bottom: 72px;
-  }
-}
+
 
 /* =========================
    LEAFLET BASE (FILL WRAPPER ONLY)
