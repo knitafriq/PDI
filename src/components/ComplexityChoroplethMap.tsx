@@ -450,7 +450,7 @@ return (
         <div
           style={{
             background: "rgba(255,255,255,0.95)",
-            borderRadius: 999,
+            borderRadius: 111,
             padding: 2,
             boxShadow: "0 1px 2px rgba(15,23,42,0.08)",
           }}
@@ -479,10 +479,10 @@ return (
                   }
                 }}
                 style={{
-                  padding: "4px 4px",
-                  fontSize: 11,
-                  lineHeight: 1.1,
-                  borderRadius: 999,
+                  padding: "6px 6px",
+                  fontSize: 10,
+                  lineHeight: 1,
+                  borderRadius: 111,
                   border: "none",
                   background:
                     viewLevel === lvl ? "#111827" : "transparent",
