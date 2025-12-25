@@ -768,15 +768,15 @@ if (!isMobile) {
           bottom: 8,
           background: "rgba(255,255,255,0.92)",
           borderRadius: 4,
-          padding: "6px 8px",
+          padding: "2px 4px",
           boxShadow: "0 1px 2px rgba(15,23,42,0.12)",
-          fontSize: 11,
+          fontSize: 10,
           lineHeight: 1.3,
         }}
       >
         <div
           style={{
-            fontWeight: 600,
+            fontWeight: 500,
             marginBottom: 4,
           }}
         >
