@@ -443,7 +443,7 @@ return (
           transform: "translateX(-50%)",
           zIndex: 1000,
           display: "flex",
-          gap: 8,
+          gap: 1,
           alignItems: "center",
         }}
       >
@@ -451,7 +451,7 @@ return (
           style={{
             background: "rgba(255,255,255,0.95)",
             borderRadius: 111,
-            padding: 2,
+            padding: 1.4,
             boxShadow: "0 1px 2px rgba(15,23,42,0.08)",
           }}
         >
@@ -480,7 +480,7 @@ return (
                 }}
                 style={{
                   padding: "6px 6px",
-                  fontSize: 10,
+                  fontSize: 9,
                   lineHeight: 1,
                   borderRadius: 111,
                   border: "none",
