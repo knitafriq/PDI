@@ -451,7 +451,7 @@ return (
           style={{
             background: "rgba(255,255,255,0.95)",
             borderRadius: 999,
-            padding: 3,
+            padding: 2,
             boxShadow: "0 1px 2px rgba(15,23,42,0.08)",
           }}
         >
@@ -467,8 +467,8 @@ return (
                     onSelectMuniCode && onSelectMuniCode("");
                     if (map) {
                       map.flyToBounds(bounds, {
-                        paddingTopLeft: [16, 16],
-                        paddingBottomRight: [16, 16],
+                        paddingTopLeft: [12, 12],
+                        paddingBottomRight: [12, 12],
                         animate: true,
                         duration: 0.45,
                       });
@@ -479,9 +479,9 @@ return (
                   }
                 }}
                 style={{
-                  padding: "2px 6px",
+                  padding: "4px 4px",
                   fontSize: 11,
-                  lineHeight: 1.2,
+                  lineHeight: 1.1,
                   borderRadius: 999,
                   border: "none",
                   background:
