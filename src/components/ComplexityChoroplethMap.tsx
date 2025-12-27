@@ -505,10 +505,10 @@ return (
 
       <MapContainer
         center={[-30, 24]}
-        zoom={isMobile ? 4.52 : 5}
+        zoom={isMobile ? 4.550 : 5}
         maxBounds={isMobile ? undefined : bounds}
         maxBoundsViscosity={isMobile ? 0 : 1.0}
-        minZoom={isMobile ? 4.52 : 5}
+        minZoom={isMobile ? 4.550 : 5}
         maxZoom={11}
         zoomSnap={0.001}     // ✅ CRITICAL
         zoomDelta={0.001}    // ✅ CRITICAL
@@ -538,7 +538,7 @@ if (!isMobile) {
 
       if (isMobile) {
         // 👇 subtle visual correction
-        m.panBy([0, 40], { animate: false });
+        m.panBy([0, 80], { animate: false });
       }
 
     }, 150);
