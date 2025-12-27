@@ -504,7 +504,7 @@ return (
       </div>
 
       <MapContainer
-        center={[-30, 24]}
+        center={isMobile ? [-29.4, 24] : [-30, 24]}
         zoom={isMobile ? 4.7 : 5}
         maxBounds={isMobile ? undefined : bounds}
         maxBoundsViscosity={isMobile ? 0 : 1.0}
@@ -520,6 +520,7 @@ return (
         attributionControl={false}
         zoomControl={true}
         doubleClickZoom={false}
+
 whenCreated={(m) => {
   setMap(m);
 
@@ -527,21 +528,18 @@ whenCreated={(m) => {
     setTimeout(() => {
       m.invalidateSize();
 
-if (!isMobile) {
-  m.fitBounds(bounds, {
-    paddingTopLeft: [24, 64],
-    paddingBottomRight: [24, 48],
-    maxZoom: 7,
-    animate: false,
-  });
-}  else {
-        // ✅ MOBILE: shift map down slightly without changing zoom
-        m.panBy([80, 200], { animate: false });
+      if (!isMobile) {
+        m.fitBounds(bounds, {
+          paddingTopLeft: [24, 64],
+          paddingBottomRight: [24, 48],
+          maxZoom: 7,
+          animate: false,
+        });
       }
-
     }, 150);
   });
 }}
+
 
 
       >
