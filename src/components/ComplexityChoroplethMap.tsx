@@ -503,46 +503,41 @@ return (
         </div>
       </div>
 
-      <MapContainer
-        center={isMobile ? [-28.2, 24.55] : [-30, 24]}
-        zoom={isMobile ? 4.7 : 5}
-        maxBounds={isMobile ? undefined : bounds}
-        maxBoundsViscosity={isMobile ? 0 : 1.0}
-        minZoom={isMobile ? 4.7 : 5}
-        maxZoom={11}
-        zoomSnap={0.001}     // ✅ CRITICAL
-        zoomDelta={0.001}    // ✅ CRITICAL
-        style={{
-          width: "100%",
-          height: "100%",
-          background: "transparent",
-        }}
-        attributionControl={false}
-        zoomControl={true}
-        doubleClickZoom={false}
+<MapContainer
+  bounds={bounds}
+  boundsOptions={{ padding: [16, 16] }}
 
-whenCreated={(m) => {
-  setMap(m);
+  minZoom={isMobile ? 3.8 : 5}   // ✅ LOWER than initial fit
+  maxZoom={11}
 
-  requestAnimationFrame(() => {
-    setTimeout(() => {
-      m.invalidateSize();
+  zoomSnap={0.25}                // ✅ Leaflet-safe
+  zoomDelta={0.25}               // ✅ Leaflet-safe
 
-      if (!isMobile) {
-        m.fitBounds(bounds, {
-          paddingTopLeft: [24, 64],
-          paddingBottomRight: [24, 48],
-          maxZoom: 7,
-          animate: false,
-        });
-      }
-    }, 150);
-  });
-}}
+  zoomControl={true}
+  doubleClickZoom={false}
+  style={{
+    width: "100%",
+    height: "100%",
+    background: "transparent",
+  }}
+  attributionControl={false}
+  whenCreated={(m) => {
+    setMap(m);
+
+    requestAnimationFrame(() => {
+      setTimeout(() => {
+        m.invalidateSize();
+
+        if (isMobile) {
+          m.panBy([0, 80], { animate: false });
+        }
+      }, 150);
+    });
+  }}
+>
 
 
 
-      >
         <LevelDblClickHandler
           viewLevel={viewLevel}
           bounds={bounds}
