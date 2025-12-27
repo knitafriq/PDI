@@ -536,7 +536,7 @@ if (!isMobile) {
   });
 }  else {
         // ✅ MOBILE: shift map down slightly without changing zoom
-        m.panBy([0, 80], { animate: false });
+        m.panBy([80, 200], { animate: false });
       }
 
     }, 150);
