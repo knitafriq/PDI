@@ -172,7 +172,7 @@ const Layout: React.FC = () => {
                     src="/images/digital-logo.png"
                     alt="SALGA Partner"
                     style={{
-                      height: isMobileLogo ? 40 : 70,
+                      height: isMobileLogo ? 50 : 70,
                       objectFit: "contain",
                     }}
                   />

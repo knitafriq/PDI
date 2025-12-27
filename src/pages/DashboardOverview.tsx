@@ -656,7 +656,7 @@ const DashboardOverview: React.FC = () => {
             }}
           >
             <th style={{ padding: "3px 6px",
-                         fontSize: 11,
+                         fontSize: 10.5,
                          fontWeight: 500,
                          whiteSpace: "normal",
                          wordBreak: "keep-all",
@@ -665,7 +665,7 @@ const DashboardOverview: React.FC = () => {
                                                             verticalAlign: "bottom",
                       }}>Province</th>
             <th style={{ padding: "3px 6px",
-                         fontSize: 11,
+                         fontSize: 10.5,
                          fontWeight: 500,
                          whiteSpace: "normal",
                          wordBreak: "keep-all",
@@ -674,7 +674,7 @@ const DashboardOverview: React.FC = () => {
                                                             verticalAlign: "bottom", 
                       }}>Avg PDI</th>
             <th style={{ padding: "3px 6px",
-                         fontSize: 11,
+                         fontSize: 10.5,
                          fontWeight: 500,
                          whiteSpace: "normal",
                          wordBreak: "keep-all",
@@ -686,7 +686,7 @@ const DashboardOverview: React.FC = () => {
               municipalities
             </th>
             <th style={{ padding: "3px 6px",
-                         fontSize: 11,
+                         fontSize: 10.5,
                          fontWeight: 500,
                          whiteSpace: "normal",
                          wordBreak: "keep-all",
