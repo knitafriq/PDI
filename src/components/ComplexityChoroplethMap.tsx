@@ -36,6 +36,8 @@ type LevelDblClickHandlerProps = {
   setActiveProv: React.Dispatch<React.SetStateAction<string | null>>;
   setActiveDist: React.Dispatch<React.SetStateAction<string | null>>;
   onSelectMuniCode?: (code: string) => void;
+  fitToSouthAfrica: (map: LeafletMap, animate?: boolean) => void;
+
 };
 
 const LevelDblClickHandler: React.FC<LevelDblClickHandlerProps> = ({
@@ -123,12 +125,8 @@ useMapEvent("dblclick", (e) => {
   }
 });
 
-  map.flyToBounds(bounds, {
-    padding: [16, 16],
-    animate: true,
-  });
+fitToSouthAfrica(map, true);
 });
-
 
   return null;
 };
@@ -367,6 +365,20 @@ const ComplexityChoroplethMap: React.FC<Props> = ({
     [-21, 34],
   ];
 
+  // ✅ SINGLE SOURCE OF TRUTH FOR COUNTRY VIEW
+const fitToSouthAfrica = (
+  map: LeafletMap,
+  animate = false
+) => {
+  map.fitBounds(bounds, {
+    paddingTopLeft: isMobile ? [48, 32] : [24, 64],
+    paddingBottomRight: isMobile ? [48, 32] : [24, 48],
+    maxZoom: isMobile ? 4.55 : 7,
+    animate,
+  });
+};
+
+
   // Helper: zoom so the clicked layer fills most of the map window, per level
   const fitLayerToView = (layer: any, level: ViewLevel) => {
     // use the Leaflet map attached to this layer (not the React state snapshot)
@@ -504,8 +516,6 @@ return (
       </div>
 
       <MapContainer
-        center={[-30, 24]}
-        zoom={isMobile ? 4.550 : 5}
         maxBounds={isMobile ? undefined : bounds}
         maxBoundsViscosity={isMobile ? 0 : 1.0}
         minZoom={isMobile ? 4.550 : 5}
@@ -520,31 +530,17 @@ return (
         attributionControl={false}
         zoomControl={true}
         doubleClickZoom={false}
+
 whenCreated={(m) => {
   setMap(m);
 
   requestAnimationFrame(() => {
     setTimeout(() => {
       m.invalidateSize();
-
-if (!isMobile) {
-  m.fitBounds(bounds, {
-    paddingTopLeft: [24, 64],
-    paddingBottomRight: [24, 48],
-    maxZoom: 7,
-    animate: false,
-  });
-}
-
-      if (isMobile) {
-        // 👇 subtle visual correction
-        m.panBy([0, 80], { animate: false });
-      }
-
+      fitToSouthAfrica(m, false);
     }, 150);
   });
 }}
-
 
       >
         <LevelDblClickHandler
@@ -558,6 +554,7 @@ if (!isMobile) {
           setActiveProv={setActiveProv}
           setActiveDist={setActiveDist}
           onSelectMuniCode={onSelectMuniCode}
+          fitToSouthAfrica={fitToSouthAfrica}
         />
 
         {/* PROVINCES */}
