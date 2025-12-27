@@ -505,10 +505,10 @@ return (
 
       <MapContainer
         center={[-30, 24]}
-        zoom={isMobile ? 4.700 : 5}
+        zoom={isMobile ? 4.7 : 5}
         maxBounds={isMobile ? undefined : bounds}
         maxBoundsViscosity={isMobile ? 0 : 1.0}
-        minZoom={isMobile ? 4.700 : 5}
+        minZoom={isMobile ? 4.4 : 5}
         maxZoom={11}
         zoomSnap={0.001}     // ✅ CRITICAL
         zoomDelta={0.001}    // ✅ CRITICAL
