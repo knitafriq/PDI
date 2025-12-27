@@ -36,8 +36,6 @@ type LevelDblClickHandlerProps = {
   setActiveProv: React.Dispatch<React.SetStateAction<string | null>>;
   setActiveDist: React.Dispatch<React.SetStateAction<string | null>>;
   onSelectMuniCode?: (code: string) => void;
-  fitToSouthAfrica: (map: LeafletMap, animate?: boolean) => void;
-
 };
 
 const LevelDblClickHandler: React.FC<LevelDblClickHandlerProps> = ({
@@ -125,8 +123,12 @@ useMapEvent("dblclick", (e) => {
   }
 });
 
-fitToSouthAfrica(map, true);
+  map.flyToBounds(bounds, {
+    padding: [16, 16],
+    animate: true,
+  });
 });
+
 
   return null;
 };
@@ -365,20 +367,6 @@ const ComplexityChoroplethMap: React.FC<Props> = ({
     [-21, 34],
   ];
 
-  // ✅ SINGLE SOURCE OF TRUTH FOR COUNTRY VIEW
-const fitToSouthAfrica = (
-  map: LeafletMap,
-  animate = false
-) => {
-  map.fitBounds(bounds, {
-    paddingTopLeft: isMobile ? [48, 32] : [24, 64],
-    paddingBottomRight: isMobile ? [48, 32] : [24, 48],
-    maxZoom: isMobile ? 4.55 : 7,
-    animate,
-  });
-};
-
-
   // Helper: zoom so the clicked layer fills most of the map window, per level
   const fitLayerToView = (layer: any, level: ViewLevel) => {
     // use the Leaflet map attached to this layer (not the React state snapshot)
@@ -516,9 +504,11 @@ return (
       </div>
 
       <MapContainer
+        center={[-30, 24]}
+        zoom={isMobile ? 4.4995 : 5}
         maxBounds={isMobile ? undefined : bounds}
         maxBoundsViscosity={isMobile ? 0 : 1.0}
-        minZoom={isMobile ? 4.550 : 5}
+        minZoom={isMobile ? 4.4995 : 5}
         maxZoom={11}
         zoomSnap={0.001}     // ✅ CRITICAL
         zoomDelta={0.001}    // ✅ CRITICAL
@@ -530,17 +520,33 @@ return (
         attributionControl={false}
         zoomControl={true}
         doubleClickZoom={false}
-
 whenCreated={(m) => {
   setMap(m);
 
   requestAnimationFrame(() => {
     setTimeout(() => {
       m.invalidateSize();
-      fitToSouthAfrica(m, false);
+
+if (!isMobile) {
+  m.fitBounds(bounds, {
+    paddingTopLeft: [24, 64],
+    paddingBottomRight: [24, 48],
+    maxZoom: 7,
+    animate: false,
+  });
+} else {
+  m.fitBounds(bounds, {
+    paddingTopLeft: [24, 12],      // 🔽 lowers map slightly
+    paddingBottomRight: [24, 32],  // 🔼 avoids bottom crowding
+    maxZoom: 4.56,                 // 🔍 slightly larger than before
+    animate: false,
+  });
+}
+
     }, 150);
   });
 }}
+
 
       >
         <LevelDblClickHandler
@@ -554,7 +560,6 @@ whenCreated={(m) => {
           setActiveProv={setActiveProv}
           setActiveDist={setActiveDist}
           onSelectMuniCode={onSelectMuniCode}
-          fitToSouthAfrica={fitToSouthAfrica}
         />
 
         {/* PROVINCES */}
