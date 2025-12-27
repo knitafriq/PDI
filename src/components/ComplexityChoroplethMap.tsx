@@ -507,7 +507,7 @@ return (
   bounds={bounds}
   boundsOptions={{ padding: [16, 16] }}
 
-  minZoom={isMobile ? 4.5 : 5}   // ✅ LOWER than initial fit
+  minZoom={isMobile ? 4.6 : 5}   // ✅ LOWER than initial fit
   maxZoom={11}
 
   zoomSnap={0.25}                // ✅ Leaflet-safe
