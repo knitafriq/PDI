@@ -423,7 +423,7 @@ const DashboardOverview: React.FC = () => {
           marginBottom: 16,
         }}
       >
-        High-complexity municipalities (PDI ≥ 0.6):{" "}
+        High-complexity municipalities (PDI ≥ 0.6):<br />{" "}
         <span style={{ fontWeight: 600 }}>
           {highComplexityCount} nationally /{" "}
           {scopedHighComplexCount} in current selection
@@ -637,16 +637,15 @@ const DashboardOverview: React.FC = () => {
         marginBottom: 8,
       }}
     >
-      Average PDI and count of high-complexity municipalities
+      Average PDI and count of high-complexity municipalities<br />
       (PDI ≥ 0.6) by province.
     </p>
-    <div className="table-scroll">
       <table
         style={{
           width: "100%",
           borderCollapse: "collapse",
           fontSize: 12,
-          minWidth: 420,
+          tableLayout: "fixed",
         }}
       >
         <thead>
@@ -656,13 +655,47 @@ const DashboardOverview: React.FC = () => {
               borderBottom: "1px solid #e5e7eb",
             }}
           >
-            <th style={{ padding: "4px 6px" }}>Province</th>
-            <th style={{ padding: "4px 6px" }}>Avg PDI</th>
-            <th style={{ padding: "4px 6px" }}>
-              High-complex municipalities
+            <th style={{ padding: "3px 6px",
+                         fontSize: 11,
+                         fontWeight: 500,
+                         whiteSpace: "normal",
+                         wordBreak: "keep-all",
+                         wordBreak: "break-word",
+                                                            lineHeight: 1.2,
+                                                            verticalAlign: "bottom",
+                      }}>Province</th>
+            <th style={{ padding: "3px 6px",
+                         fontSize: 11,
+                         fontWeight: 500,
+                         whiteSpace: "normal",
+                         wordBreak: "keep-all",
+                         wordBreak: "break-word",
+                                                            lineHeight: 1.2,
+                                                            verticalAlign: "bottom", 
+                      }}>Avg PDI</th>
+            <th style={{ padding: "3px 6px",
+                         fontSize: 11,
+                         fontWeight: 500,
+                         whiteSpace: "normal",
+                         wordBreak: "keep-all",
+                         wordBreak: "break-word",
+                                                            lineHeight: 1.2,
+                                                            verticalAlign: "bottom",
+                      }}>
+              High-complex<br />
+              municipalities
             </th>
-            <th style={{ padding: "4px 6px" }}>
-              Total municipalities
+            <th style={{ padding: "3px 6px",
+                         fontSize: 11,
+                         fontWeight: 500,
+                         whiteSpace: "normal",
+                         wordBreak: "keep-all",
+                         wordBreak: "break-word",
+                                                            lineHeight: 1.2,
+                                                            verticalAlign: "bottom", 
+                      }}>
+              Total <br />
+              municipalities
             </th>
           </tr>
         </thead>
@@ -695,7 +728,6 @@ const DashboardOverview: React.FC = () => {
             ))}
         </tbody>
       </table>
-    </div>
   </section>
 </div>
 </div>
