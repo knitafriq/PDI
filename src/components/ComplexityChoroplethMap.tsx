@@ -536,8 +536,8 @@ if (!isMobile) {
   });
 }  else {
   m.fitBounds(bounds, {
-    paddingTopLeft: [0, 16],      // ⬅️ lowers map
-    paddingBottomRight: [0, 24],
+    paddingTopLeft: [0, 0],      // ⬅️ lowers map
+    paddingBottomRight: [0, 0],
     maxZoom: 4.56,                 // ⬅️ slightly larger
     animate: false,
   });
