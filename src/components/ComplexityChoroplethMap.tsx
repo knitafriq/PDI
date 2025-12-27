@@ -531,14 +531,14 @@ if (!isMobile) {
   m.fitBounds(bounds, {
     paddingTopLeft: [24, 64],
     paddingBottomRight: [24, 48],
-    maxZoom: 7,
+    maxZoom: 7.5,
     animate: false,
   });
 } else {
   m.fitBounds(bounds, {
     paddingTopLeft: [24, 12],      // 🔽 lowers map slightly
     paddingBottomRight: [24, 32],  // 🔼 avoids bottom crowding
-    maxZoom: 4.56,                 // 🔍 slightly larger than before
+    maxZoom: 4.58,                 // 🔍 slightly larger than before
     animate: false,
   });
 }
