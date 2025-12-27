@@ -508,7 +508,7 @@ return (
         zoom={isMobile ? 4.7 : 5}
         maxBounds={isMobile ? undefined : bounds}
         maxBoundsViscosity={isMobile ? 0 : 1.0}
-        minZoom={isMobile ? 4.4 : 5}
+        minZoom={isMobile ? 4.7 : 5}
         maxZoom={11}
         zoomSnap={0.001}     // ✅ CRITICAL
         zoomDelta={0.001}    // ✅ CRITICAL
@@ -535,13 +535,9 @@ if (!isMobile) {
     animate: false,
   });
 }  else {
-  m.fitBounds(bounds, {
-    paddingTopLeft: [0, 0],      // ⬅️ lowers map
-    paddingBottomRight: [0, 0],
-    maxZoom: 4.56,                 // ⬅️ slightly larger
-    animate: false,
-  });
-}
+        // ✅ MOBILE: shift map down slightly without changing zoom
+        m.panBy([0, 80], { animate: false });
+      }
 
     }, 150);
   });
