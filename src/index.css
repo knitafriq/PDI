@@ -5,12 +5,14 @@
 html,
 body,
 #root {
-  height: 100%;
+  height: auto;
+  min-height: 100%;          /* ✅ safe */
   margin: 0;
   font-family: Inter, Arial, sans-serif;
   background: #f6f8fa;
   color: #0f1724;
   overflow-x: hidden;
+  overflow-y: auto;          /* ✅ allow normal scroll */
 }
 
 /* =========================
