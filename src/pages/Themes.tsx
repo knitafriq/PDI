@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import React, { useMemo, useState, useRef, useEffect } from "react";
 import { useData } from "../context/DataContext";
 import Card from "../components/Card";
 
@@ -49,6 +49,8 @@ const MultiSelectDropdown: React.FC<MultiSelectProps> = ({
   const [open, setOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
 
+  const containerRef = useRef<HTMLDivElement | null>(null);
+
   const toggleValue = (val: string) => {
     if (values.includes(val)) {
       onChange(values.filter((v) => v !== val));
@@ -57,11 +59,22 @@ const MultiSelectDropdown: React.FC<MultiSelectProps> = ({
     }
   };
 
-  const handleClickContainer: React.MouseEventHandler<HTMLDivElement> = (
-    e
-  ) => {
-    e.stopPropagation();
+  useEffect(() => {
+  function handleClickOutside(event: MouseEvent) {
+    if (
+      containerRef.current &&
+      !containerRef.current.contains(event.target as Node)
+    ) {
+      setOpen(false);
+    }
+  }
+
+  document.addEventListener("mousedown", handleClickOutside);
+  return () => {
+    document.removeEventListener("mousedown", handleClickOutside);
   };
+}, []);
+
 
   const summaryLabel = (() => {
     if (!values.length) return placeholder;
@@ -89,6 +102,7 @@ const MultiSelectDropdown: React.FC<MultiSelectProps> = ({
 
   return (
     <div
+      ref={containerRef}
       style={{
         position: "relative",
         fontSize: 12,
@@ -96,7 +110,6 @@ const MultiSelectDropdown: React.FC<MultiSelectProps> = ({
         alignItems: "center",
         gap: 4,
       }}
-      onClick={handleClickContainer}
     >
       <span style={{ color: "#4b5563" }}>{label}:</span>
       <button
