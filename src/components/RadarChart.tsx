@@ -53,15 +53,19 @@ export default function RadarChart({
   const padRight = isMobile ? 24 : 44;
   const padTop = isMobile ? 16 : 28;
   const padBottom = isMobile ? 16 : 28;
-  const pad = Math.max(padTop, padBottom);
 
   /* ---------------- LEGEND ---------------- */
-  const legendHeight = isMobile ? 0 : Math.min(120, series.length * 20);
-  const svgHeight = effectiveSize + legendHeight + pad;
+  const mobileLegendHeight = isMobile ? series.length * 16 + 12 : 0;
+  const desktopLegendHeight = !isMobile
+    ? Math.min(120, series.length * 20)
+    : 0;
+
+  const svgHeight =
+    effectiveSize + mobileLegendHeight + desktopLegendHeight + padBottom;
 
   /* ---------------- CENTER ---------------- */
   const cx =
-    effectiveSize / 2 + (isMobile ? -8 : (padRight - padLeft) / 2);
+    effectiveSize / 2 + (isMobile ? -14 : (padRight - padLeft) / 2);
   const cy = effectiveSize / 2;
 
   /* ---------------- RADIUS ---------------- */
@@ -144,8 +148,9 @@ export default function RadarChart({
         {/* LABELS */}
         {labels.map((l, i) => {
           const angle = ((Math.PI * 2) / count) * i - Math.PI / 2;
-          const lx = cx + radius * (isMobile ? 1.04 : 1.12) * Math.cos(angle);
-          const ly = cy + radius * (isMobile ? 1.04 : 1.12) * Math.sin(angle);
+          const factor = isMobile ? 1.04 : 1.12;
+          const lx = cx + radius * factor * Math.cos(angle);
+          const ly = cy + radius * factor * Math.sin(angle);
           return (
             <text
               key={i}
@@ -198,9 +203,13 @@ export default function RadarChart({
           </g>
         )}
 
-        {/* MOBILE LEGEND (TOP-LEFT) */}
+        {/* MOBILE LEGEND (BOTTOM, CENTERED) */}
         {isMobile && (
-          <g transform="translate(8, 8)">
+          <g
+            transform={`translate(${cx - 80}, ${
+              effectiveSize + 8
+            })`}
+          >
             {prepared.map((s, i) => (
               <g key={i} transform={`translate(0, ${i * 14})`}>
                 <rect width={10} height={10} fill={s.color} rx={2} />
