@@ -526,59 +526,101 @@ const Compare: React.FC = () => {
       <div>
         {/* 1. PROVINCE COMPARE */}
         <Card title="Province comparison (overlay)">
-          <p style={{ fontSize: 12, color: "#6b7280", marginBottom: 8 }}>Select up to three provinces to overlay their average theme profiles on a single radar.</p>
-
           <div style={{ display: "flex", gap: 12, flexWrap: "wrap", alignItems: "flex-start" }}>
-            <div style={{fontSize: 12, minWidth: 220, maxWidth: 260 }}>
-              {[[provSel1, setProvSel1], [provSel2, setProvSel2], [provSel3, setProvSel3]].map(([val, setVal], idx) => (
-                <div key={idx} style={{ marginBottom: 10 }}>
-                  <SearchableSelect
-                    value={val as string}
-                    onChange={setVal as (v: string) => void}
-                    options={provOpts}
-                    label={`Province ${idx + 1}`}
-                    placeholder="— None —"
-                  />
-                </div>
-              ))}
-            </div>
+  {/* LEFT COLUMN */}
+  <div style={{ fontSize: 12, minWidth: 220, maxWidth: 260 }}>
+    <p style={{ fontSize: 12, color: "#6b7280", marginBottom: 8 }}>
+      Select up to three provinces to overlay their average theme profiles.
+    </p>
 
-            <div style={{ flex: 1, minWidth: 320, display: "flex", justifyContent: "center", padding: "8px 0 24px 0", boxSizing: "border-box" }}>
-              {provinceSeries.length === 0 ? (
-                <div style={{ fontSize: 13, color: "#6b7280", paddingTop: 24 }}>Select one or more provinces to see the comparison.</div>
-              ) : (
-                <div style={{ width: "100%", maxWidth: 520, overflow: "visible" }}>
-                  <RadarChart labels={THEME_KEYS} series={provinceSeries} size={260} gridLevels={4} max={1} />
-                </div>
-              )}
-            </div>
-          </div>
+    {[[provSel1, setProvSel1], [provSel2, setProvSel2], [provSel3, setProvSel3]].map(
+      ([val, setVal], idx) => (
+        <div key={idx} style={{ marginBottom: 10 }}>
+          <SearchableSelect
+            value={val as string}
+            onChange={setVal as (v: string) => void}
+            options={provOpts}
+            label={`Province ${idx + 1}`}
+            placeholder="— None —"
+          />
+        </div>
+      )
+    )}
+  </div>
+
+  {/* RIGHT COLUMN */}
+  <div
+    style={{
+      flex: 1,
+      minWidth: 320,
+      display: "flex",
+      justifyContent: "center",
+      padding: "8px 0 24px 0",
+      boxSizing: "border-box",
+    }}
+  >
+    {provinceSeries.length === 0 ? (
+      <div style={{ fontSize: 13, color: "#6b7280", paddingTop: 24 }}>
+        Select one or more provinces to see the comparison.
+      </div>
+    ) : (
+      <div style={{ width: "100%", maxWidth: 520 }}>
+        <RadarChart labels={THEME_KEYS} series={provinceSeries} size={320} />
+      </div>
+    )}
+  </div>
+</div>
+
         </Card>
 
         {/* 2. DISTRICT COMPARE */}
         <div style={{ marginTop: 14 }}>
           <Card title="District comparison (overlay)">
-            <p style={{ fontSize: 12, color: "#6b7280", marginBottom: 8 }}>Select up to three districts to overlay their average theme profiles.</p>
+<div style={{ display: "flex", gap: 12, flexWrap: "wrap", alignItems: "flex-start" }}>
+  {/* LEFT COLUMN */}
+  <div style={{ fontSize: 12, minWidth: 220, maxWidth: 260 }}>
+    <p style={{ fontSize: 12, color: "#6b7280", marginBottom: 8 }}>
+      Select up to three districts to overlay their average theme profiles.
+    </p>
 
-            <div style={{ display: "flex", gap: 12, flexWrap: "wrap", alignItems: "flex-start" }}>
-              <div style={{fontSize: 12, minWidth: 220, maxWidth: 260 }}>
-                {[[distSel1, setDistSel1], [distSel2, setDistSel2], [distSel3, setDistSel3]].map(([val, setVal], idx) => (
-                  <div key={idx} style={{ marginBottom: 10 }}>
-                    <SearchableSelect value={val as string} onChange={setVal as (v: string) => void} options={distOpts} label={`District ${idx + 1}`} placeholder="— None —" />
-                  </div>
-                ))}
-              </div>
+    {[[distSel1, setDistSel1], [distSel2, setDistSel2], [distSel3, setDistSel3]].map(
+      ([val, setVal], idx) => (
+        <div key={idx} style={{ marginBottom: 10 }}>
+          <SearchableSelect
+            value={val as string}
+            onChange={setVal as (v: string) => void}
+            options={distOpts}
+            label={`District ${idx + 1}`}
+            placeholder="— None —"
+          />
+        </div>
+      )
+    )}
+  </div>
 
-              <div style={{ flex: 1, minWidth: 320, display: "flex", justifyContent: "center", padding: "8px 0 24px 0", boxSizing: "border-box" }}>
-                {districtSeries.length === 0 ? (
-                  <div style={{ fontSize: 13, color: "#6b7280", paddingTop: 24 }}>Select one or more districts to see the comparison.</div>
-                ) : (
-                  <div style={{ width: "100%", maxWidth: 520, overflow: "visible" }}>
-                    <RadarChart labels={THEME_KEYS} series={districtSeries} size={260} gridLevels={4} max={1} />
-                  </div>
-                )}
-              </div>
-            </div>
+  {/* RIGHT COLUMN */}
+  <div
+    style={{
+      flex: 1,
+      minWidth: 320,
+      display: "flex",
+      justifyContent: "center",
+      padding: "8px 0 24px 0",
+      boxSizing: "border-box",
+    }}
+  >
+    {districtSeries.length === 0 ? (
+      <div style={{ fontSize: 13, color: "#6b7280", paddingTop: 24 }}>
+        Select one or more districts to see the comparison.
+      </div>
+    ) : (
+      <div style={{ width: "100%", maxWidth: 520 }}>
+        <RadarChart labels={THEME_KEYS} series={districtSeries} size={320} />
+      </div>
+    )}
+  </div>
+</div>
+
           </Card>
         </div>
 
@@ -617,7 +659,7 @@ const Compare: React.FC = () => {
             <p style={{ fontSize: 12, color: "#6b7280", marginBottom: 8 }}>Select up to three municipalities to overlay their theme profiles.</p>
 
             <div style={{ display: "flex", gap: 12, flexWrap: "wrap", alignItems: "flex-start" }}>
-              <div style={{fontSize: 12, minWidth: 260, maxWidth: 320 }}>
+              <div style={{fontSize: 12, minWidth: 220, maxWidth: 260 }}>
                 {[[muni1, setMuni1], [muni2, setMuni2], [muni3, setMuni3]].map(([val, setVal], idx) => (
                   <div key={idx} style={{ marginBottom: 10 }}>
                     <SearchableSelect value={val as string} onChange={setVal as (v: string) => void} options={muniOpts} label={`Municipality ${idx + 1}`} placeholder="— None —" />
