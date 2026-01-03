@@ -912,14 +912,29 @@ const Themes: React.FC = () => {
                   e.target.value as ThemeSelection
                 )
               }
-              style={{
-                marginLeft: 8,
-                fontSize: 12,
-                padding: "4px 8px",
-                borderRadius: 4,
-                border: "1px solid #d1d5db",
-                background: "#ffffff",
-              }}
+               style={{
+                 marginLeft: 8,
+                 fontSize: 12,
+                 padding: "4px 28px 4px 8px", // 🔑 match MultiSelect
+                 borderRadius: 4,
+                 border: "1px solid #d1d5db",
+                 backgroundColor: "#ffffff",
+                 cursor: "pointer",
+
+               // 🔒 remove native arrow
+                 appearance: "none",
+                 WebkitAppearance: "none",
+                 MozAppearance: "none",
+
+               // 🔽 custom arrow (IDENTICAL to MultiSelectDropdown)
+                 backgroundImage:
+                   "linear-gradient(45deg, transparent 50%, #374151 50%), linear-gradient(135deg, #374151 50%, transparent 50%)",
+                 backgroundPosition:
+                   "calc(100% - 16px) calc(50% - 3px), calc(100% - 11px) calc(50% - 3px)",
+                 backgroundSize: "5px 5px, 5px 5px",
+                 backgroundRepeat: "no-repeat",
+               }}
+
             >
               <option value="ALL">All themes</option>
               {THEME_OPTIONS.map((t) => (
