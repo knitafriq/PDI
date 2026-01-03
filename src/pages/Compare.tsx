@@ -68,6 +68,25 @@ const MultiSelectDropdown: React.FC<MultiSelectProps> = ({
 }) => {
   const [open, setOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
+  const containerRef = React.useRef<HTMLDivElement | null>(null);
+
+  React.useEffect(() => {
+  function handleClickOutside(event: MouseEvent) {
+    if (
+      containerRef.current &&
+      !containerRef.current.contains(event.target as Node)
+    ) {
+      setOpen(false);
+    }
+  }
+
+  document.addEventListener("mousedown", handleClickOutside);
+  return () => {
+    document.removeEventListener("mousedown", handleClickOutside);
+  };
+}, []);
+
+
 
   const toggleValue = (val: string) => {
     if (values.includes(val)) {
@@ -102,28 +121,54 @@ const MultiSelectDropdown: React.FC<MultiSelectProps> = ({
   }, [options, searchable, searchTerm]);
 
   return (
-    <div style={{ position: "relative", fontSize: 12, display: "flex", alignItems: "center", gap: 8 }}>
+    <div
+  ref={containerRef}
+  style={{
+    position: "relative",
+    fontSize: 12,
+    display: "flex",
+    alignItems: "center",
+    gap: 8,
+  }}
+>
+
       <span style={{ color: "#4b5563" }}>{label}:</span>
-      <button
-        type="button"
-        onClick={() => setOpen((o) => !o)}
-        style={{
-          fontSize: 12,
-          padding: "6px 10px",
-          borderRadius: 6,
-          border: "1px solid #d1d5db",
-          background: "#fff",
-          minWidth: 180,
-          textAlign: "left",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "space-between",
-          cursor: "pointer",
-        }}
-      >
-        <span style={{ whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{summaryLabel}</span>
-        <span style={{ fontSize: 10, marginLeft: 8 }}>▼</span>
-      </button>
+<button
+  type="button"
+  onClick={() => setOpen((o) => !o)}
+  style={{
+    fontSize: 12,
+    padding: "6px 28px 6px 10px", // 🔑 room for arrow
+    borderRadius: 6,
+    border: "1px solid #d1d5db",
+    backgroundColor: "#ffffff",
+    minWidth: 180,
+    textAlign: "left",
+    cursor: "pointer",
+
+    appearance: "none",
+    WebkitAppearance: "none",
+    MozAppearance: "none",
+
+    backgroundImage:
+      "linear-gradient(45deg, transparent 50%, #374151 50%), linear-gradient(135deg, #374151 50%, transparent 50%)",
+    backgroundPosition:
+      "calc(100% - 16px) calc(50% - 3px), calc(100% - 11px) calc(50% - 3px)",
+    backgroundSize: "5px 5px, 5px 5px",
+    backgroundRepeat: "no-repeat",
+  }}
+>
+  <span
+    style={{
+      whiteSpace: "nowrap",
+      overflow: "hidden",
+      textOverflow: "ellipsis",
+    }}
+  >
+    {summaryLabel}
+  </span>
+</button>
+
 
       {open && (
         <div
@@ -191,6 +236,24 @@ interface SearchableSelectProps {
 const SearchableSelect: React.FC<SearchableSelectProps> = ({ value, onChange, options, placeholder = "— None —", label }) => {
   const [open, setOpen] = useState(false);
   const [q, setQ] = useState("");
+  const containerRef = React.useRef<HTMLDivElement | null>(null);
+
+  React.useEffect(() => {
+  function handleClickOutside(event: MouseEvent) {
+    if (
+      containerRef.current &&
+      !containerRef.current.contains(event.target as Node)
+    ) {
+      setOpen(false);
+    }
+  }
+
+  document.addEventListener("mousedown", handleClickOutside);
+  return () => {
+    document.removeEventListener("mousedown", handleClickOutside);
+  };
+}, []);
+
 
   const filtered = useMemo(() => {
     if (!q.trim()) return options;
@@ -201,28 +264,48 @@ const SearchableSelect: React.FC<SearchableSelectProps> = ({ value, onChange, op
   const selectedLabel = options.find((o) => o.value === value)?.label ?? "";
 
   return (
-    <div style={{ position: "relative", marginBottom: 8 }}>
+    <div
+  ref={containerRef}
+  style={{ position: "relative", marginBottom: 8 }}
+>
+
       {label && <div style={{ fontSize: 12, color: "#4b5563", marginBottom: 4 }}>{label}</div>}
-      <button
-        type="button"
-        onClick={() => setOpen((s) => !s)}
-        style={{
-          width: "100%",
-          textAlign: "left",
-          padding: "8px 10px",
-          borderRadius: 6,
-          border: "1px solid #d1d5db",
-          background: "#fff",
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-          cursor: "pointer",
-          fontSize: 13,
-        }}
-      >
-        <span style={{ whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{selectedLabel || placeholder}</span>
-        <span style={{ fontSize: 12 }}>▾</span>
-      </button>
+<button
+  type="button"
+  onClick={() => setOpen((s) => !s)}
+  style={{
+    width: "100%",
+    textAlign: "left",
+    padding: "8px 28px 8px 10px",
+    borderRadius: 6,
+    border: "1px solid #d1d5db",
+    backgroundColor: "#ffffff",
+    cursor: "pointer",
+    fontSize: 13,
+
+    appearance: "none",
+    WebkitAppearance: "none",
+    MozAppearance: "none",
+
+    backgroundImage:
+      "linear-gradient(45deg, transparent 50%, #374151 50%), linear-gradient(135deg, #374151 50%, transparent 50%)",
+    backgroundPosition:
+      "calc(100% - 16px) calc(50% - 3px), calc(100% - 11px) calc(50% - 3px)",
+    backgroundSize: "5px 5px, 5px 5px",
+    backgroundRepeat: "no-repeat",
+  }}
+>
+  <span
+    style={{
+      whiteSpace: "nowrap",
+      overflow: "hidden",
+      textOverflow: "ellipsis",
+    }}
+  >
+    {selectedLabel || placeholder}
+  </span>
+</button>
+
 
       {open && (
         <div style={{ position: "absolute", left: 0, top: "calc(100% + 6px)", zIndex: 1200, background: "#fff", border: "1px solid #e5e7eb", borderRadius: 6, width: "100%", boxShadow: "0 8px 20px rgba(15,23,42,0.08)", padding: 8 }}>
