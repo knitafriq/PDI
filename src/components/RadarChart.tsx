@@ -59,17 +59,31 @@ export default function RadarChart({
   const effectiveSize = Math.min(size, isMobile ? 260 : 480);
 
   const count = Math.max(3, labels.length);
-  const pad = isMobile ? 20 : Math.round(Math.max(28, Math.min(48, effectiveSize * 0.07)));
+  const padLeft = isMobile ? 20 : 28;
+  const padRight = isMobile ? 36 : 44; // 🔑 extra room for right labels
+  const padTop = isMobile ? 20 : 28;
+  const padBottom = isMobile ? 20 : 28;
+
   const legendHeight = !isMobile
     ? Math.min(120, Math.max(24, series.length * 20))
     : 0;
 
   const svgHeight = effectiveSize + legendHeight + pad;
 
-  const cx = effectiveSize / 2;
+  const cx = (effectiveSize + padRight - padLeft) / 2; // 🔑 shift right
   const cy = effectiveSize / 2;
 
-  const radius = Math.max(40, Math.min(cx, cy) - pad);
+
+  const radius = Math.max(
+  40,
+  Math.min(
+    cx - padLeft,
+    effectiveSize - cx - padRight,
+    cy - padTop,
+    effectiveSize - cy - padBottom
+  )
+);
+
 
   const rings = Array.from({ length: gridLevels }, (_, i) => (i + 1) / gridLevels);
 
