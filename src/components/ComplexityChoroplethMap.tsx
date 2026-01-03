@@ -507,6 +507,10 @@ return (
   bounds={bounds}
   boundsOptions={{ padding: [16, 16] }}
 
+  /* 🔒 HARD CONSTRAINT (THIS IS THE FIX) */
+  maxBounds={bounds}
+  maxBoundsViscosity={1.0}
+
   minZoom={isMobile ? 4.6 : 5}   // ✅ LOWER than initial fit
   maxZoom={11}
 
@@ -515,6 +519,14 @@ return (
 
   zoomControl={true}
   doubleClickZoom={false}
+
+  /* 🔒 PREVENT MOMENTUM DRIFT */
+  inertia={false}
+  worldCopyJump={false}
+
+  /* 🔒 SCROLL ZOOM SHOULD NOT SHIFT CENTER */
+  scrollWheelZoom="center"
+
   style={{
     width: "100%",
     height: "100%",
