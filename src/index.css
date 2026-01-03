@@ -5,15 +5,16 @@
 html,
 body,
 #root {
-  height: auto;
-  min-height: 100%;          /* ✅ safe */
+  height: 100%;
   margin: 0;
   font-family: Inter, Arial, sans-serif;
   background: #f6f8fa;
   color: #0f1724;
-  overflow-x: hidden;
-  overflow-y: auto;          /* ✅ allow normal scroll */
+
+  overflow: hidden;               /* ✅ BODY MUST NOT SCROLL */
+  overscroll-behavior: none;      /* ✅ stops iOS rubber-band */
 }
+
 
 /* =========================
    SHARED DROPDOWN CARET

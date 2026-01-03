@@ -36,7 +36,7 @@ const Layout: React.FC = () => {
     <div
       style={{
         display: "flex",
-        height: "100vh",
+        height: "100dvh",
         overflow: "hidden",
         fontFamily: "Inter, Arial, sans-serif",
       }}
@@ -199,8 +199,10 @@ const Layout: React.FC = () => {
     flex: 1,
     padding: 24,
     minWidth: 0,
-    overflowY: isDesktop ? "auto" : "visible",
-    WebkitOverflowScrolling: isDesktop ? "touch" : "auto",
+    overflowY: "auto",
+    WebkitOverflowScrolling: "auto",
+    overscrollBehavior: "contain",
+
   }}
 >
 
