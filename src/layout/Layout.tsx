@@ -37,7 +37,7 @@ const Layout: React.FC = () => {
       style={{
         display: "flex",
         height: "100vh",
-        overflow: "visible",
+        overflow: "hidden",
         fontFamily: "Inter, Arial, sans-serif",
       }}
     >
@@ -52,7 +52,7 @@ const Layout: React.FC = () => {
       {/* SIDEBAR */}
       <div
         className={`sidebar ${sidebarOpen ? "open" : "closed"}`}
-        style={{ flexShrink: 0 }}
+        style={{ height: "100vh", flexShrink: 0 }}
       >
         <Sidebar />
       </div>
@@ -195,12 +195,15 @@ const Layout: React.FC = () => {
 
         {/* PAGE CONTENT */}
         <main
-          style={{
-            flex: 1,
-            padding: 24,
-            minWidth: 0,
-          }}
-        >
+  style={{
+    flex: 1,
+    padding: 24,
+    minWidth: 0,
+    overflowY: isDesktop ? "auto" : "visible",
+    WebkitOverflowScrolling: isDesktop ? "touch" : "auto",
+  }}
+>
+
           <Outlet />
         </main>
       </div>
