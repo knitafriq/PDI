@@ -146,8 +146,6 @@ const MultiSelectDropdown: React.FC<MultiSelectProps> = ({
         >
           {summaryLabel}
         </span>
-        {/* ▼ to match theme dropdown arrow */}
-        <span style={{ fontSize: 10, marginLeft: 6 }}>▼</span>
       </button>
 
       {open && (
