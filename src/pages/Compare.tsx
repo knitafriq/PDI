@@ -275,13 +275,20 @@ const SearchableSelect: React.FC<SearchableSelectProps> = ({ value, onChange, op
   onClick={() => setOpen((s) => !s)}
   style={{
     width: "100%",
-    textAlign: "left",
-    padding: "8px 28px 8px 10px",
+    height: 40,                 // 🔑 fixed height
+    padding: "0 36px 0 12px",    // 🔑 space for caret
     borderRadius: 6,
     border: "1px solid #d1d5db",
     backgroundColor: "#ffffff",
     cursor: "pointer",
     fontSize: 13,
+
+    display: "flex",
+    alignItems: "center",
+
+    whiteSpace: "nowrap",
+    overflow: "hidden",
+    textOverflow: "ellipsis",
 
     appearance: "none",
     WebkitAppearance: "none",
@@ -290,16 +297,17 @@ const SearchableSelect: React.FC<SearchableSelectProps> = ({ value, onChange, op
     backgroundImage:
       "linear-gradient(45deg, transparent 50%, #374151 50%), linear-gradient(135deg, #374151 50%, transparent 50%)",
     backgroundPosition:
-      "calc(100% - 16px) calc(50% - 3px), calc(100% - 11px) calc(50% - 3px)",
+      "calc(100% - 16px) 50%, calc(100% - 11px) 50%",
     backgroundSize: "5px 5px, 5px 5px",
     backgroundRepeat: "no-repeat",
   }}
 >
   <span
     style={{
-      whiteSpace: "nowrap",
       overflow: "hidden",
       textOverflow: "ellipsis",
+      whiteSpace: "nowrap",
+      width: "100%",
     }}
   >
     {selectedLabel || placeholder}
@@ -307,9 +315,24 @@ const SearchableSelect: React.FC<SearchableSelectProps> = ({ value, onChange, op
 </button>
 
 
+
       {open && (
         <div style={{ position: "absolute", left: 0, top: "calc(100% + 6px)", zIndex: 1200, background: "#fff", border: "1px solid #e5e7eb", borderRadius: 6, width: "100%", boxShadow: "0 8px 20px rgba(15,23,42,0.08)", padding: 8 }}>
-          <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search..." style={{ width: "100%", padding: "6px 8px", borderRadius: 6, border: "1px solid #eee", marginBottom: 8 }} />
+          <input
+  value={q}
+  onChange={(e) => setQ(e.target.value)}
+  placeholder="Search..."
+  style={{
+    width: "100%",
+    boxSizing: "border-box",   // 🔑 critical fix
+    padding: "8px 10px",
+    borderRadius: 6,
+    border: "1px solid #e5e7eb",
+    marginBottom: 8,
+    fontSize: 13,
+  }}
+/>
+
           <div style={{ maxHeight: 240, overflowY: "auto" }}>
             <div onClick={() => { onChange(""); setOpen(false); }} style={{ padding: "6px 8px", cursor: "pointer" }}>
               <em style={{ color: "#6b7280" }}>— None —</em>
