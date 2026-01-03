@@ -1,11 +1,10 @@
-// src/components/RadarChart.tsx
 import React, { useMemo, useState } from "react";
 
 /**
  * Responsive RadarChart (SVG)
- * - Fully mobile safe (iOS / Android)
- * - Auto scales to container
- * - Desktop behaviour unchanged
+ * - iOS safe
+ * - No label clipping
+ * - Stable on re-render / selection
  */
 
 type Series = {
@@ -55,37 +54,46 @@ export default function RadarChart({
   const isTouch =
     typeof window !== "undefined" && "ontouchstart" in window;
 
-  // 🔑 Auto-scale size
+  /** ---------- SIZE ---------- */
   const effectiveSize = Math.min(size, isMobile ? 260 : 480);
-
   const count = Math.max(3, labels.length);
+
+  /** ---------- PADDING (FIXED) ---------- */
   const padLeft = isMobile ? 20 : 28;
-  const padRight = isMobile ? 36 : 44; // 🔑 extra room for right labels
+  const padRight = isMobile ? 36 : 44; // extra room for right labels
   const padTop = isMobile ? 20 : 28;
   const padBottom = isMobile ? 20 : 28;
 
+  // 🔑 single pad value used for svg height
+  const pad = Math.max(padTop, padBottom);
+
+  /** ---------- LEGEND ---------- */
   const legendHeight = !isMobile
     ? Math.min(120, Math.max(24, series.length * 20))
     : 0;
 
   const svgHeight = effectiveSize + legendHeight + pad;
 
-  const cx = (effectiveSize + padRight - padLeft) / 2; // 🔑 shift right
+  /** ---------- CENTER (SHIFTED RIGHT) ---------- */
+  const cx = (effectiveSize + padRight - padLeft) / 2;
   const cy = effectiveSize / 2;
 
-
+  /** ---------- RADIUS ---------- */
   const radius = Math.max(
-  40,
-  Math.min(
-    cx - padLeft,
-    effectiveSize - cx - padRight,
-    cy - padTop,
-    effectiveSize - cy - padBottom
-  )
-);
+    40,
+    Math.min(
+      cx - padLeft,
+      effectiveSize - cx - padRight,
+      cy - padTop,
+      effectiveSize - cy - padBottom
+    )
+  );
 
-
-  const rings = Array.from({ length: gridLevels }, (_, i) => (i + 1) / gridLevels);
+  /** ---------- GRID ---------- */
+  const rings = Array.from(
+    { length: gridLevels },
+    (_, i) => (i + 1) / gridLevels
+  );
 
   const axisInfo = Array.from({ length: count }).map((_, i) => {
     const angle = ((Math.PI * 2) / count) * i - Math.PI / 2;
@@ -98,11 +106,13 @@ export default function RadarChart({
 
   const labelFactor = isMobile ? 1.04 : 1.12;
 
+  /** ---------- SERIES ---------- */
   const prepared = useMemo(() => {
     return series.map((s, i) => {
-      const ratios = Array.from({ length: count }).map((_, idx) =>
-        Math.max(0, Math.min(1, (s.values[idx] ?? 0) / max))
+      const ratios = Array.from({ length: count }).map(
+        (_, idx) => Math.max(0, Math.min(1, (s.values[idx] ?? 0) / max))
       );
+
       return {
         ...s,
         ratios,
@@ -112,12 +122,13 @@ export default function RadarChart({
     });
   }, [series, count, max]);
 
-  const [tooltip, setTooltip] = useState<{
-    visible: boolean;
-    x: number;
-    y: number;
-    html: string;
-  }>({ visible: false, x: 0, y: 0, html: "" });
+  /** ---------- TOOLTIP ---------- */
+  const [tooltip, setTooltip] = useState({
+    visible: false,
+    x: 0,
+    y: 0,
+    html: "",
+  });
 
   const showTooltip = (e: React.MouseEvent, html: string) => {
     if (isTouch) return;
@@ -132,6 +143,7 @@ export default function RadarChart({
   const hideTooltip = () =>
     setTooltip({ visible: false, x: 0, y: 0, html: "" });
 
+  /** ---------- RENDER ---------- */
   return (
     <div style={{ width: "100%", minWidth: 0, position: "relative" }}>
       <svg
@@ -146,7 +158,13 @@ export default function RadarChart({
           {rings.map((r, i) => (
             <polygon
               key={i}
-              points={polygonPoints(cx, cy, radius * r, count, Array(count).fill(1))}
+              points={polygonPoints(
+                cx,
+                cy,
+                radius * r,
+                count,
+                Array(count).fill(1)
+              )}
             />
           ))}
         </g>
@@ -202,13 +220,16 @@ export default function RadarChart({
                 onMouseMove={(e) =>
                   showTooltip(
                     e,
-                    `<strong>${s.name}</strong><div>PDI: ${s.pdi.toFixed(3)}</div>`
+                    `<strong>${s.name}</strong><div>PDI: ${s.pdi.toFixed(
+                      3
+                    )}</div>`
                   )
                 }
                 onMouseLeave={hideTooltip}
               />
               {s.ratios.map((r, i) => {
-                const angle = ((Math.PI * 2) / count) * i - Math.PI / 2;
+                const angle =
+                  ((Math.PI * 2) / count) * i - Math.PI / 2;
                 return (
                   <circle
                     key={i}
