@@ -30,6 +30,8 @@ const Card: React.FC<CardProps> = ({ title, children }) => {
           fontWeight: 600,
           marginBottom: 8,
           lineHeight: 1.3,
+          whiteSpace: "normal",      // ✅ allow wrapping
+          wordBreak: "break-word",   // ✅ prevent overflow
         }}
       >
         {title}
