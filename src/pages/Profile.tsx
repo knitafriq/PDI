@@ -516,7 +516,7 @@ const Profile: React.FC = () => {
 
               <div>
                 <Card title="PDI & quick metrics">
-                  <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+                  <div style={{ display: "flex", flexDirection: "column", gap: 30 }}>
                   <div style={{ fontSize: 18, fontWeight: 800 }}>{provincialPdiAvg != null ? provincialPdiAvg.toFixed(3) : "—"}</div>
                   <div style={{ color: "#666", marginTop: 8, marginBottom: 8, fontSize: 12 }}>
                     PDI (average) for across this district.</div>
