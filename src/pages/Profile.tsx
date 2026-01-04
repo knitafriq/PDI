@@ -514,17 +514,7 @@ const Profile: React.FC = () => {
                 </div>
               </div>
 
-              <div style={{
-                     width: "100%",
-                     maxWidth:
-                     typeof window !== "undefined" && window.innerWidth >= 768
-                       ? 300
-                       : 260,
-                     minWidth: 0,
-                     marginLeft: "auto",
-                     marginRight: "auto",
-                     }}
-              >
+              <div>
                 <Card title="PDI & quick metrics">
                   <div style={{ fontSize: 18, fontWeight: 800 }}>{provincialPdiAvg != null ? provincialPdiAvg.toFixed(3) : "—"}</div>
                   <div style={{ color: "#666", marginTop: 8, marginBottom: 8, fontSize: 12 }}>
@@ -600,17 +590,7 @@ const Profile: React.FC = () => {
                   </div>
                 </div>
 
-              <div style={{
-                     width: "100%",
-                     maxWidth:
-                     typeof window !== "undefined" && window.innerWidth >= 768
-                       ? 300
-                       : 260,
-                     minWidth: 0,
-                     marginLeft: "auto",
-                     marginRight: "auto",
-                     }}
-              >
+              <div>
                   <Card title="PDI & quick metrics">
                     <div style={{ fontSize: 18, fontWeight: 800 }}>{districtPdiAvg != null ? districtPdiAvg.toFixed(3) : "—"}</div>
                     <div style={{ color: "#666", marginTop: 8, marginBottom: 8, fontSize: 12 }}>PDI (average) for across this district.</div>
@@ -692,17 +672,7 @@ const Profile: React.FC = () => {
                   </div>
                 </div>
 
-              <div style={{
-                     width: "100%",
-                     maxWidth:
-                     typeof window !== "undefined" && window.innerWidth >= 768
-                       ? 300
-                       : 260,
-                     minWidth: 0,
-                     marginLeft: "auto",
-                     marginRight: "auto",
-                     }}
-              >
+              <div>
                   <Card title="PDI & quick metrics">
                     <div style={{ fontSize: 18, fontWeight: 800 }}>{muniPdiValue != null ? muniPdiValue.toFixed(3) : "—"}</div>
                     <div style={{ color: "#666", marginTop: 8, marginBottom: 8, fontSize: 12 }}>PDI (min-max scaled) for this municipality.</div>

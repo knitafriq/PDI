@@ -14,7 +14,6 @@ const Card: React.FC<CardProps> = ({ title, children }) => {
           typeof window !== "undefined" && window.innerWidth >= 768
           ? 260
           : 0,
-        width: "100%",
         // visual card appearance
         background: "#ffffff",
         borderRadius: 12,
