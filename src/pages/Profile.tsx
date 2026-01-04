@@ -494,13 +494,13 @@ const Profile: React.FC = () => {
           <>
             <div style={{ display: "grid",
                           gridTemplateColumns: "1fr 300px",
-                          gap: 48, 
+                          gap: 12, 
                           alignItems: "flex-start" 
               }}
             >
               <div>
                 <h3 style={{ marginTop: 0, marginBottom: 8, fontSize: 14 }}>Theme scores</h3>
-                <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(120px,1fr))", gap: 48 }}>
+                <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(120px,1fr))", gap: 18 }}>
                   {themeColumns.map((t) => {
                     const provAvg = provincialThemeAverages[t];
                     const natAvg = themeStatsAll[t]?.avg ?? null;
