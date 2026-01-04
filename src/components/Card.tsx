@@ -10,10 +10,7 @@ const Card: React.FC<CardProps> = ({ title, children }) => {
     <div
       style={{
         flex: 1,
-        minWidth:
-          typeof window !== "undefined" && window.innerWidth >= 768
-          ? 260
-          : 0,
+        minWidth: 260,
         // visual card appearance
         background: "#ffffff",
         borderRadius: 12,
