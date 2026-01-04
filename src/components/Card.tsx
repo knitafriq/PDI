@@ -34,6 +34,8 @@ const Card: React.FC<CardProps> = ({ title, children }) => {
           lineHeight: 1.3,
           whiteSpace: "normal",      // ✅ allow wrapping
           wordBreak: "break-word",   // ✅ prevent overflow
+          overflowWrap: "anywhere",    // wrap even in overlap
+          maxWidth: "100%",  
         }}
       >
         {title}
