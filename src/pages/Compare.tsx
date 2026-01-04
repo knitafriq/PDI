@@ -1,4 +1,4 @@
-the text is still not aligned to the municipal container see the image & script: // src/pages/Compare.tsx
+// src/pages/Compare.tsx
 import React, { useMemo, useState } from "react";
 import { useData } from "../context/DataContext";
 import Card from "../components/Card";
