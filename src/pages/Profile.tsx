@@ -514,10 +514,7 @@ const Profile: React.FC = () => {
                 </div>
               </div>
 
-              <div style={{maxWidth:
-                            typeof window !== "undefined" && window.innerWidth >= 768
-                          ? 260
-                          : 60
+              <div style={{maxWidth: 60
                          }}
               >
                 <Card title="PDI & quick metrics">
