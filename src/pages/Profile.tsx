@@ -493,10 +493,6 @@ const Profile: React.FC = () => {
         ) : (
           <>
             <div style={{ display: "grid",
-                          maxWidth:
-                            typeof window !== "undefined" && window.innerWidth >= 768
-                          ? 260
-                          : 60, 
                           gridTemplateColumns: "1fr 300px",
                           gap: 12, 
                           alignItems: "flex-start" 
@@ -518,7 +514,12 @@ const Profile: React.FC = () => {
                 </div>
               </div>
 
-              <div>
+              <div style={{maxWidth:
+                            typeof window !== "undefined" && window.innerWidth >= 768
+                          ? 260
+                          : 60
+                         }}
+              >
                 <Card title="PDI & quick metrics">
                   <div style={{ fontSize: 18, fontWeight: 800 }}>{provincialPdiAvg != null ? provincialPdiAvg.toFixed(3) : "—"}</div>
                   <div style={{ color: "#666", marginTop: 8, marginBottom: 8, fontSize: 12 }}>
