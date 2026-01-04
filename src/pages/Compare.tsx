@@ -604,8 +604,8 @@ const Compare: React.FC = () => {
 
   {/* RIGHT COLUMN */}
 <div style={{ flex: 1, minWidth: 320, display: "flex", justifyContent: "center", padding: "8px 0 28px 0", boxSizing: "border-box" }}>
-                {muniSeries.length === 0 ? (
-                  <div style={{ fontSize: 13, color: "#6b7280", paddingTop: 24 }}>Select one or more municipalities to see the comparison.</div>
+                {districtSeries.length === 0 ? (
+                  <div style={{ fontSize: 13, color: "#6b7280", paddingTop: 24 }}>Select one or more tshepo to see the comparison.</div>
                 ) : (
                   <div style={{ width: "100%", maxWidth: 520, overflow: "visible" }}>
                     <RadarChart labels={THEME_KEYS} series={districtSeries} size={260} gridLevels={4} max={1} />
