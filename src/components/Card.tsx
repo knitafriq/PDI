@@ -3,6 +3,7 @@ import React from "react";
 type CardProps = {
   title: string;
   children: React.ReactNode;
+  maxWidth?: number | string;
 };
 
 const Card: React.FC<CardProps> = ({ title, children }) => {
@@ -11,6 +12,7 @@ const Card: React.FC<CardProps> = ({ title, children }) => {
       style={{
         flex: 1,
         minWidth: 260,
+        maxWidth: maxWidth ?? "none", // ✅ default unchanged
         // visual card appearance
         background: "#ffffff",
         borderRadius: 12,
