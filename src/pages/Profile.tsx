@@ -514,7 +514,17 @@ const Profile: React.FC = () => {
                 </div>
               </div>
 
-              <div style={{ minWidth: 0 }}>
+              <div style={{
+                     width: "100%",
+                     maxWidth:
+                     typeof window !== "undefined" && window.innerWidth >= 768
+                       ? 300
+                       : 260,
+                     minWidth: 0,
+                     marginLeft: "auto",
+                     marginRight: "auto",
+                     }}
+              >
                 <Card title="PDI & quick metrics">
                   <div style={{ fontSize: 18, fontWeight: 800 }}>{provincialPdiAvg != null ? provincialPdiAvg.toFixed(3) : "—"}</div>
                   <div style={{ color: "#666", marginTop: 8, marginBottom: 8, fontSize: 12 }}>
@@ -590,7 +600,17 @@ const Profile: React.FC = () => {
                   </div>
                 </div>
 
-                <div style={{ minWidth: 0 }}>
+              <div style={{
+                     width: "100%",
+                     maxWidth:
+                     typeof window !== "undefined" && window.innerWidth >= 768
+                       ? 300
+                       : 260,
+                     minWidth: 0,
+                     marginLeft: "auto",
+                     marginRight: "auto",
+                     }}
+              >
                   <Card title="PDI & quick metrics">
                     <div style={{ fontSize: 18, fontWeight: 800 }}>{districtPdiAvg != null ? districtPdiAvg.toFixed(3) : "—"}</div>
                     <div style={{ color: "#666", marginTop: 8, marginBottom: 8, fontSize: 12 }}>PDI (average) for across this district.</div>
@@ -620,7 +640,9 @@ const Profile: React.FC = () => {
         <Card title="Municipality profile">
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 16, marginBottom: 12, flexWrap: "wrap" }}>
             <div>
-              <div style={{ fontSize: 16, fontWeight: 600, marginBottom: 4 }}>{selectedMuniCode ? displayName : "Select a municipality"}</div>
+              <div style={{ fontSize: 16, fontWeight: 600, marginBottom: 4 }}>{selectedMuniCode ? displayName :             <p style={{ fontSize: 12, color: "#6b7280", margin: 0, maxWidth: 520 }}>
+              Aggregated themes and indicators for the selected <strong>district</strong>. Values are averages across all municipalities in the district.
+            </p>}</div>
               {selectedMuniCode && (
                 <div style={{ fontSize: 12, color: "#6b7280" }}>
                   {muniProvince && `${muniProvince} • `}District: {muniDistrict || "—"} • MIIF: {muniMiif}
@@ -668,7 +690,17 @@ const Profile: React.FC = () => {
                   </div>
                 </div>
 
-                <div style={{ minWidth: 0 }}>
+              <div style={{
+                     width: "100%",
+                     maxWidth:
+                     typeof window !== "undefined" && window.innerWidth >= 768
+                       ? 300
+                       : 260,
+                     minWidth: 0,
+                     marginLeft: "auto",
+                     marginRight: "auto",
+                     }}
+              >
                   <Card title="PDI & quick metrics">
                     <div style={{ fontSize: 18, fontWeight: 800 }}>{muniPdiValue != null ? muniPdiValue.toFixed(3) : "—"}</div>
                     <div style={{ color: "#666", marginTop: 8, marginBottom: 8, fontSize: 12 }}>PDI (min-max scaled) for this municipality.</div>
