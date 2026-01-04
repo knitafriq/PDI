@@ -6,7 +6,7 @@ type CardProps = {
   maxWidth?: number | string;
 };
 
-const Card: React.FC<CardProps> = ({ title, children }) => {
+const Card: React.FC<CardProps> = ({ title, children, maxWidth }) => {
   return (
     <div
       style={{

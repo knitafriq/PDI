@@ -515,7 +515,7 @@ const Profile: React.FC = () => {
               </div>
 
               <div style={{ transform: "translateX(12px)" }}>
-                <Card title="PDI & quick metrics">
+                <Card title="PDI & quick metrics" maxWidth={260}>
                   <div style={{ fontSize: 12, wordBreak: "break-word",  display: "flex", flexDirection: "column"}}>
                   <div style={{ fontSize: 18, fontWeight: 800 }}>{provincialPdiAvg != null ? provincialPdiAvg.toFixed(3) : "—"}</div>
                   <div style={{ color: "#666", marginTop: 8, marginBottom: 8, fontSize: 12 }}>
