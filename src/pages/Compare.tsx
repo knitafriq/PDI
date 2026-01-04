@@ -602,7 +602,7 @@ const Compare: React.FC = () => {
   </div>
 
   {/* RIGHT COLUMN */}
-<div style={{ flex: 1, minWidth: 320, display: "flex", justifyContent: "center", padding: "8px 0 28px 0", boxSizing: "border-box" }}>
+<div style={{ flex: 1, minWidth: 320, display: "flex", justifyContent: "flex-start", padding: "8px 0 28px 0", boxSizing: "border-box" }}>
                 {districtSeries.length === 0 ? (
                   <div style={{ fontSize: 13, color: "#6b7280", paddingTop: 24 }}>Select one or more district to see the comparison.</div>
                 ) : (
@@ -658,9 +658,9 @@ const Compare: React.FC = () => {
                 ))}
               </div>
 
-              <div style={{ flex: 1, minWidth: 320, display: "flex", justifyContent: "center", padding: "8px 0 28px 0", boxSizing: "border-box" }}>
+              <div style={{ flex: 1, minWidth: 320, display: "flex", justifyContent: "flex-start", padding: "8px 0 28px 0", boxSizing: "border-box" }}>
                 {muniSeries.length === 0 ? (
-                  <div style={{ fontSize: 13, color: "#6b7280", paddingTop: 24 }}>Select one or more municipalities to see the comparison.</div>
+                  <div style={{ fontSize: 13, color: "#6b7280", paddingTop: 24 }}>Select one or more municipality to see the comparison.</div>
                 ) : (
                   <div style={{ width: "100%", maxWidth: 520, overflow: "visible" }}>
                     <RadarChart labels={THEME_KEYS} series={muniSeries} size={260} gridLevels={4} max={1} />
