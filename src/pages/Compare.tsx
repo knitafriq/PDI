@@ -524,8 +524,8 @@ const Compare: React.FC = () => {
       </p>
 
       <div>
-<div style={{ marginTop: 14 }}>
         {/* 1. PROVINCE COMPARE */}
+<div style={{ marginTop: 14 }}>
         <Card title="Province comparison (overlay)">
             <p style={{ fontSize: 12, color: "#6b7280", marginBottom: 8 }}>
                Select up to three provinces to overlay their average theme profiles.
@@ -552,7 +552,7 @@ const Compare: React.FC = () => {
   {/* RIGHT COLUMN */}
 <div style={{ flex: 1, minWidth: 320, display: "flex", flex-wrap: "wrap", justifyContent: "flex-start", padding: "8px 0 28px 0", boxSizing: "border-box" }}>
                 {provinceSeries.length === 0 ? (
-                  <div style={{ fontSize: 13, color: "#6b7280", paddingTop: 24 }}>Select one or more provinces to see the comparison.</div>
+                  <div style={{ fontSize: 13, color: "#6b7280", paddingTop: 24 }}>Select one or more tshepos to see the comparison.</div>
                 ) : (
                   <div style={{ width: "100%", maxWidth: 520, overflow: "visible" }}>
                     <RadarChart labels={THEME_KEYS} series={provinceSeries} size={260} gridLevels={4} max={1} />
