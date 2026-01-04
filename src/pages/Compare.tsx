@@ -550,7 +550,7 @@ const Compare: React.FC = () => {
   </div>
 
   {/* RIGHT COLUMN */}
-<div style={{ flex: 1, minWidth: 320, display: "flex", flex-wrap: "wrap", justifyContent: "flex-start", padding: "8px 0 28px 0", boxSizing: "border-box" }}>
+<div style={{ flex: 1, minWidth: 320, display: "flex", flexWrap: "wrap", justifyContent: "flex-start", padding: "8px 0 28px 0", boxSizing: "border-box" }}>
                 {provinceSeries.length === 0 ? (
                   <div style={{ fontSize: 13, color: "#6b7280", paddingTop: 24 }}>Select one or more tshepos to see the comparison.</div>
                 ) : (
@@ -587,7 +587,7 @@ const Compare: React.FC = () => {
   </div>
 
   {/* RIGHT COLUMN */}
-<div style={{ flex: 1, minWidth: 320, display: "flex", flex-wrap: "wrap", justifyContent: "flex-start", padding: "8px 0 28px 0", boxSizing: "border-box" }}>
+<div style={{ flex: 1, minWidth: 320, display: "flex", flexWrap: "wrap", justifyContent: "flex-start", padding: "8px 0 28px 0", boxSizing: "border-box" }}>
                 {districtSeries.length === 0 ? (
                   <div style={{ fontSize: 13, color: "#6b7280", paddingTop: 24 }}>Select one or more districts to see the comparison.</div>
                 ) : (
@@ -643,7 +643,7 @@ const Compare: React.FC = () => {
                 ))}
               </div>
 
-              <div style={{ flex: 1, minWidth: 320, display: "flex", flex-wrap: "wrap", justifyContent: "flex-start", padding: "8px 0 28px 0", boxSizing: "border-box" }}>
+              <div style={{ flex: 1, minWidth: 320, display: "flex", flexWrap: "wrap", justifyContent: "flex-start", padding: "8px 0 28px 0", boxSizing: "border-box" }}>
                 {muniSeries.length === 0 ? (
                   <div style={{ fontSize: 13, color: "#6b7280", paddingTop: 24 }}>Select one or more municipalities to see the comparison.</div>
                 ) : (
