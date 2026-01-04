@@ -500,7 +500,7 @@ const Profile: React.FC = () => {
             >
               <div>
                 <h3 style={{ marginTop: 0, marginBottom: 8, fontSize: 14 }}>Theme scores</h3>
-                <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(120px,1fr))", gap: 8 }}>
+                <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(120px,1fr))", gap: 24 }}>
                   {themeColumns.map((t) => {
                     const provAvg = provincialThemeAverages[t];
                     const natAvg = themeStatsAll[t]?.avg ?? null;
@@ -516,7 +516,7 @@ const Profile: React.FC = () => {
 
               <div style={{ transform: "translateX(12px)" }}>
                 <Card title="PDI & quick metrics">
-                  <div style={{ fontSize: 12, wordBreak: "break-word",  display: "flex", flexDirection: "column", gap: 8 }}>
+                  <div style={{ fontSize: 12, wordBreak: "break-word",  display: "flex", flexDirection: "column"}}>
                   <div style={{ fontSize: 18, fontWeight: 800 }}>{provincialPdiAvg != null ? provincialPdiAvg.toFixed(3) : "—"}</div>
                   <div style={{ color: "#666", marginTop: 8, marginBottom: 8, fontSize: 12 }}>
                     PDI (average) for across this district.</div>
