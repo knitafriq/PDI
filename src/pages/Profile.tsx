@@ -640,9 +640,11 @@ const Profile: React.FC = () => {
         <Card title="Municipality profile">
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 16, marginBottom: 12, flexWrap: "wrap" }}>
             <div>
-              <div style={{ fontSize: 16, fontWeight: 600, marginBottom: 4 }}>{selectedMuniCode ? displayName :             <p style={{ fontSize: 12, color: "#6b7280", margin: 0, maxWidth: 520 }}>
-              Aggregated themes and indicators for the selected <strong>district</strong>. Values are averages across all municipalities in the district.
-            </p>}</div>
+              <div style={{ fontSize: 16, fontWeight: 600, marginBottom: 4 }}>{selectedMuniCode ? displayName :             
+                 <p style={{ fontSize: 12, color: "#6b7280", margin: 0, maxWidth: 520 }}>
+                    Actual themes and indicators for the selected <strong>municiplity</strong>. Values are actuals for the municipalities.
+                 </p>}
+              </div>
               {selectedMuniCode && (
                 <div style={{ fontSize: 12, color: "#6b7280" }}>
                   {muniProvince && `${muniProvince} • `}District: {muniDistrict || "—"} • MIIF: {muniMiif}
