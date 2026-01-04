@@ -524,6 +524,7 @@ const Compare: React.FC = () => {
       </p>
 
       <div>
+<div style={{ marginTop: 14 }}>
         {/* 1. PROVINCE COMPARE */}
         <Card title="Province comparison (overlay)">
             <p style={{ fontSize: 12, color: "#6b7280", marginBottom: 8 }}>
@@ -560,7 +561,7 @@ const Compare: React.FC = () => {
               </div>
 </div>
         </Card>
-
+</div>
         {/* 2. DISTRICT COMPARE */}
         <div style={{ marginTop: 14 }}>
           <Card title="District comparison (overlay)">
