@@ -494,7 +494,7 @@ const Profile: React.FC = () => {
           <>
             <div style={{ display: "grid",
                           gridTemplateColumns: "1fr 300px",
-                          gap: 12, 
+                          gap: 24, 
                           alignItems: "flex-start" 
               }}
             >
@@ -514,9 +514,9 @@ const Profile: React.FC = () => {
                 </div>
               </div>
 
-              <div>
+              <div style={{ transform: "translateX(12px)" }}>
                 <Card title="PDI & quick metrics">
-                  <div style={{ display: "flex", flexDirection: "column", gap: 30 }}>
+                  <div style={{ fontSize: 12, wordBreak: "break-word",  display: "flex", flexDirection: "column", gap: 8 }}>
                   <div style={{ fontSize: 18, fontWeight: 800 }}>{provincialPdiAvg != null ? provincialPdiAvg.toFixed(3) : "—"}</div>
                   <div style={{ color: "#666", marginTop: 8, marginBottom: 8, fontSize: 12 }}>
                     PDI (average) for across this district.</div>
@@ -529,7 +529,6 @@ const Profile: React.FC = () => {
                   <div style={{ fontSize: 12 }}>
                       <div><strong>Municipalities:</strong> {provincialThemeRows.length}</div>
                   </div>
-                 </div>
                 </Card>
              </div>
             </div>
