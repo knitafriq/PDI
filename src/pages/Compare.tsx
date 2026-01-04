@@ -526,12 +526,12 @@ const Compare: React.FC = () => {
       <div>
         {/* 1. PROVINCE COMPARE */}
         <Card title="Province comparison (overlay)">
+            <p style={{ fontSize: 12, color: "#6b7280", marginBottom: 8 }}>
+               Select up to three provinces to overlay their average theme profiles.
+            </p>
           <div style={{ display: "flex", gap: 12, flexWrap: "wrap", alignItems: "flex-start" }}>
   {/* LEFT COLUMN */}
   <div style={{ fontSize: 12, minWidth: 220, maxWidth: 260 }}>
-    <p style={{ fontSize: 12, color: "#6b7280", marginBottom: 8 }}>
-      Select up to three provinces to overlay their average theme profiles.
-    </p>
 
     {[[provSel1, setProvSel1], [provSel2, setProvSel2], [provSel3, setProvSel3]].map(
       ([val, setVal], idx) => (
@@ -549,32 +549,16 @@ const Compare: React.FC = () => {
   </div>
 
   {/* RIGHT COLUMN */}
-  <div
-    style={{
-      flex: 1,
-      minWidth: 320,
-      display: "flex",
-      justifyContent: "center",
-      padding: "8px 0 24px 0",
-      boxSizing: "border-box",
-    }}
-  >
-    {provinceSeries.length > 0 && (
-  <div style={{ width: "100%", maxWidth: 520 }}>
-    <RadarChart labels={THEME_KEYS} series={provinceSeries} size={320} />
-  </div>
-)}
-
-{provinceSeries.length === 0 && (
-  <div style={{ fontSize: 12, color: "#6b7280", marginBottom: 8 }}>
-    Select one or more provinces to see the comparison.
-  </div>
-)}
-
-
-  </div>
+<div style={{ flex: 1, minWidth: 320, display: "flex", flex-wrap: "wrap", justifyContent: "flex-start", padding: "8px 0 28px 0", boxSizing: "border-box" }}>
+                {provinceSeries.length === 0 ? (
+                  <div style={{ fontSize: 13, color: "#6b7280", paddingTop: 24 }}>Select one or more province to see the comparison.</div>
+                ) : (
+                  <div style={{ width: "100%", maxWidth: 520, overflow: "visible" }}>
+                    <RadarChart labels={THEME_KEYS} series={provinceSeries} size={260} gridLevels={4} max={1} />
+                  </div>
+                )}
+              </div>
 </div>
-
         </Card>
 
         {/* 2. DISTRICT COMPARE */}
@@ -602,7 +586,7 @@ const Compare: React.FC = () => {
   </div>
 
   {/* RIGHT COLUMN */}
-<div style={{ flex: 1, minWidth: 320, display: "flex", justifyContent: "flex-start", padding: "8px 0 28px 0", boxSizing: "border-box" }}>
+<div style={{ flex: 1, minWidth: 320, display: "flex", flex-wrap: "wrap", justifyContent: "flex-start", padding: "8px 0 28px 0", boxSizing: "border-box" }}>
                 {districtSeries.length === 0 ? (
                   <div style={{ fontSize: 13, color: "#6b7280", paddingTop: 24 }}>Select one or more district to see the comparison.</div>
                 ) : (
@@ -658,7 +642,7 @@ const Compare: React.FC = () => {
                 ))}
               </div>
 
-              <div style={{ flex: 1, minWidth: 320, display: "flex", justifyContent: "flex-start", padding: "8px 0 28px 0", boxSizing: "border-box" }}>
+              <div style={{ flex: 1, minWidth: 320, display: "flex", flex-wrap: "wrap", justifyContent: "flex-start", padding: "8px 0 28px 0", boxSizing: "border-box" }}>
                 {muniSeries.length === 0 ? (
                   <div style={{ fontSize: 13, color: "#6b7280", paddingTop: 24 }}>Select one or more municipality to see the comparison.</div>
                 ) : (
