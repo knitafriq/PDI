@@ -529,6 +529,7 @@ const Profile: React.FC = () => {
                   <div style={{ fontSize: 12 }}>
                       <div><strong>Municipalities:</strong> {provincialThemeRows.length}</div>
                   </div>
+                 </div>
                 </Card>
              </div>
             </div>
