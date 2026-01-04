@@ -559,15 +559,19 @@ const Compare: React.FC = () => {
       boxSizing: "border-box",
     }}
   >
-    {provinceSeries.length === 0 ? (
-      <div style={{ fontSize: 13, color: "#6b7280", paddingTop: 24 }}>
-        Select one or more provinces to see the comparison.
-      </div>
-    ) : (
-      <div style={{ width: "100%", maxWidth: 520 }}>
-        <RadarChart labels={THEME_KEYS} series={provinceSeries} size={320} />
-      </div>
-    )}
+    {provinceSeries.length > 0 && (
+  <div style={{ width: "100%", maxWidth: 520 }}>
+    <RadarChart labels={THEME_KEYS} series={provinceSeries} size={320} />
+  </div>
+)}
+
+{provinceSeries.length === 0 && (
+  <div style={{ fontSize: 12, color: "#6b7280", marginBottom: 8 }}>
+    Select one or more provinces to see the comparison.
+  </div>
+)}
+
+
   </div>
 </div>
 
