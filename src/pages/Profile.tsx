@@ -492,7 +492,14 @@ const Profile: React.FC = () => {
           <div style={{ fontSize: 13, color: "#6b7280" }}>No municipalities found for this province.</div>
         ) : (
           <>
-            <div style={{ display: "grid", gridTemplateColumns: "1fr 300px", gap: 12, alignItems: "flex-start" }}>
+            <div style={{ display: "grid", 
+                          gridTemplateColumns: typeof window !== "undefined" && window.innerWidth >= 768
+                             ? "1fr 300px"
+                             : "1fr",
+                          gap: 12, 
+                          alignItems: "flex-start" 
+              }}
+            >
               <div>
                 <h3 style={{ marginTop: 0, marginBottom: 8, fontSize: 14 }}>Theme scores</h3>
                 <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(120px,1fr))", gap: 8 }}>
@@ -509,7 +516,7 @@ const Profile: React.FC = () => {
                 </div>
               </div>
 
-              <div>
+              <div style={{ minWidth: 0 }}>
                 <Card title="PDI & quick metrics">
                   <div style={{ fontSize: 18, fontWeight: 800 }}>{provincialPdiAvg != null ? provincialPdiAvg.toFixed(3) : "—"}</div>
                   <div style={{ color: "#666", marginTop: 8, marginBottom: 8, fontSize: 12 }}>
@@ -563,7 +570,14 @@ const Profile: React.FC = () => {
             <div style={{ fontSize: 13, color: "#6b7280" }}>No municipalities found for this district.</div>
           ) : (
             <>
-              <div style={{ display: "grid", gridTemplateColumns: "1fr 300px", gap: 12, alignItems: "flex-start" }}>
+              <div style={{ display: "grid", 
+                          gridTemplateColumns: typeof window !== "undefined" && window.innerWidth >= 768
+                             ? "1fr 300px"
+                             : "1fr",
+                          gap: 12, 
+                          alignItems: "flex-start" 
+              }}
+            >
                 <div>
                   <h3 style={{ marginTop: 0, marginBottom: 8, fontSize: 14 }}>Theme scores</h3>
                   <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(120px,1fr))", gap: 8 }}>
@@ -580,7 +594,7 @@ const Profile: React.FC = () => {
                   </div>
                 </div>
 
-                <div>
+                <div style={{ minWidth: 0 }}>
                   <Card title="PDI & quick metrics">
                     <div style={{ fontSize: 18, fontWeight: 800 }}>{districtPdiAvg != null ? districtPdiAvg.toFixed(3) : "—"}</div>
                     <div style={{ color: "#666", marginTop: 8, marginBottom: 8, fontSize: 12 }}>PDI (average) for across this district.</div>
@@ -633,7 +647,14 @@ const Profile: React.FC = () => {
             <div style={{ fontSize: 13, color: "#6b7280" }}>No data found for this municipality.</div>
           ) : (
             <>
-              <div style={{ display: "grid", gridTemplateColumns: "1fr 300px", gap: 12, alignItems: "flex-start" }}>
+              <div style={{ display: "grid", 
+                          gridTemplateColumns: typeof window !== "undefined" && window.innerWidth >= 768
+                             ? "1fr 300px"
+                             : "1fr",
+                          gap: 12, 
+                          alignItems: "flex-start" 
+              }}
+            >
                 <div>
                   <h3 style={{ marginTop: 0, marginBottom: 8, fontSize: 14 }}>Theme scores</h3>
                   <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(120px,1fr))", gap: 8 }}>
@@ -653,7 +674,7 @@ const Profile: React.FC = () => {
                   </div>
                 </div>
 
-                <div>
+                <div style={{ minWidth: 0 }}>
                   <Card title="PDI & quick metrics">
                     <div style={{ fontSize: 18, fontWeight: 800 }}>{muniPdiValue != null ? muniPdiValue.toFixed(3) : "—"}</div>
                     <div style={{ color: "#666", marginTop: 8, marginBottom: 8, fontSize: 12 }}>PDI (min-max scaled) for this municipality.</div>
