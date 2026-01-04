@@ -612,7 +612,7 @@ const Compare: React.FC = () => {
                   </div>
                 )}
               </div>
-
+</div>
           </Card>
         </div>
 
