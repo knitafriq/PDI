@@ -10,7 +10,7 @@ const Card: React.FC<CardProps> = ({ title, children }) => {
     <div
       style={{
         flex: 1,
-        minWidth: 0,
+        minWidth: 160,
         // visual card appearance
         background: "#ffffff",
         borderRadius: 12,
