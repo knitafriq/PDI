@@ -580,13 +580,12 @@ const Compare: React.FC = () => {
         {/* 2. DISTRICT COMPARE */}
         <div style={{ marginTop: 14 }}>
           <Card title="District comparison (overlay)">
-<div style={{ display: "flex", gap: 12, flexWrap: "wrap", alignItems: "flex-start" }}>
-  {/* LEFT COLUMN */}
-  <div style={{ fontSize: 12, minWidth: 220, maxWidth: 260 }}>
     <p style={{ fontSize: 12, color: "#6b7280", marginBottom: 8 }}>
       Select up to three districts to overlay their average theme profiles.
     </p>
-
+<div style={{ display: "flex", gap: 12, flexWrap: "wrap", alignItems: "flex-start" }}>
+  {/* LEFT COLUMN */}
+  <div style={{ fontSize: 12, minWidth: 220, maxWidth: 260 }}>
     {[[distSel1, setDistSel1], [distSel2, setDistSel2], [distSel3, setDistSel3]].map(
       ([val, setVal], idx) => (
         <div key={idx} style={{ marginBottom: 10 }}>
@@ -604,7 +603,7 @@ const Compare: React.FC = () => {
 
   {/* RIGHT COLUMN */}
 <div style={{ flex: 1, minWidth: 320, display: "flex", justifyContent: "center", padding: "8px 0 28px 0", boxSizing: "border-box" }}>
-                {muniSeries.length === 0 ? (
+                {districtSeries.length === 0 ? (
                   <div style={{ fontSize: 13, color: "#6b7280", paddingTop: 24 }}>Select one or more district to see the comparison.</div>
                 ) : (
                   <div style={{ width: "100%", maxWidth: 520, overflow: "visible" }}>
