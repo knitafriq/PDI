@@ -492,9 +492,13 @@ const Profile: React.FC = () => {
           <div style={{ fontSize: 13, color: "#6b7280" }}>No municipalities found for this province.</div>
         ) : (
           <>
-            <div style={{ display: "grid", 
+            <div style={{ display: "grid",
+                          maxWidth:
+                            typeof window !== "undefined" && window.innerWidth >= 768
+                          ? 260
+                          : 60, 
                           gridTemplateColumns: "1fr 300px",
-                          gap: 0, 
+                          gap: 12, 
                           alignItems: "flex-start" 
               }}
             >
