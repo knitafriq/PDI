@@ -493,9 +493,7 @@ const Profile: React.FC = () => {
         ) : (
           <>
             <div style={{ display: "grid", 
-                          gridTemplateColumns: typeof window !== "undefined" && window.innerWidth >= 768
-                             ? "1fr 300px"
-                             : "1fr",
+                          gridTemplateColumns: "1fr 300px",
                           gap: 12, 
                           alignItems: "flex-start" 
               }}
@@ -571,9 +569,7 @@ const Profile: React.FC = () => {
           ) : (
             <>
               <div style={{ display: "grid", 
-                          gridTemplateColumns: typeof window !== "undefined" && window.innerWidth >= 768
-                             ? "1fr 300px"
-                             : "1fr",
+                          gridTemplateColumns: "1fr 300px",
                           gap: 12, 
                           alignItems: "flex-start" 
               }}
@@ -648,9 +644,7 @@ const Profile: React.FC = () => {
           ) : (
             <>
               <div style={{ display: "grid", 
-                          gridTemplateColumns: typeof window !== "undefined" && window.innerWidth >= 768
-                             ? "1fr 300px"
-                             : "1fr",
+                          gridTemplateColumns: "1fr 300px",
                           gap: 12, 
                           alignItems: "flex-start" 
               }}
