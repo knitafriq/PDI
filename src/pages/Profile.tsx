@@ -477,7 +477,8 @@ const Profile: React.FC = () => {
       <Card title="Provincial profile">
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 16, marginBottom: 12, flexWrap: "wrap" }}>
           <p style={{ fontSize: 12, color: "#6b7280", margin: 0, maxWidth: 520 }}>
-            Aggregated view of theme scores and indicators for the selected <strong>province</strong>. Values are averages across all municipalities in that province, with national averages shown for context.
+            Aggregated view of theme scores and indicators for the selected <strong>province</strong>. 
+            <br/>Values are averages across all municipalities in that province, with national averages shown for context.
           </p>
 
           <div style={{ minWidth: 220 }}>
@@ -579,7 +580,8 @@ const Profile: React.FC = () => {
         <Card title="District profile">
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 16, marginBottom: 12, flexWrap: "wrap" }}>
             <p style={{ fontSize: 12, color: "#6b7280", margin: 0, maxWidth: 520 }}>
-              Aggregated themes and indicators for the selected <strong>district</strong>. Values are averages across all municipalities in the district.
+              Aggregated themes and indicators for the selected <strong>district</strong>. 
+              <br/>Values are averages across all municipalities in the district.
             </p>
 
             <div style={{ minWidth: 220 }}>
@@ -649,9 +651,10 @@ const Profile: React.FC = () => {
         <Card title="Municipality profile">
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 16, marginBottom: 12, flexWrap: "wrap" }}>
             <div>
-              <div style={{ fontSize: 16, fontWeight: 600, marginBottom: 4 }}>{selectedMuniCode ? displayName :             
+              <div style={{ fontSize: 16, marginBottom: 4 }}>{selectedMuniCode ? displayName :             
                  <p style={{ fontSize: 12, color: "#6b7280", margin: 0, maxWidth: 520 }}>
-                    Actual themes and indicators for the selected <strong>municiplity</strong>. Values are actuals for the municipalities.
+                    Actual themes and indicators for the selected <strong>municiplity</strong>. 
+                    <br/>Values are actuals for the municipalities.
                  </p>}
               </div>
               {selectedMuniCode && (
