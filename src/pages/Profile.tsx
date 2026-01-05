@@ -9,6 +9,9 @@ import * as Papa from "papaparse";
 // -----------------------------------------------------------------------------
 // Helpers / constants
 // -----------------------------------------------------------------------------
+
+const isMobile = window.innerWidth < 768;
+
 const FACT_CSV_PATH =
   "/prototype_dummy/FactLong_2024_dummy_populated_compact_semicolon.csv";
 
@@ -506,7 +509,7 @@ const Profile: React.FC = () => {
                     const provAvg = provincialThemeAverages[t];
                     const natAvg = themeStatsAll[t]?.avg ?? null;
                     return (
-                      <div key={`prov-${t}`} style={{ flex: "0 0 160px", marginLeft: "-18px", zIndex: 1, }}>
+                      <div key={`prov-${t}`} style={{ flex: isMobile ? "1 1 100%" : "0 0 160px", marginLeft: isMobile ? 0 : "-18px", zIndex: 1, }}>
                          <Card title={<span style={{ fontSize: 18, fontWeight: 600 }}>{t}</span>}>
                             <div style={{ fontSize: 15, fontWeight: 800 }}>
                                    {provAvg != null ? provAvg.toFixed(3) : "—"}
@@ -522,7 +525,7 @@ const Profile: React.FC = () => {
                 </div>
               </div>
 
-              <div style={{ maxWidth: 260, }}>
+              <div style={{ maxWidth: 260 }}>
                 <Card title="PDI & quick metrics">
                   <div style={{ fontSize: 12, wordBreak: "break-word",  display: "flex", flexDirection: "column"}}>
                   <div style={{ fontSize: 18, fontWeight: 800 }}>{provincialPdiAvg != null ? provincialPdiAvg.toFixed(3) : "—"}</div>
