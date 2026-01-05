@@ -525,23 +525,23 @@ const Profile: React.FC = () => {
                 </div>
               </div>
 
-              <div style={{
-                     maxWidth: isMobile ? 220 : 260,
-                     marginTop: isMobile ? 12 : 0,
-
-                // 🔥 bring forward
-                     position: isMobile ? "relative" : "static",
-                     zIndex: isMobile ? 20 : "auto",
-
-                     // 🔥 prevent covering text
-                     pointerEvents: "auto",
-                     boxShadow: isMobile
-                     ? "0 8px 24px rgba(15,23,42,0.15)"
-                     : undefined,
-                   }}
-               >
+              <div style={{maxWidth: isMobile ? 220 : 260,
+                           marginTop: isMobile ? 12 : 0,
+                           position: isMobile ? "relative" : "static",
+                           zIndex: isMobile ? 20 : "auto",
+                           pointerEvents: "auto",
+                         }}
+              >
                 <Card title="PDI & quick metrics">
-                  <div style={{ fontSize: 12, wordBreak: "break-word",  display: "flex", flexDirection: "column", gap: 6, paddingBottom: isMobile ? 4 : 0, }}>
+                  <div style={{ fontSize: 12, 
+                                wordBreak: "break-word",  
+                                display: "flex", 
+                                flexDirection: "column", 
+                                paddingBottom: isMobile ? 4 : 0, 
+                                boxShadow: isMobile
+                                  ? "0 8px 24px rgba(15,23,42,0.15)"
+                                  : undefined,}}
+                  >
                   <div style={{ fontSize: 18, fontWeight: 800 }}>{provincialPdiAvg != null ? provincialPdiAvg.toFixed(3) : "—"}</div>
                   <div style={{ color: "#666", marginTop: 8, marginBottom: 8, fontSize: 12 }}>
                     PDI (average) for across this district.</div>
