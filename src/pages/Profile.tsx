@@ -527,7 +527,7 @@ const Profile: React.FC = () => {
                 </div>
               </div>
 
-              <div style={{maxWidth: isMobile ? 200 : 260,
+              <div style={{maxWidth: isMobile ? 210 : 260,
                            marginTop: isMobile ? 12 : 0,
                            marginLeft: isMobile ? 20 : 0,
                            marginRight: isMobile ? 0 : 0,
