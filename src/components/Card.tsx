@@ -10,9 +10,8 @@ const Card: React.FC<CardProps> = ({ title, children, maxWidth }) => {
   return (
     <div
       style={{
-        flex: 1,
         width: "100%",
-        boxSizing: "border-box",  
+        boxSizing: "border-box", 
         // visual card appearance
         background: "#ffffff",
         borderRadius: 12,
