@@ -509,7 +509,7 @@ const Profile: React.FC = () => {
                     const provAvg = provincialThemeAverages[t];
                     const natAvg = themeStatsAll[t]?.avg ?? null;
                     return (
-                      <div key={`prov-${t}`} style={{ flex: isMobile ? "1 1 100%" : "0 0 160px", marginLeft: isMobile ? 0 : "-18px", zIndex: 1, }}>
+                      <div key={`prov-${t}`} style={{ flex: isMobile ? "1 1 160px" : "0 0 160px", marginLeft: isMobile ? 0 : "-18px", zIndex: 1, }}>
                          <Card title={<span style={{ fontSize: 18, fontWeight: 600 }}>{t}</span>}>
                             <div style={{ fontSize: 15, fontWeight: 800 }}>
                                    {provAvg != null ? provAvg.toFixed(3) : "—"}
