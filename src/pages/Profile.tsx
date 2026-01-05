@@ -509,7 +509,7 @@ const Profile: React.FC = () => {
                     const provAvg = provincialThemeAverages[t];
                     const natAvg = themeStatsAll[t]?.avg ?? null;
                     return (
-                      <div key={`prov-${t}`} style={{ flex: isMobile ? "0 0 310px" : "0 0 160px", marginLeft: "-18px", zIndex: 1, }}>
+                      <div key={`prov-${t}`} style={{ flex: isMobile ? "0 0 305px" : "0 0 160px", marginLeft: "-18px", zIndex: 1, }}>
                          <Card title={<span style={{ fontSize: 18, fontWeight: 600 }}>{t}</span>}>
                             <div style={{ fontSize: 15, fontWeight: 800 }}>
                                    {provAvg != null ? provAvg.toFixed(3) : "—"}
@@ -527,6 +527,7 @@ const Profile: React.FC = () => {
 
               <div style={{maxWidth: isMobile ? 220 : 260,
                            marginTop: isMobile ? 12 : 0,
+                           marginLeft: isMobile ? "auto" : 0,
                            position: isMobile ? "relative" : "static",
                            zIndex: isMobile ? 20 : "auto",
                            pointerEvents: "auto",
@@ -538,9 +539,7 @@ const Profile: React.FC = () => {
                                 display: "flex", 
                                 flexDirection: "column", 
                                 paddingBottom: isMobile ? 4 : 0, 
-                                boxShadow: isMobile
-                                  ? "0 8px 24px rgba(15,23,42,0.15)"
-                                  : undefined,}}
+                             }}
                   >
                   <div style={{ fontSize: 18, fontWeight: 800 }}>{provincialPdiAvg != null ? provincialPdiAvg.toFixed(3) : "—"}</div>
                   <div style={{ color: "#666", marginTop: 8, marginBottom: 8, fontSize: 12 }}>
