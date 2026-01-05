@@ -11,8 +11,8 @@ const Card: React.FC<CardProps> = ({ title, children, maxWidth }) => {
     <div
       style={{
         flex: 1,
-        minWidth: 0,   
-        maxWidth: "100%",  
+        width: "100%",
+        boxSizing: "border-box",  
         // visual card appearance
         background: "#ffffff",
         borderRadius: 12,
