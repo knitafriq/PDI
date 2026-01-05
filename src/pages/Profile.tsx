@@ -529,8 +529,8 @@ const Profile: React.FC = () => {
 
               <div style={{maxWidth: isMobile ? 210 : 260,
                            marginTop: isMobile ? 12 : 0,
-                           marginLeft: isMobile ? 20 : 0,
-                           marginRight: isMobile ? 0 : 0,
+                           marginLeft: isMobile ? "auto" : 0,
+                           marginRight: isMobile ? -16 : 0,
                            position: isMobile ? "relative" : "static",
                            zIndex: isMobile ? 20 : "auto",
                            pointerEvents: "auto",
