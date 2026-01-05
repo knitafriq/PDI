@@ -12,8 +12,7 @@ const Card: React.FC<CardProps> = ({ title, children, maxWidth }) => {
       style={{
         flex: 1,
         minWidth: 0,   
-        maxWidth: "100%",          // 🔑 NEW
-        overflow: "hidden", 
+        maxWidth: "100%",  
         // visual card appearance
         background: "#ffffff",
         borderRadius: 12,
