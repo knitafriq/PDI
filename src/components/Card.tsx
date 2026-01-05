@@ -25,6 +25,7 @@ const Card: React.FC<CardProps> = ({ title, children, maxWidth }) => {
         display: "flex",
         flexDirection: "column",
         justifyContent: "flex-start",
+        overflow: "visible",
       }}
     >
       <h2

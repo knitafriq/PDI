@@ -499,6 +499,8 @@ const Profile: React.FC = () => {
                           gridTemplateColumns: "1fr 300px",
                           gap: 0, 
                           alignItems: "stretch",
+                          overflow: "visible",
+                          position: "relative",
               }}
             >
               <div>
