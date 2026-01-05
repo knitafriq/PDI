@@ -10,7 +10,7 @@ import * as Papa from "papaparse";
 // Helpers / constants
 // -----------------------------------------------------------------------------
 
-const isMobile = window.innerWidth < 768;
+const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
 
 const FACT_CSV_PATH =
   "/prototype_dummy/FactLong_2024_dummy_populated_compact_semicolon.csv";
@@ -509,7 +509,7 @@ const Profile: React.FC = () => {
                     const provAvg = provincialThemeAverages[t];
                     const natAvg = themeStatsAll[t]?.avg ?? null;
                     return (
-                      <div key={`prov-${t}`} style={{ flex: isMobile ? "0 0 320px" : "0 0 160px", marginLeft: "-18px", zIndex: 1, }}>
+                      <div key={`prov-${t}`} style={{ flex: isMobile ? "0 0 310px" : "0 0 160px", marginLeft: "-18px", zIndex: 1, }}>
                          <Card title={<span style={{ fontSize: 18, fontWeight: 600 }}>{t}</span>}>
                             <div style={{ fontSize: 15, fontWeight: 800 }}>
                                    {provAvg != null ? provAvg.toFixed(3) : "—"}
@@ -525,9 +525,23 @@ const Profile: React.FC = () => {
                 </div>
               </div>
 
-              <div style={{ maxWidth: 260 }}>
+              <div style={{
+                     maxWidth: isMobile ? 220 : 260,
+                     marginTop: isMobile ? 12 : 0,
+
+                // 🔥 bring forward
+                     position: isMobile ? "relative" : "static",
+                     zIndex: isMobile ? 20 : "auto",
+
+                     // 🔥 prevent covering text
+                     pointerEvents: "auto",
+                     boxShadow: isMobile
+                     ? "0 8px 24px rgba(15,23,42,0.15)"
+                     : undefined,
+                   }}
+               >
                 <Card title="PDI & quick metrics">
-                  <div style={{ fontSize: 12, wordBreak: "break-word",  display: "flex", flexDirection: "column"}}>
+                  <div style={{ fontSize: 12, wordBreak: "break-word",  display: "flex", flexDirection: "column", gap: 6, paddingBottom: isMobile ? 4 : 0, }}>
                   <div style={{ fontSize: 18, fontWeight: 800 }}>{provincialPdiAvg != null ? provincialPdiAvg.toFixed(3) : "—"}</div>
                   <div style={{ color: "#666", marginTop: 8, marginBottom: 8, fontSize: 12 }}>
                     PDI (average) for across this district.</div>
