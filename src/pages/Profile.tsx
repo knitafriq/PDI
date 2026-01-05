@@ -494,28 +494,36 @@ const Profile: React.FC = () => {
           <>
             <div style={{ display: "grid",
                           gridTemplateColumns: "1fr 300px",
-                          gap: 12, 
-                          alignItems: "flex-start" 
+                          gap: 0, 
+                          alignItems: "stretch",
               }}
             >
               <div>
-                <h3 style={{ marginTop: 0, marginBottom: 8, fontSize: 14 }}>Theme scores</h3>
-                <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(120px,1fr))", gap: 8 }}>
+                <h3 style={{ marginTop: "auto", marginBottom: 8, fontSize: 14 }}>Theme scores</h3>
+                <div style={{ display: "flex", alignItems: "stretch", flexWrap: "wrap", paddingLeft: 12, gap: 8}}>
+
                   {themeColumns.map((t) => {
                     const provAvg = provincialThemeAverages[t];
                     const natAvg = themeStatsAll[t]?.avg ?? null;
                     return (
-                      <Card key={`prov-${t}`} title={<span style={{ fontSize: 18, fontWeight: 600 }}>{t}</span>}>
-                        <div style={{ fontSize: 15, fontWeight: 800 }}>{provAvg != null ? provAvg.toFixed(3) : "—"}</div>
-                        <div style={{ color: "#666", marginTop: 6, fontSize: 11 }}>National avg: {natAvg != null ? natAvg.toFixed(3) : "—"}</div>
-                      </Card>
+                      <div key={`prov-${t}`} style={{ flex: "0 0 160px", marginLeft: "-18px", zIndex: 1, }}>
+                         <Card title={<span style={{ fontSize: 18, fontWeight: 600 }}>{t}</span>}>
+                            <div style={{ fontSize: 15, fontWeight: 800 }}>
+                                   {provAvg != null ? provAvg.toFixed(3) : "—"}
+                            </div>
+                            <div style={{ color: "#666", marginTop: 6, fontSize: 11 }}>
+                                    National avg: {natAvg != null ? natAvg.toFixed(3) : "—"}
+                            </div>
+                         </Card>
+                      </div>
+
                     );
                   })}
                 </div>
               </div>
 
-              <div style={{ transform: "translateX(12px)" }}>
-                <Card title="PDI & quick metrics" maxWidth={60}>
+              <div style={{ maxWidth: 260, }}>
+                <Card title="PDI & quick metrics">
                   <div style={{ fontSize: 12, wordBreak: "break-word",  display: "flex", flexDirection: "column"}}>
                   <div style={{ fontSize: 18, fontWeight: 800 }}>{provincialPdiAvg != null ? provincialPdiAvg.toFixed(3) : "—"}</div>
                   <div style={{ color: "#666", marginTop: 8, marginBottom: 8, fontSize: 12 }}>
@@ -534,9 +542,9 @@ const Profile: React.FC = () => {
              </div>
             </div>
 
-            <div style={{ marginTop: 14 }}>
+            <div style={{ marginTop: 14, }}>
               <Card title="Indicators">
-                <div style={{ fontSize: 12, maxHeight: 220, overflow: "auto" }}>
+                <div style={{ fontSize: 12, maxHeight: 220, overflowY: "auto", overflowX: "hidden", width: "100%",}}>
                   <SortableTable rows={provincialIndicatorRows} columns={indicatorColumns} />
                 </div>
                 {allFactRows === "LOADING" && <div style={{ marginTop: 8, fontSize: 12, color: "#6b7280" }}>Loading fact table…</div>}
@@ -577,8 +585,8 @@ const Profile: React.FC = () => {
               }}
             >
                 <div>
-                  <h3 style={{ marginTop: 0, marginBottom: 8, fontSize: 14 }}>Theme scores</h3>
-                  <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(120px,1fr))", gap: 8 }}>
+                  <h3 style={{ marginTop: "auto", marginBottom: 8, fontSize: 14 }}>Theme scores</h3>
+                  <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(120px,1fr))", gap: 24 }}>
                     {themeColumns.map((t) => {
                       const distAvg = districtThemeAverages[t];
                       return (
@@ -592,7 +600,7 @@ const Profile: React.FC = () => {
                   </div>
                 </div>
 
-              <div>
+              <div style={{ maxWidth: 260 }}>
                   <Card title="PDI & quick metrics">
                     <div style={{ fontSize: 18, fontWeight: 800 }}>{districtPdiAvg != null ? districtPdiAvg.toFixed(3) : "—"}</div>
                     <div style={{ color: "#666", marginTop: 8, marginBottom: 8, fontSize: 12 }}>PDI (average) for across this district.</div>
@@ -605,7 +613,7 @@ const Profile: React.FC = () => {
 
               <div style={{ marginTop: 14 }}>
                 <Card title="District Indicators">
-                  <div style={{ fontSize: 12, maxHeight: 220, overflow: "auto" }}>
+                  <div style={{ fontSize: 12, maxHeight: 220, overflowY: "auto", overflowX: "hidden", width: "100%", }}>
                     <SortableTable rows={districtIndicatorRows} columns={indicatorColumns} />
                   </div>
                   {allFactRows === "LOADING" && <div style={{ marginTop: 8, fontSize: 12, color: "#6b7280" }}>Loading fact table…</div>}
@@ -656,8 +664,8 @@ const Profile: React.FC = () => {
               }}
             >
                 <div>
-                  <h3 style={{ marginTop: 0, marginBottom: 8, fontSize: 14 }}>Theme scores</h3>
-                  <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(120px,1fr))", gap: 8 }}>
+                  <h3 style={{ marginTop: "auto", marginBottom: 8, fontSize: 14 }}>Theme scores</h3>
+                  <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(120px,1fr))", gap: 24 }}>
                     {themeColumns.map((t) => {
                       const val = themeValuesMuni[t];
                       const avg = themeStatsAll[t]?.avg ?? null;
@@ -674,7 +682,7 @@ const Profile: React.FC = () => {
                   </div>
                 </div>
 
-              <div>
+              <div style={{ maxWidth: 260 }}>
                   <Card title="PDI & quick metrics">
                     <div style={{ fontSize: 18, fontWeight: 800 }}>{muniPdiValue != null ? muniPdiValue.toFixed(3) : "—"}</div>
                     <div style={{ color: "#666", marginTop: 8, marginBottom: 8, fontSize: 12 }}>PDI (min-max scaled) for this municipality.</div>
@@ -695,7 +703,7 @@ const Profile: React.FC = () => {
 
               <div style={{ marginTop: 14 }}>
                 <Card title="Local Municipality Indicators">
-                  <div style={{ fontSize: 12, maxHeight: 360, overflow: "auto" }}>
+                  <div style={{ fontSize: 12, maxHeight: 220, overflowY: "auto", overflowX: "hidden", width: "100%", }}>
                     <SortableTable rows={muniIndicatorRows} columns={indicatorColumns} />
                   </div>
                   {allFactRows === "LOADING" && <div style={{ marginTop: 8, fontSize: 12, color: "#6b7280" }}>Loading fact table…</div>}

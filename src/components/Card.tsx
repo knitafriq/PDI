@@ -11,8 +11,9 @@ const Card: React.FC<CardProps> = ({ title, children, maxWidth }) => {
     <div
       style={{
         flex: 1,
-        minWidth: 260,
-        maxWidth: maxWidth ?? "none", // ✅ default unchanged
+        minWidth: 0,   
+        maxWidth: "100%",          // 🔑 NEW
+        overflow: "hidden", 
         // visual card appearance
         background: "#ffffff",
         borderRadius: 12,
@@ -31,11 +32,14 @@ const Card: React.FC<CardProps> = ({ title, children, maxWidth }) => {
           fontSize: 18,
           fontWeight: 600,
           marginBottom: 8,
+          width: "100%", 
           lineHeight: 1.3,
           whiteSpace: "normal",      // ✅ allow wrapping
           wordBreak: "break-word",   // ✅ prevent overflow
-          overflowWrap: "anywhere",    // wrap even in overlap
-          maxWidth: "100%",  
+          overflowWrap: "anywhere",    // wrap even in overlap 
+          minHeight: 48,          // enough for 2 lines
+          display: "flex",
+          alignItems: "flex-start",
         }}
       >
         {title}

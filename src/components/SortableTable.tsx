@@ -38,7 +38,7 @@ const SortableTable: React.FC<Props> = ({ rows, columns, onRowClick, initialSort
   };
 
   return (
-    <table style={{ width: "100%", borderCollapse: "collapse" }}>
+    <table style={{ width: "100%", tableLayout: "fixed", borderCollapse: "collapse", }}>
       <thead>
         <tr>
           {columns.map((c) => (
@@ -48,6 +48,7 @@ const SortableTable: React.FC<Props> = ({ rows, columns, onRowClick, initialSort
               style={{
                 textAlign: "left",
                 padding: "8px 10px",
+                whiteSpace: "normal", 
                 cursor: "pointer",
                 borderBottom: "1px solid rgba(15,23,36,0.06)",
                 fontWeight: 700,
