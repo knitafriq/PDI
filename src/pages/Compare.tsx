@@ -7,20 +7,20 @@ import RadarChart from "../components/RadarChart";
 // ---------- Theme keys (aligned with Themes page) ----------
 type ThemeKey =
   | "Demographics"
-  | "Finance"
+  | "Education"
   | "Governance"
   | "Health"
-  | "Infrastructure"
-  | "Poverty"
+  | "Infrastructure & Services"
+  | "Poverty & Inequality"
   | "Safety";
 
 const THEME_KEYS: ThemeKey[] = [
   "Demographics",
-  "Finance",
+  "Education",
   "Governance",
   "Health",
-  "Infrastructure",
-  "Poverty",
+  "Infrastructure & Services",
+  "Poverty & Inequality",
   "Safety",
 ];
 
