@@ -659,25 +659,25 @@ const DashboardOverview: React.FC = () => {
                          fontSize: 10.5,
                          fontWeight: 500,
                          whiteSpace: "normal",
-                         wordBreak: "break-word",
-                                                            lineHeight: 1.2,
-                                                            verticalAlign: "bottom",
+                         wordBreak: "keep-all",
+                         lineHeight: 1.2,
+                         verticalAlign: "bottom",
                       }}>Province</th>
             <th style={{ padding: "3px 6px",
                          fontSize: 10.5,
                          fontWeight: 500,
                          whiteSpace: "normal",
-                         wordBreak: "break-word",
-                                                            lineHeight: 1.2,
-                                                            verticalAlign: "bottom", 
+                         wordBreak: "keep-all",
+                         lineHeight: 1.2,
+                         verticalAlign: "bottom", 
                       }}>Avg PDI</th>
             <th style={{ padding: "3px 6px",
                          fontSize: 10.5,
                          fontWeight: 500,
                          whiteSpace: "normal",
-                         wordBreak: "break-word",
-                                                            lineHeight: 1.2,
-                                                            verticalAlign: "bottom",
+                         wordBreak: "keep-all",
+                         lineHeight: 1.2,
+                         verticalAlign: "bottom",
                       }}>
               High-complex<br />
               municipalities
@@ -686,9 +686,9 @@ const DashboardOverview: React.FC = () => {
                          fontSize: 10.5,
                          fontWeight: 500,
                          whiteSpace: "normal",
-                         wordBreak: "break-word",
-                                                            lineHeight: 1.2,
-                                                            verticalAlign: "bottom", 
+                         wordBreak: "keep-all",
+                         lineHeight: 1.2,
+                         verticalAlign: "bottom", 
                       }}>
               Total <br />
               municipalities

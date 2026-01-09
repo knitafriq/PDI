@@ -10,20 +10,21 @@ const Card: React.FC<CardProps> = ({ title, children, maxWidth }) => {
   return (
     <div
       style={{
-        width: "100%",
-        boxSizing: "border-box", 
-        // visual card appearance
+        boxSizing: "border-box",
         background: "#ffffff",
         borderRadius: 12,
         border: "1px solid #e5e7eb",
         boxShadow: "0 1px 2px rgba(15,23,42,0.04)",
         padding: 16,
 
-        // layout inside
         display: "flex",
         flexDirection: "column",
         justifyContent: "flex-start",
+
         overflow: "visible",
+
+        // optional constraint
+        maxWidth: maxWidth ?? "none",
       }}
     >
       <h2
@@ -31,22 +32,21 @@ const Card: React.FC<CardProps> = ({ title, children, maxWidth }) => {
           fontSize: 18,
           fontWeight: 600,
           marginBottom: 8,
-          width: "100%", 
           lineHeight: 1.3,
-          whiteSpace: "normal",      // ✅ allow wrapping
-          wordBreak: "break-word",   // ✅ prevent overflow
-          overflowWrap: "anywhere",    // wrap even in overlap 
-          minHeight: 48,          // enough for 2 lines
-          display: "flex",
-          alignItems: "flex-start",
+
+          whiteSpace: "normal",
+          wordBreak: "break-word",
+          overflowWrap: "anywhere",
+
+          minHeight: 48, // allows 2 lines cleanly
         }}
       >
         {title}
       </h2>
+
       {children}
     </div>
   );
 };
-
 
 export default Card;
