@@ -176,11 +176,11 @@ const DashboardOverview: React.FC = () => {
     // 3) Theme averages are now based on *all* scoped municipalities
     const themeKeys = [
       "Demographics",
-      "Finance",
+      "Education",
       "Governance",
       "Health",
-      "Infrastructure",
-      "Poverty",
+      "Infrastructure & Services",
+      "Poverty & Inequality",
       "Safety",
     ] as const;
 
@@ -232,11 +232,11 @@ const DashboardOverview: React.FC = () => {
 
   const themeKeys = [
     "Demographics",
-    "Finance",
+    "Education",
     "Governance",
     "Health",
-    "Infrastructure",
-    "Poverty",
+    "Infrastructure & Services",
+    "Poverty & Inequality",
     "Safety",
   ] as const;
 

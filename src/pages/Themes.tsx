@@ -4,22 +4,22 @@ import Card from "../components/Card";
 
 type ThemeKey =
   | "Demographics"
-  | "Finance"
+  | "Education"
   | "Governance"
   | "Health"
-  | "Infrastructure"
-  | "Poverty"
+  | "Infrastructure & Services"
+  | "Poverty & Inequality"
   | "Safety";
 
 type ThemeSelection = ThemeKey | "ALL";
 
 const THEME_OPTIONS: { key: ThemeKey; label: string }[] = [
   { key: "Demographics", label: "Demographics" },
-  { key: "Finance", label: "Finance" },
+  { key: "Education", label: "Education" },
   { key: "Governance", label: "Governance" },
   { key: "Health", label: "Health" },
-  { key: "Infrastructure", label: "Infrastructure" },
-  { key: "Poverty", label: "Poverty" },
+  { key: "Infrastructure & Services", label: "Infrastructure & Services" },
+  { key: "Poverty & Inequality", label: "Poverty & Inequality" },
   { key: "Safety", label: "Safety" },
 ];
 
