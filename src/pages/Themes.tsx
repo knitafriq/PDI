@@ -1041,10 +1041,12 @@ const Themes: React.FC = () => {
       {/* KPI CARDS */}
       <div
         style={{
-          display: "flex",
+          display: "grid",
+          gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
           gap: 12,
           marginBottom: 20,
           flexWrap: "wrap",
+          width: "100%",
         }}
       >
         {/* 1. Average theme score */}
@@ -1536,7 +1538,7 @@ const Themes: React.FC = () => {
               marginBottom: 8,
             }}
           >
-            Top 10 municipalities by{" "}
+            <span style={{ color: "#D2222D", fontWeight: 600 }}>Top 10</span> municipalities by{" "}
             {themeLabel.toLowerCase()} within the current
             filters.
           </p>
@@ -1635,7 +1637,7 @@ const Themes: React.FC = () => {
           </div>
 
           {/* BOTTOM 10 */}
-          <h3 style={{ marginBottom: 6 }}>
+          <h3 style={{marginBottom: 6 }}>
             Municipalities with lowest {themeLabel} scores
           </h3>
           <p
@@ -1645,7 +1647,7 @@ const Themes: React.FC = () => {
               marginBottom: 8,
             }}
           >
-            Bottom 10 municipalities by{" "}
+            <span style={{ color: "#238823", fontWeight: 600 }}>Bottom 10</span> municipalities by{" "}
             {themeLabel.toLowerCase()} within the current
             filters.
           </p>

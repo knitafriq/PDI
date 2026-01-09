@@ -308,10 +308,12 @@ const DashboardOverview: React.FC = () => {
       {/* KPI CARDS */}
       <div
         style={{
-          display: "flex",
+          display: "grid",
+                       gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
           gap: 12,
           marginBottom: 20,
           flexWrap: "wrap",
+          width: "100%",
         }}
       >
         {/* 1. MUNICIPALITIES WITH PDI */}
@@ -323,6 +325,7 @@ const DashboardOverview: React.FC = () => {
            color: "#6b7280",
            minHeight: 18,
            marginBottom: 8,
+
         }}
          >
            (Local municipalites)
