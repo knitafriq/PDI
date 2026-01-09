@@ -10,7 +10,8 @@ import * as Papa from "papaparse";
 // Helpers / constants
 // -----------------------------------------------------------------------------
 
-const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
+const isMobile =
+  typeof window !== "undefined" ? window.innerWidth < 768 : false;
 
 const FACT_CSV_PATH =
   "/prototype_dummy/FactLong_2024_dummy_populated_compact_semicolon.csv";
@@ -474,6 +475,7 @@ const Profile: React.FC = () => {
       </p>
 
       {/* ----------------------- Provincial profile --------------------------- */}
+      <div style={{ marginTop: 14 }}>
       <Card title="Provincial profile">
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 16, marginBottom: 12, flexWrap: "wrap" }}>
           <p style={{ fontSize: 12, color: "#6b7280", margin: 0, maxWidth: 520 }}>
@@ -563,7 +565,7 @@ const Profile: React.FC = () => {
             </div>
 
             <div style={{ marginTop: 14, }}>
-              <Card title="Indicators">
+              <Card title="Province Indicators">
                 <div style={{ fontSize: 12, maxHeight: 220, overflowY: "auto", overflowX: "hidden", width: "100%",}}>
                   <SortableTable rows={provincialIndicatorRows} columns={indicatorColumns} />
                 </div>
@@ -574,6 +576,7 @@ const Profile: React.FC = () => {
           </>
         )}
       </Card>
+      </div>
 
       {/* ----------------------- District profile --------------------------- */}
       <div style={{ marginTop: 14 }}>
@@ -599,35 +602,72 @@ const Profile: React.FC = () => {
             <div style={{ fontSize: 13, color: "#6b7280" }}>No municipalities found for this district.</div>
           ) : (
             <>
-              <div style={{ display: "grid", 
+              <div style={{ display: "grid",
                           gridTemplateColumns: "1fr 300px",
-                          gap: 12, 
-                          alignItems: "flex-start" 
+                          gap: 0, 
+                          alignItems: "stretch",
+                          overflow: "visible",
+                          position: "relative",
               }}
             >
-                <div>
-                  <h3 style={{ marginTop: "auto", marginBottom: 8, fontSize: 14 }}>Theme scores</h3>
-                  <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(120px,1fr))", gap: 24 }}>
-                    {themeColumns.map((t) => {
-                      const distAvg = districtThemeAverages[t];
-                      return (
-                        <Card key={`dist-${t}`} title={<span style={{ fontSize: 18, fontWeight: 600 }}>{t}</span>}>
-                          <div style={{ fontSize: 15, fontWeight: 800 }}>{distAvg != null ? distAvg.toFixed(3) : "—"}</div>
-                          <div style={{ color: "#666", marginTop: 6, fontSize: 11 }}>District avg</div>
-                          <div style={{ color: "#666", marginTop: 6, fontSize: 11 }}>Municipalities: {districtThemeRowsSelected.length}</div>
-                        </Card>
-                      );
-                    })}
-                  </div>
-                </div>
+<div>
+  <h3 style={{ marginTop: "auto", marginBottom: 8, fontSize: 14 }}>Theme scores</h3>
 
-              <div style={{ maxWidth: 260 }}>
-                  <Card title="PDI & quick metrics">
+<div style={{ display: "flex", alignItems: "stretch", flexWrap: "wrap", paddingLeft: 12, gap: 8 }}>
+  {themeColumns.map((t) => {
+    const distAvg = districtThemeAverages[t];
+
+    return (
+      <div
+        key={`dist-${t}`}
+        style={{
+          flex: isMobile ? "0 0 305px" : "0 0 160px",
+          marginLeft: "-18px",
+          zIndex: 1,
+        }}
+      >
+        <Card title={<span style={{ fontSize: 18, fontWeight: 600 }}>{t}</span>}>
+          <div style={{ fontSize: 15, fontWeight: 800 }}>
+            {distAvg != null ? distAvg.toFixed(3) : "—"}
+          </div>
+          <div style={{ color: "#666", marginTop: 6, fontSize: 11 }}>
+            District avg
+          </div>
+          <div style={{ color: "#666", marginTop: 6, fontSize: 11 }}>
+            Municipalities: {districtThemeRowsSelected.length}
+          </div>
+        </Card>
+      </div>
+    );
+  })}
+</div>
+
+</div>
+
+
+              <div style={{maxWidth: isMobile ? 170 : 260,
+                           marginTop: isMobile ? 12 : 0,
+                           marginLeft: isMobile ? "auto" : 0,
+                           marginRight: isMobile ? 40 : 0,
+                           position: isMobile ? "relative" : "static",
+                           zIndex: isMobile ? 20 : "auto",
+                           pointerEvents: "auto",
+                         }}
+              >
+                <Card title="PDI & quick metrics">
+                  <div style={{ fontSize: 12, 
+                                wordBreak: "break-word",  
+                                display: "flex", 
+                                flexDirection: "column", 
+                                paddingBottom: isMobile ? 4 : 0, 
+                             }}
+                  >
                     <div style={{ fontSize: 18, fontWeight: 800 }}>{districtPdiAvg != null ? districtPdiAvg.toFixed(3) : "—"}</div>
                     <div style={{ color: "#666", marginTop: 8, marginBottom: 8, fontSize: 12 }}>PDI (average) for across this district.</div>
                     <div style={{ fontSize: 12 }}>
                       <div><strong>Province:</strong> {muniProvince || "—"}</div>
                     </div>
+                   </div>
                   </Card>
                 </div>
               </div>
@@ -664,7 +704,7 @@ const Profile: React.FC = () => {
               )}
             </div>
 
-            <div style={{ minWidth: 260 }}>
+            <div style={{ minWidth: 220 }}>
               <label style={{ fontSize: 12, color: "#4b5563", display: "block", marginBottom: 4 }}>Municipality</label>
               <select value={selectedMuniCode} onChange={(e) => setSelectedMuniCode(e.target.value)} style={{ width: "100%", fontSize: 12, padding: "6px 8px", borderRadius: 4, border: "1px solid #d1d5db", background: "#ffffff" }}>
                 <option value="">Select municipality…</option>
@@ -673,67 +713,136 @@ const Profile: React.FC = () => {
             </div>
           </div>
 
-          {!selectedMuniCode ? (
-            <div style={{ fontSize: 13, color: "#6b7280" }}>Select a municipality above to see detailed scores and indicators.</div>
-          ) : !themeRowMuni ? (
-            <div style={{ fontSize: 13, color: "#6b7280" }}>No data found for this municipality.</div>
-          ) : (
-            <>
-              <div style={{ display: "grid", 
-                          gridTemplateColumns: "1fr 300px",
-                          gap: 12, 
-                          alignItems: "flex-start" 
-              }}
-            >
-                <div>
-                  <h3 style={{ marginTop: "auto", marginBottom: 8, fontSize: 14 }}>Theme scores</h3>
-                  <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(120px,1fr))", gap: 24 }}>
-                    {themeColumns.map((t) => {
-                      const val = themeValuesMuni[t];
-                      const avg = themeStatsAll[t]?.avg ?? null;
-                      const rank = themeRanksMuni[t];
-                      const n = themeStatsAll[t]?.values?.length ?? 0;
-                      return (
-                        <Card key={`muni-${t}`} title={<span style={{ fontSize: 18, fontWeight: 600 }}>{t}</span>}>
-                          <div style={{ fontSize: 16, fontWeight: 800 }}>{val != null ? val.toFixed(3) : "—"}</div>
-                          <div style={{ color: "#666", marginTop: 6, fontSize: 11 }}>National avg: {avg != null ? avg.toFixed(3) : "—"}</div>
-                          <div style={{ marginTop: 6, fontSize: 11 }}>{rank ? `Rank: ${rank} / ${n}` : "Rank: —"}</div>
-                        </Card>
-                      );
-                    })}
-                  </div>
-                </div>
+{!selectedMuniCode ? (
+  <div style={{ fontSize: 13, color: "#6b7280" }}>
+    Select a municipality above to see detailed scores and indicators.
+  </div>
+) : !themeRowMuni ? (
+  <div style={{ fontSize: 13, color: "#6b7280" }}>
+    No data found for this municipality.
+  </div>
+) : (
+  <>
+    {/* GRID */}
+    <div
+      style={{
+        display: "grid",
+        gridTemplateColumns: "1fr 300px",
+        gap: 0,
+        alignItems: "stretch",
+        overflow: "visible",
+        position: "relative",
+      }}
+    >
+      <div>
+        <h3 style={{ marginTop: "auto", marginBottom: 8, fontSize: 14 }}>
+          Theme scores
+        </h3>
 
-              <div style={{ maxWidth: 260 }}>
-                  <Card title="PDI & quick metrics">
-                    <div style={{ fontSize: 18, fontWeight: 800 }}>{muniPdiValue != null ? muniPdiValue.toFixed(3) : "—"}</div>
-                    <div style={{ color: "#666", marginTop: 8, marginBottom: 8, fontSize: 12 }}>PDI (min-max scaled) for this municipality.</div>
-                    <div style={{ fontSize: 12 }}>
-                      <div><strong>Province:</strong> {muniProvince || "—"}</div>
-                      <div><strong>District:</strong> {muniDistrict || "—"}</div>
-                      <div><strong>MIIF category:</strong> {muniMiif}</div>
-                      <div style={{ marginTop: 8 }}>
-                        <strong>Coordinates</strong>
-                        <div style={{ color: "#666" }}>
-                          {(municipalityDimObj?.lat ?? themeRowMuni?.Latitude ?? "—") + ", "}{(municipalityDimObj?.lon ?? themeRowMuni?.Longitude ?? "—")}
-                        </div>
-                      </div>
-                    </div>
-                  </Card>
-                </div>
-              </div>
+                <div style={{ display: "flex", alignItems: "stretch", flexWrap: "wrap", paddingLeft: 12, gap: 8}}>
 
-              <div style={{ marginTop: 14 }}>
-                <Card title="Local Municipality Indicators">
-                  <div style={{ fontSize: 12, maxHeight: 220, overflowY: "auto", overflowX: "hidden", width: "100%", }}>
-                    <SortableTable rows={muniIndicatorRows} columns={indicatorColumns} />
+          {themeColumns.map((t) => {
+            const val = themeValuesMuni[t];
+            const avg = themeStatsAll[t]?.avg ?? null;
+            const rank = themeRanksMuni[t];
+            const n = themeStatsAll[t]?.values?.length ?? 0;
+
+            return (
+              <div
+                key={`muni-${t}`}
+                style={{
+                  flex: isMobile ? "0 0 305px" : "0 0 160px",
+                  marginLeft: "-18px",
+                  zIndex: 1,
+                }}
+              >
+                <Card title={<span style={{ fontSize: 18, fontWeight: 600 }}>{t}</span>}>
+                  <div style={{ fontSize: 15, fontWeight: 800 }}>
+                    {val != null ? val.toFixed(3) : "—"}
                   </div>
-                  {allFactRows === "LOADING" && <div style={{ marginTop: 8, fontSize: 12, color: "#6b7280" }}>Loading fact table…</div>}
-                  {factError && <div style={{ marginTop: 8, fontSize: 12, color: "crimson" }}>{factError}</div>}
+                  <div style={{ color: "#666", marginTop: 6, fontSize: 11 }}>
+                    National avg: {avg != null ? avg.toFixed(3) : "—"}
+                  </div>
+                  <div style={{ marginTop: 6, fontSize: 11 }}>
+                    {rank ? `Rank: ${rank} / ${n}` : "Rank: —"}
+                  </div>
                 </Card>
               </div>
-            </>
-          )}
+            );
+          })}
+        </div>
+      </div>
+
+      {/* PDI CARD */}
+      <div
+        style={{
+          maxWidth: isMobile ? 170 : 260,
+          marginTop: isMobile ? 12 : 0,
+          marginLeft: isMobile ? "auto" : 0,
+          marginRight: isMobile ? 40 : 0,
+          position: isMobile ? "relative" : "static",
+          zIndex: isMobile ? 20 : "auto",
+          pointerEvents: "auto",
+        }}
+      >
+        <Card title="PDI & quick metrics">
+          <div
+            style={{
+              fontSize: 12,
+              wordBreak: "break-word",
+              display: "flex",
+              flexDirection: "column",
+              paddingBottom: isMobile ? 4 : 0,
+            }}
+          >
+            <div style={{ fontSize: 18, fontWeight: 800 }}>
+              {muniPdiValue != null ? muniPdiValue.toFixed(3) : "—"}
+            </div>
+            <div style={{ color: "#666", marginTop: 8, marginBottom: 8, fontSize: 12 }}>
+              PDI (min-max scaled) for this municipality.
+            </div>
+
+            <div style={{ fontSize: 12 }}>
+              <div><strong>Province:</strong> {muniProvince || "—"}</div>
+              <div><strong>District:</strong> {muniDistrict || "—"}</div>
+              <div><strong>MIIF category:</strong> {muniMiif}</div>
+            </div>
+          </div>
+        </Card>
+      </div>
+    </div>  
+
+    {/* INDICATORS */}
+    <div style={{ marginTop: 14 }}>
+      <Card title="Local Municipality Indicators">
+        <div
+          style={{
+            fontSize: 12,
+            maxHeight: 220,
+            overflowY: "auto",
+            overflowX: "hidden",
+            width: "100%",
+          }}
+        >
+          <SortableTable rows={muniIndicatorRows} columns={indicatorColumns} />
+        </div>
+
+        {allFactRows === "LOADING" && (
+          <div style={{ marginTop: 8, fontSize: 12, color: "#6b7280" }}>
+            Loading fact table…
+          </div>
+        )}
+
+        {factError && (
+          <div style={{ marginTop: 8, fontSize: 12, color: "crimson" }}>
+            {factError}
+          </div>
+        )}
+      </Card>
+    </div>
+  </>
+)}
+
         </Card>
       </div>
     </div>
@@ -741,4 +850,4 @@ const Profile: React.FC = () => {
 };
 
 export default Profile;
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
