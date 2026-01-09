@@ -1,214 +1,214 @@
-muni_code,muni_name,prov_code,dist_code,area_km2,centroid_lon,centroid_lat,prov_name,muni_shortname,cat1_code,miif_category,miif_name,dist_name,muni_lv_abr
-WC032,Overstrand Local Municipality,WC,DC3,1674.5948,19.376341,-34.476352,Western Cape,Overstrand,B,B2,Large Towns,Overberg,LM
-WC033,Cape Agulhas Local Municipality,WC,DC3,3469.9785,20.057668,-34.497952,Western Cape,Cape Agulhas,B,B3,Small Towns,Overberg,LM
-WC031,Theewaterskloof Local Municipality,WC,DC3,3260.5837,19.436141,-34.16125,Western Cape,Theewaterskloof,B,B3,Small Towns,Overberg,LM
-WC043,Mossel Bay Local Municipality,WC,DC4,2001.032,21.942689,-34.041423,Western Cape,Mossel Bay,B,B2,Large Towns,Garden Route,LM
-WC042,Hessequa Local Municipality,WC,DC4,5732.63,21.227498,-34.134505,Western Cape,Hessequa,B,B3,Small Towns,Garden Route,LM
-WC048,Knysna Local Municipality,WC,DC4,1108.7678,22.984307,-33.946045,Western Cape,Knysna,B,B2,Large Towns,Garden Route,LM
-WC024,Stellenbosch Local Municipality,WC,DC2,835.5932,18.945104,-33.926781,Western Cape,Stellenbosch,B,B1,Secondary Cities,Cape Winelands,LM
-CPT,City of Cape Town Metropolitan Municipality,WC,CPT,2440.5605,18.593436,-33.892316,Western Cape,City of Cape Town,A,A,Metropolitan Municipality,City of Cape Town,MM
-WC047,Bitou Local Municipality,WC,DC4,991.8539,23.407081,-33.937356,Western Cape,Bitou,B,B3,Small Towns,Garden Route,LM
-WC034,Swellendam Local Municipality,WC,DC3,3835.0875,20.508876,-34.036894,Western Cape,Swellendam,B,B3,Small Towns,Overberg,LM
-EC108,Kouga Local Municipality,EC,DC10,2670.4757,24.799596,-33.904299,Eastern Cape,Kouga,B,B3,Small Towns,Sarah Baartman,LM
-EC109,Kou-Kamma Local Municipality,EC,DC10,3641.816,24.060087,-33.86761,Eastern Cape,Kou-Kamma,B,B3,Small Towns,Sarah Baartman,LM
-NMA,Nelson Mandela Bay Metropolitan Municipality,EC,NMA,1956.9573,25.492346,-33.804029,Eastern Cape,Nelson Mandela Bay,A,A,Metropolitan Municipality,Nelson Mandela Bay,MM
-WC026,Langeberg Local Municipality,WC,DC2,4517.558,20.054997,-33.785919,Western Cape,Langeberg,B,B3,Small Towns,Cape Winelands,LM
-WC015,Swartland Local Municipality,WC,DC1,3708.0126,18.620277,-33.309786,Western Cape,Swartland,B,B3,Small Towns,West Coast,LM
-WC044,George Local Municipality,WC,DC4,5191.0106,22.930032,-33.695282,Western Cape,George,B,B1,Secondary Cities,Garden Route,LM
-WC041,Kannaland Local Municipality,WC,DC4,4765.3635,21.318929,-33.603482,Western Cape,Kannaland,B,B3,Small Towns,Garden Route,LM
-WC045,Oudtshoorn Local Municipality,WC,DC4,3540.4084,22.220978,-33.592872,Western Cape,Oudtshoorn,B,B2,Large Towns,Garden Route,LM
-EC105,Ndlambe Local Municipality,EC,DC10,1839.8807,26.744073,-33.523092,Eastern Cape,Ndlambe,B,B3,Small Towns,Sarah Baartman,LM
-EC106,Sundays River Valley Local Municipality,EC,DC10,5995.1629,25.496699,-33.511695,Eastern Cape,Sundays River Valley,B,B3,Small Towns,Sarah Baartman,LM
-WC025,Breede Valley Local Municipality,WC,DC2,3833.9863,19.699593,-33.571874,Western Cape,Breede Valley,B,B2,Large Towns,Cape Winelands,LM
-WC014,Saldanha Bay Local Municipality,WC,DC1,2015.3691,18.176134,-33.010183,Western Cape,Saldanha Bay,B,B2,Large Towns,West Coast,LM
-WC023,Drakenstein Local Municipality,WC,DC2,1536.6325,19.003173,-33.596754,Western Cape,Drakenstein,B,B1,Secondary Cities,Cape Winelands,LM
-EC104,Makana Local Municipality,EC,DC10,4376.379,26.408276,-33.235222,Eastern Cape,Makana,B,B2,Large Towns,Sarah Baartman,LM
-EC126,Ngqushwa Local Municipality,EC,DC12,2112.4643,27.190385,-33.198127,Eastern Cape,Ngqushwa,B,B4,Mostly Rural,Amathole,LM
-BUF,Buffalo City Metropolitan Municipality,EC,BUF,2752.5762,27.598667,-32.948018,Eastern Cape,Buffalo City,A,A,Metropolitan Municipality,Buffalo City,MM
-WC052,Prince Albert Local Municipality,WC,DC5,8152.9127,22.130118,-33.05112,Western Cape,Prince Albert,B,B3,Small Towns,Central Karoo,LM
-WC051,Laingsburg Local Municipality,WC,DC5,8784.4908,20.96602,-33.103613,Western Cape,Laingsburg,B,B3,Small Towns,Central Karoo,LM
-EC123,Great Kei Local Municipality,EC,DC12,1699.8269,28.009538,-32.659081,Eastern Cape,Great Kei,B,B3,Small Towns,Amathole,LM
-WC013,Bergrivier Local Municipality,WC,DC1,4407.0496,18.672795,-32.787493,Western Cape,Bergrivier,B,B3,Small Towns,West Coast,LM
-EC129,Raymond Mhlaba Local Municipality,EC,DC12,6357.3223,26.563953,-32.686488,Eastern Cape,Raymond Mhlaba,B,B3,Small Towns,Amathole,LM
-EC102,Blue Crane Route Local Municipality,EC,DC10,11068.4635,25.413087,-32.778162,Eastern Cape,Blue Crane Route,B,B3,Small Towns,Sarah Baartman,LM
-EC124,Amahlathi Local Municipality,EC,DC12,4505.4802,27.33352,-32.502458,Eastern Cape,Amahlathi,B,B3,Small Towns,Amathole,LM
-WC022,Witzenberg Local Municipality,WC,DC2,10753.1561,19.688902,-32.949787,Western Cape,Witzenberg,B,B3,Small Towns,Cape Winelands,LM
-EC122,Mnquma Local Municipality,EC,DC12,3137.2611,28.156661,-32.34546,Eastern Cape,Mnquma,B,B4,Mostly Rural,Amathole,LM
-WC012,Cederberg Local Municipality,WC,DC1,8007.4794,18.924253,-32.256742,Western Cape,Cederberg,B,B3,Small Towns,West Coast,LM
-EC121,Mbhashe Local Municipality,EC,DC12,3302.5141,28.575231,-32.13221,Eastern Cape,Mbhashe,B,B4,Mostly Rural,Amathole,LM
-EC101,Dr Beyers Naude Local Municipality,EC,DC10,28653.0202,24.089954,-32.8452,Eastern Cape,Dr Beyers Naude,B,B3,Small Towns,Sarah Baartman,LM
-EC135,Intsika Yethu Local Municipality,EC,DC13,2845.9579,27.657819,-31.96959,Eastern Cape,Intsika Yethu,B,B4,Mostly Rural,Chris Hani,LM
-WC053,Beaufort West Local Municipality,WC,DC5,21916.6186,22.746542,-32.27711,Western Cape,Beaufort West,B,B3,Small Towns,Central Karoo,LM
-EC157,King Sabata Dalindyebo Local Municipality,EC,DC15,3018.9296,28.672457,-31.763159,Eastern Cape,King Sabata Dalindyebo,B,B2,Large Towns,O.R.Tambo,LM
-EC137,Dr AB Xuma Local Municipality,EC,DC13,2483.8669,28.091141,-31.681331,Eastern Cape,Engcobo,B,B4,Mostly Rural,Chris Hani,LM
-EC154,Port St Johns Local Municipality,EC,DC15,1291.1995,29.42128,-31.536133,Eastern Cape,Port St Johns,B,B4,Mostly Rural,O.R.Tambo,LM
-EC155,Nyandeni Local Municipality,EC,DC15,2474.0105,29.067915,-31.593569,Eastern Cape,Nyandeni,B,B4,Mostly Rural,O.R.Tambo,LM
-EC136,Emalahleni Local Municipality,EC,DC13,3484.2285,27.19629,-31.595998,Eastern Cape,Emalahleni,B,B4,Mostly Rural,Chris Hani,LM
-EC138,Sakhisizwe Local Municipality,EC,DC13,2345.066,27.781295,-31.446569,Eastern Cape,Sakhisizwe,B,B3,Small Towns,Chris Hani,LM
-EC131,Inxuba Yethemba Local Municipality,EC,DC13,11663.4982,25.321553,-31.862976,Eastern Cape,Inxuba Yethemba,B,B3,Small Towns,Chris Hani,LM
-EC139,Enoch Mgijima Local Municipality,EC,DC13,13584.1357,26.442319,-31.82714,Eastern Cape,Enoch Mgijima,B,B2,Large Towns,Chris Hani,LM
-EC153,Ngquza Hill Local Municipality,EC,DC15,2476.83,29.619361,-31.240527,Eastern Cape,Ngquza Hill,B,B4,Mostly Rural,O.R.Tambo,LM
-NC071,Ubuntu Local Municipality,NC,DC7,20393.2046,23.133706,-31.373535,Northern Cape,Ubuntu,B,B3,Small Towns,Pixley ka Seme,LM
-EC156,Mhlontlo Local Municipality,EC,DC15,2880.265,28.779867,-31.200925,Eastern Cape,Mhlontlo,B,B4,Mostly Rural,O.R.Tambo,LM
-EC444,Ntabankulu Local Municipality,EC,DC44,1384.5219,29.301335,-30.979143,Eastern Cape,Ntabankulu,B,B4,Mostly Rural,Alfred Nzo,LM
-EC443,Mbizana Local Municipality,EC,DC44,2415.4882,29.8461,-30.949138,Eastern Cape,Mbizana,B,B4,Mostly Rural,Alfred Nzo,LM
-EC442,Umzimvubu Local Municipality,EC,DC44,2578.8987,29.02465,-30.776692,Eastern Cape,Umzimvubu,B,B4,Mostly Rural,Alfred Nzo,LM
-KZN216,Ray Nkonyeni Local Municipality,KZN,DC21,1487.0863,30.256268,-30.777445,KwaZulu-Natal,Ray Nkonyeni,B,B2,Large Towns,Ugu,LM
-EC145,Walter Sisulu Local Municipality,EC,DC14,13268.9301,26.297977,-30.990732,Eastern Cape,Walter Sisulu,B,B3,Small Towns,Joe Gqabi,LM
-KZN214,UMuziwabantu Local Municipality,KZN,DC21,1089.3133,29.876026,-30.631048,KwaZulu-Natal,uMuziwabantu,B,B3,Small Towns,Ugu,LM
-WC011,Matzikama Local Municipality,WC,DC1,12981.445,18.499074,-31.25584,Western Cape,Matzikama,B,B3,Small Towns,West Coast,LM
-NC066,Karoo Hoogland Local Municipality,NC,DC6,30230.4352,21.045364,-31.728661,Northern Cape,Karoo Hoogland,B,B3,Small Towns,Namakwa,LM
-EC141,Elundini Local Municipality,EC,DC14,5018.8078,28.332924,-30.924613,Eastern Cape,Elundini,B,B4,Mostly Rural,Joe Gqabi,LM
-KZN213,Umzumbe Local Municipality,KZN,DC21,1223.9383,30.341597,-30.485871,KwaZulu-Natal,Umzumbe,B,B4,Mostly Rural,Ugu,LM
-EC142,Senqu Local Municipality,EC,DC14,7329.4254,27.561052,-30.865504,Eastern Cape,Senqu,B,B4,Mostly Rural,Joe Gqabi,LM
-NC072,Umsobomvu Local Municipality,NC,DC7,6813.4358,25.047653,-30.848179,Northern Cape,Umsobomvu,B,B3,Small Towns,Pixley ka Seme,LM
-KZN212,Umdoni Local Municipality,KZN,DC21,989.7517,30.56462,-30.269123,KwaZulu-Natal,Umdoni,B,B2,Large Towns,Ugu,LM
-EC441,Matatiele Local Municipality,EC,DC44,4352.3097,28.799577,-30.3468,Eastern Cape,Matatiele,B,B3,Small Towns,Alfred Nzo,LM
-NC074,Kareeberg Local Municipality,NC,DC7,17700.758,22.134828,-30.5456,Northern Cape,Kareeberg,B,B3,Small Towns,Pixley ka Seme,LM
-KZN434,Ubuhlebezwe Local Municipality,KZN,DC43,1669.6508,30.164659,-30.192625,KwaZulu-Natal,Ubuhlebezwe,B,B4,Mostly Rural,Harry Gwala,LM
-KZN435,Umzimkhulu Local Municipality,KZN,DC43,2435.6179,29.737726,-30.291686,KwaZulu-Natal,Umzimkhulu,B,B4,Mostly Rural,Harry Gwala,LM
-KZN433,Greater Kokstad Local Municipality,KZN,DC43,2679.8401,29.333989,-30.300931,KwaZulu-Natal,Greater Kokstad,B,B2,Large Towns,Harry Gwala,LM
-NC073,Emthanjeni Local Municipality,NC,DC7,13472.1383,23.858389,-30.678603,Northern Cape,Emthanjeni,B,B3,Small Towns,Pixley ka Seme,LM
-NC064,Kamiesberg Local Municipality,NC,DC6,14208.4119,18.13016,-30.3755,Northern Cape,Kamiesberg,B,B3,Small Towns,Namakwa,LM
-NC075,Renosterberg Local Municipality,NC,DC7,5529.2773,24.450635,-30.255706,Northern Cape,Renosterberg,B,B3,Small Towns,Pixley ka Seme,LM
-KZN227,Richmond Local Municipality,KZN,DC22,1231.3632,30.284545,-29.892452,KwaZulu-Natal,Richmond,B,B4,Mostly Rural,Umgungundlovu,LM
-NC065,Hantam Local Municipality,NC,DC6,39084.5409,19.960767,-30.973264,Northern Cape,Hantam,B,B3,Small Towns,Namakwa,LM
-FS163,Mohokare Local Municipality,FS,DC16,8775.7584,26.708434,-30.208459,Free State,Mohokare,B,B3,Small Towns,Xhariep,LM
-KZN226,Mkhambathini Local Municipality,KZN,DC22,868.4805,30.545311,-29.843575,KwaZulu-Natal,Mkhambathini,B,B3,Small Towns,Umgungundlovu,LM
-KZN225,The Msunduzi Local Municipality,KZN,DC22,751.0943,30.265493,-29.670138,KwaZulu-Natal,Msunduzi,B,B1,Secondary Cities,Umgungundlovu,LM
-ETH,Ethekwini Metropolitan Municipality,KZN,ETH,2555.9182,30.83614,-29.834218,KwaZulu-Natal,eThekwini,A,A,Metropolitan Municipality,eThekwini,MM
-KZN436,Dr Nkosazana Dlamini Zuma Local Municipality,KZN,DC43,3601.9618,29.599264,-29.829953,KwaZulu-Natal,Dr Nkosazana Dlamini Zuma,B,B3,Small Towns,Harry Gwala,LM
-KZN224,Impendle Local Municipality,KZN,DC22,1609.6369,29.731274,-29.554931,KwaZulu-Natal,Impendle,B,B4,Mostly Rural,Umgungundlovu,LM
-KZN222,uMngeni Local Municipality,KZN,DC22,1520.7552,30.090249,-29.437803,KwaZulu-Natal,uMngeni,B,B2,Large Towns,Umgungundlovu,LM
-FS162,Kopanong Local Municipality,FS,DC16,15648.0482,25.641109,-29.975795,Free State,Kopanong,B,B3,Small Towns,Xhariep,LM
-KZN293,Ndwedwe Local Municipality,KZN,DC29,1078.5795,30.96856,-29.425041,KwaZulu-Natal,Ndwedwe,B,B4,Mostly Rural,iLembe,LM
-KZN221,uMshwathi Local Municipality,KZN,DC22,1865.8534,30.577195,-29.382878,KwaZulu-Natal,uMshwathi,B,B4,Mostly Rural,Umgungundlovu,LM
-KZN292,KwaDukuza Local Municipality,KZN,DC29,739.9702,31.251142,-29.357794,KwaZulu-Natal,KwaDukuza,B,B2,Large Towns,iLembe,LM
-NC076,Thembelihle Local Municipality,NC,DC7,8023.0973,23.765003,-29.70843,Northern Cape,Thembelihle,B,B3,Small Towns,Pixley ka Seme,LM
-KZN291,Mandeni Local Municipality,KZN,DC29,554.8023,31.467046,-29.126103,KwaZulu-Natal,Mandeni,B,B4,Mostly Rural,iLembe,LM
-NC077,Siyathemba Local Municipality,NC,DC7,14704.0031,22.5525,-29.634216,Northern Cape,Siyathemba,B,B3,Small Towns,Pixley ka Seme,LM
-KZN223,Mpofana Local Municipality,KZN,DC22,1755.2117,30.025195,-29.190933,KwaZulu-Natal,Mpofana,B,B3,Small Towns,Umgungundlovu,LM
-KZN294,Maphumulo Local Municipality,KZN,DC29,895.9099,31.061677,-29.111126,KwaZulu-Natal,Maphumulo,B,B4,Mostly Rural,iLembe,LM
-FS161,Letsemeng Local Municipality,FS,DC16,9825.856,25.014804,-29.358126,Free State,Letsemeng,B,B3,Small Towns,Xhariep,LM
-FS196,Mantsopa Local Municipality,FS,DC19,4290.5858,27.217598,-29.135212,Free State,Mantsopa,B,B3,Small Towns,Thabo Mofutsanyane,LM
-KZN245,Umvoti Local Municipality,KZN,DC24,2704.7054,30.674408,-29.025108,KwaZulu-Natal,Umvoti,B,B3,Small Towns,Umzinyathi,LM
-KZN284,uMlalazi Local Municipality,KZN,DC28,2213.941,31.444902,-28.90486,KwaZulu-Natal,uMlalazi,B,B4,Mostly Rural,King Cetshwayo,LM
-NC062,Nama Khoi Local Municipality,NC,DC6,17990.4085,17.914941,-29.456405,Northern Cape,Nama Khoi,B,B3,Small Towns,Namakwa,LM
-MAN,Mangaung Metropolitan Municipality,FS,MAN,9886.3107,26.50053,-29.331493,Free State,Mangaung,A,A,Metropolitan Municipality,Mangaung,MM
-KZN237,Inkosi Langalibalele Local Municipality,KZN,DC23,3398.6384,29.823239,-28.988421,KwaZulu-Natal,Inkosi Langalibalele,B,B3,Small Towns,Uthukela,LM
-NC067,Khâi-Ma Local Municipality,NC,DC6,15714.8699,19.261354,-29.537786,Northern Cape,Khâi-Ma,B,B3,Small Towns,Namakwa,LM
-KZN282,uMhlathuze Local Municipality,KZN,DC28,1232.8541,31.879316,-28.731234,KwaZulu-Natal,uMhlathuze,B,B1,Secondary Cities,King Cetshwayo,LM
-NC078,Siyancuma Local Municipality,NC,DC7,16587.3711,23.360294,-28.985229,Northern Cape,Siyancuma,B,B3,Small Towns,Pixley ka Seme,LM
-NC091,Sol Plaatje Local Municipality,NC,DC9,3311.5871,24.496038,-28.747375,Northern Cape,Sol Plaatje,B,B1,Secondary Cities,Frances Baard,LM
-KZN286,Nkandla Local Municipality,KZN,DC28,1827.5774,30.992847,-28.658743,KwaZulu-Natal,Nkandla,B,B4,Mostly Rural,King Cetshwayo,LM
-NC084,!Kheis Local Municipality,NC,DC8,11102.3528,21.605682,-29.231833,Northern Cape,!Kheis,B,B3,Small Towns,Z F Mgcawu,LM
-KZN235,Okhahlamba Local Municipality,KZN,DC23,3971.0441,29.316131,-28.755388,KwaZulu-Natal,Okhahlamba,B,B4,Mostly Rural,Uthukela,LM
-KZN285,Mthonjaneni Local Municipality,KZN,DC28,1638.6138,31.469906,-28.566646,KwaZulu-Natal,Mthonjaneni,B,B3,Small Towns,King Cetshwayo,LM
-KZN281,Mfolozi Local Municipality,KZN,DC28,1300.3177,32.081942,-28.549435,KwaZulu-Natal,Mfolozi,B,B4,Mostly Rural,King Cetshwayo,LM
-KZN244,Msinga Local Municipality,KZN,DC24,2375.1533,30.448439,-28.605909,KwaZulu-Natal,Msinga,B,B4,Mostly Rural,Umzinyathi,LM
-FS181,Masilonyana Local Municipality,FS,DC18,6617.8238,26.617459,-28.631554,Free State,Masilonyana,B,B3,Small Towns,Lejweleputswa,LM
-KZN238,Alfred Duma Local Municipality,KZN,DC23,3764.4092,29.859036,-28.465499,KwaZulu-Natal,Alfred Duma,B,B2,Large Towns,Uthukela,LM
-KZN275,Mtubatuba Local Municipality,KZN,DC27,1969.8288,32.294952,-28.287746,KwaZulu-Natal,Mtubatuba,B,B3,Small Towns,Umkhanyakude,LM
-NC061,Richtersveld Local Municipality,NC,DC6,9607.673,17.059551,-28.768234,Northern Cape,Richtersveld,B,B3,Small Towns,Namakwa,LM
-FS191,Setsoto Local Municipality,FS,DC19,5431.1581,27.611829,-28.597454,Free State,Setsoto,B,B3,Small Towns,Thabo Mofutsanyane,LM
-FS192,Dihlabeng Local Municipality,FS,DC19,4867.7412,28.293888,-28.362458,Free State,Dihlabeng,B,B2,Large Towns,Thabo Mofutsanyane,LM
-FS194,Maluti a Phofung Local Municipality,FS,DC19,4337.7146,29.025155,-28.332208,Free State,Maluti a Phofung,B,B3,Small Towns,Thabo Mofutsanyane,LM
-KZN242,Nqutu Local Municipality,KZN,DC24,1962.258,30.738403,-28.305786,KwaZulu-Natal,Nqutu,B,B4,Mostly Rural,Umzinyathi,LM
-KZN241,Endumeni Local Municipality,KZN,DC24,1610.233,30.298724,-28.170872,KwaZulu-Natal,Endumeni,B,B3,Small Towns,Umzinyathi,LM
-NC093,Magareng Local Municipality,NC,DC9,1546.3791,24.780465,-28.167755,Northern Cape,Magareng,B,B3,Small Towns,Frances Baard,LM
-NC086,Kgatelopele Local Municipality,NC,DC8,2478.4476,23.632333,-28.217464,Northern Cape,Kgatelopele,B,B3,Small Towns,Z F Mgcawu,LM
-KZN266,Ulundi Local Municipality,KZN,DC26,3250.5788,31.309425,-28.239572,KwaZulu-Natal,Ulundi,B,B4,Mostly Rural,Zululand,LM
-FS182,Tokologo Local Municipality,FS,DC18,9316.4967,25.355299,-28.472525,Free State,Tokologo,B,B3,Small Towns,Lejweleputswa,LM
-KZN254,Dannhauser Local Municipality,KZN,DC25,1707.3128,30.00229,-28.021394,KwaZulu-Natal,Dannhauser,B,B4,Mostly Rural,Amajuba,LM
-NC082,Kai !Garib Local Municipality,NC,DC8,26236.3494,20.416961,-28.975571,Northern Cape,Kai !Garib,B,B3,Small Towns,Z F Mgcawu,LM
-NC092,Dikgatlong Local Municipality,NC,DC9,7315.5361,24.192269,-28.193338,Northern Cape,Dikgatlong,B,B3,Small Towns,Frances Baard,LM
-NC094,Phokwane Local Municipality,NC,DC9,828.1106,24.808909,-27.795177,Northern Cape,Phokwane,B,B3,Small Towns,Frances Baard,LM
-KZN265,Nongoma Local Municipality,KZN,DC26,2182.1142,31.74556,-27.91178,KwaZulu-Natal,Nongoma,B,B4,Mostly Rural,Zululand,LM
-FS183,Tswelopele Local Municipality,FS,DC18,6533.4679,25.931714,-28.066752,Free State,Tswelopele,B,B3,Small Towns,Lejweleputswa,LM
-FS184,Matjhabeng Local Municipality,FS,DC18,5690.4019,26.916301,-28.044206,Free State,Matjhabeng,B,B1,Secondary Cities,Lejweleputswa,LM
-FS193,Nketoana Local Municipality,FS,DC19,5604.5205,28.245932,-27.850105,Free State,Nketoana,B,B3,Small Towns,Thabo Mofutsanyane,LM
-KZN263,Abaqulusi Local Municipality,KZN,DC26,4313.5547,31.053009,-27.82574,KwaZulu-Natal,Abaqulusi,B,B3,Small Towns,Zululand,LM
-KZN252,Newcastle Local Municipality,KZN,DC25,1855.7942,29.876256,-27.739276,KwaZulu-Natal,Newcastle,B,B1,Secondary Cities,Amajuba,LM
-NC453,Gamagara Local Municipality,NC,DC45,2647.9047,22.996074,-27.643424,Northern Cape,Gamagara,B,B3,Small Towns,John Taolo Gaetsewe,LM
-KZN261,eDumbe Local Municipality,KZN,DC26,1942.7625,30.810623,-27.469618,KwaZulu-Natal,eDumbe,B,B3,Small Towns,Zululand,LM
-KZN253,Emadlangeni Local Municipality,KZN,DC25,3539.316,30.321232,-27.617907,KwaZulu-Natal,Emadlangeni,B,B3,Small Towns,Amajuba,LM
-KZN262,UPhongolo Local Municipality,KZN,DC26,3110.0566,31.598159,-27.483609,KwaZulu-Natal,uPhongolo,B,B4,Mostly Rural,Zululand,LM
-NW396,Lekwa-Teemane Local Municipality,NW,DC39,3653.6326,25.329238,-27.639227,North West,Lekwa-Teemane,B,B3,Small Towns,Dr Ruth Segomotsi Mompati,LM
-NC452,Ga-Segonyana Local Municipality,NC,DC45,4494.7974,23.560537,-27.622587,Northern Cape,Ga-Segonyana,B,B3,Small Towns,John Taolo Gaetsewe,LM
-FS185,Nala Local Municipality,FS,DC18,4128.7924,26.443501,-27.620085,Free State,Nala,B,B3,Small Towns,Lejweleputswa,LM
-NC085,Tsantsabane Local Municipality,NC,DC8,18289.3101,22.553378,-28.038564,Northern Cape,Tsantsabane,B,B3,Small Towns,Z F Mgcawu,LM
-NW394,Greater Taung Local Municipality,NW,DC39,5636.5226,24.439148,-27.502887,North West,Greater Taung,B,B4,Mostly Rural,Dr Ruth Segomotsi Mompati,LM
-FS195,Phumelela Local Municipality,FS,DC19,8197.2401,29.22851,-27.676713,Free State,Phumelela,B,B3,Small Towns,Thabo Mofutsanyane,LM
-FS205,Mafube Local Municipality,FS,DC20,3976.5633,28.607312,-27.270073,Free State,Mafube,B,B3,Small Towns,Fezile Dabi,LM
-KZN271,Umhlabuyalingana Local Municipality,KZN,DC27,4977.1345,32.563817,-27.243473,KwaZulu-Natal,Umhlabuyalingana,B,B4,Mostly Rural,Umkhanyakude,LM
-NW393,Mamusa Local Municipality,NW,DC39,3603.324,25.276126,-27.22399,North West,Mamusa,B,B3,Small Towns,Dr Ruth Segomotsi Mompati,LM
-FS201,Moqhaka Local Municipality,FS,DC20,7924.566,27.193724,-27.500953,Free State,Moqhaka,B,B2,Large Towns,Fezile Dabi,LM
-NW404,Maquassi Hills Local Municipality,NW,DC40,4670.6148,26.033886,-27.238358,North West,Maquassi Hills,B,B3,Small Towns,Dr Kenneth Kaunda,LM
-KZN272,Jozini Local Municipality,KZN,DC27,3438.2668,32.145555,-27.36761,KwaZulu-Natal,Jozini,B,B4,Mostly Rural,Umkhanyakude,LM
-FS203,Ngwathe Local Municipality,FS,DC20,7055.0105,27.731911,-27.295757,Free State,Ngwathe,B,B3,Small Towns,Fezile Dabi,LM
-MP304,Dr Pixley Ka Isaka Seme Local Municipality,MP,DC30,5227.2086,29.955869,-27.128497,Mpumalanga,Dr Pixley Ka Isaka Seme,B,B3,Small Towns,Gert Sibande,LM
-FS204,Metsimaholo Local Municipality,FS,DC20,1717.0994,28.043759,-26.929133,Free State,Metsimaholo,B,B2,Large Towns,Fezile Dabi,LM
-MP305,Lekwa Local Municipality,MP,DC30,4594.3506,29.347797,-26.880899,Mpumalanga,Lekwa,B,B3,Small Towns,Gert Sibande,LM
-MP306,Dipaleseng Local Municipality,MP,DC30,2607.3976,28.637785,-26.778446,Mpumalanga,Dipaleseng,B,B3,Small Towns,Gert Sibande,LM
-MP303,Mkhondo Local Municipality,MP,DC30,4900.5192,30.704135,-26.99155,Mpumalanga,Mkhondo,B,B3,Small Towns,Gert Sibande,LM
-NW403,City of Matlosana Local Municipality,NW,DC40,3602.2352,26.488112,-26.811403,North West,City of Matlosana,B,B1,Secondary Cities,Dr Kenneth Kaunda,LM
-GT421,Emfuleni Local Municipality,GT,DC42,965.6413,27.780976,-26.628393,Gauteng,Emfuleni,B,B1,Secondary Cities,Sedibeng,LM
-GT422,Midvaal Local Municipality,GT,DC42,1722.6941,28.129184,-26.623096,Gauteng,Midvaal,B,B2,Large Towns,Sedibeng,LM
-NW392,Naledi Local Municipality,NW,DC39,7032.0354,24.795151,-26.863443,North West,Naledi,B,B3,Small Towns,Dr Ruth Segomotsi Mompati,LM
-NW382,Tswaing Local Municipality,NW,DC38,5885.3352,25.660834,-26.616333,North West,Tswaing,B,B3,Small Towns,Ngaka Modiri Molema,LM
-GT423,Lesedi Local Municipality,GT,DC42,1484.3926,28.506672,-26.461472,Gauteng,Lesedi,B,B3,Small Towns,Sedibeng,LM
-MP302,Msukaligwa Local Municipality,MP,DC30,6003.4092,30.128679,-26.467355,Mpumalanga,Msukaligwa,B,B2,Large Towns,Gert Sibande,LM
-MP307,Govan Mbeki Local Municipality,MP,DC30,2954.6898,29.196018,-26.466971,Mpumalanga,Govan Mbeki,B,B1,Secondary Cities,Gert Sibande,LM
-GT484,Merafong City Local Municipality,GT,DC48,1630.0472,27.399419,-26.416855,Gauteng,Merafong City,B,B2,Large Towns,West Rand,LM
-GT485,Rand West City Local Municipality,GT,DC48,1114.7153,27.630358,-26.305378,Gauteng,Rand West City,B,B2,Large Towns,West Rand,LM
-NW405,JB Marks Local Municipality,NW,DC40,6397.9943,27.004517,-26.488692,North West,JB Marks,B,B1,Secondary Cities,Dr Kenneth Kaunda,LM
-NC451,Joe Morolong Local Municipality,NC,DC45,20179.766,22.937721,-26.838253,Northern Cape,Joe Morolong,B,B4,Mostly Rural,John Taolo Gaetsewe,LM
-EKU,Ekurhuleni Metropolitan Municipality,GT,EKU,1975.685,28.312575,-26.198938,Gauteng,Ekurhuleni,A,A,Metropolitan Municipality,Ekurhuleni,MM
-JHB,City of Johannesburg Metropolitan Municipality,GT,JHB,1642.6263,27.963623,-26.17694,Gauteng,City of Johannesburg,A,A,Metropolitan Municipality,City of Johannesburg,MM
-MP311,Victor Khanye Local Municipality,MP,DC31,1567.7745,28.768849,-26.132618,Mpumalanga,Victor Khanye,B,B3,Small Towns,Nkangala,LM
-GT481,Mogale City Local Municipality,GT,DC48,1344.6714,27.683413,-25.98722,Gauteng,Mogale City,B,B1,Secondary Cities,West Rand,LM
-NW381,Ratlou Local Municipality,NW,DC38,4883.5628,25.063606,-26.082016,North West,Ratlou,B,B4,Mostly Rural,Ngaka Modiri Molema,LM
-MP301,Chief Albert Luthuli Local Municipality,MP,DC30,5553.2904,30.486,-26.055478,Mpumalanga,Chief Albert Luthuli,B,B4,Mostly Rural,Gert Sibande,LM
-NW384,Ditsobotla Local Municipality,NW,DC38,6387.0509,26.239306,-26.115314,North West,Ditsobotla,B,B3,Small Towns,Ngaka Modiri Molema,LM
-MP312,Emalahleni Local Municipality,MP,DC31,2677.6091,29.162096,-26.01795,Mpumalanga,Emalahleni,B,B1,Secondary Cities,Nkangala,LM
-NW383,Mafikeng Local Municipality,NW,DC38,3645.8596,25.672832,-25.886095,North West,Mafikeng,B,B2,Large Towns,Ngaka Modiri Molema,LM
-MP313,Steve Tshwete Local Municipality,MP,DC31,3976.4535,29.551938,-25.836944,Mpumalanga,Steve Tshwete,B,B1,Secondary Cities,Nkangala,LM
-NW374,Kgetlengrivier Local Municipality,NW,DC37,3973.149,26.864342,-25.723459,North West,Kgetlengrivier,B,B3,Small Towns,Bojanala,LM
-NW373,Rustenburg Local Municipality,NW,DC37,3416.1235,27.33145,-25.660908,North West,Rustenburg,B,B1,Secondary Cities,Bojanala,LM
-NW397,Kagisano/Molopo Local Municipality,NW,DC39,23827.221,23.765026,-26.118051,North West,Kagisano/Molopo,B,B4,Mostly Rural,Dr Ruth Segomotsi Mompati,LM
-MP315,Thembisile Local Municipality,MP,DC31,2384.3633,28.951928,-25.470336,Mpumalanga,Thembisile,B,B4,Mostly Rural,Nkangala,LM
-MP314,Emakhazeni Local Municipality,MP,DC31,4735.5862,30.106822,-25.596921,Mpumalanga,Emakhazeni,B,B2,Large Towns,Nkangala,LM
-TSH,City of Tshwane Metropolitan Municipality,GT,TSH,6297.8332,28.443433,-25.659851,Gauteng,City of Tshwane,A,A,Metropolitan Municipality,City of Tshwane,MM
-NW372,Local Municipality of Madibeng,NW,DC37,3720.0858,27.733651,-25.441079,North West,Local Municipality of Madibeng,B,B1,Secondary Cities,Bojanala,LM
-MP326,City of Mbombela Local Municipality,MP,DC32,7151.5888,31.096359,-25.432682,Mpumalanga,City of Mbombela,B,B1,Secondary Cities,Ehlanzeni,LM
-NW371,Moretele Local Municipality,NW,DC37,1497.8569,28.039084,-25.176895,North West,Moretele,B,B4,Mostly Rural,Bojanala,LM
-MP324,Nkomazi Local Municipality,MP,DC32,4785.3348,31.730322,-25.5024,Mpumalanga,Nkomazi,B,B4,Mostly Rural,Ehlanzeni,LM
-LIM472,Elias Motsoaledi Local Municipality,LIM,DC47,3713.3295,29.561622,-25.195959,Limpopo,Elias Motsoaledi,B,B4,Mostly Rural,Sekhukhune,LM
-MP316,Dr JS Moroka Local Municipality,MP,DC31,1416.4688,28.801472,-25.103883,Mpumalanga,Dr JS Moroka,B,B4,Mostly Rural,Nkangala,LM
-NC087,Dawid Kruiper Local Municipality,NC,DC8,44399.2552,20.831248,-27.072219,Northern Cape,Dawid Kruiper,B,B2,Large Towns,Z F Mgcawu,LM
-NW375,Moses Kotane Local Municipality,NW,DC37,5726.2273,26.866124,-25.133628,North West,Moses Kotane,B,B4,Mostly Rural,Bojanala,LM
-NW385,Ramotshere Moiloa Local Municipality,NW,DC38,7322.8426,26.123477,-25.219009,North West,Ramotshere Moiloa,B,B3,Small Towns,Ngaka Modiri Molema,LM
-LIM471,Ephraim Mogale Local Municipality,LIM,DC47,2011.3036,29.336692,-24.901848,Limpopo,Ephraim Mogale,B,B4,Mostly Rural,Sekhukhune,LM
-LIM366,Bela-Bela Local Municipality,LIM,DC36,3406.1926,28.272026,-24.954036,Limpopo,Bela-Bela,B,B3,Small Towns,Waterberg,LM
-MP321,Thaba Chweu Local Municipality,MP,DC32,5710.4737,30.571077,-25.064391,Mpumalanga,Thaba Chweu,B,B3,Small Towns,Ehlanzeni,LM
-LIM473,Makhuduthamaga Local Municipality,LIM,DC47,2109.6471,29.773772,-24.721565,Limpopo,Makhuduthamaga,B,B4,Mostly Rural,Sekhukhune,LM
-LIM476,Fetakgomo Tubatse Local Municipality,LIM,DC47,5693.4497,30.220513,-24.600341,Limpopo,Fetakgomo Tubatse,B,B4,Mostly Rural,Sekhukhune,LM
-LIM368,Modimolle-Mookgophong Local Municipality,LIM,DC36,10367.5189,28.554279,-24.503767,Limpopo,Modimolle-Mookgophong,B,B3,Small Towns,Waterberg,LM
-MP325,Bushbuckridge Local Municipality,MP,DC32,10248.1787,31.524555,-24.556741,Mpumalanga,Bushbuckridge,B,B4,Mostly Rural,Ehlanzeni,LM
-LIM335,Maruleng Local Municipality,LIM,DC33,3562.6137,30.785641,-24.291507,Limpopo,Maruleng,B,B4,Mostly Rural,Mopani,LM
-LIM355,Lepele-Nkumpi Local Municipality,LIM,DC35,3484.2728,29.706098,-24.266025,Limpopo,Lepele-Nkumpi,B,B4,Mostly Rural,Capricorn,LM
-LIM361,Thabazimbi Local Municipality,LIM,DC36,11189.9895,27.186483,-24.54369,Limpopo,Thabazimbi,B,B3,Small Towns,Waterberg,LM
-LIM354,Polokwane Local Municipality,LIM,DC35,5053.7229,29.38212,-23.891129,Limpopo,Polokwane,B,B1,Secondary Cities,Capricorn,LM
-LIM333,Greater Tzaneen Local Municipality,LIM,DC33,2896.2427,30.253368,-23.835959,Limpopo,Greater Tzaneen,B,B4,Mostly Rural,Mopani,LM
-LIM367,Mogalakwena Local Municipality,LIM,DC36,6156.1697,28.693646,-23.846777,Limpopo,Mogalakwena,B,B2,Large Towns,Waterberg,LM
-LIM332,Greater Letaba Local Municipality,LIM,DC33,1895.849,30.275132,-23.511513,Limpopo,Greater Letaba,B,B4,Mostly Rural,Mopani,LM
-LIM353,Molemole Local Municipality,LIM,DC35,3627.5704,29.536029,-23.498365,Limpopo,Molemole,B,B4,Mostly Rural,Capricorn,LM
-LIM334,Ba-Phalaborwa Local Municipality,LIM,DC33,7489.5864,31.191549,-23.776941,Limpopo,Ba-Phalaborwa,B,B3,Small Towns,Mopani,LM
-LIM331,Greater Giyani Local Municipality,LIM,DC33,4166.6488,30.90019,-23.363837,Limpopo,Greater Giyani,B,B4,Mostly Rural,Mopani,LM
-LIM362,Lephalale Local Municipality,LIM,DC36,13793.5136,27.797662,-23.676188,Limpopo,Lephalale,B,B3,Small Towns,Waterberg,LM
-LIM344,Makhado Local Municipality,LIM,DC34,7605.0599,29.748677,-22.999575,Limpopo,Makhado,B,B4,Mostly Rural,Vhembe,LM
-LIM345,Collins Chabane Local Municipality,LIM,DC34,5003.1477,30.973361,-22.988609,Limpopo,Collins Chabane,B,B4,Mostly Rural,Vhembe,LM
-LIM343,Thulamela Local Municipality,LIM,DC34,2641.669,30.555385,-22.785681,Limpopo,Thulamela,B,B4,Mostly Rural,Vhembe,LM
-LIM351,Blouberg Local Municipality,LIM,DC35,9539.8888,28.75026,-22.967547,Limpopo,Blouberg,B,B4,Mostly Rural,Capricorn,LM
-LIM341,Musina Local Municipality,LIM,DC34,10346.5454,30.050771,-22.452444,Limpopo,Musina,B,B3,Small Towns,Vhembe,LM
-KZN276,Big Five Hlabisa Local Municipality,KZN,DC27,3470.1233,32.196397,-28.03429,KwaZulu-Natal,Big Five Hlabisa,B,B3,Small Towns,Umkhanyakude,LM
+muni_code;muni_name;prov_code;dist_code;area_km2;centroid_lon;centroid_lat;prov_name;muni_shortname;cat1_code;miif_category;miif_name;dist_name;muni_lv_abr
+WC032;Overstrand Local Municipality;WC;DC3;1674.5948;19.376341;-34.476352;Western Cape;Overstrand;B;B2;Large Towns;Overberg;LM
+WC033;Cape Agulhas Local Municipality;WC;DC3;3469.9785;20.057668;-34.497952;Western Cape;Cape Agulhas;B;B3;Small Towns;Overberg;LM
+WC031;Theewaterskloof Local Municipality;WC;DC3;3260.5837;19.436141;-34.16125;Western Cape;Theewaterskloof;B;B3;Small Towns;Overberg;LM
+WC043;Mossel Bay Local Municipality;WC;DC4;2001.032;21.942689;-34.041423;Western Cape;Mossel Bay;B;B2;Large Towns;Garden Route;LM
+WC042;Hessequa Local Municipality;WC;DC4;5732.63;21.227498;-34.134505;Western Cape;Hessequa;B;B3;Small Towns;Garden Route;LM
+WC048;Knysna Local Municipality;WC;DC4;1108.7678;22.984307;-33.946045;Western Cape;Knysna;B;B2;Large Towns;Garden Route;LM
+WC024;Stellenbosch Local Municipality;WC;DC2;835.5932;18.945104;-33.926781;Western Cape;Stellenbosch;B;B1;Secondary Cities;Cape Winelands;LM
+CPT;City of Cape Town Metropolitan Municipality;WC;CPT;2440.5605;18.593436;-33.892316;Western Cape;City of Cape Town;A;A;Metropolitan Municipality;City of Cape Town;MM
+WC047;Bitou Local Municipality;WC;DC4;991.8539;23.407081;-33.937356;Western Cape;Bitou;B;B3;Small Towns;Garden Route;LM
+WC034;Swellendam Local Municipality;WC;DC3;3835.0875;20.508876;-34.036894;Western Cape;Swellendam;B;B3;Small Towns;Overberg;LM
+EC108;Kouga Local Municipality;EC;DC10;2670.4757;24.799596;-33.904299;Eastern Cape;Kouga;B;B3;Small Towns;Sarah Baartman;LM
+EC109;Kou-Kamma Local Municipality;EC;DC10;3641.816;24.060087;-33.86761;Eastern Cape;Kou-Kamma;B;B3;Small Towns;Sarah Baartman;LM
+NMA;Nelson Mandela Bay Metropolitan Municipality;EC;NMA;1956.9573;25.492346;-33.804029;Eastern Cape;Nelson Mandela Bay;A;A;Metropolitan Municipality;Nelson Mandela Bay;MM
+WC026;Langeberg Local Municipality;WC;DC2;4517.558;20.054997;-33.785919;Western Cape;Langeberg;B;B3;Small Towns;Cape Winelands;LM
+WC015;Swartland Local Municipality;WC;DC1;3708.0126;18.620277;-33.309786;Western Cape;Swartland;B;B3;Small Towns;West Coast;LM
+WC044;George Local Municipality;WC;DC4;5191.0106;22.930032;-33.695282;Western Cape;George;B;B1;Secondary Cities;Garden Route;LM
+WC041;Kannaland Local Municipality;WC;DC4;4765.3635;21.318929;-33.603482;Western Cape;Kannaland;B;B3;Small Towns;Garden Route;LM
+WC045;Oudtshoorn Local Municipality;WC;DC4;3540.4084;22.220978;-33.592872;Western Cape;Oudtshoorn;B;B2;Large Towns;Garden Route;LM
+EC105;Ndlambe Local Municipality;EC;DC10;1839.8807;26.744073;-33.523092;Eastern Cape;Ndlambe;B;B3;Small Towns;Sarah Baartman;LM
+EC106;Sundays River Valley Local Municipality;EC;DC10;5995.1629;25.496699;-33.511695;Eastern Cape;Sundays River Valley;B;B3;Small Towns;Sarah Baartman;LM
+WC025;Breede Valley Local Municipality;WC;DC2;3833.9863;19.699593;-33.571874;Western Cape;Breede Valley;B;B2;Large Towns;Cape Winelands;LM
+WC014;Saldanha Bay Local Municipality;WC;DC1;2015.3691;18.176134;-33.010183;Western Cape;Saldanha Bay;B;B2;Large Towns;West Coast;LM
+WC023;Drakenstein Local Municipality;WC;DC2;1536.6325;19.003173;-33.596754;Western Cape;Drakenstein;B;B1;Secondary Cities;Cape Winelands;LM
+EC104;Makana Local Municipality;EC;DC10;4376.379;26.408276;-33.235222;Eastern Cape;Makana;B;B2;Large Towns;Sarah Baartman;LM
+EC126;Ngqushwa Local Municipality;EC;DC12;2112.4643;27.190385;-33.198127;Eastern Cape;Ngqushwa;B;B4;Mostly Rural;Amathole;LM
+BUF;Buffalo City Metropolitan Municipality;EC;BUF;2752.5762;27.598667;-32.948018;Eastern Cape;Buffalo City;A;A;Metropolitan Municipality;Buffalo City;MM
+WC052;Prince Albert Local Municipality;WC;DC5;8152.9127;22.130118;-33.05112;Western Cape;Prince Albert;B;B3;Small Towns;Central Karoo;LM
+WC051;Laingsburg Local Municipality;WC;DC5;8784.4908;20.96602;-33.103613;Western Cape;Laingsburg;B;B3;Small Towns;Central Karoo;LM
+EC123;Great Kei Local Municipality;EC;DC12;1699.8269;28.009538;-32.659081;Eastern Cape;Great Kei;B;B3;Small Towns;Amathole;LM
+WC013;Bergrivier Local Municipality;WC;DC1;4407.0496;18.672795;-32.787493;Western Cape;Bergrivier;B;B3;Small Towns;West Coast;LM
+EC129;Raymond Mhlaba Local Municipality;EC;DC12;6357.3223;26.563953;-32.686488;Eastern Cape;Raymond Mhlaba;B;B3;Small Towns;Amathole;LM
+EC102;Blue Crane Route Local Municipality;EC;DC10;11068.4635;25.413087;-32.778162;Eastern Cape;Blue Crane Route;B;B3;Small Towns;Sarah Baartman;LM
+EC124;Amahlathi Local Municipality;EC;DC12;4505.4802;27.33352;-32.502458;Eastern Cape;Amahlathi;B;B3;Small Towns;Amathole;LM
+WC022;Witzenberg Local Municipality;WC;DC2;10753.1561;19.688902;-32.949787;Western Cape;Witzenberg;B;B3;Small Towns;Cape Winelands;LM
+EC122;Mnquma Local Municipality;EC;DC12;3137.2611;28.156661;-32.34546;Eastern Cape;Mnquma;B;B4;Mostly Rural;Amathole;LM
+WC012;Cederberg Local Municipality;WC;DC1;8007.4794;18.924253;-32.256742;Western Cape;Cederberg;B;B3;Small Towns;West Coast;LM
+EC121;Mbhashe Local Municipality;EC;DC12;3302.5141;28.575231;-32.13221;Eastern Cape;Mbhashe;B;B4;Mostly Rural;Amathole;LM
+EC101;Dr Beyers Naude Local Municipality;EC;DC10;28653.0202;24.089954;-32.8452;Eastern Cape;Dr Beyers Naude;B;B3;Small Towns;Sarah Baartman;LM
+EC135;Intsika Yethu Local Municipality;EC;DC13;2845.9579;27.657819;-31.96959;Eastern Cape;Intsika Yethu;B;B4;Mostly Rural;Chris Hani;LM
+WC053;Beaufort West Local Municipality;WC;DC5;21916.6186;22.746542;-32.27711;Western Cape;Beaufort West;B;B3;Small Towns;Central Karoo;LM
+EC157;King Sabata Dalindyebo Local Municipality;EC;DC15;3018.9296;28.672457;-31.763159;Eastern Cape;King Sabata Dalindyebo;B;B2;Large Towns;O.R.Tambo;LM
+EC137;Dr AB Xuma Local Municipality;EC;DC13;2483.8669;28.091141;-31.681331;Eastern Cape;Engcobo;B;B4;Mostly Rural;Chris Hani;LM
+EC154;Port St Johns Local Municipality;EC;DC15;1291.1995;29.42128;-31.536133;Eastern Cape;Port St Johns;B;B4;Mostly Rural;O.R.Tambo;LM
+EC155;Nyandeni Local Municipality;EC;DC15;2474.0105;29.067915;-31.593569;Eastern Cape;Nyandeni;B;B4;Mostly Rural;O.R.Tambo;LM
+EC136;Emalahleni Local Municipality;EC;DC13;3484.2285;27.19629;-31.595998;Eastern Cape;Emalahleni;B;B4;Mostly Rural;Chris Hani;LM
+EC138;Sakhisizwe Local Municipality;EC;DC13;2345.066;27.781295;-31.446569;Eastern Cape;Sakhisizwe;B;B3;Small Towns;Chris Hani;LM
+EC131;Inxuba Yethemba Local Municipality;EC;DC13;11663.4982;25.321553;-31.862976;Eastern Cape;Inxuba Yethemba;B;B3;Small Towns;Chris Hani;LM
+EC139;Enoch Mgijima Local Municipality;EC;DC13;13584.1357;26.442319;-31.82714;Eastern Cape;Enoch Mgijima;B;B2;Large Towns;Chris Hani;LM
+EC153;Ngquza Hill Local Municipality;EC;DC15;2476.83;29.619361;-31.240527;Eastern Cape;Ngquza Hill;B;B4;Mostly Rural;O.R.Tambo;LM
+NC071;Ubuntu Local Municipality;NC;DC7;20393.2046;23.133706;-31.373535;Northern Cape;Ubuntu;B;B3;Small Towns;Pixley ka Seme;LM
+EC156;Mhlontlo Local Municipality;EC;DC15;2880.265;28.779867;-31.200925;Eastern Cape;Mhlontlo;B;B4;Mostly Rural;O.R.Tambo;LM
+EC444;Ntabankulu Local Municipality;EC;DC44;1384.5219;29.301335;-30.979143;Eastern Cape;Ntabankulu;B;B4;Mostly Rural;Alfred Nzo;LM
+EC443;Mbizana Local Municipality;EC;DC44;2415.4882;29.8461;-30.949138;Eastern Cape;Mbizana;B;B4;Mostly Rural;Alfred Nzo;LM
+EC442;Umzimvubu Local Municipality;EC;DC44;2578.8987;29.02465;-30.776692;Eastern Cape;Umzimvubu;B;B4;Mostly Rural;Alfred Nzo;LM
+KZN216;Ray Nkonyeni Local Municipality;KZN;DC21;1487.0863;30.256268;-30.777445;KwaZulu-Natal;Ray Nkonyeni;B;B2;Large Towns;Ugu;LM
+EC145;Walter Sisulu Local Municipality;EC;DC14;13268.9301;26.297977;-30.990732;Eastern Cape;Walter Sisulu;B;B3;Small Towns;Joe Gqabi;LM
+KZN214;UMuziwabantu Local Municipality;KZN;DC21;1089.3133;29.876026;-30.631048;KwaZulu-Natal;uMuziwabantu;B;B3;Small Towns;Ugu;LM
+WC011;Matzikama Local Municipality;WC;DC1;12981.445;18.499074;-31.25584;Western Cape;Matzikama;B;B3;Small Towns;West Coast;LM
+NC066;Karoo Hoogland Local Municipality;NC;DC6;30230.4352;21.045364;-31.728661;Northern Cape;Karoo Hoogland;B;B3;Small Towns;Namakwa;LM
+EC141;Elundini Local Municipality;EC;DC14;5018.8078;28.332924;-30.924613;Eastern Cape;Elundini;B;B4;Mostly Rural;Joe Gqabi;LM
+KZN213;Umzumbe Local Municipality;KZN;DC21;1223.9383;30.341597;-30.485871;KwaZulu-Natal;Umzumbe;B;B4;Mostly Rural;Ugu;LM
+EC142;Senqu Local Municipality;EC;DC14;7329.4254;27.561052;-30.865504;Eastern Cape;Senqu;B;B4;Mostly Rural;Joe Gqabi;LM
+NC072;Umsobomvu Local Municipality;NC;DC7;6813.4358;25.047653;-30.848179;Northern Cape;Umsobomvu;B;B3;Small Towns;Pixley ka Seme;LM
+KZN212;Umdoni Local Municipality;KZN;DC21;989.7517;30.56462;-30.269123;KwaZulu-Natal;Umdoni;B;B2;Large Towns;Ugu;LM
+EC441;Matatiele Local Municipality;EC;DC44;4352.3097;28.799577;-30.3468;Eastern Cape;Matatiele;B;B3;Small Towns;Alfred Nzo;LM
+NC074;Kareeberg Local Municipality;NC;DC7;17700.758;22.134828;-30.5456;Northern Cape;Kareeberg;B;B3;Small Towns;Pixley ka Seme;LM
+KZN434;Ubuhlebezwe Local Municipality;KZN;DC43;1669.6508;30.164659;-30.192625;KwaZulu-Natal;Ubuhlebezwe;B;B4;Mostly Rural;Harry Gwala;LM
+KZN435;Umzimkhulu Local Municipality;KZN;DC43;2435.6179;29.737726;-30.291686;KwaZulu-Natal;Umzimkhulu;B;B4;Mostly Rural;Harry Gwala;LM
+KZN433;Greater Kokstad Local Municipality;KZN;DC43;2679.8401;29.333989;-30.300931;KwaZulu-Natal;Greater Kokstad;B;B2;Large Towns;Harry Gwala;LM
+NC073;Emthanjeni Local Municipality;NC;DC7;13472.1383;23.858389;-30.678603;Northern Cape;Emthanjeni;B;B3;Small Towns;Pixley ka Seme;LM
+NC064;Kamiesberg Local Municipality;NC;DC6;14208.4119;18.13016;-30.3755;Northern Cape;Kamiesberg;B;B3;Small Towns;Namakwa;LM
+NC075;Renosterberg Local Municipality;NC;DC7;5529.2773;24.450635;-30.255706;Northern Cape;Renosterberg;B;B3;Small Towns;Pixley ka Seme;LM
+KZN227;Richmond Local Municipality;KZN;DC22;1231.3632;30.284545;-29.892452;KwaZulu-Natal;Richmond;B;B4;Mostly Rural;Umgungundlovu;LM
+NC065;Hantam Local Municipality;NC;DC6;39084.5409;19.960767;-30.973264;Northern Cape;Hantam;B;B3;Small Towns;Namakwa;LM
+FS163;Mohokare Local Municipality;FS;DC16;8775.7584;26.708434;-30.208459;Free State;Mohokare;B;B3;Small Towns;Xhariep;LM
+KZN226;Mkhambathini Local Municipality;KZN;DC22;868.4805;30.545311;-29.843575;KwaZulu-Natal;Mkhambathini;B;B3;Small Towns;Umgungundlovu;LM
+KZN225;The Msunduzi Local Municipality;KZN;DC22;751.0943;30.265493;-29.670138;KwaZulu-Natal;Msunduzi;B;B1;Secondary Cities;Umgungundlovu;LM
+ETH;Ethekwini Metropolitan Municipality;KZN;ETH;2555.9182;30.83614;-29.834218;KwaZulu-Natal;eThekwini;A;A;Metropolitan Municipality;eThekwini;MM
+KZN436;Dr Nkosazana Dlamini Zuma Local Municipality;KZN;DC43;3601.9618;29.599264;-29.829953;KwaZulu-Natal;Dr Nkosazana Dlamini Zuma;B;B3;Small Towns;Harry Gwala;LM
+KZN224;Impendle Local Municipality;KZN;DC22;1609.6369;29.731274;-29.554931;KwaZulu-Natal;Impendle;B;B4;Mostly Rural;Umgungundlovu;LM
+KZN222;uMngeni Local Municipality;KZN;DC22;1520.7552;30.090249;-29.437803;KwaZulu-Natal;uMngeni;B;B2;Large Towns;Umgungundlovu;LM
+FS162;Kopanong Local Municipality;FS;DC16;15648.0482;25.641109;-29.975795;Free State;Kopanong;B;B3;Small Towns;Xhariep;LM
+KZN293;Ndwedwe Local Municipality;KZN;DC29;1078.5795;30.96856;-29.425041;KwaZulu-Natal;Ndwedwe;B;B4;Mostly Rural;iLembe;LM
+KZN221;uMshwathi Local Municipality;KZN;DC22;1865.8534;30.577195;-29.382878;KwaZulu-Natal;uMshwathi;B;B4;Mostly Rural;Umgungundlovu;LM
+KZN292;KwaDukuza Local Municipality;KZN;DC29;739.9702;31.251142;-29.357794;KwaZulu-Natal;KwaDukuza;B;B2;Large Towns;iLembe;LM
+NC076;Thembelihle Local Municipality;NC;DC7;8023.0973;23.765003;-29.70843;Northern Cape;Thembelihle;B;B3;Small Towns;Pixley ka Seme;LM
+KZN291;Mandeni Local Municipality;KZN;DC29;554.8023;31.467046;-29.126103;KwaZulu-Natal;Mandeni;B;B4;Mostly Rural;iLembe;LM
+NC077;Siyathemba Local Municipality;NC;DC7;14704.0031;22.5525;-29.634216;Northern Cape;Siyathemba;B;B3;Small Towns;Pixley ka Seme;LM
+KZN223;Mpofana Local Municipality;KZN;DC22;1755.2117;30.025195;-29.190933;KwaZulu-Natal;Mpofana;B;B3;Small Towns;Umgungundlovu;LM
+KZN294;Maphumulo Local Municipality;KZN;DC29;895.9099;31.061677;-29.111126;KwaZulu-Natal;Maphumulo;B;B4;Mostly Rural;iLembe;LM
+FS161;Letsemeng Local Municipality;FS;DC16;9825.856;25.014804;-29.358126;Free State;Letsemeng;B;B3;Small Towns;Xhariep;LM
+FS196;Mantsopa Local Municipality;FS;DC19;4290.5858;27.217598;-29.135212;Free State;Mantsopa;B;B3;Small Towns;Thabo Mofutsanyane;LM
+KZN245;Umvoti Local Municipality;KZN;DC24;2704.7054;30.674408;-29.025108;KwaZulu-Natal;Umvoti;B;B3;Small Towns;Umzinyathi;LM
+KZN284;uMlalazi Local Municipality;KZN;DC28;2213.941;31.444902;-28.90486;KwaZulu-Natal;uMlalazi;B;B4;Mostly Rural;King Cetshwayo;LM
+NC062;Nama Khoi Local Municipality;NC;DC6;17990.4085;17.914941;-29.456405;Northern Cape;Nama Khoi;B;B3;Small Towns;Namakwa;LM
+MAN;Mangaung Metropolitan Municipality;FS;MAN;9886.3107;26.50053;-29.331493;Free State;Mangaung;A;A;Metropolitan Municipality;Mangaung;MM
+KZN237;Inkosi Langalibalele Local Municipality;KZN;DC23;3398.6384;29.823239;-28.988421;KwaZulu-Natal;Inkosi Langalibalele;B;B3;Small Towns;Uthukela;LM
+NC067;Khâi-Ma Local Municipality;NC;DC6;15714.8699;19.261354;-29.537786;Northern Cape;Khâi-Ma;B;B3;Small Towns;Namakwa;LM
+KZN282;uMhlathuze Local Municipality;KZN;DC28;1232.8541;31.879316;-28.731234;KwaZulu-Natal;uMhlathuze;B;B1;Secondary Cities;King Cetshwayo;LM
+NC078;Siyancuma Local Municipality;NC;DC7;16587.3711;23.360294;-28.985229;Northern Cape;Siyancuma;B;B3;Small Towns;Pixley ka Seme;LM
+NC091;Sol Plaatje Local Municipality;NC;DC9;3311.5871;24.496038;-28.747375;Northern Cape;Sol Plaatje;B;B1;Secondary Cities;Frances Baard;LM
+KZN286;Nkandla Local Municipality;KZN;DC28;1827.5774;30.992847;-28.658743;KwaZulu-Natal;Nkandla;B;B4;Mostly Rural;King Cetshwayo;LM
+NC084;!Kheis Local Municipality;NC;DC8;11102.3528;21.605682;-29.231833;Northern Cape;!Kheis;B;B3;Small Towns;Z F Mgcawu;LM
+KZN235;Okhahlamba Local Municipality;KZN;DC23;3971.0441;29.316131;-28.755388;KwaZulu-Natal;Okhahlamba;B;B4;Mostly Rural;Uthukela;LM
+KZN285;Mthonjaneni Local Municipality;KZN;DC28;1638.6138;31.469906;-28.566646;KwaZulu-Natal;Mthonjaneni;B;B3;Small Towns;King Cetshwayo;LM
+KZN281;Mfolozi Local Municipality;KZN;DC28;1300.3177;32.081942;-28.549435;KwaZulu-Natal;Mfolozi;B;B4;Mostly Rural;King Cetshwayo;LM
+KZN244;Msinga Local Municipality;KZN;DC24;2375.1533;30.448439;-28.605909;KwaZulu-Natal;Msinga;B;B4;Mostly Rural;Umzinyathi;LM
+FS181;Masilonyana Local Municipality;FS;DC18;6617.8238;26.617459;-28.631554;Free State;Masilonyana;B;B3;Small Towns;Lejweleputswa;LM
+KZN238;Alfred Duma Local Municipality;KZN;DC23;3764.4092;29.859036;-28.465499;KwaZulu-Natal;Alfred Duma;B;B2;Large Towns;Uthukela;LM
+KZN275;Mtubatuba Local Municipality;KZN;DC27;1969.8288;32.294952;-28.287746;KwaZulu-Natal;Mtubatuba;B;B3;Small Towns;Umkhanyakude;LM
+NC061;Richtersveld Local Municipality;NC;DC6;9607.673;17.059551;-28.768234;Northern Cape;Richtersveld;B;B3;Small Towns;Namakwa;LM
+FS191;Setsoto Local Municipality;FS;DC19;5431.1581;27.611829;-28.597454;Free State;Setsoto;B;B3;Small Towns;Thabo Mofutsanyane;LM
+FS192;Dihlabeng Local Municipality;FS;DC19;4867.7412;28.293888;-28.362458;Free State;Dihlabeng;B;B2;Large Towns;Thabo Mofutsanyane;LM
+FS194;Maluti a Phofung Local Municipality;FS;DC19;4337.7146;29.025155;-28.332208;Free State;Maluti a Phofung;B;B3;Small Towns;Thabo Mofutsanyane;LM
+KZN242;Nqutu Local Municipality;KZN;DC24;1962.258;30.738403;-28.305786;KwaZulu-Natal;Nqutu;B;B4;Mostly Rural;Umzinyathi;LM
+KZN241;Endumeni Local Municipality;KZN;DC24;1610.233;30.298724;-28.170872;KwaZulu-Natal;Endumeni;B;B3;Small Towns;Umzinyathi;LM
+NC093;Magareng Local Municipality;NC;DC9;1546.3791;24.780465;-28.167755;Northern Cape;Magareng;B;B3;Small Towns;Frances Baard;LM
+NC086;Kgatelopele Local Municipality;NC;DC8;2478.4476;23.632333;-28.217464;Northern Cape;Kgatelopele;B;B3;Small Towns;Z F Mgcawu;LM
+KZN266;Ulundi Local Municipality;KZN;DC26;3250.5788;31.309425;-28.239572;KwaZulu-Natal;Ulundi;B;B4;Mostly Rural;Zululand;LM
+FS182;Tokologo Local Municipality;FS;DC18;9316.4967;25.355299;-28.472525;Free State;Tokologo;B;B3;Small Towns;Lejweleputswa;LM
+KZN254;Dannhauser Local Municipality;KZN;DC25;1707.3128;30.00229;-28.021394;KwaZulu-Natal;Dannhauser;B;B4;Mostly Rural;Amajuba;LM
+NC082;Kai !Garib Local Municipality;NC;DC8;26236.3494;20.416961;-28.975571;Northern Cape;Kai !Garib;B;B3;Small Towns;Z F Mgcawu;LM
+NC092;Dikgatlong Local Municipality;NC;DC9;7315.5361;24.192269;-28.193338;Northern Cape;Dikgatlong;B;B3;Small Towns;Frances Baard;LM
+NC094;Phokwane Local Municipality;NC;DC9;828.1106;24.808909;-27.795177;Northern Cape;Phokwane;B;B3;Small Towns;Frances Baard;LM
+KZN265;Nongoma Local Municipality;KZN;DC26;2182.1142;31.74556;-27.91178;KwaZulu-Natal;Nongoma;B;B4;Mostly Rural;Zululand;LM
+FS183;Tswelopele Local Municipality;FS;DC18;6533.4679;25.931714;-28.066752;Free State;Tswelopele;B;B3;Small Towns;Lejweleputswa;LM
+FS184;Matjhabeng Local Municipality;FS;DC18;5690.4019;26.916301;-28.044206;Free State;Matjhabeng;B;B1;Secondary Cities;Lejweleputswa;LM
+FS193;Nketoana Local Municipality;FS;DC19;5604.5205;28.245932;-27.850105;Free State;Nketoana;B;B3;Small Towns;Thabo Mofutsanyane;LM
+KZN263;Abaqulusi Local Municipality;KZN;DC26;4313.5547;31.053009;-27.82574;KwaZulu-Natal;Abaqulusi;B;B3;Small Towns;Zululand;LM
+KZN252;Newcastle Local Municipality;KZN;DC25;1855.7942;29.876256;-27.739276;KwaZulu-Natal;Newcastle;B;B1;Secondary Cities;Amajuba;LM
+NC453;Gamagara Local Municipality;NC;DC45;2647.9047;22.996074;-27.643424;Northern Cape;Gamagara;B;B3;Small Towns;John Taolo Gaetsewe;LM
+KZN261;eDumbe Local Municipality;KZN;DC26;1942.7625;30.810623;-27.469618;KwaZulu-Natal;eDumbe;B;B3;Small Towns;Zululand;LM
+KZN253;Emadlangeni Local Municipality;KZN;DC25;3539.316;30.321232;-27.617907;KwaZulu-Natal;Emadlangeni;B;B3;Small Towns;Amajuba;LM
+KZN262;UPhongolo Local Municipality;KZN;DC26;3110.0566;31.598159;-27.483609;KwaZulu-Natal;uPhongolo;B;B4;Mostly Rural;Zululand;LM
+NW396;Lekwa-Teemane Local Municipality;NW;DC39;3653.6326;25.329238;-27.639227;North West;Lekwa-Teemane;B;B3;Small Towns;Dr Ruth Segomotsi Mompati;LM
+NC452;Ga-Segonyana Local Municipality;NC;DC45;4494.7974;23.560537;-27.622587;Northern Cape;Ga-Segonyana;B;B3;Small Towns;John Taolo Gaetsewe;LM
+FS185;Nala Local Municipality;FS;DC18;4128.7924;26.443501;-27.620085;Free State;Nala;B;B3;Small Towns;Lejweleputswa;LM
+NC085;Tsantsabane Local Municipality;NC;DC8;18289.3101;22.553378;-28.038564;Northern Cape;Tsantsabane;B;B3;Small Towns;Z F Mgcawu;LM
+NW394;Greater Taung Local Municipality;NW;DC39;5636.5226;24.439148;-27.502887;North West;Greater Taung;B;B4;Mostly Rural;Dr Ruth Segomotsi Mompati;LM
+FS195;Phumelela Local Municipality;FS;DC19;8197.2401;29.22851;-27.676713;Free State;Phumelela;B;B3;Small Towns;Thabo Mofutsanyane;LM
+FS205;Mafube Local Municipality;FS;DC20;3976.5633;28.607312;-27.270073;Free State;Mafube;B;B3;Small Towns;Fezile Dabi;LM
+KZN271;Umhlabuyalingana Local Municipality;KZN;DC27;4977.1345;32.563817;-27.243473;KwaZulu-Natal;Umhlabuyalingana;B;B4;Mostly Rural;Umkhanyakude;LM
+NW393;Mamusa Local Municipality;NW;DC39;3603.324;25.276126;-27.22399;North West;Mamusa;B;B3;Small Towns;Dr Ruth Segomotsi Mompati;LM
+FS201;Moqhaka Local Municipality;FS;DC20;7924.566;27.193724;-27.500953;Free State;Moqhaka;B;B2;Large Towns;Fezile Dabi;LM
+NW404;Maquassi Hills Local Municipality;NW;DC40;4670.6148;26.033886;-27.238358;North West;Maquassi Hills;B;B3;Small Towns;Dr Kenneth Kaunda;LM
+KZN272;Jozini Local Municipality;KZN;DC27;3438.2668;32.145555;-27.36761;KwaZulu-Natal;Jozini;B;B4;Mostly Rural;Umkhanyakude;LM
+FS203;Ngwathe Local Municipality;FS;DC20;7055.0105;27.731911;-27.295757;Free State;Ngwathe;B;B3;Small Towns;Fezile Dabi;LM
+MP304;Dr Pixley Ka Isaka Seme Local Municipality;MP;DC30;5227.2086;29.955869;-27.128497;Mpumalanga;Dr Pixley Ka Isaka Seme;B;B3;Small Towns;Gert Sibande;LM
+FS204;Metsimaholo Local Municipality;FS;DC20;1717.0994;28.043759;-26.929133;Free State;Metsimaholo;B;B2;Large Towns;Fezile Dabi;LM
+MP305;Lekwa Local Municipality;MP;DC30;4594.3506;29.347797;-26.880899;Mpumalanga;Lekwa;B;B3;Small Towns;Gert Sibande;LM
+MP306;Dipaleseng Local Municipality;MP;DC30;2607.3976;28.637785;-26.778446;Mpumalanga;Dipaleseng;B;B3;Small Towns;Gert Sibande;LM
+MP303;Mkhondo Local Municipality;MP;DC30;4900.5192;30.704135;-26.99155;Mpumalanga;Mkhondo;B;B3;Small Towns;Gert Sibande;LM
+NW403;City of Matlosana Local Municipality;NW;DC40;3602.2352;26.488112;-26.811403;North West;City of Matlosana;B;B1;Secondary Cities;Dr Kenneth Kaunda;LM
+GT421;Emfuleni Local Municipality;GP;DC42;965.6413;27.780976;-26.628393;Gauteng;Emfuleni;B;B1;Secondary Cities;Sedibeng;LM
+GT422;Midvaal Local Municipality;GP;DC42;1722.6941;28.129184;-26.623096;Gauteng;Midvaal;B;B2;Large Towns;Sedibeng;LM
+NW392;Naledi Local Municipality;NW;DC39;7032.0354;24.795151;-26.863443;North West;Naledi;B;B3;Small Towns;Dr Ruth Segomotsi Mompati;LM
+NW382;Tswaing Local Municipality;NW;DC38;5885.3352;25.660834;-26.616333;North West;Tswaing;B;B3;Small Towns;Ngaka Modiri Molema;LM
+GT423;Lesedi Local Municipality;GP;DC42;1484.3926;28.506672;-26.461472;Gauteng;Lesedi;B;B3;Small Towns;Sedibeng;LM
+MP302;Msukaligwa Local Municipality;MP;DC30;6003.4092;30.128679;-26.467355;Mpumalanga;Msukaligwa;B;B2;Large Towns;Gert Sibande;LM
+MP307;Govan Mbeki Local Municipality;MP;DC30;2954.6898;29.196018;-26.466971;Mpumalanga;Govan Mbeki;B;B1;Secondary Cities;Gert Sibande;LM
+GT484;Merafong City Local Municipality;GP;DC48;1630.0472;27.399419;-26.416855;Gauteng;Merafong City;B;B2;Large Towns;West Rand;LM
+GT485;Rand West City Local Municipality;GP;DC48;1114.7153;27.630358;-26.305378;Gauteng;Rand West City;B;B2;Large Towns;West Rand;LM
+NW405;JB Marks Local Municipality;NW;DC40;6397.9943;27.004517;-26.488692;North West;JB Marks;B;B1;Secondary Cities;Dr Kenneth Kaunda;LM
+NC451;Joe Morolong Local Municipality;NC;DC45;20179.766;22.937721;-26.838253;Northern Cape;Joe Morolong;B;B4;Mostly Rural;John Taolo Gaetsewe;LM
+EKU;Ekurhuleni Metropolitan Municipality;GP;EKU;1975.685;28.312575;-26.198938;Gauteng;Ekurhuleni;A;A;Metropolitan Municipality;Ekurhuleni;MM
+JHB;City of Johannesburg Metropolitan Municipality;GP;JHB;1642.6263;27.963623;-26.17694;Gauteng;City of Johannesburg;A;A;Metropolitan Municipality;City of Johannesburg;MM
+MP311;Victor Khanye Local Municipality;MP;DC31;1567.7745;28.768849;-26.132618;Mpumalanga;Victor Khanye;B;B3;Small Towns;Nkangala;LM
+GT481;Mogale City Local Municipality;GP;DC48;1344.6714;27.683413;-25.98722;Gauteng;Mogale City;B;B1;Secondary Cities;West Rand;LM
+NW381;Ratlou Local Municipality;NW;DC38;4883.5628;25.063606;-26.082016;North West;Ratlou;B;B4;Mostly Rural;Ngaka Modiri Molema;LM
+MP301;Chief Albert Luthuli Local Municipality;MP;DC30;5553.2904;30.486;-26.055478;Mpumalanga;Chief Albert Luthuli;B;B4;Mostly Rural;Gert Sibande;LM
+NW384;Ditsobotla Local Municipality;NW;DC38;6387.0509;26.239306;-26.115314;North West;Ditsobotla;B;B3;Small Towns;Ngaka Modiri Molema;LM
+MP312;Emalahleni Local Municipality;MP;DC31;2677.6091;29.162096;-26.01795;Mpumalanga;Emalahleni;B;B1;Secondary Cities;Nkangala;LM
+NW383;Mafikeng Local Municipality;NW;DC38;3645.8596;25.672832;-25.886095;North West;Mafikeng;B;B2;Large Towns;Ngaka Modiri Molema;LM
+MP313;Steve Tshwete Local Municipality;MP;DC31;3976.4535;29.551938;-25.836944;Mpumalanga;Steve Tshwete;B;B1;Secondary Cities;Nkangala;LM
+NW374;Kgetlengrivier Local Municipality;NW;DC37;3973.149;26.864342;-25.723459;North West;Kgetlengrivier;B;B3;Small Towns;Bojanala;LM
+NW373;Rustenburg Local Municipality;NW;DC37;3416.1235;27.33145;-25.660908;North West;Rustenburg;B;B1;Secondary Cities;Bojanala;LM
+NW397;Kagisano/Molopo Local Municipality;NW;DC39;23827.221;23.765026;-26.118051;North West;Kagisano/Molopo;B;B4;Mostly Rural;Dr Ruth Segomotsi Mompati;LM
+MP315;Thembisile Local Municipality;MP;DC31;2384.3633;28.951928;-25.470336;Mpumalanga;Thembisile;B;B4;Mostly Rural;Nkangala;LM
+MP314;Emakhazeni Local Municipality;MP;DC31;4735.5862;30.106822;-25.596921;Mpumalanga;Emakhazeni;B;B2;Large Towns;Nkangala;LM
+TSH;City of Tshwane Metropolitan Municipality;GP;TSH;6297.8332;28.443433;-25.659851;Gauteng;City of Tshwane;A;A;Metropolitan Municipality;City of Tshwane;MM
+NW372;Local Municipality of Madibeng;NW;DC37;3720.0858;27.733651;-25.441079;North West;Local Municipality of Madibeng;B;B1;Secondary Cities;Bojanala;LM
+MP326;City of Mbombela Local Municipality;MP;DC32;7151.5888;31.096359;-25.432682;Mpumalanga;City of Mbombela;B;B1;Secondary Cities;Ehlanzeni;LM
+NW371;Moretele Local Municipality;NW;DC37;1497.8569;28.039084;-25.176895;North West;Moretele;B;B4;Mostly Rural;Bojanala;LM
+MP324;Nkomazi Local Municipality;MP;DC32;4785.3348;31.730322;-25.5024;Mpumalanga;Nkomazi;B;B4;Mostly Rural;Ehlanzeni;LM
+LIM472;Elias Motsoaledi Local Municipality;LP;DC47;3713.3295;29.561622;-25.195959;Limpopo;Elias Motsoaledi;B;B4;Mostly Rural;Sekhukhune;LM
+MP316;Dr JS Moroka Local Municipality;MP;DC31;1416.4688;28.801472;-25.103883;Mpumalanga;Dr JS Moroka;B;B4;Mostly Rural;Nkangala;LM
+NC087;Dawid Kruiper Local Municipality;NC;DC8;44399.2552;20.831248;-27.072219;Northern Cape;Dawid Kruiper;B;B2;Large Towns;Z F Mgcawu;LM
+NW375;Moses Kotane Local Municipality;NW;DC37;5726.2273;26.866124;-25.133628;North West;Moses Kotane;B;B4;Mostly Rural;Bojanala;LM
+NW385;Ramotshere Moiloa Local Municipality;NW;DC38;7322.8426;26.123477;-25.219009;North West;Ramotshere Moiloa;B;B3;Small Towns;Ngaka Modiri Molema;LM
+LIM471;Ephraim Mogale Local Municipality;LP;DC47;2011.3036;29.336692;-24.901848;Limpopo;Ephraim Mogale;B;B4;Mostly Rural;Sekhukhune;LM
+LIM366;Bela-Bela Local Municipality;LP;DC36;3406.1926;28.272026;-24.954036;Limpopo;Bela-Bela;B;B3;Small Towns;Waterberg;LM
+MP321;Thaba Chweu Local Municipality;MP;DC32;5710.4737;30.571077;-25.064391;Mpumalanga;Thaba Chweu;B;B3;Small Towns;Ehlanzeni;LM
+LIM473;Makhuduthamaga Local Municipality;LP;DC47;2109.6471;29.773772;-24.721565;Limpopo;Makhuduthamaga;B;B4;Mostly Rural;Sekhukhune;LM
+LIM476;Fetakgomo Tubatse Local Municipality;LP;DC47;5693.4497;30.220513;-24.600341;Limpopo;Fetakgomo Tubatse;B;B4;Mostly Rural;Sekhukhune;LM
+LIM368;Modimolle-Mookgophong Local Municipality;LP;DC36;10367.5189;28.554279;-24.503767;Limpopo;Modimolle-Mookgophong;B;B3;Small Towns;Waterberg;LM
+MP325;Bushbuckridge Local Municipality;MP;DC32;10248.1787;31.524555;-24.556741;Mpumalanga;Bushbuckridge;B;B4;Mostly Rural;Ehlanzeni;LM
+LIM335;Maruleng Local Municipality;LP;DC33;3562.6137;30.785641;-24.291507;Limpopo;Maruleng;B;B4;Mostly Rural;Mopani;LM
+LIM355;Lepele-Nkumpi Local Municipality;LP;DC35;3484.2728;29.706098;-24.266025;Limpopo;Lepele-Nkumpi;B;B4;Mostly Rural;Capricorn;LM
+LIM361;Thabazimbi Local Municipality;LP;DC36;11189.9895;27.186483;-24.54369;Limpopo;Thabazimbi;B;B3;Small Towns;Waterberg;LM
+LIM354;Polokwane Local Municipality;LP;DC35;5053.7229;29.38212;-23.891129;Limpopo;Polokwane;B;B1;Secondary Cities;Capricorn;LM
+LIM333;Greater Tzaneen Local Municipality;LP;DC33;2896.2427;30.253368;-23.835959;Limpopo;Greater Tzaneen;B;B4;Mostly Rural;Mopani;LM
+LIM367;Mogalakwena Local Municipality;LP;DC36;6156.1697;28.693646;-23.846777;Limpopo;Mogalakwena;B;B2;Large Towns;Waterberg;LM
+LIM332;Greater Letaba Local Municipality;LP;DC33;1895.849;30.275132;-23.511513;Limpopo;Greater Letaba;B;B4;Mostly Rural;Mopani;LM
+LIM353;Molemole Local Municipality;LP;DC35;3627.5704;29.536029;-23.498365;Limpopo;Molemole;B;B4;Mostly Rural;Capricorn;LM
+LIM334;Ba-Phalaborwa Local Municipality;LP;DC33;7489.5864;31.191549;-23.776941;Limpopo;Ba-Phalaborwa;B;B3;Small Towns;Mopani;LM
+LIM331;Greater Giyani Local Municipality;LP;DC33;4166.6488;30.90019;-23.363837;Limpopo;Greater Giyani;B;B4;Mostly Rural;Mopani;LM
+LIM362;Lephalale Local Municipality;LP;DC36;13793.5136;27.797662;-23.676188;Limpopo;Lephalale;B;B3;Small Towns;Waterberg;LM
+LIM344;Makhado Local Municipality;LP;DC34;7605.0599;29.748677;-22.999575;Limpopo;Makhado;B;B4;Mostly Rural;Vhembe;LM
+LIM345;Collins Chabane Local Municipality;LP;DC34;5003.1477;30.973361;-22.988609;Limpopo;Collins Chabane;B;B4;Mostly Rural;Vhembe;LM
+LIM343;Thulamela Local Municipality;LP;DC34;2641.669;30.555385;-22.785681;Limpopo;Thulamela;B;B4;Mostly Rural;Vhembe;LM
+LIM351;Blouberg Local Municipality;LP;DC35;9539.8888;28.75026;-22.967547;Limpopo;Blouberg;B;B4;Mostly Rural;Capricorn;LM
+LIM341;Musina Local Municipality;LP;DC34;10346.5454;30.050771;-22.452444;Limpopo;Musina;B;B3;Small Towns;Vhembe;LM
+KZN276;Big Five Hlabisa Local Municipality;KZN;DC27;3470.1233;32.196397;-28.03429;KwaZulu-Natal;Big Five Hlabisa;B;B3;Small Towns;Umkhanyakude;LM
