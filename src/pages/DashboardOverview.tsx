@@ -175,13 +175,12 @@ const DashboardOverview: React.FC = () => {
 
     // 3) Theme averages are now based on *all* scoped municipalities
     const themeKeys = [
-      "Demographics",
-      "Education",
-      "Governance",
-      "Health",
-      "Infrastructure & Services",
-      "Poverty & Inequality",
-      "Safety",
+      "Service Delivery & Infrastructure Pressure",
+      "Financial Sustainability & Performance",
+      "Leadership, Governance & Institutional Capability",
+      "Demographic & Social Complexity",
+      "Spatial Access & Service Reach",
+      "Economic Development & Vulnerability",
     ] as const;
 
     type ThemeStat = {
@@ -231,14 +230,13 @@ const DashboardOverview: React.FC = () => {
   if (!scoped.length) return null;
 
   const themeKeys = [
-    "Demographics",
-    "Education",
-    "Governance",
-    "Health",
-    "Infrastructure & Services",
-    "Poverty & Inequality",
-    "Safety",
-  ] as const;
+      "Service Delivery & Infrastructure Pressure",
+      "Financial Sustainability & Performance",
+      "Leadership, Governance & Institutional Capability",
+      "Demographic & Social Complexity",
+      "Spatial Access & Service Reach",
+      "Economic Development & Vulnerability",
+    ] as const;
 
   const stats = themeKeys.map((key) => {
     const vals = scoped
@@ -282,7 +280,7 @@ const DashboardOverview: React.FC = () => {
     return (
       <div>
         <h1 style={{ fontSize: 34, marginBottom: 8 }}>
-          Dashboard Overview
+          HCCS Organisational Realignment Capacity Allocation
         </h1>
         <p style={{ color: "red" }}>
           Error loading data: {String(error)}
@@ -302,7 +300,7 @@ const DashboardOverview: React.FC = () => {
   return (
     <div>
       <h1 style={{ fontSize: 34, marginBottom: 8 }}>
-        Dashboard Overview
+        HCCS Organisational Realignment Capacity Allocation
       </h1>
 
       {/* KPI CARDS */}
@@ -316,9 +314,9 @@ const DashboardOverview: React.FC = () => {
           width: "100%",
         }}
       >
-        {/* 1. MUNICIPALITIES WITH PDI */}
+        {/* 1. Municipalities in HCCS model */}
 
-	<Card title="Municipalities with PDI">
+	<Card title="Municipalities in HCCS model">
          <div
            style={{
            fontSize: 13,
@@ -328,7 +326,7 @@ const DashboardOverview: React.FC = () => {
 
         }}
          >
-           (Local municipalites)
+           (Local, metro and district municipalities)
          </div>
 
          <div style={{ fontSize: 36, fontWeight: 700 }}>
@@ -336,7 +334,7 @@ const DashboardOverview: React.FC = () => {
          </div>
 
          <div style={{ fontSize: 13, color: "#6b7280", marginTop: 6 }}>
-           PDI calculated for{" "}
+           HCCS capacity profile calculated for{" "}
           <strong style={{ color: "#6b7280" }}>
            {mappedMunicipalitiesCount}
           </strong>{" "}
@@ -348,8 +346,8 @@ const DashboardOverview: React.FC = () => {
           </div>
         </Card>
 
-        {/* 2. HIGH-COMPLEXITY MUNICIPALITIES */}
-<Card title="High-complexity municipalities">
+        {/* 2. High capacity-pressure municipalities */}
+<Card title="High capacity-pressure municipalities">
   <div
     style={{
       fontSize: 13,
@@ -358,7 +356,7 @@ const DashboardOverview: React.FC = () => {
       marginBottom: 8,
     }}
   >
-    (PDI ≥ 0.6)
+    (HCCS score ≥ 3.0)
   </div>
 
   <div style={{ fontSize: 36, fontWeight: 700 }}>
@@ -376,13 +374,13 @@ const DashboardOverview: React.FC = () => {
   <strong style={{ color: "#6b7280" }}>
     {((highComplexityCount / mappedMunicipalitiesCount) * 100).toFixed(1)}%
   </strong>{" "}
-  of municipalities with PDI
+  of Municipalities in HCCS model
 </div>
 
 </Card>
 
  {/* 3. HIGHEST PROVINCE BY AVG PDI */}
-<Card title="Highest scored province">
+<Card title="Highest capacity-pressure province">
   <div
     style={{
       fontSize: 13,
@@ -391,7 +389,7 @@ const DashboardOverview: React.FC = () => {
       marginBottom: 8,
     }}
   >
-    (average PDI)
+    (average HCCS score)
   </div>
 
   <div style={{ fontSize: 36, fontWeight: 700 }}>
@@ -399,7 +397,7 @@ const DashboardOverview: React.FC = () => {
   </div>
 
  <div style={{ fontSize: 13, color: "#6b7280", marginTop: 6 }}>
-  Avg PDI:{" "}
+  Avg HCCS score:{" "}
   <strong style={{ color: "#6b7280"  }}>
     {topProvince?.avgPdi.toFixed(2)}
   </strong>
@@ -426,7 +424,7 @@ const DashboardOverview: React.FC = () => {
           marginBottom: 16,
         }}
       >
-        High-complexity municipalities (PDI ≥ 0.6):<br />{" "}
+        High capacity-pressure municipalities (HCCS score ≥ 3.0):<br />{" "}
         <span style={{ fontWeight: 600 }}>
           {highComplexityCount} nationally /{" "}
           {scopedHighComplexCount} in current selection
@@ -640,8 +638,8 @@ const DashboardOverview: React.FC = () => {
         marginBottom: 8,
       }}
     >
-      Average PDI and count of high-complexity municipalities<br />
-      (PDI ≥ 0.6) by province.
+      Average PDI and count of High capacity-pressure municipalities<br />
+      (HCCS score ≥ 3.0) by province.
     </p>
       <table
         style={{
@@ -735,3 +733,5 @@ const DashboardOverview: React.FC = () => {
 };
 
 export default DashboardOverview;
+
+
