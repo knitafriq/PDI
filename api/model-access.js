@@ -1,4 +1,4 @@
-const crypto = require("crypto");
+import crypto from "node:crypto";
 
 const COOKIE_NAME = "salga_model_reference_access";
 
@@ -103,7 +103,7 @@ function isAllowedEmail(email, allowedRaw) {
   });
 }
 
-module.exports = async function handler(req, res) {
+export default async function handler(req, res) {
   const sharedPassword =
     process.env.SALGA_MODEL_REFERENCE_SHARED_PASSWORD || "";
 
