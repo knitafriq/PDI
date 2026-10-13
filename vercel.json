@@ -1,11 +1,5 @@
 {
-  "version": 2,
   "rewrites": [
-    { "source": "/glossary", "destination": "/" },
-    { "source": "/overview", "destination": "/" },
-    { "source": "/themes", "destination": "/" },
-    { "source": "/compare", "destination": "/" },
-    { "source": "/profile", "destination": "/" },
-    { "source": "/consultation", "destination": "/" }
+    { "source": "/(.*)", "destination": "/" }
   ]
 }
