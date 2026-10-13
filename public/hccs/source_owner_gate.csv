@@ -1,0 +1,6 @@
+"check_id","check_name","actual","expected","status","detail"
+"CURRENT_SRC_001","Terminal fact source/provenance columns present","34",">0","PASS","R40 uses current R28/R37 terminal fact lineage only; no source rediscovery."
+"CURRENT_SRC_002","Indicator source-master rows","80","80","PASS","One current source/coverage row per canonical indicator."
+"CURRENT_SRC_003","Indicators with textual source/provenance evidence","80",">0","PASS","Text fields are reported only when present in the current fact layer; missing text is not replaced with legacy ownership."
+"CURRENT_SRC_004","Legacy source-owner inference","0","0","PASS","No historical locked report pack source-owner classification is used as current model authority."
+"CURRENT_SRC_005","Source rediscovery","0","0","PASS","R40 performs no source discovery or source re-extraction."

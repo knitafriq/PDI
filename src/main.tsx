@@ -1,16 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import AppRoutes from "./routes/AppRoutes";
-import { DataProvider } from "./context/DataContext";
-import "./index.css";
-import "leaflet/dist/leaflet.css";
-import "leaflet/dist/leaflet.css";
-import "./assets/leaflet-overrides.css";
+import App from "./App";
+import "./styles.css";
+import "./accepted-hccs-shell.css";
+import "./accepted-integrated-routes.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <DataProvider>
-      <AppRoutes />
-    </DataProvider>
+    <App />
   </React.StrictMode>
 );

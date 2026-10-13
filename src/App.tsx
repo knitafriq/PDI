@@ -1,25 +1,34 @@
 import React from "react";
-import { useData } from "./context/DataContext";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import Layout from "./components/Layout";
+import ModelAccessGate from "./components/ModelAccessGate";
+import AudienceLanding from "./pages/AudienceLanding";
+import ConsultationStudio from "./pages/ConsultationStudio";
+import Overview from "./pages/Overview";
+import Themes from "./pages/Themes";
+import Compare from "./pages/Compare";
+import Profile from "./pages/Profile";
+import Glossary from "./pages/Glossary";
 
-function App() {
-  const { loading, municipalities, pdiMinmax, error } = useData();
-
-  if (loading) return <div style={{ padding: 20 }}>Loading data…</div>;
-  if (error) return <div style={{ padding: 20 }}>Error: {error}</div>;
-
+export default function App() {
   return (
-    <div style={{ padding: 20, fontFamily: "system-ui, sans-serif" }}>
-      <h1>Data Loaded Successfully</h1>
-      <p>Municipalities: {municipalities.length}</p>
-      <p>PDI rows: {pdiMinmax.length}</p>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<AudienceLanding />} />
+        <Route path="/consultation" element={<ConsultationStudio />} />
 
-      <hr />
-      <h3>Sample municipality (first row)</h3>
-      <pre style={{ whiteSpace: "pre-wrap", maxWidth: 900 }}>
-        {JSON.stringify(municipalities[0] || {}, null, 2)}
-      </pre>
-    </div>
+        <Route element={<ModelAccessGate />}>
+          <Route element={<Layout />}>
+            <Route path="/glossary" element={<Glossary />} />
+            <Route path="/overview" element={<Overview />} />
+            <Route path="/themes" element={<Themes />} />
+            <Route path="/compare" element={<Compare />} />
+            <Route path="/profile" element={<Profile />} />
+          </Route>
+        </Route>
+
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
-
-export default App;
