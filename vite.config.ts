@@ -1,7 +1,5 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
-export default defineConfig({
-  plugins: [react()],
-})
+// RETIRED staging branch: do not publish legacy prototype_dummy/ warehouse files.
+// Builds only the static redirect in index.html. This is NOT production source.
+export default defineConfig({ publicDir: false })
