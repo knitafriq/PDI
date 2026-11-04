@@ -62,9 +62,10 @@ test("Mismatched municipality identity fails closed",()=>{
   denied(p);
 });
 test("Wrong number of districts fails closed",()=>{
-  const p=syntheticRelease();p.scores.splice(-2,1);denied(p);
+  const p=syntheticRelease(); const idx=p.scores.findIndex(r=>r.level==="DISTRICT"); p.scores.splice(idx,1);denied(p);
 });
 test("Extra theme identity fails closed",()=>{
   const p=syntheticRelease();p.scores.find(r=>r.level==="THEME").themeName="TEST_EXTRA";
   denied(p);
 });
+\ntest("Legacy scale metadata fails closed",()=>{\n  const p=syntheticRelease();p.scoreRange.max=5;denied(p);\n});\n
