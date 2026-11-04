@@ -1,0 +1,19 @@
+name: HCCS canonical release gate (staging only)
+on:
+  push:
+    branches:
+      - hccs-r775-preproduction-gated
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    name: Synthetic 80 × 213 release shape
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Test strict 1–4 fail-closed contract
+        run: node --experimental-strip-types --test scripts/verify-hccs-release-gate.mjs
