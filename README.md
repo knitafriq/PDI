@@ -1,75 +1,22 @@
-# React + TypeScript + Vite
+# RETIRED — R775–R776 legacy frontend integration
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Do not build, score, release, or merge this branch.** It was based on a GitHub React prototype which is **not** the source of the accepted production UI. Its added HCCS staging page, scoring guard, synthetic test and workflow have been deleted and its navigation changes reverted. This branch now builds a static redirect to the real production alias and excludes prototype data from the preview output.
 
-Currently, two official plugins are available:
+## Authoritative SALGA production UI — verified 2026-11-04
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Production alias:** https://pdi-three.vercel.app/
+- **Vercel owner:** knitafriqs-projects / project pdi
+- **Deployment ID:** dpl_6XaeVfVihHXoNDxFump77ZUshr3Z (READY; CLI-built)
+- **Unique required routes/UI:** provincial consultation gateway with Consultation Studio and Differentiation Model entries; orange sidebar; `/glossary` orientation page; municipal/capacity toggle.
+- **Immutable production JS:** `/assets/index-D1P77cdG.js`
+- **Immutable production CSS:** `/assets/index-DACFGNv-.css`
+- **Production feed base:** `/hccs/`; its existing guard, manifest and source/data feeds are legacy review evidence, not permission to score.
+- **NOT the source:** GitHub `main` frontend with DashboardOverview, prototype MinMax classification and `/prototype_dummy/`.
 
-## React Compiler
+The live Vercel deployment's source is a compiled Vite output. The recoverable deployment output **is not editable React source**. Earlier local source paths noted in project history include `C:\pdi_live_recovered_preview\git_work\PDI`; its integrity as exact production source requires verification before any new build.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Restart criterion
 
-## Expanding the ESLint configuration
+Recover the exact editable source that reproducibly builds the accepted UI, bind it to Git governance **without changing the production alias**, pass full route/screenshot/access regression checks, then integrate the canonical 80-indicator, 213-municipality, six-theme model under signed source, period, MIIF fairness, fixed-weight/missingness and **strict 1–4-only** scoring policies. Preserve unqualified source values as held; never reuse prototype MinMax data or calculate backlog from access percentages.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-Redeploy trigger: 2026-09-29 21:08:16
+Do not merge R775–R776 into GitHub main or deploy its legacy UI.
