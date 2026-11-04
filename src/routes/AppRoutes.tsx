@@ -6,7 +6,6 @@ import Themes from "../pages/Themes";
 import PDIExplorer from "../pages/PDIExplorer";
 import Compare from "../pages/Compare";
 import Profile from "../pages/Profile";
-import HccsModelReadiness from "../pages/HccsModelReadiness";
 
 const AppRoutes: React.FC = () => {
   return (
@@ -18,7 +17,6 @@ const AppRoutes: React.FC = () => {
           <Route path="pdi" element={<PDIExplorer />} />
           <Route path="compare" element={<Compare />} />
           <Route path="profile" element={<Profile />} />
-          <Route path="hccs-model" element={<HccsModelReadiness />} />
         </Route>
       </Routes>
     </BrowserRouter>
