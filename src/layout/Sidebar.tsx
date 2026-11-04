@@ -6,6 +6,7 @@ const links = [
   { to: "/themes", label: "Themes" },
   { to: "/compare", label: "Compare" },
   { to: "/profile", label: "Municipality Profile" },
+  { to: "/hccs-model", label: "HCCS model readiness" },
 ];
 
 const Sidebar: React.FC = () => {
